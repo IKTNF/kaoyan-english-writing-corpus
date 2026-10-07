@@ -1,0 +1,279 @@
+{
+  "id": "notice",
+  "title": "通知·告示·备忘录·便条",
+  "emoji": "📢",
+  "group": "小作文·应用文语料",
+  "desc": "通知、告示招募、备忘录与失物招领四大类的正式句式，并含标题居中、四行头、落款等格式要点。",
+  "entries": [
+    {
+      "en": "NOTICE",
+      "zh": "通知（居中大写的标题）",
+      "pos": "n.",
+      "type": "word",
+      "example": "NOTICE\nA Lecture on English Writing Techniques",
+      "exampleZh": "通知\n关于英语写作技巧的讲座",
+      "note": "通知标题居中大写，可另起一行点题。通知不需要称呼与书信落款，勿加Dear与Yours。"
+    },
+    {
+      "en": "Attention, Please!",
+      "zh": "请注意！",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Attention, Please! All the members of the Students' Union are requested to attend the meeting.",
+      "exampleZh": "请注意！学生会全体成员请参加本次会议。",
+      "note": "通知正文开头引起注意，多用于张贴或口头通知；更正式公文宜用This is to notify。"
+    },
+    {
+      "en": "This is to notify all the students that ___.",
+      "zh": "特此通知全体同学，___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "This is to notify all the students that the library will be closed for renovation from December 1 to December 5.",
+      "exampleZh": "特此通知全体同学，图书馆将于12月1日至12月5日闭馆装修。",
+      "note": "通知第1句点明事项。notify sb that从句用陈述语序，勿写notify all the students the news。"
+    },
+    {
+      "en": "We are pleased to inform you that ___.",
+      "zh": "我们很高兴地通知您，___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "We are pleased to inform you that a welcome party will be held for the freshmen next Friday evening.",
+      "exampleZh": "我们很高兴地通知您，下周五晚上将为新生举办欢迎晚会。",
+      "note": "通知第1句，用于宣布好消息。inform sb that不可写成inform sb of that。"
+    },
+    {
+      "en": "We regret to inform you that ___.",
+      "zh": "我们遗憾地通知您，___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "We regret to inform you that the lecture scheduled for Friday has been cancelled owing to unforeseen circumstances.",
+      "exampleZh": "我们遗憾地通知您，原定于周五举行的讲座因突发情况已取消。",
+      "note": "通知第1句，用于宣布取消或变更。regret to do意为“遗憾地要做”，与regret doing不同。"
+    },
+    {
+      "en": "A lecture on ___ will be held in ___ at ___ on ___.",
+      "zh": "一场关于___的讲座将于___（日）___（时刻）在___举行。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "A lecture on Western Culture will be held in the Main Lecture Hall at 2:00 p.m. on November 20, 2025.",
+      "exampleZh": "一场关于西方文化的讲座将于2025年11月20日下午2点在主报告厅举行。",
+      "note": "通知正文说明活动时间地点。英语顺序为地点由小到大、时间由点到日，勿按中文语序硬译。"
+    },
+    {
+      "en": "All are welcome to attend.",
+      "zh": "欢迎大家参加。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "The lecture is open to all students, and all are welcome to attend.",
+      "exampleZh": "该讲座面向全体学生开放，欢迎大家参加。",
+      "note": "通知正文末欢迎语。welcome此处为形容词，attend后直接接活动名，勿加to。"
+    },
+    {
+      "en": "Those who are interested are requested to sign up at ___ before ___.",
+      "zh": "有兴趣者请于___之前到___报名。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Those who are interested are requested to sign up at the Students' Union office before November 18.",
+      "exampleZh": "有兴趣者请于11月18日之前到学生会办公室报名。",
+      "note": "通知正文报名要求。who引导定语从句修饰those，be requested to为礼貌被动表达。"
+    },
+    {
+      "en": "Everyone concerned is requested to attend the meeting on time.",
+      "zh": "请相关人员准时出席本次会议。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Everyone concerned is requested to attend the meeting on time.",
+      "exampleZh": "请相关人员准时出席本次会议。",
+      "note": "通知正文出席要求。concerned作后置定语，on time表“准时”，勿与in time（及时）混淆。"
+    },
+    {
+      "en": "Attendance is compulsory for all members of the Students' Union.",
+      "zh": "学生会全体成员必须出席。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Attendance is compulsory for all members of the Students' Union.",
+      "exampleZh": "学生会全体成员必须出席。",
+      "note": "通知正文纪律要求。compulsory比necessary更强调“必须”，注意拼写勿写成compulsary。"
+    },
+    {
+      "en": "For further information, please contact ___.",
+      "zh": "欲了解更多信息，请联系___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "For further information, please contact Li Ming at 12345678 or liming@example.com.",
+      "exampleZh": "欲了解更多信息，请拨打12345678或发邮件至liming@example.com联系李明。",
+      "note": "通知倒数第2句提供联系方式。contact后直接接人，勿写contact with sb。"
+    },
+    {
+      "en": "The Students' Union",
+      "zh": "学生会（发布单位落款）",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "The Students' Union\nNovember 15, 2025",
+      "exampleZh": "学生会\n2025年11月15日",
+      "note": "通知落款：发布单位与日期分列正文右下方，单位在上日期在下；日期写November 15, 2025或15th November, 2025。"
+    },
+    {
+      "en": "Volunteers Wanted",
+      "zh": "招募志愿者（告示标题）",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Volunteers Wanted for the International Culture Festival",
+      "exampleZh": "国际文化节招募志愿者",
+      "note": "告示标题用名词短语，醒目、首字母大写、不加句号，比A Notice about Recruiting Volunteers简洁。"
+    },
+    {
+      "en": "We are now recruiting ___.",
+      "zh": "我们现招募___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "We are now recruiting twenty volunteers for the upcoming International Culture Festival.",
+      "exampleZh": "我们现为即将举办的文化节招募二十名志愿者。",
+      "note": "招募告示第1句。recruit为及物动词，后直接接人或岗位，勿写recruit for volunteers。"
+    },
+    {
+      "en": "Applicants are expected to be ___.",
+      "zh": "应聘者应具备___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Applicants are expected to be fluent in English and willing to work on weekends.",
+      "exampleZh": "应聘者应英语流利，并愿意在周末工作。",
+      "note": "招募告示列出条件。be expected to语气客观，比must be更委婉，to后接动词原形。"
+    },
+    {
+      "en": "Interested candidates are invited to send their applications to ___.",
+      "zh": "有意者请将申请材料发送至___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Interested candidates are invited to send their applications to the Students' Union office by November 18.",
+      "exampleZh": "有意者请于11月18日前将申请材料送至学生会办公室。",
+      "note": "招募告示说明申请方式。invite sb to do变被动后to不可省，applications to后接地名或邮箱。"
+    },
+    {
+      "en": "Priority will be given to those with previous experience.",
+      "zh": "有相关经验者优先。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Priority will be given to those with previous experience in voluntary work.",
+      "exampleZh": "有志愿服务经验者优先。",
+      "note": "招募告示补充条件。give priority to意为“优先考虑”，用被动语态更客观正式。"
+    },
+    {
+      "en": "Don't miss this golden opportunity!",
+      "zh": "不要错过这个绝佳机会！",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Don't miss this golden opportunity to improve your spoken English!",
+      "exampleZh": "不要错过这个提高英语口语的绝佳机会！",
+      "note": "招募告示末句鼓动语。祈使句适合标题与结尾，但正文主体仍须保持正式书面语。"
+    },
+    {
+      "en": "To: ___ / From: ___ / Date: ___ / Subject: ___",
+      "zh": "致：___／发件人：___／日期：___／事由：___",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "To: All Department Heads\nFrom: Li Ming, General Manager\nDate: November 20, 2025\nSubject: Arrangements for the Annual Meeting",
+      "exampleZh": "致：各部门负责人\n发件人：总经理李明\n日期：2025年11月20日\n事由：年会安排",
+      "note": "备忘录用To/From/Date/Subject四行头，每行标签后加冒号、左对齐；日期写November 20, 2025或20th November, 2025。"
+    },
+    {
+      "en": "The purpose of this memo is to ___.",
+      "zh": "本备忘录旨在___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "The purpose of this memo is to inform you of the change in the meeting time.",
+      "exampleZh": "本备忘录旨在通知各位会议时间的变动。",
+      "note": "备忘录第1句点明目的。inform sb of sth中of不可省，to后接动词原形。"
+    },
+    {
+      "en": "Please note that ___.",
+      "zh": "请注意，___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Please note that the deadline for submitting the report has been brought forward to November 25.",
+      "exampleZh": "请注意，提交报告的截止日期已提前至11月25日。",
+      "note": "备忘录正文提醒事项。bring forward意为“提前”，其被动完成式为has been brought forward。"
+    },
+    {
+      "en": "I would appreciate your feedback by ___.",
+      "zh": "如能在___之前得到您的反馈，我将不胜感激。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I would appreciate your feedback by Friday, November 22.",
+      "exampleZh": "如能在11月22日周五之前得到您的反馈，我将不胜感激。",
+      "note": "备忘录结尾索取回复。appreciate后接名词，by表“不迟于”，勿写before Friday at latest。"
+    },
+    {
+      "en": "Attached please find ___.",
+      "zh": "随附___，请查收。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Attached please find the detailed schedule for the annual meeting.",
+      "exampleZh": "随附年会的详细日程，请查收。",
+      "note": "备忘录随附材料说明。Attached置句首为固定倒装句式，勿写I attached please find。"
+    },
+    {
+      "en": "Should you have any questions, please feel free to contact me.",
+      "zh": "如有任何疑问，请随时与我联系。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Should you have any questions, please feel free to contact me.",
+      "exampleZh": "如有任何疑问，请随时与我联系。",
+      "note": "备忘录结尾礼貌收束。Should引导条件从句倒装，后接动词原形，比If you have更正式。"
+    },
+    {
+      "en": "LOST AND FOUND",
+      "zh": "失物招领（标题）",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "LOST AND FOUND\nA black wallet was found in the reading room.",
+      "exampleZh": "失物招领\n在阅览室捡到一个黑色钱包。",
+      "note": "招领启事标题大写居中，正文用被动语态说明物品与拾获地点；寻物启事标题可写Lost。"
+    },
+    {
+      "en": "I happened to find ___.",
+      "zh": "我碰巧发现了___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I happened to find a black leather wallet in the reading room yesterday afternoon.",
+      "exampleZh": "昨天下午我在阅览室碰巧捡到一个黑色皮钱包。",
+      "note": "招领启事第1句。happen to do表示“碰巧”，叙述过去事件用过去时，勿写happened to found。"
+    },
+    {
+      "en": "Whoever lost it may come to ___ to claim it.",
+      "zh": "失主可到___认领。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Whoever lost it may come to Room 305 to claim it with a valid student card.",
+      "exampleZh": "失主可携带有效学生证到305室认领。",
+      "note": "招领启事正文。whoever引导主语从句，谓语用单数may come；claim意为“认领”。"
+    },
+    {
+      "en": "The owner may claim it at ___ during office hours.",
+      "zh": "失主可在办公时间到___认领。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "The owner may claim it at the reception desk during office hours.",
+      "exampleZh": "失主可在办公时间到前台认领。",
+      "note": "招领启事末句。during office hours意为“在办公时间内”，勿写in the office time。"
+    },
+    {
+      "en": "Will the finder please contact me at ___ ?",
+      "zh": "请拾到者拨___与我联系，好吗？",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Will the finder please contact me at 12345678 or liming@example.com?",
+      "exampleZh": "请拾到者拨12345678或发邮件至liming@example.com与我联系，好吗？",
+      "note": "寻物启事正文请求句。Will...please为礼貌祈使句式，句末用问号，联系方式用at。"
+    },
+    {
+      "en": "I would be grateful if anyone who has seen it could contact me.",
+      "zh": "如有人见过，请与我联系，我将不胜感激。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I would be grateful if anyone who has seen it could contact me at 12345678.",
+      "exampleZh": "如有人见过，请拨12345678与我联系，我将不胜感激。",
+      "note": "寻物启事末句。who引导定语从句修饰anyone，could使语气委婉，勿改用can。"
+    }
+  ]
+}

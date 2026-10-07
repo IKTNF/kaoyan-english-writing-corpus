@@ -1,0 +1,414 @@
+{
+  "id": "proverb",
+  "title": "名言谚语金句库",
+  "emoji": "✨",
+  "group": "大作文·通用工具箱",
+  "desc": "收录考研英语一大作文高频引用的英语谚语与名家名言，附示范嵌入句与适用主题。",
+  "entries": [
+    {
+      "en": "Where there is a will, there is a way.",
+      "zh": "有志者事竟成。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As the saying goes, where there is a will there is a way, and persistence always pays off.",
+      "exampleZh": "常言道，有志者事竟成，坚持终会有回报。",
+      "note": "①英语谚语；②个人品质——论证毅力与坚持，置于第二段例证引入处。"
+    },
+    {
+      "en": "Rome was not built in a day.",
+      "zh": "罗马不是一天建成的。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Rome was not built in a day, so lasting progress in language learning calls for patience.",
+      "exampleZh": "罗马不是一天建成的，因此语言学习上的持久进步需要耐心。",
+      "note": "①英语谚语；②学习与教育——论证循序渐进，用于分析段收束。"
+    },
+    {
+      "en": "Constant dripping wears away a stone.",
+      "zh": "水滴石穿。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Constant dripping wears away a stone; a few pages of reading every day will finally pay off.",
+      "exampleZh": "水滴石穿；每天读几页书终会有回报。",
+      "note": "①英语谚语；②个人品质——强调日积月累的效应，宜置于第二段论证。"
+    },
+    {
+      "en": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+      "zh": "天才是百分之一的灵感加百分之九十九的汗水。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Thomas Edison reminded us that genius is one percent inspiration and ninety-nine percent perspiration.",
+      "exampleZh": "托马斯·爱迪生提醒我们，天才是百分之一的灵感加百分之九十九的汗水。",
+      "note": "①Thomas Edison；②个人品质——论证勤奋胜过天资，用于第二段论证。"
+    },
+    {
+      "en": "Actions speak louder than words.",
+      "zh": "行动胜于言辞。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Actions speak louder than words, which is why volunteers deserve our genuine respect.",
+      "exampleZh": "行动胜于言辞，正因如此志愿者值得我们真诚的尊敬。",
+      "note": "①英语谚语；②社会公德——论证实践与奉献，可用于第二段或结尾段。"
+    },
+    {
+      "en": "A journey of a thousand miles begins with a single step.",
+      "zh": "千里之行，始于足下。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As Lao Tzu said, a journey of a thousand miles begins with a single step.",
+      "exampleZh": "正如老子所言，千里之行，始于足下。",
+      "note": "①Lao Tzu（老子）；②个人品质——号召迈出第一步，适合结尾段收束。"
+    },
+    {
+      "en": "Well begun is half done.",
+      "zh": "好的开始是成功的一半。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Well begun is half done, so a clear plan often saves us half the effort.",
+      "exampleZh": "好的开始等于成功的一半，因此清晰的计划常能省下一半力气。",
+      "note": "①英语谚语；②学习与教育——论证规划的重要性，宜用于建议段。"
+    },
+    {
+      "en": "Strike while the iron is hot.",
+      "zh": "趁热打铁。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "We should strike while the iron is hot and seize the chance to improve ourselves.",
+      "exampleZh": "我们应当趁热打铁，抓住提升自我的机会。",
+      "note": "①英语谚语；②经济职业——论证把握时机，用于建议或结论段。"
+    },
+    {
+      "en": "Knowledge is power.",
+      "zh": "知识就是力量。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Francis Bacon was right that knowledge is power in an era of fierce competition.",
+      "exampleZh": "在竞争激烈的时代，弗朗西斯·培根说知识就是力量是没错的。",
+      "note": "①Francis Bacon；②学习与教育——点明知识价值，首段或末段皆可使用。"
+    },
+    {
+      "en": "Live and learn.",
+      "zh": "活到老，学到老。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Live and learn, for every new experience teaches us something we did not know.",
+      "exampleZh": "活到老学到老，因为每一次新经历都会教给我们未知的东西。",
+      "note": "①英语谚语；②学习与教育——论证终身学习，多用于第二段论证。"
+    },
+    {
+      "en": "Practice makes perfect.",
+      "zh": "熟能生巧。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Practice makes perfect, which explains why top athletes train for hours every day.",
+      "exampleZh": "熟能生巧，这就解释了为什么顶尖运动员每天训练数小时。",
+      "note": "①英语谚语；②学习与教育——论证反复练习的必要性，后接例证。"
+    },
+    {
+      "en": "Education is the most powerful weapon which you can use to change the world.",
+      "zh": "教育是你用来改变世界的最强大武器。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Nelson Mandela once said that education is the most powerful weapon which you can use to change the world.",
+      "exampleZh": "纳尔逊·曼德拉曾说，教育是你用来改变世界的最强大武器。",
+      "note": "①Nelson Mandela；②学习与教育——立意升华句，宜置于结尾段。"
+    },
+    {
+      "en": "Reading makes a full man.",
+      "zh": "读书使人充实。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As Bacon put it, reading makes a full man, and our campus library proves it.",
+      "exampleZh": "正如培根所言，读书使人充实，我们校园的图书馆就是明证。",
+      "note": "①Francis Bacon；②学习与教育——论证阅读的价值，可用于第二段。"
+    },
+    {
+      "en": "United we stand, divided we fall.",
+      "zh": "团结则存，分裂则亡。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "United we stand, divided we fall, and this truth applies to every team on campus.",
+      "exampleZh": "团结则存，分裂则亡，这条真理适用于校园里的每个团队。",
+      "note": "①英语谚语；②社会公德——论证团结协作，可作第二段主旨句。"
+    },
+    {
+      "en": "Many hands make light work.",
+      "zh": "人多好办事。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Many hands make light work, so the whole class finished the project ahead of schedule.",
+      "exampleZh": "人多好办事，因此全班提前完成了项目。",
+      "note": "①英语谚语；②社会公德——论证合作效率，多作例证句使用。"
+    },
+    {
+      "en": "Two heads are better than one.",
+      "zh": "三个臭皮匠，顶个诸葛亮。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Two heads are better than one, which is why group discussion often sparks fresh ideas.",
+      "exampleZh": "三个臭皮匠顶个诸葛亮，正因如此小组讨论常能激发新想法。",
+      "note": "①英语谚语；②学习与教育——论证讨论式学习，用于第二段。"
+    },
+    {
+      "en": "No man is an island.",
+      "zh": "没有人是一座孤岛。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As John Donne wrote, no man is an island, and mutual help keeps society alive.",
+      "exampleZh": "正如约翰·多恩所写，没有人是一座孤岛，相互帮助让社会充满生机。",
+      "note": "①John Donne；②家庭情感——论证人与人的联结，适合第二段或末段。"
+    },
+    {
+      "en": "Honesty is the best policy.",
+      "zh": "诚实为上策。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Honesty is the best policy, for a single lie may destroy years of trust.",
+      "exampleZh": "诚实为上策，因为一次谎言可能毁掉多年的信任。",
+      "note": "①英语谚语；②社会公德——论证诚信价值，宜作论证段首句。"
+    },
+    {
+      "en": "A friend in need is a friend indeed.",
+      "zh": "患难之交才是真朋友。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "A friend in need is a friend indeed, and true friendship shows itself in hard times.",
+      "exampleZh": "患难之交才是真朋友，真正的友谊在艰难时刻显现。",
+      "note": "①英语谚语；②家庭情感——论证真挚友谊，用于第二段例证。"
+    },
+    {
+      "en": "Haste makes waste.",
+      "zh": "欲速则不达。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Haste makes waste, so we had better weigh every option before making a decision.",
+      "exampleZh": "欲速则不达，因此做决定前我们最好权衡每一个选项。",
+      "note": "①英语谚语；②经济职业——论证谨慎决策，宜用于建议段。"
+    },
+    {
+      "en": "Failure is the mother of success.",
+      "zh": "失败是成功之母。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Failure is the mother of success, and every failed experiment taught the team something.",
+      "exampleZh": "失败是成功之母，每一次失败的实验都教会了团队一些东西。",
+      "note": "①英语谚语；②个人品质——论证挫折的价值，用于第二段论证。"
+    },
+    {
+      "en": "Every cloud has a silver lining.",
+      "zh": "黑暗中总有一线光明。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Every cloud has a silver lining, and the pandemic pushed us to master online tools.",
+      "exampleZh": "黑暗中总有一线光明，疫情促使我们掌握了在线工具。",
+      "note": "①英语谚语；②健康生活——论证危机中的转机，可用于结尾段。"
+    },
+    {
+      "en": "Adversity makes a man wise.",
+      "zh": "逆境使人明智。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Adversity makes a man wise, and those who survived hardship often value life more.",
+      "exampleZh": "逆境使人明智，经历过苦难的人往往更珍惜生活。",
+      "note": "①英语谚语；②个人品质——论证逆境的磨炼作用，用于第二段。"
+    },
+    {
+      "en": "What does not kill me makes me stronger.",
+      "zh": "凡杀不死我的，必使我更强大。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Nietzsche claimed that what does not kill me makes me stronger, and setbacks prove it.",
+      "exampleZh": "尼采声称，凡杀不死我的必使我更强大，挫折就是证明。",
+      "note": "①Friedrich Nietzsche；②个人品质——论证挫折教育，宜放在论证段。"
+    },
+    {
+      "en": "Time and tide wait for no man.",
+      "zh": "时光如流水，不等人。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Time and tide wait for no man, so we should seize the day and act at once.",
+      "exampleZh": "时光不等人，因此我们应当抓住当下立即行动。",
+      "note": "①英语谚语；②学习与教育——论证珍惜时间，用于建议或结论段。"
+    },
+    {
+      "en": "An hour in the morning is worth two in the evening.",
+      "zh": "清晨一小时抵得上晚上两小时。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "An hour in the morning is worth two in the evening, so early risers often learn faster.",
+      "exampleZh": "清晨一小时抵得上晚上两小时，因此早起的人往往学得更快。",
+      "note": "①英语谚语；②健康生活——论证规律作息与效率，可用于建议段。"
+    },
+    {
+      "en": "We do not inherit the earth from our ancestors; we borrow it from our children.",
+      "zh": "我们不是从祖先那里继承地球，而是从子孙那里借用它。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "We do not inherit the earth from our ancestors; we borrow it from our children, so green living is a duty.",
+      "exampleZh": "我们不是从祖先那里继承地球，而是从子孙那里借用它，因此绿色生活是一种责任。",
+      "note": "①美洲原住民谚语；②生态环保——升华环保立意，宜置于结尾段。"
+    },
+    {
+      "en": "The best time to plant a tree was twenty years ago; the second best time is now.",
+      "zh": "种树最好的时间是二十年前，其次是现在。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "The best time to plant a tree was twenty years ago; the second best time is now, so start today.",
+      "exampleZh": "种树最好的时间是二十年前，其次是现在，所以从今天就开始吧。",
+      "note": "①常引作中国谚语（佚名）；②生态环保——号召立即行动，适合结尾段。"
+    },
+    {
+      "en": "Every coin has two sides.",
+      "zh": "凡事都有两面性。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Every coin has two sides, and artificial intelligence is no exception to this rule.",
+      "exampleZh": "凡事都有两面性，人工智能也不例外。",
+      "note": "①英语谚语；②科技与互联网——引出利弊分析，宜作第二段首句。"
+    },
+    {
+      "en": "Science is a good servant but a bad master.",
+      "zh": "科学是好仆人，却是坏主人。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Science is a good servant but a bad master, so we must guide its use with ethics.",
+      "exampleZh": "科学是好仆人却是坏主人，因此我们必须用伦理引导它的使用。",
+      "note": "①英语谚语；②科技与互联网——论证科技双刃剑，用于论证段。"
+    },
+    {
+      "en": "The Internet is becoming the town square for the global village of tomorrow.",
+      "zh": "互联网正成为明日地球村的城镇广场。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Bill Gates predicted that the Internet is becoming the town square for the global village of tomorrow.",
+      "exampleZh": "比尔·盖茨预言，互联网正成为明日地球村的城镇广场。",
+      "note": "①Bill Gates；②科技与互联网——论证网络的社会功能，用于第二段。"
+    },
+    {
+      "en": "A nation's culture resides in the hearts and souls of its people.",
+      "zh": "一个民族的文化存在于其人民的心灵与灵魂之中。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Gandhi believed that a nation's culture resides in the hearts and souls of its people.",
+      "exampleZh": "甘地认为，一个民族的文化存在于其人民的心灵与灵魂之中。",
+      "note": "①Mahatma Gandhi；②文化传承——升华文化立意，宜用于结尾段。"
+    },
+    {
+      "en": "A sound mind in a sound body.",
+      "zh": "健全的精神寓于健康的身体。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "A sound mind in a sound body, so daily exercise benefits both body and mind.",
+      "exampleZh": "健全的精神寓于健康的身体，因此每天锻炼身心皆受益。",
+      "note": "①古罗马谚语（源出尤维纳利斯）；②健康生活——论证身心关系，用于第二段。"
+    },
+    {
+      "en": "Health is not valued till sickness comes.",
+      "zh": "人只有在生病时才珍惜健康。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Health is not valued till sickness comes, so young people should not stay up late.",
+      "exampleZh": "人只有在生病时才珍惜健康，因此年轻人不应熬夜。",
+      "note": "①英语谚语；②健康生活——论证健康意识，用于分析或建议段。"
+    },
+    {
+      "en": "The future belongs to those who believe in the beauty of their dreams.",
+      "zh": "未来属于那些相信梦想之美的人。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Eleanor Roosevelt insisted that the future belongs to those who believe in the beauty of their dreams.",
+      "exampleZh": "埃莉诺·罗斯福坚信，未来属于那些相信梦想之美的人。",
+      "note": "①Eleanor Roosevelt；②个人品质——梦想类结尾升华句，适合末段收束。"
+    },
+    {
+      "en": "The best way to predict the future is to create it.",
+      "zh": "预测未来的最好方式就是创造未来。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As Peter Drucker observed, the best way to predict the future is to create it.",
+      "exampleZh": "正如彼得·德鲁克所言，预测未来的最好方式就是创造未来。",
+      "note": "①常引作Peter Drucker；②经济职业——号召主动作为，宜用于结尾段。"
+    },
+    {
+      "en": "Be the change you wish to see in the world.",
+      "zh": "成为你希望在这个世界上看到的改变。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Gandhi urged us to be the change we wish to see in the world.",
+      "exampleZh": "甘地呼吁我们成为我们希望在这个世界上看到的改变。",
+      "note": "①Mahatma Gandhi；②社会公德——结尾段行动号召，可与措施句连用。"
+    },
+    {
+      "en": "Diligence is the mother of good fortune.",
+      "zh": "勤奋是好运之母。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Cervantes declared that diligence is the mother of good fortune, and effort never betrays us.",
+      "exampleZh": "塞万提斯宣称，勤奋是好运之母，努力从不会辜负我们。",
+      "note": "①Miguel de Cervantes；②经济职业——论证勤奋与机遇，用于论证段。"
+    },
+    {
+      "en": "Lost time is never found again.",
+      "zh": "失去的时间再也找不回来。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Benjamin Franklin warned that lost time is never found again, so we must treasure it.",
+      "exampleZh": "本杰明·富兰克林告诫说，失去的时间再也找不回来，因此我们必须珍惜它。",
+      "note": "①Benjamin Franklin；②学习与教育——论证珍惜时间，用于建议或结论段。"
+    },
+    {
+      "en": "Charity begins at home.",
+      "zh": "仁爱始于家庭。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Charity begins at home, so caring for our parents comes before helping strangers.",
+      "exampleZh": "仁爱始于家庭，因此关爱父母先于帮助陌生人。",
+      "note": "①英语谚语；②家庭情感——论证孝亲与家庭责任，用于第二段。"
+    },
+    {
+      "en": "Little strokes fell great oaks.",
+      "zh": "一斧一斧砍下去，巨橡也会倒。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Little strokes fell great oaks, and small daily efforts finally reshape a person.",
+      "exampleZh": "一斧一斧砍下去巨橡也会倒，每天微小的努力终能重塑一个人。",
+      "note": "①Benjamin Franklin；②个人品质——论证积少成多，用于第二段论证。"
+    },
+    {
+      "en": "Smooth seas do not make skillful sailors.",
+      "zh": "平静的海面练不出熟练的水手。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Smooth seas do not make skillful sailors, so hardship often builds real competence.",
+      "exampleZh": "平静的海面练不出熟练的水手，因此艰难往往造就真正的能力。",
+      "note": "①African proverb（非洲谚语）；②个人品质——论证磨砺与成长，用于第二段。"
+    },
+    {
+      "en": "Early to bed and early to rise makes a man healthy, wealthy and wise.",
+      "zh": "早睡早起使人健康、富有而明智。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As Franklin said, early to bed and early to rise makes a man healthy, wealthy and wise.",
+      "exampleZh": "正如富兰克林所说，早睡早起使人健康、富有而明智。",
+      "note": "①Benjamin Franklin；②健康生活——论证规律作息，用于第二段或建议段。"
+    },
+    {
+      "en": "The secret of getting ahead is getting started.",
+      "zh": "取得进展的秘诀在于开始行动。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Mark Twain believed that the secret of getting ahead is getting started, not perfect planning.",
+      "exampleZh": "马克·吐温认为，取得进展的秘诀在于开始行动，而非完美的计划。",
+      "note": "①Mark Twain；②经济职业——鼓励立即行动，宜用于结尾段号召。"
+    },
+    {
+      "en": "Coming together is a beginning, staying together is progress, and working together is success.",
+      "zh": "相聚是开始，相守是进步，合作才是成功。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Henry Ford once remarked that coming together is a beginning, staying together is progress, and working together is success.",
+      "exampleZh": "亨利·福特曾说，相聚是开始，相守是进步，合作才是成功。",
+      "note": "①Henry Ford；②经济职业——论证团队合作，可作第二段主旨句。"
+    }
+  ]
+}

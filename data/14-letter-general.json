@@ -1,0 +1,414 @@
+{
+  "id": "letter-general",
+  "title": "书信通用框架与礼貌表达",
+  "emoji": "✉️",
+  "group": "小作文·应用文语料",
+  "desc": "覆盖称呼、开头目的、过渡、礼貌请求、致谢致歉与结尾落款，约100词书信通用框架。",
+  "entries": [
+    {
+      "en": "Dear Sir or Madam,",
+      "zh": "尊敬的先生或女士：",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Dear Sir or Madam, I am writing to inquire about the language training programme advertised on your website.",
+      "exampleZh": "尊敬的先生或女士：我写信是想咨询贵网站广告中提到的语言培训项目。",
+      "note": "称呼段首行顶格写，后接逗号；不知收信人姓名时使用，结束语须配 Yours faithfully。"
+    },
+    {
+      "en": "Dear Mr. Wang,",
+      "zh": "尊敬的王先生：",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Dear Mr. Wang, I am writing to express my sincere gratitude for your generous assistance.",
+      "exampleZh": "尊敬的王先生：我写信是为了对您慷慨的帮助表示诚挚的感谢。",
+      "note": "已知姓名用姓氏加 Mr./Ms.，后接逗号；结束语须配 Yours sincerely，不可与 faithfully 混用。"
+    },
+    {
+      "en": "Dear Professor Smith,",
+      "zh": "尊敬的史密斯教授：",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Dear Professor Smith, I would like to seek your advice on my application for a research programme.",
+      "exampleZh": "尊敬的史密斯教授：我想就我申请研究项目一事向您请教。",
+      "note": "学术场景中对导师用 Professor 而非 Mr.；头衔后不加姓名缩写，正式程度高于 Dear Smith。"
+    },
+    {
+      "en": "To Whom It May Concern,",
+      "zh": "敬启者（致相关人士）：",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "To Whom It May Concern, I am writing to confirm my attendance at the conference to be held next month.",
+      "exampleZh": "敬启者：我写信是为了确认出席下个月举行的会议。",
+      "note": "仅用于推荐信、证明信等面向机构的正式信件；称呼词首字母均大写，后接逗号，结尾用 Yours faithfully。"
+    },
+    {
+      "en": "Dear All,",
+      "zh": "各位好：",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Dear All, I am writing to inform you of the revised schedule for our group presentation.",
+      "exampleZh": "各位好：我写信是为了告知大家小组展示修订后的时间安排。",
+      "note": "通知类群发信件或备忘录可用，属半正式；结尾配 Best regards，不宜再写 Yours faithfully。"
+    },
+    {
+      "en": "I am writing to express my sincere gratitude for ___.",
+      "zh": "我写信是为了对___表示诚挚的感谢。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am writing to express my sincere gratitude for the warm reception you extended to me during my visit.",
+      "exampleZh": "我写信是为了对您在我访问期间给予的热情接待表示诚挚的感谢。",
+      "note": "首段开门见山点明目的，gratitude 后接 for + 名词或动名词，比 thanks 更书面。"
+    },
+    {
+      "en": "I am writing to inform you that ___.",
+      "zh": "我写信是为了告知您___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am writing to inform you that the meeting scheduled for Friday has been postponed to next Monday.",
+      "exampleZh": "我写信是为了告知您，原定于周五的会议已推迟至下周一。",
+      "note": "通知、告知类信件首段核心句；that 后接完整从句，inform 后必须先有宾语 you 再接 that。"
+    },
+    {
+      "en": "I am writing in response to your letter of ___ concerning ___.",
+      "zh": "兹回复您___日关于___的来信。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am writing in response to your letter of May 5 concerning the internship programme.",
+      "exampleZh": "兹回复您5月5日关于实习项目的来信。",
+      "note": "回信类首段必用；in response to 后接来信，日期用 of + 日期，勿写成 in response of。"
+    },
+    {
+      "en": "I am writing on behalf of ___ to ___.",
+      "zh": "我代表___写信以___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am writing on behalf of the Student Union to invite you to deliver a lecture on campus.",
+      "exampleZh": "我代表学生会写信邀请您来校园做一场讲座。",
+      "note": "以集体名义写信时首段使用；on behalf of 后接机构或群体，后接不定式说明目的。"
+    },
+    {
+      "en": "I am writing to lodge a complaint about ___.",
+      "zh": "我写信是为了就___提出投诉。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am writing to lodge a complaint about the poor quality of the laptop I purchased last week.",
+      "exampleZh": "我写信是为了就我上周购买的笔记本电脑质量低劣一事提出投诉。",
+      "note": "投诉信首段用；lodge a complaint about 比 complain 更正式，about 后接名词性成分。"
+    },
+    {
+      "en": "I would like to take this opportunity to ___.",
+      "zh": "我想借此机会___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I would like to take this opportunity to extend my warmest congratulations on your graduation.",
+      "exampleZh": "我想借此机会对您的毕业表示最热烈的祝贺。",
+      "note": "适用于祝贺信、感谢信首段；后接动词原形，比 I want to 礼貌，是提分句式。"
+    },
+    {
+      "en": "As you may know, ___.",
+      "zh": "如您所知，___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "As you may know, our library will be closed for renovation throughout the coming month.",
+      "exampleZh": "如您所知，我们图书馆将在接下来一个月闭馆整修。",
+      "note": "第二段引入背景信息；后接完整句，注意区别于 as you know it，勿混用。"
+    },
+    {
+      "en": "To begin with, ___.",
+      "zh": "首先，___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "To begin with, it would be advisable to set aside a fixed period for revision every day.",
+      "exampleZh": "首先，每天留出固定的时间复习是可取的。",
+      "note": "第二段第一条理由或建议的标志语；后接完整句，正式书面，优于 firstly 与 first of all。"
+    },
+    {
+      "en": "In addition, ___.",
+      "zh": "此外，___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "In addition, the venue should be equipped with modern facilities for the participants.",
+      "exampleZh": "此外，场地应为参会者配备现代化的设施。",
+      "note": "衔接并列的第二条信息；后接完整句，后接成分须与上句同类，避免与 what is more 相邻重复。"
+    },
+    {
+      "en": "What is more, ___.",
+      "zh": "更重要的是，___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "What is more, such an arrangement would save both time and money for all those involved.",
+      "exampleZh": "更重要的是，这样的安排会为所有相关人员节省时间和金钱。",
+      "note": "第二条理由的标志语，语气强于 in addition；后接完整句，注意是 what is more 而非 what's more。"
+    },
+    {
+      "en": "As for ___, ___.",
+      "zh": "至于___，___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "As for the fee, it can be paid in two instalments if necessary.",
+      "exampleZh": "至于费用，如有需要可以分两期支付。",
+      "note": "话题转移到具体细节时使用；as for 后接名词或动名词，不接完整从句，多用于第二段末。"
+    },
+    {
+      "en": "With regard to ___, ___.",
+      "zh": "关于___，___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "With regard to the deadline, I would suggest that the application be submitted before June 10.",
+      "exampleZh": "关于截止日期，我建议在6月10日之前提交申请。",
+      "note": "正式引用某一事项，优于 about；后接名词性成分，且注意须用 regard 单数，不用 regards。"
+    },
+    {
+      "en": "I would appreciate it if you could ___.",
+      "zh": "如果您能___，我将不胜感激。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I would appreciate it if you could send me the relevant materials at your earliest convenience.",
+      "exampleZh": "如果您能尽早把相关材料寄给我，我将不胜感激。",
+      "note": "礼貌请求的黄金句式，用于第三段；it 不可省略，could 后接动词原形，比 please 委婉。"
+    },
+    {
+      "en": "I would be grateful if you could ___.",
+      "zh": "如果您能___，我将非常感激。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I would be grateful if you could confirm your attendance before the end of this week.",
+      "exampleZh": "如果您能在本周末之前确认出席，我将非常感激。",
+      "note": "与 appreciate 句式同义但更直接；用于提出请求段，注意 grateful 后不加 it。"
+    },
+    {
+      "en": "I am wondering if it would be possible for you to ___.",
+      "zh": "我想知道您是否能___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am wondering if it would be possible for you to give a brief talk at our seminar.",
+      "exampleZh": "我想知道您是否能在我们的研讨会上做一次简短发言。",
+      "note": "极为客气的间接请求，用于邀请或求助；would be possible for you to 结构完整，勿简写。"
+    },
+    {
+      "en": "Would it be convenient for you to ___?",
+      "zh": "您___方便吗？",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Would it be convenient for you to meet me at three o'clock on Thursday afternoon?",
+      "exampleZh": "您周四下午三点与我见面方便吗？",
+      "note": "询问时间安排是否合适，多用于第二段；问句本身是疑问语气，末尾用问号。"
+    },
+    {
+      "en": "Could you please ___?",
+      "zh": "能否请您___？",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Could you please forward the invitation letter to the other members of the committee?",
+      "exampleZh": "能否请您把邀请函转发给委员会其他成员？",
+      "note": "简洁礼貌的请求句，用于第三段；could 比 can 委婉，please 置于句中，后接动词原形。"
+    },
+    {
+      "en": "I hope you would not mind ___ ing.",
+      "zh": "希望您不介意___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I hope you would not mind postponing the meeting until the following week.",
+      "exampleZh": "希望您不介意把会议推迟到下一周。",
+      "note": "委婉提出可能给对方带来不便的请求；mind 后必须接动名词，不可接不定式。"
+    },
+    {
+      "en": "Please accept my sincere apologies for ___.",
+      "zh": "请接受我对___的诚挚道歉。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Please accept my sincere apologies for failing to attend the meeting yesterday.",
+      "exampleZh": "请接受我对昨天未能出席会议的诚挚道歉。",
+      "note": "道歉信首段核心句，apologies 用复数；for 后接名词或动名词，不可接句子。"
+    },
+    {
+      "en": "I must apologize for ___.",
+      "zh": "我必须为___道歉。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I must apologize for the delay in replying to your email of last Monday.",
+      "exampleZh": "我必须为迟复您上周一的邮件而道歉。",
+      "note": "语气直接的致歉句，用于投诉回信或道歉信首段；apologize for 后接名词性成分，不接 that 从句。"
+    },
+    {
+      "en": "Thank you for your generous help.",
+      "zh": "感谢您的慷慨相助。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Thank you for your generous help, without which I could never have completed the project on time.",
+      "exampleZh": "感谢您的慷慨相助，没有它我绝不可能按时完成这个项目。",
+      "note": "致谢信首段或结尾均可；后接名词或动名词，句末用句号，不要用感叹号堆砌。"
+    },
+    {
+      "en": "Your timely assistance means a great deal to me.",
+      "zh": "您及时的帮助对我意义重大。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Your timely assistance means a great deal to me and I will always bear it in mind.",
+      "exampleZh": "您及时的帮助对我意义重大，我会永远铭记于心。",
+      "note": "致谢信结尾升华句；主语为单数 assistance，动词用 means，勿写成 mean。"
+    },
+    {
+      "en": "I am deeply indebted to you for ___.",
+      "zh": "我对您的___深怀感激。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am deeply indebted to you for your patience and encouragement during my hardest days.",
+      "exampleZh": "我对您在我最艰难的日子里给予的耐心与鼓励深怀感激。",
+      "note": "高级致谢句，用于感谢信第二段；indebted to sb for sth，介词搭配固定，不可换成 with。"
+    },
+    {
+      "en": "I am looking forward to your early reply.",
+      "zh": "期待您早日回复。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am looking forward to your early reply, and I thank you in advance for your assistance.",
+      "exampleZh": "期待您早日回复，并提前感谢您的帮助。",
+      "note": "末段结束句；to 为介词，后接名词或动名词，写成 look forward to hear 是典型失分错误。"
+    },
+    {
+      "en": "I look forward to hearing from you soon.",
+      "zh": "期待很快收到您的回音。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I look forward to hearing from you soon and to discussing the details in person.",
+      "exampleZh": "期待很快收到您的回音，并希望能当面商讨细节。",
+      "note": "结束语前最后一句；hear from sb 意为收到某人来信，动名词形式为 hearing from。"
+    },
+    {
+      "en": "Your prompt reply would be highly appreciated.",
+      "zh": "如蒙速复，不胜感激。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Your prompt reply would be highly appreciated, as the deadline is drawing near.",
+      "exampleZh": "由于截止日期临近，如蒙速复，不胜感激。",
+      "note": "末段催促回复；prompt 意为及时的，主语为 reply，故用被动 would be appreciated。"
+    },
+    {
+      "en": "Thank you for your time and consideration.",
+      "zh": "感谢您的时间与考虑。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Thank you for your time and consideration, and I wish you a pleasant week ahead.",
+      "exampleZh": "感谢您的时间与考虑，祝您本周愉快。",
+      "note": "末段结束句，通用性极强；句末用句号，考场上务必留出这句作为收束。"
+    },
+    {
+      "en": "Please feel free to contact me if you need any further information.",
+      "zh": "如需更多信息，请随时与我联系。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "Please feel free to contact me at 12345678 if you need any further information.",
+      "exampleZh": "如需更多信息，请随时拨打12345678与我联系。",
+      "note": "末段提供进一步联系方式；feel free to 后接动词原形，勿写成 feel free contacting。"
+    },
+    {
+      "en": "I would be more than happy to provide further details.",
+      "zh": "我很乐意提供更多细节。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I would be more than happy to provide further details should you require them.",
+      "exampleZh": "如果您需要，我很乐意提供更多细节。",
+      "note": "结尾表达合作意愿；would be more than happy to 后接动词原形，语气热情而不失正式。"
+    },
+    {
+      "en": "Yours sincerely,",
+      "zh": "您真诚的（谨启）：",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Yours sincerely,\nLi Ming",
+      "exampleZh": "您真诚的，\n李明",
+      "note": "结束语另起一行、首字母大写、末尾加逗号；仅用于已知收信人姓名的信件。"
+    },
+    {
+      "en": "Yours faithfully,",
+      "zh": "您忠实的（谨启）：",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Yours faithfully,\nLi Ming",
+      "exampleZh": "您忠实的，\n李明",
+      "note": "与 Dear Sir or Madam / To Whom It May Concern 严格配对；若称呼用了姓名则改 Yours sincerely。"
+    },
+    {
+      "en": "Sincerely yours,",
+      "zh": "您真诚的：",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Sincerely yours,\nLi Ming",
+      "exampleZh": "您真诚的，\n李明",
+      "note": "美式常用变体，语义等同于 Yours sincerely；与称呼的正式度仍需对应，末尾逗号不可省。"
+    },
+    {
+      "en": "Best regards,",
+      "zh": "此致问候：",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Best regards,\nLi Ming",
+      "exampleZh": "此致问候，\n李明",
+      "note": "半正式结束语，适合 Dear All 的通知或备忘录；不宜与 Dear Sir or Madam 搭配。"
+    },
+    {
+      "en": "Cordially yours,",
+      "zh": "谨致问候：",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Cordially yours,\nLi Ming",
+      "exampleZh": "谨致问候，\n李明",
+      "note": "较温暖的正式结束语，用于感谢信或祝贺信；考场上优先选 Yours sincerely，更稳妥。"
+    },
+    {
+      "en": "Li Ming",
+      "zh": "李明（署名）",
+      "pos": "n.",
+      "type": "word",
+      "example": "Yours sincerely,\nLi Ming",
+      "exampleZh": "您真诚的，\n李明",
+      "note": "落款另起一行顶格写，只写姓名，不加逗号句号，绝不可写真实姓名或学号。"
+    },
+    {
+      "en": "I am writing to extend my warmest congratulations on ___.",
+      "zh": "我写信对___致以最热烈的祝贺。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am writing to extend my warmest congratulations on your being admitted to Peking University.",
+      "exampleZh": "我写信是为了对您被北京大学录取致以最热烈的祝贺。",
+      "note": "祝贺信首段核心句；congratulations on 后接名词或动名词，congratulations 必须用复数。"
+    },
+    {
+      "en": "I am writing to apply for the position of ___ advertised in ___.",
+      "zh": "我写信应聘___上刊登的___一职。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am writing to apply for the position of interpreter advertised in yesterday's China Daily.",
+      "exampleZh": "我写信应聘昨日《中国日报》上刊登的口译员一职。",
+      "note": "求职信首段必用；apply for 后接职位，advertised in 后接媒体名称，勿漏介词 for。"
+    },
+    {
+      "en": "I am writing to seek your assistance with regard to ___.",
+      "zh": "我写信是想就___寻求您的帮助。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am writing to seek your assistance with regard to the accommodation on campus.",
+      "exampleZh": "我写信是想就校园住宿一事寻求您的帮助。",
+      "note": "求助信首段；seek your assistance 比 ask for help 正式，with regard to 后接名词性成分。"
+    },
+    {
+      "en": "I regret to inform you that ___.",
+      "zh": "我很遗憾地告知您___。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I regret to inform you that I will be unable to attend the interview arranged for Friday.",
+      "exampleZh": "我很遗憾地告知您，我将无法参加安排在周五的面试。",
+      "note": "抱歉信或婉拒信首段；regret to do 表示遗憾地要做，与 regret doing（后悔做过）含义不同。"
+    },
+    {
+      "en": "I am afraid I will have to decline your invitation owing to ___.",
+      "zh": "由于___，恐怕我不得不谢绝您的邀请。",
+      "pos": "pattern",
+      "type": "pattern",
+      "example": "I am afraid I will have to decline your invitation owing to a prior engagement on that day.",
+      "exampleZh": "由于当天已有约在先，恐怕我不得不谢绝您的邀请。",
+      "note": "婉拒信第二段；decline 比 refuse 礼貌，owing to 后接名词性成分，不可接完整句子。"
+    }
+  ]
+}

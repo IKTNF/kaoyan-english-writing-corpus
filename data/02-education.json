@@ -1,0 +1,504 @@
+{
+  "id": "education",
+  "title": "学习与教育",
+  "emoji": "🎓",
+  "group": "大作文·主题语料",
+  "desc": "覆盖终身学习、阅读、在线教育、能力培养、教育体制与师生关系的实用表达",
+  "entries": [
+    {
+      "en": "lifelong learning",
+      "zh": "终身学习",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "In an age of rapid change, lifelong learning has become a necessity rather than a luxury.",
+      "exampleZh": "在迅速变化的时代，终身学习已成为必需而非奢侈。",
+      "note": "不可数，作主语谓语用单数；常与 a culture of lifelong learning 连用，适合开头点题"
+    },
+    {
+      "en": "keep pace with the times",
+      "zh": "与时俱进",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Only by updating our knowledge constantly can we keep pace with the times.",
+      "exampleZh": "只有不断更新知识，我们才能与时俱进。",
+      "note": "固定搭配 keep pace with；the times 必用复数，勿写成 the time，适合结尾段总结"
+    },
+    {
+      "en": "knowledge acquisition",
+      "zh": "知识获取，知识习得",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "The internet has radically changed knowledge acquisition, making information available at a click.",
+      "exampleZh": "互联网彻底改变了知识获取的方式，使信息一点即得。",
+      "note": "书面名词短语，比 getting knowledge 正式；常作主语或介词宾语"
+    },
+    {
+      "en": "literacy",
+      "zh": "读写能力；（某领域的）素养",
+      "pos": "n.",
+      "type": "word",
+      "example": "Digital literacy has become as indispensable as the ability to read and write.",
+      "exampleZh": "数字素养已变得像读写能力一样不可或缺。",
+      "note": "不可数名词，可构成 digital/scientific/financial literacy；勿与 literature 混淆"
+    },
+    {
+      "en": "a thirst for knowledge",
+      "zh": "求知欲，对知识的渴望",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "A genuine thirst for knowledge is what keeps a learner curious long after exams are over.",
+      "exampleZh": "真正的求知欲，能使学习者在考试结束很久之后依然保持好奇。",
+      "note": "固定搭配 thirst for sth；同义可用 a hunger for knowledge，作主语时用单数"
+    },
+    {
+      "en": "broaden one's horizons",
+      "zh": "开阔视野",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Studying abroad broadened her horizons in ways no textbook could have done.",
+      "exampleZh": "海外求学以教科书无法做到的方式开阔了她的视野。",
+      "note": "horizons 必须用复数；也可说 expand one's horizons，用于读书、旅行、留学话题"
+    },
+    {
+      "en": "read classics",
+      "zh": "阅读经典著作",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Reading classics allows us to converse with great minds across the centuries.",
+      "exampleZh": "阅读经典让我们得以与跨越数世纪的伟大思想对话。",
+      "note": "classics 指经典作品时用复数；泛指阅读行为时以动名词短语 reading classics 作主语"
+    },
+    {
+      "en": "deep reading",
+      "zh": "深度阅读，沉浸式阅读",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Deep reading sharpens our thinking, whereas skimming leaves us with mere fragments of information.",
+      "exampleZh": "深度阅读磨砺我们的思维，而快速浏览只留给我们零碎的信息。",
+      "note": "作主语时谓语用单数；常与 fragmented reading 对照使用，论证读书方法"
+    },
+    {
+      "en": "fragmented reading",
+      "zh": "碎片化阅读",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Fragmented reading may be convenient, but it rarely cultivates sustained concentration.",
+      "exampleZh": "碎片化阅读也许方便，却很难培养持久的专注力。",
+      "note": "用于分析手机阅读、短视频等现象；与 deep reading 并列构成对比论证"
+    },
+    {
+      "en": "be well-read",
+      "zh": "博览群书的，学识渊博的",
+      "pos": "adj.",
+      "type": "phrase",
+      "example": "Those who are well-read tend to express complex ideas with unusual clarity.",
+      "exampleZh": "博览群书的人往往能以非凡的清晰度表达复杂的观点。",
+      "note": "复合形容词，可作表语或定语；作定语时写成 a well-read person，勿写 well-reading"
+    },
+    {
+      "en": "enlightening",
+      "zh": "有启发性的，令人豁然开朗的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "The lecture was so enlightening that it changed the way I viewed my own major.",
+      "exampleZh": "那场讲座极具启发性，以至于改变了我对自己专业的看法。",
+      "note": "多修饰 book/lecture/experience；与 enlightened（开明的）区分，勿混用"
+    },
+    {
+      "en": "online learning",
+      "zh": "在线学习",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Online learning offers remarkable flexibility, but it also demands far greater self-discipline.",
+      "exampleZh": "在线学习提供了极大的灵活性，但也要求更强的自律。",
+      "note": "不可数，作主语用单数谓语；同义表达 e-learning，可与课堂教学对比论证"
+    },
+    {
+      "en": "MOOC",
+      "zh": "大型开放式网络课程（Massive Open Online Course）",
+      "pos": "n.",
+      "type": "word",
+      "example": "MOOCs have made courses from top universities accessible to learners worldwide.",
+      "exampleZh": "慕课使世界各地的学习者都能获取顶尖大学的课程。",
+      "note": "首现时宜写出全称；复数 MOOCs，作主语谓语用复数，勿大小写混排"
+    },
+    {
+      "en": "digital divide",
+      "zh": "数字鸿沟",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Without government support, the digital divide may widen the gap in educational opportunity.",
+      "exampleZh": "若无政府支持，数字鸿沟可能扩大教育机会上的差距。",
+      "note": "固定搭配，常与 bridge/narrow/widen 连用；适合讨论在线教育公平性的主体段"
+    },
+    {
+      "en": "autonomous learning",
+      "zh": "自主学习",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Autonomous learning places the responsibility for progress squarely on the learner's own shoulders.",
+      "exampleZh": "自主学习把进步的完全责任放在学习者自己肩上。",
+      "note": "不可数名词短语，常与 cultivate/foster 搭配；比 self-study 更书面"
+    },
+    {
+      "en": "critical thinking",
+      "zh": "批判性思维，思辨能力",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Critical thinking enables students to question what they read rather than accept it blindly.",
+      "exampleZh": "批判性思维使学生能够质疑所读内容，而不是盲目接受。",
+      "note": "常搭配 develop/cultivate critical thinking；critical 此处意为审慎评判的，非批评的"
+    },
+    {
+      "en": "hands-on ability",
+      "zh": "动手能力，实践能力",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Internships give students the hands-on ability that classroom lectures can never provide.",
+      "exampleZh": "实习赋予学生课堂讲授永远无法提供的动手能力。",
+      "note": "hands-on 为复合形容词；同义可说 practical ability，中国考生使用判分友好"
+    },
+    {
+      "en": "all-round development",
+      "zh": "全面发展",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Schools should attach equal importance to academic excellence and all-round development.",
+      "exampleZh": "学校应同等重视学业优秀与全面发展。",
+      "note": "英式写法 all-round，美式常用 well-rounded；常搭配 promote/facilitate"
+    },
+    {
+      "en": "well-rounded",
+      "zh": "全面发展的，多才多艺的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Universities aim to produce well-rounded graduates rather than narrow specialists.",
+      "exampleZh": "大学旨在培养全面发展的毕业生，而非狭隘的专才。",
+      "note": "作定语修饰 person/graduate/education；与 narrow specialist 对比使用效果最佳"
+    },
+    {
+      "en": "exam-oriented education",
+      "zh": "应试教育",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Exam-oriented education often trains students to memorize rather than to think.",
+      "exampleZh": "应试教育往往训练学生记忆，而非思考。",
+      "note": "亦作 test-oriented；与 quality-oriented education 成对出现，构成对比论证"
+    },
+    {
+      "en": "quality-oriented education",
+      "zh": "素质教育",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Shifting from exam-oriented to quality-oriented education requires more than a change of policy.",
+      "exampleZh": "从应试教育转向素质教育，需要的不只是一纸政策的改变。",
+      "note": "中国语境特有表达，首现后可用 it 指代；quality 前不加定冠词"
+    },
+    {
+      "en": "compulsory education",
+      "zh": "义务教育",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Making nine-year compulsory education genuinely free has eased the burden on rural families.",
+      "exampleZh": "让九年义务教育真正免费，减轻了农村家庭的负担。",
+      "note": "compulsory 意为强制的、义务的；常与 nine-year、free 连用修饰 schools 或 system"
+    },
+    {
+      "en": "vocational training",
+      "zh": "职业培训",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Vocational training equips school leavers with skills that the job market urgently needs.",
+      "exampleZh": "职业培训使离校者掌握就业市场迫切需要的技能。",
+      "note": "不可数；与 academic education 相对，讨论就业与教育结构时常并提"
+    },
+    {
+      "en": "rote learning",
+      "zh": "死记硬背",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Rote learning may raise test scores, but it seldom produces genuine understanding.",
+      "exampleZh": "死记硬背或许能提高考试成绩，却很少产生真正的理解。",
+      "note": "不可数名词，含贬义；动词短语形式为 learn by rote，两者勿混用"
+    },
+    {
+      "en": "postgraduate entrance examination",
+      "zh": "研究生入学考试（考研）",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Millions of graduates sit the postgraduate entrance examination each year in search of better prospects.",
+      "exampleZh": "每年有数百万毕业生参加研究生入学考试，以求更好的发展前景。",
+      "note": "动词用 take/sit the exam；首现写全称，后文可用 the exam 或 it 指代"
+    },
+    {
+      "en": "pursue further education",
+      "zh": "继续深造，攻读更高学历",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Some graduates choose to pursue further education abroad to gain an international perspective.",
+      "exampleZh": "一些毕业生选择出国深造，以获得国际化的视野。",
+      "note": "pursue 后接名词；也可说 pursue a master's degree，degree 前须加 a"
+    },
+    {
+      "en": "academic performance",
+      "zh": "学习成绩，学业表现",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "A student's academic performance depends on far more than the hours spent in the library.",
+      "exampleZh": "一个学生的学习成绩，取决于远不止在图书馆里待的时长。",
+      "note": "不可数；常搭配 improve/poor academic performance，图表作文描述数据时常用"
+    },
+    {
+      "en": "academic pressure",
+      "zh": "学业压力",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Excessive academic pressure can undermine the very curiosity that education is meant to inspire.",
+      "exampleZh": "过度的学业压力会损害教育本应激发的求知欲。",
+      "note": "常搭配 under great academic pressure、relieve pressure on students；心理话题必备"
+    },
+    {
+      "en": "credential",
+      "zh": "学历证书，资格证明；资历",
+      "pos": "n.",
+      "type": "word",
+      "example": "Employers increasingly value practical skills over paper credentials alone.",
+      "exampleZh": "雇主日益看重实际技能，而不仅是纸质文凭。",
+      "note": "常用复数 credentials；比 diploma 更强调资历证明，适合学历与能力之争的话题"
+    },
+    {
+      "en": "scholarship",
+      "zh": "奖学金；（另一义）学术研究",
+      "pos": "n.",
+      "type": "word",
+      "example": "She won a full scholarship that covered both her tuition and living expenses.",
+      "exampleZh": "她获得了一份全额奖学金，涵盖学费和生活费。",
+      "note": "可数名词，搭配 win/obtain/award a scholarship；另一义为学术研究，须看语境"
+    },
+    {
+      "en": "tuition",
+      "zh": "学费；讲授",
+      "pos": "n.",
+      "type": "word",
+      "example": "Rising tuition fees have forced many families to reconsider their children's choices.",
+      "exampleZh": "不断上涨的学费迫使许多家庭重新考虑孩子的选择。",
+      "note": "不可数名词；英式常说 tuition fees，pay one's tuition 意为付学费"
+    },
+    {
+      "en": "mentor",
+      "zh": "导师，良师益友",
+      "pos": "n.",
+      "type": "word",
+      "example": "A good mentor does not simply pass on knowledge but shows students how to learn.",
+      "exampleZh": "好的导师不只是传授知识，而是教会学生如何学习。",
+      "note": "可数名词，也可作动词意为指导；常搭配 act as a mentor to sb，比 teacher 更有敬意"
+    },
+    {
+      "en": "instill",
+      "zh": "逐渐灌输（思想、品质、习惯）",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Parents should instill in their children a respect for honesty and hard work.",
+      "exampleZh": "父母应向孩子灌输对诚实与勤勉的尊重。",
+      "note": "搭配 instill sth in/into sb，宾语位置勿放错；英式亦可拼作 instil，全文须统一"
+    },
+    {
+      "en": "nurture",
+      "zh": "培育，滋养（才能、品格）",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Schools should nurture curiosity rather than suppress it with endless examinations.",
+      "exampleZh": "学校应培育好奇心，而不是用无尽的考试压制它。",
+      "note": "及物动词，宾语多为 talent/curiosity/creativity；与 rather than suppress 对照更有力"
+    },
+    {
+      "en": "foster",
+      "zh": "培养，促进（某种能力或风气）",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Group projects foster cooperation and teach students to value different perspectives.",
+      "exampleZh": "小组项目培养合作精神，并教学生珍视不同的视角。",
+      "note": "及物动词，搭配 foster creativity/independence/cooperation；比 develop 更显高级"
+    },
+    {
+      "en": "cultivate",
+      "zh": "培养，陶冶（习惯、兴趣、能力）",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Reading widely helps students cultivate the habit of thinking independently.",
+      "exampleZh": "广泛阅读有助于学生培养独立思考的习惯。",
+      "note": "宾语多为 habit/interest/ability；与 foster 可互换，但更强调长期养成"
+    },
+    {
+      "en": "enlighten",
+      "zh": "启发，开导",
+      "pos": "vt.",
+      "type": "word",
+      "example": "A single question from a teacher may enlighten a student more than a whole lecture.",
+      "exampleZh": "老师的一个问题，也许比一整堂课更能启发学生。",
+      "note": "宾语通常为人，可用 enlighten sb on sth；派生词 enlightenment、enlightening 勿混用"
+    },
+    {
+      "en": "set an example",
+      "zh": "树立榜样，作出表率",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Teachers who read widely inevitably set an example for their students.",
+      "exampleZh": "广泛阅读的教师无形中为学生树立了榜样。",
+      "note": "常接 for/to sb；褒义用 set a good example，反面说法是 set a bad example"
+    },
+    {
+      "en": "put theory into practice",
+      "zh": "把理论付诸实践",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Knowledge becomes truly useful only when we put theory into practice.",
+      "exampleZh": "只有当我们把理论付诸实践，知识才真正有用。",
+      "note": "也可说 put sth into practice 替换中间宾语；论述实习与实践教学的核心句"
+    },
+    {
+      "en": "integrate A with B",
+      "zh": "把A与B结合起来",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Internship programmes integrate classroom learning with real workplace experience.",
+      "exampleZh": "实习项目把课堂学习与真实的职场经验结合起来。",
+      "note": "A、B 处替换具体对象；注意 integrate A into B 意为把 A 融入 B，介词不可混用"
+    },
+    {
+      "en": "apply what one has learned",
+      "zh": "学以致用，把所学应用于实践",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Graduates who can apply what they have learned to new situations adapt fastest.",
+      "exampleZh": "能把所学应用于新情境的毕业生适应得最快。",
+      "note": "what 引导宾语从句，人称随主语变化；用于论述实践能力与就业竞争力的段落"
+    },
+    {
+      "en": "As is vividly depicted in the picture, ___.",
+      "zh": "正如图画所生动描绘的，___。（图画作文首段万能句式）",
+      "pos": "—",
+      "type": "pattern",
+      "example": "As is vividly depicted in the picture, a father and his son are reading side by side.",
+      "exampleZh": "正如图画所生动描绘的，一位父亲和他的儿子正并肩阅读。",
+      "note": "as 指代整个主句内容，勿改成 It is vividly depicted that；首段描述图画直接套用"
+    },
+    {
+      "en": "It is widely acknowledged that ___ plays an indispensable role in ___.",
+      "zh": "人们普遍认为，___在___中起着不可或缺的作用。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "It is widely acknowledged that reading plays an indispensable role in shaping one's character.",
+      "exampleZh": "人们普遍认为，阅读在塑造人的品格中起着不可或缺的作用。",
+      "note": "形式主语句；indispensable 后接 to 或 in 均可，主体段首句引入话题极稳妥"
+    },
+    {
+      "en": "Not only does ___, but it also ___.",
+      "zh": "___不仅___，而且还___。（not only 置于句首引起部分倒装）",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Not only does online learning save time, but it also makes quality courses accessible to all.",
+      "exampleZh": "在线学习不仅节省时间，还使优质课程人人可及。",
+      "note": "not only 后必须倒装，but also 后恢复陈述语序；用于列举双重好处"
+    },
+    {
+      "en": "Nothing is more conducive to ___ than ___.",
+      "zh": "没有什么比___更有利于___。（比较级表最高级，强调最佳途径）",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Nothing is more conducive to genuine learning than an active and curious mind.",
+      "exampleZh": "没有什么比一颗主动而好奇的心更有利于真正的学习。",
+      "note": "conducive 后固定接 to，不能用 for；句式简短有力，适合置于段落结尾"
+    },
+    {
+      "en": "What matters is not ___, but whether ___.",
+      "zh": "重要的不是___，而是是否___。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "What matters is not how much we read, but whether we read thoughtfully.",
+      "exampleZh": "重要的不是我们读了多少，而是我们是否带着思考去读。",
+      "note": "what 引导主语从句，后接 whether 表语从句；论述辩证观点时非常好用"
+    },
+    {
+      "en": "Only when ___ can we ___.",
+      "zh": "只有当___时，我们才能___。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Only when knowledge is applied to real problems can we call it true learning.",
+      "exampleZh": "只有当知识被用于解决真实问题时，我们才能称之为真正的学习。",
+      "note": "only 加状语从句置于句首，主句倒装；与 Only by doing 结构区分，后者接动名词"
+    },
+    {
+      "en": "It is high time that we ___.",
+      "zh": "该是我们___的时候了。（that 从句用过去式或 should 加动词原形的虚拟语气）",
+      "pos": "—",
+      "type": "pattern",
+      "example": "It is high time that we attached greater importance to quality-oriented education.",
+      "exampleZh": "该是我们更加重视素质教育的时候了。",
+      "note": "that 从句谓语用过去式或 should do；结尾段提出呼吁，语气强于 we should"
+    },
+    {
+      "en": "Live and learn.",
+      "zh": "活到老，学到老。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Live and learn, for the knowledge that served us yesterday may be obsolete tomorrow.",
+      "exampleZh": "活到老学到老，因为昨天管用的知识明天可能就已过时。",
+      "note": "用于终身学习主题的结尾；两个动词均为原形，勿改成 Living and learning"
+    },
+    {
+      "en": "Knowledge is power.",
+      "zh": "知识就是力量。（常归于弗朗西斯·培根）",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Knowledge is power, but only when it is translated into action.",
+      "exampleZh": "知识就是力量，但唯有在它转化为行动之时才如此。",
+      "note": "引用时可就出处写 Francis Bacon；后接 but 转折更显思辨，适合开头或结尾"
+    },
+    {
+      "en": "Reading makes a full man.",
+      "zh": "读书使人充实。（弗朗西斯·培根《论读书》）",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As Bacon observed, reading makes a full man, whereas discussion makes a ready one.",
+      "exampleZh": "正如培根所言，读书使人充实，而讨论使人机敏。",
+      "note": "出自《论读书》，原句与讨论、写作三者并列；适合阅读主题的开头段"
+    },
+    {
+      "en": "It is never too late to learn.",
+      "zh": "学习永远不嫌晚。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "It is never too late to learn, as the growing number of elderly college students suggests.",
+      "exampleZh": "学习永远不嫌晚，老年大学生人数不断增加便说明了这一点。",
+      "note": "用于终身学习、老年教育话题；形式主语 it 不可换成 you are，后者过于口语"
+    },
+    {
+      "en": "Practice makes perfect.",
+      "zh": "熟能生巧。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Practice makes perfect, which is why repeated drills still matter in skill training.",
+      "exampleZh": "熟能生巧，这就是为什么反复练习在技能训练中仍然重要。",
+      "note": "用于论述实践与技能训练；后可接 which 定语从句或 that is why 结构"
+    },
+    {
+      "en": "There is no royal road to learning.",
+      "zh": "学无坦途。（相传出自欧几里得对国王的回答）",
+      "pos": "—",
+      "type": "proverb",
+      "example": "There is no royal road to learning, so short cuts are seldom worth taking.",
+      "exampleZh": "学无坦途，因此所谓的捷径往往不值得走。",
+      "note": "royal road 意为捷径而非御道；可用于劝学与坚持主题的论证句"
+    },
+    {
+      "en": "A little learning is a dangerous thing.",
+      "zh": "一知半解最危险。（亚历山大·蒲柏《论批评》）",
+      "pos": "—",
+      "type": "proverb",
+      "example": "A little learning is a dangerous thing, which is why superficial knowledge breeds false confidence.",
+      "exampleZh": "一知半解最危险，这正是肤浅的知识滋长盲目自信的原因。",
+      "note": "出自蒲柏《论批评》；用于批评浮躁学风，注意 learning 前有 a，不可省略"
+    }
+  ]
+}

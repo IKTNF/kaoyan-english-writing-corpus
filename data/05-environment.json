@@ -1,0 +1,459 @@
+{
+  "id": "environment",
+  "title": "生态环保与可持续发展",
+  "emoji": "🌱",
+  "group": "大作文·主题语料",
+  "desc": "覆盖环境恶化、资源能源、低碳生活、垃圾分类、环保治理与生态旅游考场表达",
+  "entries": [
+    {
+      "en": "environmental degradation",
+      "zh": "环境恶化；环境退化",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Rapid industrialization has accelerated environmental degradation in many developing countries over the past few decades.",
+      "exampleZh": "快速工业化在过去几十年里加剧了许多发展中国家的环境恶化。",
+      "note": "常与accelerate/curb搭配；首段点题或末段收束。"
+    },
+    {
+      "en": "deteriorate",
+      "zh": "恶化；变坏",
+      "pos": "v.",
+      "type": "word",
+      "example": "Air quality in urban areas continues to deteriorate as vehicle ownership keeps rising year after year.",
+      "exampleZh": "随着汽车保有量逐年攀升，城市地区的空气质量持续恶化。",
+      "note": "不及物，无被动；常接sharply/steadily。"
+    },
+    {
+      "en": "contaminate",
+      "zh": "污染；弄脏",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Untreated industrial wastewater has contaminated rivers and farmland, threatening the health of local residents.",
+      "exampleZh": "未经处理的工业废水污染了河流和农田，威胁着当地居民的健康。",
+      "note": "搭配contaminate sth with sth；被动式更常见。"
+    },
+    {
+      "en": "carbon emissions",
+      "zh": "碳排放",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Cutting carbon emissions calls for a joint effort by governments, enterprises and ordinary citizens alike.",
+      "exampleZh": "削减碳排放需要政府、企业和普通公民的共同努力。",
+      "note": "动词配cut/curb/offset；多用复数形式。"
+    },
+    {
+      "en": "greenhouse gas",
+      "zh": "温室气体",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Heavy reliance on coal and oil releases enormous amounts of greenhouse gases into the atmosphere.",
+      "exampleZh": "对煤炭和石油的严重依赖向大气中排放了数量巨大的温室气体。",
+      "note": "多用复数greenhouse gases；配emit/release。"
+    },
+    {
+      "en": "global warming",
+      "zh": "全球变暖",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Global warming is melting glaciers at an alarming rate and pushing many coastal cities to the brink.",
+      "exampleZh": "全球变暖正以惊人的速度使冰川融化，把许多沿海城市推向危险边缘。",
+      "note": "不可数，不加the；常与melt glaciers连用。"
+    },
+    {
+      "en": "ozone layer depletion",
+      "zh": "臭氧层损耗",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Ozone layer depletion allows harmful ultraviolet rays to reach the earth's surface unchecked.",
+      "exampleZh": "臭氧层损耗使有害的紫外线不受阻挡地到达地球表面。",
+      "note": "固定说法；与greenhouse effect并列经典议题。"
+    },
+    {
+      "en": "biodiversity",
+      "zh": "生物多样性",
+      "pos": "n.",
+      "type": "word",
+      "example": "Preserving biodiversity means protecting the fragile web of life on which human survival ultimately depends.",
+      "exampleZh": "保护生物多样性意味着保护人类生存最终所依赖的脆弱生命网络。",
+      "note": "不可数；配preserve/threaten；生态题高分词。"
+    },
+    {
+      "en": "ecological balance",
+      "zh": "生态平衡",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Unrestrained logging has upset the ecological balance of the region and triggered frequent floods.",
+      "exampleZh": "无节制的伐木破坏了该地区的生态平衡，并引发了频繁的洪水。",
+      "note": "动词配upset/disturb/restore；勿用break。"
+    },
+    {
+      "en": "deforestation",
+      "zh": "森林砍伐；滥伐森林",
+      "pos": "n.",
+      "type": "word",
+      "example": "Widespread deforestation not only destroys wildlife habitats but also aggravates soil erosion and desertification.",
+      "exampleZh": "大范围的森林砍伐不仅破坏野生动物栖息地，还加剧了水土流失和荒漠化。",
+      "note": "不可数；可加large-scale修饰；反义afforestation。"
+    },
+    {
+      "en": "resource depletion",
+      "zh": "资源枯竭",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Resource depletion has become a pressing concern as the world's population and consumption keep growing.",
+      "exampleZh": "随着世界人口与消费不断增长，资源枯竭已成为一个紧迫的问题。",
+      "note": "配accelerate/address resource depletion。"
+    },
+    {
+      "en": "exhaust",
+      "zh": "耗尽；用尽",
+      "pos": "vt.",
+      "type": "word",
+      "example": "If we continue to exhaust natural resources at this speed, future generations will pay a heavy price.",
+      "exampleZh": "如果我们继续以这种速度耗尽自然资源，子孙后代将付出沉重代价。",
+      "note": "及物，配exhaust resources；勿混exhausted。"
+    },
+    {
+      "en": "renewable energy",
+      "zh": "可再生能源",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Investing in renewable energy such as wind and solar power reduces our dependence on fossil fuels.",
+      "exampleZh": "投资风能、太阳能等可再生能源可以减少我们对化石燃料的依赖。",
+      "note": "配develop/promote；反义fossil fuels。"
+    },
+    {
+      "en": "conserve",
+      "zh": "节约；保护（资源）",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Simple habits like turning off unused lights can conserve electricity and ease the strain on power grids.",
+      "exampleZh": "随手关灯这类简单习惯就能节约用电，缓解电网压力。",
+      "note": "conserve节约资源，preserve原样保存。"
+    },
+    {
+      "en": "sustainable development",
+      "zh": "可持续发展",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Sustainable development seeks to meet present needs without compromising the ability of future generations to meet theirs.",
+      "exampleZh": "可持续发展力求在不妨碍后代满足其需要的前提下满足当代人的需要。",
+      "note": "配promote/pursue；末段升华主题高分表达。"
+    },
+    {
+      "en": "energy-efficient",
+      "zh": "节能的；高能效的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Energy-efficient household appliances cut both electricity bills and carbon emissions in the long run.",
+      "exampleZh": "从长远看，节能家电既能减少电费，也能降低碳排放。",
+      "note": "连字符不可省，多作定语；名词energy efficiency。"
+    },
+    {
+      "en": "low-carbon lifestyle",
+      "zh": "低碳生活方式",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Adopting a low-carbon lifestyle means choosing public transport, reusing shopping bags and saving power.",
+      "exampleZh": "践行低碳生活意味着选择公共交通、重复使用购物袋以及节约用电。",
+      "note": "配adopt/lead a low-carbon lifestyle。"
+    },
+    {
+      "en": "carbon footprint",
+      "zh": "碳足迹",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Every flight we take enlarges our carbon footprint, which quietly accelerates climate change worldwide.",
+      "exampleZh": "我们每坐一次飞机都会扩大自己的碳足迹，而它在悄然加速全球气候变化。",
+      "note": "配enlarge/reduce；勿写成carbon print。"
+    },
+    {
+      "en": "green commuting",
+      "zh": "绿色出行",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Green commuting by bike or subway not only eases traffic jams but also improves urban air quality.",
+      "exampleZh": "骑自行车或乘地铁等绿色出行不仅缓解交通拥堵，还能改善城市空气质量。",
+      "note": "配green travel换用；作主语谓语用单数。"
+    },
+    {
+      "en": "public transport",
+      "zh": "公共交通",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Encouraging residents to take public transport is among the most practical ways to curb emissions.",
+      "exampleZh": "鼓励居民乘坐公共交通是抑制碳排放最切实可行的方式之一。",
+      "note": "英式不可数；配take/improve；勿加a。"
+    },
+    {
+      "en": "recycle",
+      "zh": "回收利用",
+      "pos": "v.",
+      "type": "word",
+      "example": "Households that recycle paper, glass and metal significantly reduce the volume of waste sent to landfills.",
+      "exampleZh": "回收纸张、玻璃和金属的家庭大大减少了送往垃圾填埋场的垃圾量。",
+      "note": "及物，常用be recycled；区分reuse的顺序。"
+    },
+    {
+      "en": "disposable",
+      "zh": "一次性的；可丢弃的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "The convenience of disposable chopsticks and cups comes at a heavy environmental cost.",
+      "exampleZh": "一次性筷子和纸杯带来的便利是以沉重的环境代价换来的。",
+      "note": "只作定语；对照reusable；环保高频负面词。"
+    },
+    {
+      "en": "plastic waste",
+      "zh": "塑料垃圾",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Mountains of plastic waste drift in the oceans, poisoning marine life and entering the food chain.",
+      "exampleZh": "成堆的塑料垃圾漂在海洋中，毒害海洋生物并进入食物链。",
+      "note": "不可数；配reduce/ban；可具体为plastic bags。"
+    },
+    {
+      "en": "cut down on",
+      "zh": "减少；削减",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Ordinary citizens can cut down on plastic bags by carrying a cloth bag when shopping.",
+      "exampleZh": "普通市民购物时自带布袋，就能减少塑料袋的使用。",
+      "note": "后接名词或动名词；勿与cut down混用。"
+    },
+    {
+      "en": "waste sorting",
+      "zh": "垃圾分类",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Mandatory waste sorting has turned garbage disposal into a daily routine in many Chinese cities.",
+      "exampleZh": "强制垃圾分类已使垃圾处理成为许多中国城市的日常事项。",
+      "note": "英式sorting，美式garbage classification。"
+    },
+    {
+      "en": "waste disposal",
+      "zh": "垃圾处理；废弃物处置",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Improper waste disposal contaminates soil and groundwater, yet landfill sites are running out of space.",
+      "exampleZh": "不当的垃圾处理污染土壤和地下水，而垃圾填埋场却日益饱和。",
+      "note": "不可数；配improper/safe；可与recycling并列。"
+    },
+    {
+      "en": "reduce, reuse and recycle",
+      "zh": "减量、重复使用与回收利用",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "The three R's—reduce, reuse and recycle—remain the simplest guide to greener daily consumption.",
+      "exampleZh": "减量、重复使用和回收这“三个R”，仍是更绿色的日常消费最简单的准则。",
+      "note": "常以the three R's引出；顺序不可颠倒。"
+    },
+    {
+      "en": "environmental awareness",
+      "zh": "环保意识",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Raising environmental awareness among the young is as vital as passing stricter laws.",
+      "exampleZh": "提高年轻人的环保意识与通过更严格的法律同样重要。",
+      "note": "配raise/heighten；awareness后接of或that从句。"
+    },
+    {
+      "en": "eco-friendly",
+      "zh": "环保的；对环境无害的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Eco-friendly products, though slightly pricier, are winning over consumers with a green conscience.",
+      "exampleZh": "环保产品虽略贵，却正赢得有环保良知的消费者的青睐。",
+      "note": "连字符不可省；同义environmentally friendly。"
+    },
+    {
+      "en": "environmentally conscious",
+      "zh": "有环保意识的",
+      "pos": "adj.",
+      "type": "phrase",
+      "example": "Environmentally conscious travellers prefer public transport and refuse single-use plastics on the road.",
+      "exampleZh": "有环保意识的旅行者更愿意乘坐公共交通，并在旅途中拒绝一次性塑料制品。",
+      "note": "常修饰travellers/consumers；勿漏-ly。"
+    },
+    {
+      "en": "take effective measures",
+      "zh": "采取有效措施",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "It is high time that the authorities concerned took effective measures to curb industrial pollution.",
+      "exampleZh": "该是有关部门采取有效措施遏制工业污染的时候了。",
+      "note": "配take measures to do sth；可换adopt steps。"
+    },
+    {
+      "en": "tighten regulations",
+      "zh": "收紧监管法规",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Tightening regulations on emissions and imposing heavy fines on polluters can deter reckless factories.",
+      "exampleZh": "收紧排放法规并对污染者处以重罚，能遏制工厂的肆意行为。",
+      "note": "配tighten/enforce，反义loosen；政府责任段。"
+    },
+    {
+      "en": "corporate social responsibility",
+      "zh": "企业社会责任",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Beyond seeking profits, enterprises should honour corporate social responsibility by cutting pollution.",
+      "exampleZh": "除追求利润外，企业还应通过减少污染来履行社会责任。",
+      "note": "缩写CSR；配shoulder/shirk；企业责任段。"
+    },
+    {
+      "en": "the authorities concerned",
+      "zh": "有关部门",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "The authorities concerned should step up supervision so that green rules are actually enforced.",
+      "exampleZh": "有关部门应加强监管，使绿色法规切实得到执行。",
+      "note": "concerned后置定语；谓语用复数；治理举措段。"
+    },
+    {
+      "en": "make a difference",
+      "zh": "起作用；产生影响",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Small as our daily efforts may seem, they can make a real difference to the environment.",
+      "exampleZh": "我们日常的努力看似微小，却能对环境产生实实在在的影响。",
+      "note": "配make a difference to sth，勿漏a。"
+    },
+    {
+      "en": "start with small steps",
+      "zh": "从小事做起",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Instead of waiting for others, we should start with small steps such as saving water at home.",
+      "exampleZh": "与其等待他人行动，我们不如从在家节水这样的细节做起。",
+      "note": "可与every little bit counts替换；倡议段。"
+    },
+    {
+      "en": "leave a green legacy",
+      "zh": "留下绿色遗产",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Planting trees today is how we leave a green legacy to those who come after us.",
+      "exampleZh": "今天种下树木，就是我们给后来者留下绿色遗产的方式。",
+      "note": "配leave sb a green legacy；结尾呼应代际责任。"
+    },
+    {
+      "en": "overcrowded",
+      "zh": "过于拥挤的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Overcrowded scenic spots during the golden week put both the environment and visitors' safety at risk.",
+      "exampleZh": "黄金周期间过度拥挤的景区，既危及环境也危及游客的安全。",
+      "note": "可作定语或be overcrowded with；旅游图高频。"
+    },
+    {
+      "en": "litter",
+      "zh": "乱扔垃圾；垃圾",
+      "pos": "v.",
+      "type": "word",
+      "example": "Tourists who litter beaches and mountain trails leave behind damage that takes years to repair.",
+      "exampleZh": "在海滩和山间步道上乱扔垃圾的游客，留下的破坏需要多年才能修复。",
+      "note": "动词乱扔，名词不可数；配drop litter。"
+    },
+    {
+      "en": "damage the scenery",
+      "zh": "破坏风景",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Graffiti on ancient walls and careless campfires damage the scenery that once drew millions of visitors.",
+      "exampleZh": "古墙上的涂鸦和疏忽的篝火毁掉了曾经吸引数百万游客的风景。",
+      "note": "也可用spoil the scenery；旅游不文明段。"
+    },
+    {
+      "en": "ecotourism",
+      "zh": "生态旅游",
+      "pos": "n.",
+      "type": "word",
+      "example": "Ecotourism aims to let visitors enjoy nature while leaving its ecosystems largely undisturbed.",
+      "exampleZh": "生态旅游旨在让游客欣赏自然，同时基本不打扰当地的生态系统。",
+      "note": "不可数；配promote ecotourism；解决段举措。"
+    },
+    {
+      "en": "responsible travel",
+      "zh": "负责任的旅行",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Responsible travel means respecting local customs and keeping our footprints as light as possible.",
+      "exampleZh": "负责任的旅行意味着尊重当地习俗，并尽可能减少我们留下的痕迹。",
+      "note": "配practise/promote；travel此处不可数。"
+    },
+    {
+      "en": "It is our shared responsibility to ___.",
+      "zh": "……是我们共同的责任。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "It is our shared responsibility to protect the environment for the generations yet to come.",
+      "exampleZh": "为子孙后代保护环境是我们共同的责任。",
+      "note": "It作形式主语；to后接动词原形；末段万能句。"
+    },
+    {
+      "en": "If we fail to ___, the consequences will be ___.",
+      "zh": "如果我们未能……，后果将会……",
+      "pos": "—",
+      "type": "pattern",
+      "example": "If we fail to curb carbon emissions, the consequences will be increasingly severe and costly.",
+      "exampleZh": "如果我们不能抑制碳排放，后果将会日益严重且代价高昂。",
+      "note": "可填disastrous/irreversible；勿用very bad。"
+    },
+    {
+      "en": "Not until ___ did we realize ___.",
+      "zh": "直到……我们才意识到……",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Not until the river turned black did we realize how fragile the environment had become.",
+      "exampleZh": "直到河水变黑，我们才意识到环境已变得多么脆弱。",
+      "note": "否定词置句首，did后接原形；勿写not until...we。"
+    },
+    {
+      "en": "Only by ___ can we ___.",
+      "zh": "只有通过……，我们才能……",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Only by joining hands can we build an eco-friendly society and leave a green legacy.",
+      "exampleZh": "只有携手合作，我们才能建设环保型社会并留下绿色遗产。",
+      "note": "Only加状语置句首要倒装；后接动名词。"
+    },
+    {
+      "en": "So severe has ___ become that ___.",
+      "zh": "……已变得如此严重，以至于……",
+      "pos": "—",
+      "type": "pattern",
+      "example": "So severe has environmental pollution become that no single country can tackle it alone.",
+      "exampleZh": "环境污染已变得如此严重，以至于任何国家都无法单独解决。",
+      "note": "So置句首倒装；that引导结果状语从句。"
+    },
+    {
+      "en": "We do not inherit the earth from our ancestors; we borrow it from our children.",
+      "zh": "我们并非从祖先那里继承地球，而是从子孙后代那里借来的。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As an old saying goes, we do not inherit the earth from our ancestors; we borrow it from our children.",
+      "exampleZh": "正如一句老话所说，我们并非从祖先那里继承地球，而是从子孙后代那里借来的。",
+      "note": "常归于美国原住民谚语；适合结尾引语。"
+    },
+    {
+      "en": "The earth provides enough for everyone's need, but not for everyone's greed.",
+      "zh": "地球足以满足每个人的需要，却满足不了每个人的贪欲。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Gandhi warned that the earth provides enough for everyone's need but not for everyone's greed.",
+      "exampleZh": "甘地告诫说，地球足以满足每个人的需要，却满足不了每个人的贪欲。",
+      "note": "出自甘地；用于资源浪费与过度消费题。"
+    },
+    {
+      "en": "When the well is dry, we know the worth of water.",
+      "zh": "井水干涸时，我们才知道水的价值。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As Benjamin Franklin put it, when the well is dry, we know the worth of water.",
+      "exampleZh": "正如本杰明·富兰克林所言，井水干涸时，我们才知道水的价值。",
+      "note": "出自《穷理查年鉴》；水资源短缺类适用。"
+    }
+  ]
+}

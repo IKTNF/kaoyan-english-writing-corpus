@@ -1,0 +1,504 @@
+{
+  "id": "technology",
+  "title": "科技与互联网",
+  "emoji": "📱",
+  "group": "大作文·主题语料",
+  "desc": "覆盖互联网普及、人工智能、网络社交、隐私隐患与数字鸿沟的图画作文高频表达",
+  "entries": [
+    {
+      "en": "unprecedented",
+      "zh": "前所未有的；史无前例的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "The past two decades have witnessed unprecedented changes in the way people communicate and work.",
+      "exampleZh": "过去二十年见证了人们交流和工作方式前所未有的变化。",
+      "note": "常修饰 change/scale/speed；适合开头段。"
+    },
+    {
+      "en": "omnipresent",
+      "zh": "无处不在的；无所不在的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Smartphones have become so omnipresent that a single day without them seems unimaginable to urban dwellers.",
+      "exampleZh": "智能手机已无处不在，以至于对都市人来说，没有它们的一天简直不可想象。",
+      "note": "程度强于 common，只用于描述普遍现象，开头段用。"
+    },
+    {
+      "en": "ubiquitous",
+      "zh": "无处不在的；普遍存在的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Mobile payment is now ubiquitous in Chinese cities, from street stalls to luxury shopping malls.",
+      "exampleZh": "移动支付如今在中国城市无处不在，从路边摊到奢侈品商场。",
+      "note": "常作表语或定语；比 widespread 更书面，勿拼错。"
+    },
+    {
+      "en": "permeate",
+      "zh": "渗透；弥漫于",
+      "pos": "vt.",
+      "type": "word",
+      "example": "The Internet has permeated every corner of daily life, reshaping how we shop, learn and socialize.",
+      "exampleZh": "互联网已渗透到日常生活的每个角落，重塑了我们购物、学习和社交的方式。",
+      "note": "及物动词，直接接宾语；常搭配 every corner。"
+    },
+    {
+      "en": "artificial intelligence",
+      "zh": "人工智能",
+      "pos": "n.",
+      "type": "word",
+      "example": "Artificial intelligence is transforming the workplace at a pace that few workers are prepared for.",
+      "exampleZh": "人工智能正以少有劳动者准备好应对的速度改变着职场。",
+      "note": "常缩写为 AI；作主语时谓语用单数。"
+    },
+    {
+      "en": "algorithm",
+      "zh": "算法",
+      "pos": "n.",
+      "type": "word",
+      "example": "Recommendation algorithms decide what we read and buy, quietly shaping our preferences and choices.",
+      "exampleZh": "推荐算法决定我们读什么、买什么，悄然塑造着我们的偏好与选择。",
+      "note": "可数名词，泛指用复数；常搭配 recommendation。"
+    },
+    {
+      "en": "big data",
+      "zh": "大数据",
+      "pos": "n.",
+      "type": "word",
+      "example": "Big data enables companies to predict consumer behavior accurately, yet it also raises privacy concerns.",
+      "exampleZh": "大数据使企业能准确预测消费者行为，但也引发了隐私担忧。",
+      "note": "不可数，谓语用单数；主体段可用 yet also 转折。"
+    },
+    {
+      "en": "automation",
+      "zh": "自动化",
+      "pos": "n.",
+      "type": "word",
+      "example": "Rising automation has displaced millions of routine jobs, forcing workers to acquire new skills.",
+      "exampleZh": "日益提高的自动化取代了数百万常规工作，迫使劳动者掌握新技能。",
+      "note": "不可数名词；常搭配 displace jobs，谈就业话题。"
+    },
+    {
+      "en": "cutting-edge",
+      "zh": "尖端的；最前沿的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "China has invested heavily in cutting-edge technologies such as 5G, quantum computing and new energy.",
+      "exampleZh": "中国在5G、量子计算和新能源等尖端技术上投入巨大。",
+      "note": "连字符不可省；常修饰 technology，比 advanced 好。"
+    },
+    {
+      "en": "state-of-the-art",
+      "zh": "最先进的；顶级的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "The hospital is equipped with state-of-the-art devices that help doctors diagnose diseases far earlier.",
+      "exampleZh": "这家医院配备了最先进的设备，帮助医生更早地诊断疾病。",
+      "note": "多作定语，常修饰 equipment；与 cutting-edge 同义。"
+    },
+    {
+      "en": "cyberspace",
+      "zh": "网络空间；赛博空间",
+      "pos": "n.",
+      "type": "word",
+      "example": "Rules and ethics in cyberspace should be established as firmly as those in the physical world.",
+      "exampleZh": "网络空间中的规则与伦理应像现实世界一样被牢固地建立起来。",
+      "note": "不可数，通常加 the；谈网络治理时用。"
+    },
+    {
+      "en": "alienate",
+      "zh": "使疏远；使离心",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Spending hours on social media may alienate us from family members sitting in the same room.",
+      "exampleZh": "花数小时刷社交媒体可能使我们与同处一室的家人疏远。",
+      "note": "常用 alienate sb from sb；比 avoid 高级。"
+    },
+    {
+      "en": "isolate",
+      "zh": "使孤立；使隔离",
+      "pos": "vt.",
+      "type": "word",
+      "example": "An excessive reliance on online contact can isolate young people from real social life.",
+      "exampleZh": "过度依赖线上联系会使年轻人与现实社交生活隔离。",
+      "note": "及物动词，搭配 isolate sb from sth。"
+    },
+    {
+      "en": "misinformation",
+      "zh": "错误信息；虚假信息",
+      "pos": "n.",
+      "type": "word",
+      "example": "Misinformation spreads faster online than facts, which is why media literacy matters so much today.",
+      "exampleZh": "错误信息在网上的传播快于事实，这正是当今媒介素养如此重要的原因。",
+      "note": "不可数，指错误信息；故意造谣用 disinformation。"
+    },
+    {
+      "en": "cyberbullying",
+      "zh": "网络欺凌；网络霸凌",
+      "pos": "n.",
+      "type": "word",
+      "example": "Cyberbullying can inflict lasting psychological damage on teenagers who dare not speak out.",
+      "exampleZh": "网络欺凌会给不敢开口的青少年造成持久的心理伤害。",
+      "note": "不可数；常与 suffer from、combat 搭配。"
+    },
+    {
+      "en": "fraud",
+      "zh": "诈骗；欺诈",
+      "pos": "n.",
+      "type": "word",
+      "example": "Online fraud has grown increasingly sophisticated, targeting the elderly who know little about digital security.",
+      "exampleZh": "网络诈骗日益精密，专门针对对数字安全知之甚少的老年人。",
+      "note": "不可数，网诈说 online fraud，不用复数。"
+    },
+    {
+      "en": "addiction",
+      "zh": "瘾；沉迷",
+      "pos": "n.",
+      "type": "word",
+      "example": "Smartphone addiction is quietly eroding students' concentration and sleep quality.",
+      "exampleZh": "手机成瘾正在悄然侵蚀学生的专注力和睡眠质量。",
+      "note": "常搭配 addiction to sth，如 to social media。"
+    },
+    {
+      "en": "accessibility",
+      "zh": "可及性；无障碍性",
+      "pos": "n.",
+      "type": "word",
+      "example": "Governments should improve the accessibility of public digital services for the elderly and the disabled.",
+      "exampleZh": "政府应提高面向老年人和残疾人的公共数字服务的可及性。",
+      "note": "不可数；常与 improve 搭配，谈数字鸿沟时用。"
+    },
+    {
+      "en": "streamline",
+      "zh": "精简（流程）；使更高效",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Online platforms have streamlined procedures that once required long queues and endless paperwork.",
+      "exampleZh": "网络平台精简了曾经需要排长队和填无数表格的流程。",
+      "note": "及物动词，宾语多为 process；核心义是提效。"
+    },
+    {
+      "en": "facilitate",
+      "zh": "促进；使便利",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Video conferencing has greatly facilitated cross-border cooperation between companies and researchers.",
+      "exampleZh": "视频会议大大促进了公司和研究人员之间的跨国合作。",
+      "note": "及物动词，后接名词或动名词，不接不定式。"
+    },
+    {
+      "en": "harness",
+      "zh": "利用；驾驭",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Only by harnessing technology wisely can we turn its potential into benefits for everyone.",
+      "exampleZh": "只有明智地利用技术，我们才能把它的潜力转化为惠及所有人的利益。",
+      "note": "及物动词，常接 technology；比 use 高级。"
+    },
+    {
+      "en": "judicious",
+      "zh": "明智的；审慎的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Judicious use of digital devices can boost productivity rather than undermine it.",
+      "exampleZh": "明智地使用数字设备能提高而非削弱生产力。",
+      "note": "多作定语，常修饰 use；副词 judiciously。"
+    },
+    {
+      "en": "phubber",
+      "zh": "低头族；只顾看手机的人",
+      "pos": "n.",
+      "type": "word",
+      "example": "Phubbers stare at their screens at dinner tables, ignoring the people sitting right beside them.",
+      "exampleZh": "低头族在餐桌上盯着屏幕，无视就坐在身旁的人。",
+      "note": "由 phone 与 snub 合成，带贬义，描写图画好用。"
+    },
+    {
+      "en": "digital detox",
+      "zh": "数字排毒；数码休整期",
+      "pos": "n.",
+      "type": "word",
+      "example": "Many young people now take a weekend digital detox to regain control of their own time.",
+      "exampleZh": "如今许多年轻人选择周末数字排毒，以重新掌控自己的时间。",
+      "note": "可数名词；常与 take 搭配，结尾段提建议用。"
+    },
+    {
+      "en": "be glued to one's screen",
+      "zh": "盯着屏幕不放；屏幕不离眼",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Teenagers today are glued to their screens for hours, seldom talking with their parents.",
+      "exampleZh": "如今的青少年一连数小时盯着屏幕，很少与父母交谈。",
+      "note": "固定搭配，强调沉迷；也可作状语修饰主语。"
+    },
+    {
+      "en": "with one's head buried in a phone",
+      "zh": "埋头看手机；低头刷手机",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Walk down any street and you will see pedestrians with their heads buried in phones.",
+      "exampleZh": "走在任何一条街上，你都会看到低头盯着手机的行人。",
+      "note": "with 复合结构作伴随状语，描写画面感强。"
+    },
+    {
+      "en": "screen time",
+      "zh": "屏幕使用时间",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Doctors advise limiting children's daily screen time to less than two hours.",
+      "exampleZh": "医生建议把儿童每天的屏幕使用时间限制在两小时以内。",
+      "note": "不可数；与 limit、reduce 搭配，健康话题常用。"
+    },
+    {
+      "en": "virtual community",
+      "zh": "虚拟社区；网络社群",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Online forums have formed virtual communities where strangers with shared interests support each other.",
+      "exampleZh": "网络论坛形成了虚拟社区，兴趣相投的陌生人在这里互相支持。",
+      "note": "可数名词；常与 form、join 搭配。"
+    },
+    {
+      "en": "social networking",
+      "zh": "社交网络（活动）",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Social networking sites have redefined friendship, turning distant acquaintances into daily contacts.",
+      "exampleZh": "社交网站重新定义了友谊，把远方的泛泛之交变成日常联系的对象。",
+      "note": "常作定语修饰 site、app；不可数，勿加 s。"
+    },
+    {
+      "en": "face-to-face interaction",
+      "zh": "面对面交流",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Nothing can fully replace face-to-face interaction, in which tone and gesture carry real meaning.",
+      "exampleZh": "没有什么能完全取代面对面交流，因为语气与手势在其中传递真实含义。",
+      "note": "不可数；与 replace 搭配，论证线上社交不足。"
+    },
+    {
+      "en": "interpersonal communication",
+      "zh": "人际沟通；人际交往",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Excessive online chatting may erode teenagers' interpersonal communication skills in real settings.",
+      "exampleZh": "过度网络聊天可能削弱青少年在真实场景中的人际沟通能力。",
+      "note": "不可数；常与 skills 连用，注意拼写。"
+    },
+    {
+      "en": "privacy leakage",
+      "zh": "隐私泄露",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "A single privacy leakage can expose millions of users' personal data to malicious hands.",
+      "exampleZh": "一次隐私泄露就可能把数百万用户的个人数据暴露给恶意者。",
+      "note": "常与 cause、risk 搭配；也作 data leakage。"
+    },
+    {
+      "en": "digital divide",
+      "zh": "数字鸿沟",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "The digital divide between urban and rural areas may further widen the gap in educational resources.",
+      "exampleZh": "城乡之间的数字鸿沟可能会进一步拉大教育资源差距。",
+      "note": "可数，常加 the；与 narrow、bridge 搭配。"
+    },
+    {
+      "en": "instant access to",
+      "zh": "即时获取…；即刻得到…",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Smartphones give us instant access to information that once took days to find.",
+      "exampleZh": "智能手机让我们即时获取曾经需要数天才能找到的信息。",
+      "note": "give sb instant access to sth，to 为介词。"
+    },
+    {
+      "en": "at one's fingertips",
+      "zh": "近在手边；唾手可得",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "With a single tap, a world of knowledge and services lies at our fingertips.",
+      "exampleZh": "轻点一下，一个知识与服务的世界便尽在我们的指尖。",
+      "note": "以物作主语，介词只用 at，勿用 in。"
+    },
+    {
+      "en": "a double-edged sword",
+      "zh": "一把双刃剑",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Artificial intelligence is a double-edged sword, offering efficiency while threatening millions of jobs.",
+      "exampleZh": "人工智能是一把双刃剑，带来效率的同时威胁着数百万个工作岗位。",
+      "note": "常作表语；同义 cut both ways，用于转折处。"
+    },
+    {
+      "en": "be a blessing or a curse",
+      "zh": "是福还是祸",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Whether the Internet is a blessing or a curse depends entirely on how we use it.",
+      "exampleZh": "互联网是福是祸，完全取决于我们如何使用它。",
+      "note": "常作表语，与 whether 从句搭配，表辩证观点。"
+    },
+    {
+      "en": "weigh the benefits against the drawbacks",
+      "zh": "权衡利弊",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Before embracing any new technology, we should weigh its benefits against its potential drawbacks.",
+      "exampleZh": "在拥抱任何新技术之前，我们都应权衡其益处与潜在弊端。",
+      "note": "动词短语，its 与主语一致，替代 good and bad。"
+    },
+    {
+      "en": "make judicious use of",
+      "zh": "明智地利用",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Students should make judicious use of digital tools instead of surrendering to them.",
+      "exampleZh": "学生应明智地使用数字工具，而不是向它们屈服。",
+      "note": "后接名词；可替换 use properly，结尾段加分。"
+    },
+    {
+      "en": "strike a balance between",
+      "zh": "在…之间取得平衡",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Only by striking a balance between online convenience and offline life can we stay healthy.",
+      "exampleZh": "只有在线上便利与线下生活之间取得平衡，我们才能保持健康。",
+      "note": "结构为 between A and B，结尾段提方案用。"
+    },
+    {
+      "en": "put technology to good use",
+      "zh": "善用技术",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "If put to good use, technology can narrow rather than widen social gaps.",
+      "exampleZh": "如果善加利用，技术能缩小而非拉大社会差距。",
+      "note": "固定搭配 put sth to good use，可作条件状语。"
+    },
+    {
+      "en": "be overly dependent on",
+      "zh": "过度依赖",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Modern students are overly dependent on search engines, losing the habit of independent thinking.",
+      "exampleZh": "现代学生过度依赖搜索引擎，正在丧失独立思考的习惯。",
+      "note": "overly 比 too 书面；同义 be addicted to。"
+    },
+    {
+      "en": "The Internet has permeated every facet of life, from ___ to ___.",
+      "zh": "互联网已渗透到生活的方方面面，从…到…。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "The Internet has permeated every facet of life, from the way we work to the way we relax.",
+      "exampleZh": "互联网已渗透到生活的方方面面，从我们的工作方式到休闲方式。",
+      "note": "万能开头句；facet 可换 aspect，末尾并列收尾。"
+    },
+    {
+      "en": "While ___ has brought unprecedented convenience, it has also ___.",
+      "zh": "尽管…带来了前所未有的便利，它同时也…。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "While digital technology has brought unprecedented convenience, it has also eroded our privacy.",
+      "exampleZh": "尽管数字技术带来了前所未有的便利，它同时也侵蚀了我们的隐私。",
+      "note": "让步转折句式，放主体段首句，末尾接贬义词。"
+    },
+    {
+      "en": "Never before have we ___.",
+      "zh": "我们从未像现在这样…。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Never before have we enjoyed such easy access to information in human history.",
+      "exampleZh": "人类历史上，我们从未像今天这样便捷地获取信息。",
+      "note": "部分倒装，助动词提前；空处填过去分词。"
+    },
+    {
+      "en": "It is not technology itself but the way we use it that ___.",
+      "zh": "决定…的不是技术本身，而是我们使用它的方式。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "It is not technology itself but the way we use it that determines its true value.",
+      "exampleZh": "决定技术真正价值的不是技术本身，而是我们使用它的方式。",
+      "note": "强调句型；that 后谓语用单数，结尾段升华。"
+    },
+    {
+      "en": "So pervasive is ___ that ___.",
+      "zh": "…如此普遍，以至于…。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "So pervasive is mobile payment that many young people no longer carry cash.",
+      "exampleZh": "移动支付如此普遍，以至于许多年轻人不再带现金。",
+      "note": "so 提前引起倒装，比 very common 高级。"
+    },
+    {
+      "en": "Only by ___ can we ___.",
+      "zh": "只有通过…，我们才能…。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Only by using technology with restraint can we enjoy its benefits without being enslaved.",
+      "exampleZh": "只有克制地使用技术，我们才能享受其益处而不被其奴役。",
+      "note": "only 状语置句首时主句倒装；by 后接动名词。"
+    },
+    {
+      "en": "What matters is not ___ but ___.",
+      "zh": "重要的不是…，而是…。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "What matters is not how advanced the tool is but how wisely we employ it.",
+      "exampleZh": "重要的不是工具有多先进，而是我们使用它有多明智。",
+      "note": "what 引导主语从句，谓语用单数，替代 I think。"
+    },
+    {
+      "en": "Technology, if properly harnessed, can ___.",
+      "zh": "技术若得到合理利用，能够…。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Technology, if properly harnessed, can liberate us from repetitive chores and free our creativity.",
+      "exampleZh": "技术若得到合理利用，能把我们从重复性杂务中解放出来，释放我们的创造力。",
+      "note": "插入语结构，if 后省略 it is，论证价值用。"
+    },
+    {
+      "en": "With the rapid advancement of ___, ___ has become increasingly common.",
+      "zh": "随着…的迅速发展，…已变得越来越普遍。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "With the rapid advancement of artificial intelligence, remote working has become increasingly common.",
+      "exampleZh": "随着人工智能的迅速发展，远程办公已变得越来越普遍。",
+      "note": "描述趋势的开头模板，谓语用现在完成时。"
+    },
+    {
+      "en": "___ is a double-edged sword: it ___ while ___.",
+      "zh": "…是一把双刃剑：它…，同时又…。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Social media is a double-edged sword: it connects the world while isolating individuals.",
+      "exampleZh": "社交媒体是一把双刃剑：它连接世界，同时又孤立个人。",
+      "note": "冒号后并列两分句，while 表对比。"
+    },
+    {
+      "en": "\"Technology is a useful servant but a dangerous master.\" — Christian Lous Lange",
+      "zh": "“技术是有用的仆人，却是危险的主人。”——克里斯蒂安·劳斯·兰格",
+      "pos": "—",
+      "type": "proverb",
+      "example": "\"Technology is a useful servant but a dangerous master,\" a warning that rings truer than ever today.",
+      "exampleZh": "“技术是有用的仆人，却是危险的主人”，这一警告在今天比以往任何时候都更真切。",
+      "note": "谈科技利弊与合理使用；作结尾段首句。"
+    },
+    {
+      "en": "\"Our technology has exceeded our humanity.\" — Albert Einstein",
+      "zh": "“我们的技术已超越了我们的人性。”——阿尔伯特·爱因斯坦",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As Einstein warned, our technology has exceeded our humanity, so our wisdom must catch up.",
+      "exampleZh": "正如爱因斯坦所警告的，我们的技术已超越了我们的人性，因此我们的智慧必须跟上。",
+      "note": "谈科技伦理与网络隐患；引用后须自己论述。"
+    },
+    {
+      "en": "\"The real problem is not whether machines think but whether men do.\" — B. F. Skinner",
+      "zh": "“真正的问题不在于机器是否会思考，而在于人是否会思考。”——B.F. 斯金纳",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Skinner once observed that the real problem is not whether machines think but whether men do.",
+      "exampleZh": "斯金纳曾指出，真正的问题不在于机器是否会思考，而在于人是否会思考。",
+      "note": "谈 AI 取代人类与独立思考，结尾段引用。"
+    }
+  ]
+}

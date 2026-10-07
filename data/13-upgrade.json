@@ -1,0 +1,709 @@
+{
+  "id": "upgrade",
+  "title": "高级替换词表",
+  "emoji": "⬆️",
+  "group": "大作文·通用工具箱",
+  "desc": "把作文里的初级词升级为中高级表达，覆盖四十组高频替换对，直接提升语言得分档次。",
+  "entries": [
+    {
+      "en": "crucial",
+      "basic": "important",
+      "zh": "至关重要的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "It is crucial that college students strike a proper balance between study and social practice.",
+      "exampleZh": "大学生在学业与社会实践之间取得恰当平衡至关重要。",
+      "note": "常用于 It is crucial that… 结构，从句谓语用(should) do。"
+    },
+    {
+      "en": "indispensable",
+      "basic": "important",
+      "zh": "不可或缺的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "The Internet has become an indispensable part of our daily life and work.",
+      "exampleZh": "互联网已成为我们日常生活和工作中不可或缺的一部分。",
+      "note": "多修饰事物，搭配 be indispensable to/for sth。"
+    },
+    {
+      "en": "play a pivotal role in",
+      "basic": "important",
+      "zh": "在……中起关键作用",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Parents play a pivotal role in shaping their children's character and values.",
+      "exampleZh": "父母在塑造孩子的性格与价值观方面起着关键作用。",
+      "note": "后接名词或动名词，主语多为事物或群体。"
+    },
+    {
+      "en": "beneficial",
+      "basic": "good",
+      "zh": "有益的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Reading classic literature is beneficial to the development of independent thinking.",
+      "exampleZh": "阅读经典文学有助于培养独立思考能力。",
+      "note": "固定搭配 be beneficial to sb/sth，介词只用 to。"
+    },
+    {
+      "en": "rewarding",
+      "basic": "good",
+      "zh": "有收获的，值得的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Volunteering in rural schools proved to be a rewarding experience for college students.",
+      "exampleZh": "到乡村学校支教对大学生来说是一段有收获的经历。",
+      "note": "多修饰 experience、job 等，强调付出后有回报。"
+    },
+    {
+      "en": "commendable",
+      "basic": "good",
+      "zh": "值得称赞的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Their efforts to help the elderly in the community are highly commendable.",
+      "exampleZh": "他们帮助社区老人的努力非常值得称赞。",
+      "note": "修饰行为、举措，常与 highly 连用。"
+    },
+    {
+      "en": "detrimental",
+      "basic": "bad",
+      "zh": "有害的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Excessive reliance on smartphones is detrimental to students' eyesight and concentration.",
+      "exampleZh": "过度依赖智能手机有害于学生的视力和注意力。",
+      "note": "固定搭配 be detrimental to sth，比 harmful 更正式。"
+    },
+    {
+      "en": "adverse",
+      "basic": "bad",
+      "zh": "不利的，负面的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Staying up late has an adverse effect on both health and academic performance.",
+      "exampleZh": "熬夜对健康和学业表现都有不利影响。",
+      "note": "高频搭配 adverse effect/impact on sth。"
+    },
+    {
+      "en": "counterproductive",
+      "basic": "bad",
+      "zh": "适得其反的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Pressing children too hard to excel may prove counterproductive in the long run.",
+      "exampleZh": "过度施压让孩子出类拔萃，从长远看可能适得其反。",
+      "note": "多作表语，指手段与目的相违背。"
+    },
+    {
+      "en": "a multitude of",
+      "basic": "many",
+      "zh": "众多的",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "A multitude of graduates are competing for a limited number of well-paid positions.",
+      "exampleZh": "众多毕业生正在竞争数量有限的高薪岗位。",
+      "note": "后接可数名词复数，谓语动词用复数。"
+    },
+    {
+      "en": "a host of",
+      "basic": "many",
+      "zh": "大量的，许多",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Global warming has brought a host of challenges to coastal cities.",
+      "exampleZh": "全球变暖给沿海城市带来了诸多挑战。",
+      "note": "a host of problems/challenges 为高频搭配。"
+    },
+    {
+      "en": "an increasing number of",
+      "basic": "more and more",
+      "zh": "越来越多的",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "An increasing number of young people choose to work in big cities after graduation.",
+      "exampleZh": "越来越多的年轻人毕业后选择在大城市工作。",
+      "note": "只接可数名词复数，谓语动词用复数。"
+    },
+    {
+      "en": "increasingly",
+      "basic": "more and more",
+      "zh": "越来越",
+      "pos": "adv.",
+      "type": "word",
+      "example": "Online education is increasingly popular among working adults.",
+      "exampleZh": "在线教育在在职成年人中越来越受欢迎。",
+      "note": "修饰形容词或副词，不能直接修饰名词。"
+    },
+    {
+      "en": "hold the view that",
+      "basic": "think",
+      "zh": "持……的观点",
+      "pos": "phr.",
+      "type": "pattern",
+      "example": "Many educators hold the view that creativity matters more than mere memorization.",
+      "exampleZh": "许多教育工作者认为创造力比单纯记忆更重要。",
+      "note": "后接完整句子，适合引出他人观点。"
+    },
+    {
+      "en": "contend",
+      "basic": "think",
+      "zh": "主张，认为",
+      "pos": "v.",
+      "type": "word",
+      "example": "Some critics contend that standardized tests fail to measure real ability.",
+      "exampleZh": "一些批评者认为标准化考试无法衡量真正的能力。",
+      "note": "及物动词，后接 that 从句，语气较强。"
+    },
+    {
+      "en": "From my perspective",
+      "basic": "I think",
+      "zh": "在我看来",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "From my perspective, the advantages of online learning far outweigh its drawbacks.",
+      "exampleZh": "在我看来，在线学习的优点远大于缺点。",
+      "note": "逗号后接完整句子，适合段首引出观点。"
+    },
+    {
+      "en": "I am firmly convinced that",
+      "basic": "I think",
+      "zh": "我坚信",
+      "pos": "phr.",
+      "type": "pattern",
+      "example": "I am firmly convinced that diligence is the key to academic success.",
+      "exampleZh": "我坚信勤奋是学业成功的关键。",
+      "note": "语气坚定，适合结尾段表明立场。"
+    },
+    {
+      "en": "exceedingly",
+      "basic": "very",
+      "zh": "极其",
+      "pos": "adv.",
+      "type": "word",
+      "example": "Competition for jobs has become exceedingly fierce in recent years.",
+      "exampleZh": "近年来求职竞争变得极其激烈。",
+      "note": "修饰形容词或副词，属正式书面语。"
+    },
+    {
+      "en": "remarkably",
+      "basic": "very",
+      "zh": "显著地，非常",
+      "pos": "adv.",
+      "type": "word",
+      "example": "The city has changed remarkably over the past two decades.",
+      "exampleZh": "过去二十年里，这座城市发生了显著变化。",
+      "note": "可修饰动词与形容词，强调程度引人注目。"
+    },
+    {
+      "en": "enormous",
+      "basic": "big",
+      "zh": "巨大的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "The project requires an enormous amount of time and money.",
+      "exampleZh": "这个项目需要投入大量的时间和金钱。",
+      "note": "常搭 an enormous amount of + 不可数名词。"
+    },
+    {
+      "en": "considerable",
+      "basic": "big",
+      "zh": "相当大的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "A considerable number of parents are worried about their children's screen time.",
+      "exampleZh": "相当多的家长担心孩子的屏幕使用时间。",
+      "note": "高频搭配 a considerable number/amount of。"
+    },
+    {
+      "en": "slight",
+      "basic": "small",
+      "zh": "轻微的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "There has been a slight decline in the number of traffic accidents this year.",
+      "exampleZh": "今年交通事故的数量略有下降。",
+      "note": "常修饰 decline、increase、difference 等。"
+    },
+    {
+      "en": "marginal",
+      "basic": "small",
+      "zh": "微小的，边缘的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "The new policy had only a marginal effect on housing prices.",
+      "exampleZh": "新政策对房价只有微小的影响。",
+      "note": "修饰 effect/change，指几乎可忽略不计。"
+    },
+    {
+      "en": "obtain",
+      "basic": "get",
+      "zh": "获得",
+      "pos": "v.",
+      "type": "word",
+      "example": "Students can obtain valuable experience through part-time jobs.",
+      "exampleZh": "学生可以通过兼职获得宝贵的经验。",
+      "note": "及物动词，后直接接具体事物，不接双宾语。"
+    },
+    {
+      "en": "acquire",
+      "basic": "get",
+      "zh": "获得，习得",
+      "pos": "v.",
+      "type": "word",
+      "example": "Children acquire language skills most effectively through daily communication.",
+      "exampleZh": "儿童通过日常交流最有效地习得语言技能。",
+      "note": "多指经努力获得知识、技能或习惯。"
+    },
+    {
+      "en": "generate",
+      "basic": "make",
+      "zh": "产生，创造",
+      "pos": "v.",
+      "type": "word",
+      "example": "Renewable energy can generate huge economic benefits for the whole society.",
+      "exampleZh": "可再生能源能为全社会创造巨大的经济效益。",
+      "note": "及物动词，常接 benefits、income、interest。"
+    },
+    {
+      "en": "produce",
+      "basic": "make",
+      "zh": "产生，造成",
+      "pos": "v.",
+      "type": "word",
+      "example": "The excessive use of disposable products has produced undesirable consequences.",
+      "exampleZh": "一次性产品的过度使用已造成不良后果。",
+      "note": "及物动词，多接结果、影响类名词。"
+    },
+    {
+      "en": "facilitate",
+      "basic": "help",
+      "zh": "促进，使便利",
+      "pos": "v.",
+      "type": "word",
+      "example": "The new subway line will facilitate communication between the two districts.",
+      "exampleZh": "新地铁线路将便利两个城区之间的往来。",
+      "note": "及物动词，后接名词或动名词，不接 to do。"
+    },
+    {
+      "en": "contribute to",
+      "basic": "help",
+      "zh": "有助于，促成",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Regular exercise contributes to both physical health and mental well-being.",
+      "exampleZh": "规律锻炼有助于身体健康和心理健康。",
+      "note": "后接名词或动名词；也可表导致某种结果。"
+    },
+    {
+      "en": "utilize",
+      "basic": "use",
+      "zh": "利用",
+      "pos": "v.",
+      "type": "word",
+      "example": "We should fully utilize digital resources to improve our learning efficiency.",
+      "exampleZh": "我们应充分利用数字资源来提高学习效率。",
+      "note": "及物动词，比 use 正式，多接资源、时间。"
+    },
+    {
+      "en": "capitalize on",
+      "basic": "use",
+      "zh": "利用（机会、优势）",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Graduates should capitalize on every opportunity to gain practical experience.",
+      "exampleZh": "毕业生应利用每一个机会获取实践经验。",
+      "note": "后接机会、优势类名词，介词只能用 on。"
+    },
+    {
+      "en": "demonstrate",
+      "basic": "show",
+      "zh": "表明，证明",
+      "pos": "v.",
+      "type": "word",
+      "example": "The chart demonstrates a steady rise in the number of online shoppers.",
+      "exampleZh": "该图表表明网购人数持续上升。",
+      "note": "及物动词，接名词或 that 从句，图表作文常用。"
+    },
+    {
+      "en": "illustrate",
+      "basic": "show",
+      "zh": "说明，阐明",
+      "pos": "v.",
+      "type": "word",
+      "example": "This case clearly illustrates the importance of teamwork in modern society.",
+      "exampleZh": "这一案例清楚说明了团队合作在现代社会的重要性。",
+      "note": "及物动词，常接观点、道理，也可指配图。"
+    },
+    {
+      "en": "give rise to",
+      "basic": "cause",
+      "zh": "引起，导致",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "The overuse of chemical fertilizers has given rise to serious soil pollution.",
+      "exampleZh": "化肥的过度使用已导致严重的土壤污染。",
+      "note": "后接名词，多指不良后果。"
+    },
+    {
+      "en": "result in",
+      "basic": "cause",
+      "zh": "导致",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Careless driving often results in serious traffic accidents.",
+      "exampleZh": "粗心驾驶常常导致严重的交通事故。",
+      "note": "主语是原因，宾语是结果；勿与 result from 混淆。"
+    },
+    {
+      "en": "tackle",
+      "basic": "solve",
+      "zh": "着手解决",
+      "pos": "v.",
+      "type": "word",
+      "example": "The government should take effective measures to tackle urban traffic congestion.",
+      "exampleZh": "政府应采取有效措施解决城市交通拥堵问题。",
+      "note": "及物动词，直接接 problem、issue 等名词。"
+    },
+    {
+      "en": "address",
+      "basic": "solve",
+      "zh": "应对，处理",
+      "pos": "v.",
+      "type": "word",
+      "example": "Universities must address the growing mental health needs of students.",
+      "exampleZh": "高校必须应对学生日益增长的心理健康需求。",
+      "note": "及物动词，此处意为着手处理，非致辞。"
+    },
+    {
+      "en": "enhance",
+      "basic": "improve",
+      "zh": "提高，增强",
+      "pos": "v.",
+      "type": "word",
+      "example": "Reading widely can enhance our ability to think critically.",
+      "exampleZh": "广泛阅读能增强我们的批判性思维能力。",
+      "note": "及物动词，多接 ability、quality、efficiency。"
+    },
+    {
+      "en": "optimize",
+      "basic": "improve",
+      "zh": "优化",
+      "pos": "v.",
+      "type": "word",
+      "example": "The company optimized its management system to raise working efficiency.",
+      "exampleZh": "该公司优化了管理体系以提高工作效率。",
+      "note": "及物动词，多接结构、流程、配置类名词。"
+    },
+    {
+      "en": "necessitate",
+      "basic": "need",
+      "zh": "使……成为必要",
+      "pos": "v.",
+      "type": "word",
+      "example": "The rapid growth of cities necessitates large investment in public transport.",
+      "exampleZh": "城市的快速扩张使公共交通的大量投入成为必要。",
+      "note": "及物动词，主语多为客观情况，不用于人。"
+    },
+    {
+      "en": "call for",
+      "basic": "need",
+      "zh": "需要，要求",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "The serious situation calls for immediate action from all sides.",
+      "exampleZh": "严峻的形势需要各方立即采取行动。",
+      "note": "主语为事物时表示需要，后接名词或动名词。"
+    },
+    {
+      "en": "individuals",
+      "basic": "people",
+      "zh": "个人",
+      "pos": "n.",
+      "type": "word",
+      "example": "Individuals should take responsibility for reducing plastic waste in daily life.",
+      "exampleZh": "个人应为减少日常生活中的塑料垃圾承担责任。",
+      "note": "可数名词，泛指人们时须用复数形式。"
+    },
+    {
+      "en": "the general public",
+      "basic": "people",
+      "zh": "公众",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "The general public should be encouraged to adopt a low-carbon lifestyle.",
+      "exampleZh": "应鼓励公众采取低碳的生活方式。",
+      "note": "固定搭配须加定冠词 the，作主语时谓语用单数。"
+    },
+    {
+      "en": "matter",
+      "basic": "thing",
+      "zh": "事情",
+      "pos": "n.",
+      "type": "word",
+      "example": "Whether to work or study abroad is a matter of personal choice.",
+      "exampleZh": "工作还是出国深造是个人选择的问题。",
+      "note": "a matter of… 为高频结构，后接抽象名词。"
+    },
+    {
+      "en": "aspect",
+      "basic": "thing",
+      "zh": "方面",
+      "pos": "n.",
+      "type": "word",
+      "example": "We should consider the issue from every aspect before making a decision.",
+      "exampleZh": "做决定之前，我们应从各个方面考虑这一问题。",
+      "note": "常搭配 from the… aspect、in this aspect。"
+    },
+    {
+      "en": "approach",
+      "basic": "way",
+      "zh": "方法，途径",
+      "pos": "n.",
+      "type": "word",
+      "example": "A flexible approach to learning is more effective than rigid memorization.",
+      "exampleZh": "灵活的学习方法比死记硬背更有效。",
+      "note": "搭配 an approach to doing sth，to 后接动名词。"
+    },
+    {
+      "en": "means",
+      "basic": "way",
+      "zh": "手段，方式",
+      "pos": "n.",
+      "type": "word",
+      "example": "Public transport is an effective means of easing traffic pressure.",
+      "exampleZh": "公共交通是缓解交通压力的有效手段。",
+      "note": "单复数同形，常搭 a means of doing sth。"
+    },
+    {
+      "en": "dilemma",
+      "basic": "problem",
+      "zh": "两难困境",
+      "pos": "n.",
+      "type": "word",
+      "example": "Many graduates face the dilemma of choosing between stability and opportunity.",
+      "exampleZh": "许多毕业生面临在稳定与机遇之间选择的两难困境。",
+      "note": "指难以取舍的处境，常搭 face the dilemma of。"
+    },
+    {
+      "en": "obstacle",
+      "basic": "problem",
+      "zh": "障碍",
+      "pos": "n.",
+      "type": "word",
+      "example": "Lack of confidence is the biggest obstacle to personal growth.",
+      "exampleZh": "缺乏自信是个人成长最大的障碍。",
+      "note": "固定搭配 an obstacle to sth，介词用 to。"
+    },
+    {
+      "en": "challenging",
+      "basic": "difficult",
+      "zh": "有挑战性的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Adapting to a new working environment can be challenging for fresh graduates.",
+      "exampleZh": "适应新的工作环境对刚毕业的学生来说颇具挑战。",
+      "note": "含积极意味，比 difficult 更委婉得体。"
+    },
+    {
+      "en": "formidable",
+      "basic": "difficult",
+      "zh": "艰巨的，难以对付的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Reducing carbon emissions is a formidable task for developing countries.",
+      "exampleZh": "减少碳排放对发展中国家来说是一项艰巨的任务。",
+      "note": "多修饰 task、challenge、obstacle 等名词。"
+    },
+    {
+      "en": "straightforward",
+      "basic": "easy",
+      "zh": "简单明了的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "The solution to this problem is actually quite straightforward.",
+      "exampleZh": "这个问题的解决办法其实相当简单明了。",
+      "note": "指步骤清楚、不复杂，可作表语或定语。"
+    },
+    {
+      "en": "accessible",
+      "basic": "easy",
+      "zh": "易获得的，易理解的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Online courses have made higher education accessible to more learners.",
+      "exampleZh": "在线课程使更多学习者能够接受高等教育。",
+      "note": "搭配 be accessible to sb，介词固定为 to。"
+    },
+    {
+      "en": "delighted",
+      "basic": "happy",
+      "zh": "高兴的，乐意的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "I would be delighted to share my experience with the new members.",
+      "exampleZh": "我很乐意与新成员分享我的经验。",
+      "note": "常用 be delighted to do sth，语气礼貌得体。"
+    },
+    {
+      "en": "frustrated",
+      "basic": "sad",
+      "zh": "沮丧的，受挫的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Many young people feel frustrated when their efforts bring no immediate results.",
+      "exampleZh": "当努力没有立即带来结果时，许多年轻人会感到沮丧。",
+      "note": "侧重因受挫而灰心，可作表语或定语。"
+    },
+    {
+      "en": "picturesque",
+      "basic": "beautiful",
+      "zh": "风景如画的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "The small village is surrounded by picturesque mountains and clear streams.",
+      "exampleZh": "这个小村庄被风景如画的群山和清澈的溪流环绕。",
+      "note": "专用于描写景色，不用于形容人物外貌。"
+    },
+    {
+      "en": "a considerable amount of",
+      "basic": "a lot of",
+      "zh": "大量的",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Solving the housing problem requires a considerable amount of public investment.",
+      "exampleZh": "解决住房问题需要大量的公共投资。",
+      "note": "只接不可数名词，谓语动词用单数。"
+    },
+    {
+      "en": "owing to",
+      "basic": "because",
+      "zh": "由于",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Owing to the rapid development of technology, our lifestyle has changed greatly.",
+      "exampleZh": "由于科技的快速发展，我们的生活方式发生了巨大变化。",
+      "note": "介词短语，后接名词或动名词，不接句子。"
+    },
+    {
+      "en": "by virtue of",
+      "basic": "because",
+      "zh": "凭借，由于",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "He succeeded by virtue of his perseverance and hard work.",
+      "exampleZh": "他凭借坚持和努力取得了成功。",
+      "note": "后接名词或动名词，含借助某种优势之意。"
+    },
+    {
+      "en": "nevertheless",
+      "basic": "but",
+      "zh": "然而，尽管如此",
+      "pos": "adv.",
+      "type": "word",
+      "example": "The task is difficult; nevertheless, we must spare no effort to accomplish it.",
+      "exampleZh": "这项任务很艰巨，然而我们必须不遗余力地完成它。",
+      "note": "连接副词，前用分号或句号，不能直接连接两句。"
+    },
+    {
+      "en": "whereas",
+      "basic": "but",
+      "zh": "然而，而",
+      "pos": "conj.",
+      "type": "word",
+      "example": "Some people prefer city life, whereas others enjoy the peace of the countryside.",
+      "exampleZh": "有些人偏爱城市生活，而另一些人则喜欢乡村的宁静。",
+      "note": "从属连词，引导对比从句，须连接两个分句。"
+    },
+    {
+      "en": "consequently",
+      "basic": "so",
+      "zh": "因此，结果",
+      "pos": "adv.",
+      "type": "word",
+      "example": "Many students lack sleep; consequently, their efficiency in class declines.",
+      "exampleZh": "许多学生睡眠不足，因此课堂效率下降。",
+      "note": "连接副词，可置于句首，后面加逗号。"
+    },
+    {
+      "en": "as well as",
+      "basic": "and",
+      "zh": "以及，和",
+      "pos": "conj.",
+      "type": "phrase",
+      "example": "Reading as well as traveling broadens our horizons.",
+      "exampleZh": "阅读和旅行都能开阔我们的视野。",
+      "note": "连接并列成分；作主语时谓语与前面的成分一致。"
+    },
+    {
+      "en": "moreover",
+      "basic": "also",
+      "zh": "此外，而且",
+      "pos": "adv.",
+      "type": "word",
+      "example": "Moreover, a healthy diet can improve our ability to concentrate.",
+      "exampleZh": "此外，健康的饮食能提高我们的注意力。",
+      "note": "句首连接副词，后接逗号，用于递进。"
+    },
+    {
+      "en": "ultimately",
+      "basic": "finally",
+      "zh": "最终，归根结底",
+      "pos": "adv.",
+      "type": "word",
+      "example": "Ultimately, success depends on persistent effort rather than good luck.",
+      "exampleZh": "归根结底，成功取决于持续的努力而非好运。",
+      "note": "可置于句首或句中，含最终结论的意味。"
+    },
+    {
+      "en": "in contemporary society",
+      "basic": "nowadays",
+      "zh": "在当代社会",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "In contemporary society, lifelong learning has become a necessity rather than a choice.",
+      "exampleZh": "在当代社会，终身学习已成为必需而非选择。",
+      "note": "作时间状语置于句首，后面加逗号。"
+    },
+    {
+      "en": "ought to",
+      "basic": "should",
+      "zh": "应当",
+      "pos": "phr.",
+      "type": "pattern",
+      "example": "We ought to take concrete actions to protect the environment.",
+      "exampleZh": "我们应当采取具体行动保护环境。",
+      "note": "情态动词，后接动词原形，否定式为 ought not to。"
+    },
+    {
+      "en": "invariably",
+      "basic": "always",
+      "zh": "总是，无一例外地",
+      "pos": "adv.",
+      "type": "word",
+      "example": "Hard work invariably brings progress, though it may take time.",
+      "exampleZh": "努力总会带来进步，尽管可能需要时间。",
+      "note": "修饰动词或形容词，书面语，比 always 更正式。"
+    },
+    {
+      "en": "more often than not",
+      "basic": "often",
+      "zh": "往往，多半",
+      "pos": "adv.",
+      "type": "phrase",
+      "example": "More often than not, success comes to those who persist to the end.",
+      "exampleZh": "成功往往属于那些坚持到底的人。",
+      "note": "固定短语作状语，常置于句首，后接逗号。"
+    },
+    {
+      "en": "occasionally",
+      "basic": "sometimes",
+      "zh": "偶尔，有时",
+      "pos": "adv.",
+      "type": "word",
+      "example": "Occasionally, taking a break can help us work more efficiently.",
+      "exampleZh": "偶尔休息一下能帮助我们更高效地工作。",
+      "note": "频率低于 sometimes，位置灵活，可置于句首。"
+    }
+  ]
+}

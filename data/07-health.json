@@ -1,0 +1,459 @@
+{
+  "id": "health",
+  "title": "健康与生活方式",
+  "emoji": "💪",
+  "group": "大作文·主题语料",
+  "desc": "涵盖身体健康、作息睡眠、心理压力、劳逸平衡、不良习惯与健康倡导的考场表达",
+  "entries": [
+    {
+      "en": "physical fitness",
+      "zh": "身体健康；体能",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Regular jogging and swimming are effective ways to build physical fitness and relieve daily tension.",
+      "exampleZh": "经常慢跑和游泳是增强体能、缓解日常紧张的有效方式。",
+      "note": "不可数；配build/maintain；与mental health对举。"
+    },
+    {
+      "en": "well-being",
+      "zh": "健康幸福；福祉",
+      "pos": "n.",
+      "type": "word",
+      "example": "A balanced diet and enough sleep contribute greatly to our physical and mental well-being.",
+      "exampleZh": "均衡饮食和充足睡眠对我们的身心健康大有裨益。",
+      "note": "不可数；配promote/undermine well-being。"
+    },
+    {
+      "en": "in good shape",
+      "zh": "身体状况良好",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Despite his age, my grandfather stays in good shape by walking five kilometres every morning.",
+      "exampleZh": "尽管年纪不小，我祖父每天早晨步行五公里，身体保持得很好。",
+      "note": "配keep/stay in good shape；反义out of shape。"
+    },
+    {
+      "en": "workout",
+      "zh": "锻炼；健身训练",
+      "pos": "n.",
+      "type": "word",
+      "example": "A thirty-minute workout three times a week can work wonders for your energy level.",
+      "exampleZh": "每周三次、每次三十分钟的锻炼就能显著改善你的精力状况。",
+      "note": "可数，复数workouts；动词分开写work out。"
+    },
+    {
+      "en": "exercise regularly",
+      "zh": "规律锻炼",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Those who exercise regularly are far less likely to be troubled by chronic diseases.",
+      "exampleZh": "经常锻炼的人患慢性病的可能性要小得多。",
+      "note": "副词regularly后置；可用take regular exercise。"
+    },
+    {
+      "en": "sedentary",
+      "zh": "久坐不动的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Office workers tend to be sedentary, sitting in front of screens for over eight hours daily.",
+      "exampleZh": "上班族往往久坐不动，每天在屏幕前坐上八个多小时。",
+      "note": "作表语或定语；与physically active对照。"
+    },
+    {
+      "en": "sedentary lifestyle",
+      "zh": "久坐不动的生活方式",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "A sedentary lifestyle, combined with junk food, has fuelled the rise of obesity among teenagers.",
+      "exampleZh": "久坐不动的生活方式加上垃圾食品，助推了青少年肥胖率的上升。",
+      "note": "配lead a sedentary lifestyle；谓语用单数。"
+    },
+    {
+      "en": "obesity",
+      "zh": "肥胖",
+      "pos": "n.",
+      "type": "word",
+      "example": "Obesity has become a public health concern, especially among children who rarely play outdoors.",
+      "exampleZh": "肥胖已成为公众健康问题，在很少户外活动的儿童中尤为突出。",
+      "note": "不可数；配curb rising obesity；形容人用obese。"
+    },
+    {
+      "en": "balanced diet",
+      "zh": "均衡饮食",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Keeping a balanced diet means eating more vegetables and cutting down on sugary drinks.",
+      "exampleZh": "保持均衡饮食意味着多吃蔬菜、少喝含糖饮料。",
+      "note": "配keep a balanced diet；冠词a不可省。"
+    },
+    {
+      "en": "nutrition",
+      "zh": "营养",
+      "pos": "n.",
+      "type": "word",
+      "example": "Good nutrition in childhood lays the foundation for a lifetime of sound health.",
+      "exampleZh": "童年时期良好的营养为一生的健康奠定基础。",
+      "note": "不可数；配good nutrition；勿混nutrient。"
+    },
+    {
+      "en": "junk food",
+      "zh": "垃圾食品",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Addicted to junk food, many students ignore vegetables and skip proper meals altogether.",
+      "exampleZh": "许多学生沉迷垃圾食品，不吃蔬菜，甚至完全不吃正餐。",
+      "note": "不可数；配be addicted to junk food。"
+    },
+    {
+      "en": "skip breakfast",
+      "zh": "不吃早餐",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Students who skip breakfast often find it hard to concentrate on morning classes.",
+      "exampleZh": "不吃早餐的学生常常难以在上午的课堂上集中注意力。",
+      "note": "skip意为略过；配skip meals；三单加s。"
+    },
+    {
+      "en": "stay up late",
+      "zh": "熬夜",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Staying up late to scroll through phones ruins both our sleep quality and our mood.",
+      "exampleZh": "熬夜刷手机既损害我们的睡眠质量，也破坏我们的情绪。",
+      "note": "无被动；动名词作主语时谓语用单数。"
+    },
+    {
+      "en": "burn the midnight oil",
+      "zh": "熬夜苦干；开夜车",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Many candidates burn the midnight oil before exams, only to feel exhausted afterwards.",
+      "exampleZh": "许多考生考前熬夜苦读，结果事后却疲惫不堪。",
+      "note": "习语，oil前用the；only to do表意外结果。"
+    },
+    {
+      "en": "irregular hours",
+      "zh": "不规律的作息时间",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Irregular hours have left many young professionals constantly tired and short of energy.",
+      "exampleZh": "作息不规律使许多年轻职场人士长期疲惫、精力不足。",
+      "note": "常用复数；配work irregular hours。"
+    },
+    {
+      "en": "adequate sleep",
+      "zh": "充足的睡眠",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Adequate sleep is not a luxury but a prerequisite for memory and clear thinking.",
+      "exampleZh": "充足的睡眠不是奢侈品，而是记忆力和清晰思维的前提。",
+      "note": "比enough书面；配get adequate sleep。"
+    },
+    {
+      "en": "sleep deprivation",
+      "zh": "睡眠不足；睡眠剥夺",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Long-term sleep deprivation impairs judgement and weakens the body's immune system.",
+      "exampleZh": "长期睡眠不足会损害判断力，并削弱人体的免疫系统。",
+      "note": "不可数；配suffer from；注意deprive sb of。"
+    },
+    {
+      "en": "keep a regular routine",
+      "zh": "保持规律作息",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Keeping a regular routine helps us stay energetic and keeps our stress under control.",
+      "exampleZh": "保持规律的作息有助于我们保持精力充沛，并将压力控制在可控范围内。",
+      "note": "routine指作息；可换keep regular hours。"
+    },
+    {
+      "en": "mental health",
+      "zh": "心理健康",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Universities are paying more attention to students' mental health than ever before.",
+      "exampleZh": "高校比以往任何时候都更加关注学生的心理健康。",
+      "note": "不可数；配safeguard；与physical health对举。"
+    },
+    {
+      "en": "psychological well-being",
+      "zh": "心理健康状态",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Leisure activities and honest talks with friends safeguard our psychological well-being.",
+      "exampleZh": "休闲活动和与朋友的坦诚交谈能维护我们的心理健康。",
+      "note": "比mental health书面；注意拼写psychological。"
+    },
+    {
+      "en": "relieve stress",
+      "zh": "缓解压力",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Regular exercise and hobbies are healthy ways to relieve stress after a long workday.",
+      "exampleZh": "经常锻炼和培养爱好是漫长工作日之后缓解压力的健康方式。",
+      "note": "配relieve/ease stress；名词形式stress relief。"
+    },
+    {
+      "en": "unwind",
+      "zh": "放松；缓解紧张",
+      "pos": "v.",
+      "type": "word",
+      "example": "After a week of intense study, a walk in the park helps me unwind completely.",
+      "exampleZh": "经过一周紧张的学习，在公园散步能让我彻底放松下来。",
+      "note": "不及物，无被动；比relax更生动。"
+    },
+    {
+      "en": "be overwhelmed by",
+      "zh": "被……压得喘不过气",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Students are easily overwhelmed by academic pressure when final exams draw near.",
+      "exampleZh": "期末考试临近时，学生很容易被学业压力压得喘不过气。",
+      "note": "被动结构，介词用by；也可换with。"
+    },
+    {
+      "en": "anxiety",
+      "zh": "焦虑",
+      "pos": "n.",
+      "type": "word",
+      "example": "Excessive anxiety about grades can undermine both performance and confidence.",
+      "exampleZh": "对成绩的过度焦虑会同时损害表现和自信。",
+      "note": "泛指不可数；配suffer from anxiety。"
+    },
+    {
+      "en": "depression",
+      "zh": "抑郁；沮丧",
+      "pos": "n.",
+      "type": "word",
+      "example": "Loneliness and constant pressure may lead to depression if no one lends a hand.",
+      "exampleZh": "如果没有人伸出援手，孤独和持续的压力可能导致抑郁。",
+      "note": "不可数；配suffer from depression；慎用程度词。"
+    },
+    {
+      "en": "burnout",
+      "zh": "身心俱疲；职业倦怠",
+      "pos": "n.",
+      "type": "word",
+      "example": "Working overtime for months on end left him on the verge of burnout.",
+      "exampleZh": "连续数月加班使他濒临身心俱疲的崩溃边缘。",
+      "note": "不可数；on the verge of后接名词。"
+    },
+    {
+      "en": "work-life balance",
+      "zh": "工作与生活的平衡",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "A healthy work-life balance enables employees to stay productive and content.",
+      "exampleZh": "健康的工作与生活平衡能让员工保持高效与满足。",
+      "note": "配strike a balance；作主语谓语用单数。"
+    },
+    {
+      "en": "strike a balance between work and rest",
+      "zh": "做到劳逸结合",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Only by striking a balance between work and rest can we sustain long-term productivity.",
+      "exampleZh": "只有做到劳逸结合，我们才能保持长期的效率。",
+      "note": "介词用between...and；倒装句中用动名词。"
+    },
+    {
+      "en": "leisure activities",
+      "zh": "休闲活动",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Wholesome leisure activities recharge our batteries and broaden our horizons.",
+      "exampleZh": "有益身心的休闲活动能让我们恢复精力，也能开阔眼界。",
+      "note": "泛指用复数；配engage in leisure activities。"
+    },
+    {
+      "en": "healthy lifestyle",
+      "zh": "健康的生活方式",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Adopting a healthy lifestyle is the wisest investment we can make in ourselves.",
+      "exampleZh": "养成健康的生活方式是我们能对自己做的最明智的投资。",
+      "note": "配adopt/lead a healthy lifestyle。"
+    },
+    {
+      "en": "wholesome",
+      "zh": "有益健康的；有益身心的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Wholesome food and moderate exercise keep both body and mind in good condition.",
+      "exampleZh": "有益健康的食物和适度锻炼能让身心都处于良好状态。",
+      "note": "修饰food/activities；注意拼写勿漏w。"
+    },
+    {
+      "en": "in moderation",
+      "zh": "适度地；有节制地",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Even nutritious food should be eaten in moderation, or it may do harm.",
+      "exampleZh": "即使是营养食品也应适量食用，否则可能有害。",
+      "note": "作状语，介词in；反义to excess。"
+    },
+    {
+      "en": "excessive drinking",
+      "zh": "过度饮酒",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Excessive drinking damages the liver and often triggers accidents on the road.",
+      "exampleZh": "过量饮酒损害肝脏，还常常引发道路事故。",
+      "note": "用excessive而非much；可并列smoking。"
+    },
+    {
+      "en": "secondhand smoke",
+      "zh": "二手烟",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Children exposed to secondhand smoke suffer more respiratory infections than their peers.",
+      "exampleZh": "暴露于二手烟中的儿童比同龄人更容易患上呼吸道感染。",
+      "note": "不可数；配be exposed to；全文写法统一。"
+    },
+    {
+      "en": "screen addiction",
+      "zh": "屏幕成瘾",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Screen addiction keeps teenagers awake at night and drains their eyesight.",
+      "exampleZh": "屏幕成瘾让青少年夜里难以入睡，也损害他们的视力。",
+      "note": "配develop/overcome screen addiction。"
+    },
+    {
+      "en": "overindulgence",
+      "zh": "过度放纵；沉迷",
+      "pos": "n.",
+      "type": "word",
+      "example": "Overindulgence in fast food and video games is eroding the health of a whole generation.",
+      "exampleZh": "对快餐和电子游戏的过度沉迷正在侵蚀整整一代人的健康。",
+      "note": "不可数，后接介词in；作主语显精准。"
+    },
+    {
+      "en": "take a toll on",
+      "zh": "对……造成损害",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Years of staying up late have taken a heavy toll on her health.",
+      "exampleZh": "多年熬夜已经严重损害了她的健康。",
+      "note": "配take a heavy toll on sth；冠词a不可省。"
+    },
+    {
+      "en": "develop a healthy habit",
+      "zh": "养成健康习惯",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "It takes about three weeks to develop a healthy habit such as morning jogging.",
+      "exampleZh": "养成晨跑这样的健康习惯大约需要三周时间。",
+      "note": "develop意为养成；配a habit of doing。"
+    },
+    {
+      "en": "moderate exercise",
+      "zh": "适度锻炼",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Moderate exercise three times a week is enough to keep most adults fit.",
+      "exampleZh": "每周三次适度锻炼就足以让大多数成年人保持健康。",
+      "note": "泛指时不可数；配take moderate exercise。"
+    },
+    {
+      "en": "boost immunity",
+      "zh": "增强免疫力",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Adequate sleep and a balanced diet help boost immunity against common infections.",
+      "exampleZh": "充足睡眠和均衡饮食有助于增强对常见感染的免疫力。",
+      "note": "配boost/strengthen；介词用against。"
+    },
+    {
+      "en": "life expectancy",
+      "zh": "预期寿命",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Better medical care and healthier habits have raised average life expectancy worldwide.",
+      "exampleZh": "更好的医疗条件和更健康的生活习惯提高了全球平均预期寿命。",
+      "note": "不可数；配raise life expectancy；图表题常用。"
+    },
+    {
+      "en": "Nothing is more precious than ___.",
+      "zh": "没有什么比……更宝贵。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Nothing is more precious than sound health, yet it is often taken for granted.",
+      "exampleZh": "没有什么比健康的身体更宝贵，然而人们常把它视为理所当然。",
+      "note": "否定词加比较级表最高级；than后接名词。"
+    },
+    {
+      "en": "Only when we ___ can we ___.",
+      "zh": "只有当我们……，才能……",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Only when we exercise regularly can we keep both body and mind in good shape.",
+      "exampleZh": "只有当我们规律锻炼时，才能让身心都保持良好状态。",
+      "note": "Only引导状语置句首主句倒装；从句陈述语序。"
+    },
+    {
+      "en": "The more ___, the more likely we are to ___.",
+      "zh": "越……，我们就越可能……",
+      "pos": "—",
+      "type": "pattern",
+      "example": "The more we stay up late, the more likely we are to suffer from burnout.",
+      "exampleZh": "我们越是熬夜，就越有可能身心俱疲。",
+      "note": "the more...the more结构，两分句均不倒装。"
+    },
+    {
+      "en": "It is high time that we ___.",
+      "zh": "该是我们……的时候了。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "It is high time that we broke the habit of skipping breakfast and staying up late.",
+      "exampleZh": "我们该改掉不吃早餐和熬夜的习惯了。",
+      "note": "that从句用过去式表虚拟；呼吁段首选。"
+    },
+    {
+      "en": "There is no denying that ___ has taken a heavy toll on ___.",
+      "zh": "不可否认，……已对……造成严重损害。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "There is no denying that a sedentary lifestyle has taken a heavy toll on our health.",
+      "exampleZh": "不可否认，久坐不动的生活方式已严重损害了我们的健康。",
+      "note": "引出公认事实，适合首段；后接完成时。"
+    },
+    {
+      "en": "A sound mind in a sound body.",
+      "zh": "健全的精神寓于健康的身体。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As the old Latin saying goes, a sound mind in a sound body.",
+      "exampleZh": "正如那句古老的拉丁格言所说：健全的精神寓于健康的身体。",
+      "note": "出自Juvenal《讽刺诗》；身心并重类题目适用。"
+    },
+    {
+      "en": "Health is wealth.",
+      "zh": "健康即财富。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Those who ruin their health chasing money forget that health is wealth.",
+      "exampleZh": "那些为赚钱而毁掉健康的人忘了：健康就是财富。",
+      "note": "经典谚语；爱默生有The first wealth is health。"
+    },
+    {
+      "en": "Prevention is better than cure.",
+      "zh": "预防胜于治疗。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Doctors keep reminding us that prevention is better than cure, yet many ignore regular checkups.",
+      "exampleZh": "医生不断提醒我们预防胜于治疗，但许多人仍忽视定期体检。",
+      "note": "常与Erasmus的Adagia相关；预防类话题。"
+    },
+    {
+      "en": "Early to bed and early to rise makes a man healthy, wealthy and wise.",
+      "zh": "早睡早起使人健康、富有而明智。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Franklin's proverb—early to bed and early to rise makes a man healthy, wealthy and wise—still holds true.",
+      "exampleZh": "富兰克林的谚语——早睡早起使人健康、富有而明智——至今依然成立。",
+      "note": "出自《穷理查年鉴》；主语长，谓语用makes。"
+    }
+  ]
+}

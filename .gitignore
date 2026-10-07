@@ -1,0 +1,17 @@
+# 依赖 / 构建产物（本项目零依赖，这里只为保险）
+node_modules/
+package-lock.json
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.log
+src/_*.png
+src/_*.html
+data/*.part*.json

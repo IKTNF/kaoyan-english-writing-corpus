@@ -1,0 +1,504 @@
+{
+  "id": "career",
+  "title": "经济·职业与青年现象",
+  "emoji": "💼",
+  "group": "大作文·主题语料",
+  "desc": "涵盖就业求职、职业规划、创业、毕业选择、乡村振兴、共同富裕与消费观等高频表达。",
+  "entries": [
+    {
+      "en": "land a decent job",
+      "zh": "找到一份像样的工作",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "After months of painstaking preparation, she finally landed a decent job in a reputable firm.",
+      "exampleZh": "经过数月刻苦准备，她终于在一家知名企业找到了一份像样的工作。",
+      "note": "land 表“成功获得”，后接 job/offer；多用于尾段举例。"
+    },
+    {
+      "en": "a saturated job market",
+      "zh": "饱和的就业市场",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "In a saturated job market, graduates with practical skills are far more likely to be hired.",
+      "exampleZh": "在饱和的就业市场中，具备实用技能的毕业生更容易被录用。",
+      "note": "第二段析因时用；常作 in a saturated job market。"
+    },
+    {
+      "en": "qualification",
+      "zh": "资格；学历，资历",
+      "pos": "n.",
+      "type": "word",
+      "example": "Academic qualifications alone can hardly guarantee a rewarding career in today's economy.",
+      "exampleZh": "在当今经济环境下，仅有学历很难保证拥有一份有回报的职业。",
+      "note": "多用复数 qualifications；后接 for 表胜任某职位。"
+    },
+    {
+      "en": "competence",
+      "zh": "能力，胜任力",
+      "pos": "n.",
+      "type": "word",
+      "example": "Employers nowadays attach greater weight to professional competence than to paper certificates.",
+      "exampleZh": "如今雇主更看重专业能力，而不是一纸证书。",
+      "note": "不可数；搭配 professional competence，不加 -s。"
+    },
+    {
+      "en": "competitive edge",
+      "zh": "竞争优势",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Mastering a second foreign language gives job seekers a distinct competitive edge.",
+      "exampleZh": "掌握第二外语会让求职者拥有明显的竞争优势。",
+      "note": "常搭配 give sb. a competitive edge；第二段论证用。"
+    },
+    {
+      "en": "stand out from the crowd",
+      "zh": "脱颖而出，出类拔萃",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Only those with genuine expertise can stand out from the crowd in a crowded market.",
+      "exampleZh": "只有具备真才实学的人才能在拥挤的市场中脱颖而出。",
+      "note": "介词固定用 from；尾段号召句谓语，主语常为 graduates。"
+    },
+    {
+      "en": "career planning",
+      "zh": "职业规划",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Sound career planning enables students to convert vague ambitions into concrete steps.",
+      "exampleZh": "合理的职业规划能让学生把模糊的抱负转化为具体步骤。",
+      "note": "不可数，前可加 sound/proper；中间段论证具体做法时作主语最合适。"
+    },
+    {
+      "en": "long-term goal",
+      "zh": "长期目标",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Setting a long-term goal prevents young people from drifting along with the tide.",
+      "exampleZh": "设定长期目标能让年轻人不致随波逐流。",
+      "note": "与 short-term goal 对举；搭配 set/pursue。"
+    },
+    {
+      "en": "prospective",
+      "zh": "潜在的，未来的；可能的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Prospective employers tend to favor candidates who have relevant internship experience.",
+      "exampleZh": "潜在雇主往往青睐有相关实习经历的应聘者。",
+      "note": "只作定语，后接 employer；勿与 perspective 混淆。"
+    },
+    {
+      "en": "pursue a career in",
+      "zh": "从事……职业，在……领域谋求发展",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Many graduates choose to pursue a career in education rather than in big cities.",
+      "exampleZh": "许多毕业生选择从事教育行业，而不是留在大城市。",
+      "note": "介词固定用 in + 领域；勿说 pursue a career of。"
+    },
+    {
+      "en": "make an informed choice",
+      "zh": "做出明智而有依据的选择",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Only after weighing the pros and cons can graduates make an informed choice.",
+      "exampleZh": "只有在权衡利弊之后，毕业生才能做出明智的选择。",
+      "note": "informed 意为“有依据的”；用于毕业选择类首段。"
+    },
+    {
+      "en": "start a business",
+      "zh": "创业，开办企业",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Encouraged by preferential policies, more graduates start a business in their hometowns.",
+      "exampleZh": "在优惠政策鼓励下，越来越多毕业生在家乡创业。",
+      "note": "近义 set up one's own business；勿漏冠词 a。"
+    },
+    {
+      "en": "entrepreneur",
+      "zh": "企业家；创业者",
+      "pos": "n.",
+      "type": "word",
+      "example": "A successful entrepreneur must be both visionary and resilient in the face of setbacks.",
+      "exampleZh": "成功的企业家必须既有远见，又能在挫折面前坚韧不拔。",
+      "note": "可数，泛指用 an entrepreneur；勿与 enterprise 混。"
+    },
+    {
+      "en": "entrepreneurial spirit",
+      "zh": "创业精神，企业家精神",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Cultivating an entrepreneurial spirit helps students turn innovative ideas into reality.",
+      "exampleZh": "培养创业精神有助于学生把创新想法变为现实。",
+      "note": "此处 spirit 不可数；形容词是 entrepreneurial，勿写错。"
+    },
+    {
+      "en": "take risks",
+      "zh": "承担风险，冒险",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Those unwilling to take calculated risks seldom reap the rewards of innovation.",
+      "exampleZh": "不愿承担可控风险的人，很少能收获创新的回报。",
+      "note": "risk 用复数；常用 take calculated risks，较书面。"
+    },
+    {
+      "en": "career choice",
+      "zh": "职业选择",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Career choice should be based on personal strengths rather than on blind conformity.",
+      "exampleZh": "职业选择应基于个人优势，而非盲目从众。",
+      "note": "2013 年真题核心词；常与 be based on 搭配。"
+    },
+    {
+      "en": "further study",
+      "zh": "深造，继续学习",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "For some graduates, further study is a wiser option than immediate employment.",
+      "exampleZh": "对一些毕业生而言，继续深造比立即就业更明智。",
+      "note": "study 不可数；可换 pursue further education。"
+    },
+    {
+      "en": "ambitious",
+      "zh": "有抱负的；雄心勃勃的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Ambitious young people are more willing to embrace challenges beyond their comfort zone.",
+      "exampleZh": "有抱负的年轻人更愿意接受舒适区之外的挑战。",
+      "note": "为真题中 tame 的反义词；写作多取褒义。"
+    },
+    {
+      "en": "rural revitalization",
+      "zh": "乡村振兴",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Rural revitalization has opened up unprecedented opportunities for college graduates.",
+      "exampleZh": "乡村振兴为大学毕业生开创了前所未有的机遇。",
+      "note": "官方固定译法，作主语时谓语用单数；中间段举例支撑论点时使用。"
+    },
+    {
+      "en": "grassroots",
+      "zh": "基层的；基层群众",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Working at the grassroots level allows graduates to understand the real needs of farmers.",
+      "exampleZh": "在基层工作能让毕业生了解农民的真实需求。",
+      "note": "常用 at the grassroots level；名词形式不加 -s。"
+    },
+    {
+      "en": "poverty alleviation",
+      "zh": "扶贫，减贫",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Poverty alleviation has lifted millions of rural households out of absolute poverty.",
+      "exampleZh": "扶贫工作使数百万农村家庭摆脱了绝对贫困。",
+      "note": "alleviation 拼写易错；动词搭配 alleviate poverty。"
+    },
+    {
+      "en": "narrow the urban-rural gap",
+      "zh": "缩小城乡差距",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Improving rural infrastructure is an effective way to narrow the urban-rural gap.",
+      "exampleZh": "改善农村基础设施是缩小城乡差距的有效途径。",
+      "note": "narrow 作动词“缩小”；也可说 bridge the gap。"
+    },
+    {
+      "en": "common prosperity",
+      "zh": "共同富裕",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Common prosperity calls for a more equitable distribution of social wealth.",
+      "exampleZh": "共同富裕要求对社会财富进行更公平的分配。",
+      "note": "官方术语，不可数；搭配 call for / pursue。"
+    },
+    {
+      "en": "income gap",
+      "zh": "收入差距",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "A widening income gap may undermine social stability and public confidence.",
+      "exampleZh": "不断扩大的收入差距可能损害社会稳定和公众信心。",
+      "note": "常用 a widening income gap；narrow 表缩小。"
+    },
+    {
+      "en": "the underprivileged",
+      "zh": "弱势群体，贫困阶层",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Governments should channel more resources to the underprivileged in remote areas.",
+      "exampleZh": "政府应把更多资源投向偏远地区的弱势群体。",
+      "note": "the + adj. 表一类人，作主语时谓语可用复数；词尾永远不加 -s。"
+    },
+    {
+      "en": "equitable",
+      "zh": "公平合理的，公正的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "An equitable education system gives every child a fair chance to succeed.",
+      "exampleZh": "公平的教育制度让每个孩子都有平等的成功机会。",
+      "note": "比 fair 更书面，多修饰 distribution；勿混 equality。"
+    },
+    {
+      "en": "consumerism",
+      "zh": "消费主义，消费至上",
+      "pos": "n.",
+      "type": "word",
+      "example": "Unbridled consumerism has driven many young people into heavy debt.",
+      "exampleZh": "毫无节制的消费主义使许多年轻人负债累累。",
+      "note": "不可数且多含贬义；常与 curb / resist 连用。"
+    },
+    {
+      "en": "extravagant",
+      "zh": "奢侈的，铺张的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Extravagant spending on luxury goods contradicts the virtue of thrift.",
+      "exampleZh": "在奢侈品上的铺张消费与节俭的美德相悖。",
+      "note": "常修饰 spending / lifestyle；可与 wasteful 互换。"
+    },
+    {
+      "en": "spend within one's means",
+      "zh": "量入为出",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Prudent consumers always spend within their means instead of chasing trendy brands.",
+      "exampleZh": "理性的消费者总是量入为出，而不是追逐时髦品牌。",
+      "note": "固定搭配；反义为 live beyond one's means。"
+    },
+    {
+      "en": "impulse buying",
+      "zh": "冲动消费",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Impulse buying is often triggered by aggressive online advertising and discount campaigns.",
+      "exampleZh": "冲动消费往往由猛烈的网络广告和打折活动引发。",
+      "note": "不可数；动词形式为 buy on impulse，第二段分析成因时使用。"
+    },
+    {
+      "en": "rational consumption",
+      "zh": "理性消费",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Advocating rational consumption helps young people resist the lure of material temptations.",
+      "exampleZh": "倡导理性消费有助于年轻人抵制物质诱惑。",
+      "note": "常与 advocate / promote 连用；与量入为出并列。"
+    },
+    {
+      "en": "rat race",
+      "zh": "无休止的激烈竞争，内卷式生活",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Trapped in the rat race, many young professionals sacrifice health for promotion.",
+      "exampleZh": "困于无休止的竞争中，许多年轻职场人为晋升牺牲健康。",
+      "note": "含贬义，前面加 the；常作 in the rat race。"
+    },
+    {
+      "en": "cut-throat competition",
+      "zh": "残酷的竞争",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Facing cut-throat competition, graduates must sharpen their skills to survive.",
+      "exampleZh": "面对残酷竞争，毕业生必须磨炼技能以求立足。",
+      "note": "cut-throat 是连字符形容词，不加 -s；比 fierce 更生动。"
+    },
+    {
+      "en": "lie flat",
+      "zh": "躺平，选择不再拼命奋斗",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Some young people choose to lie flat rather than engage in pointless competition.",
+      "exampleZh": "一些年轻人选择躺平，而不愿卷入无意义的竞争。",
+      "note": "源自中文网络热词，正式写作中宜加引号；过去式是 lay flat，易写错。"
+    },
+    {
+      "en": "peer pressure",
+      "zh": "同辈压力",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Peer pressure often pushes students to pursue goals that they do not truly value.",
+      "exampleZh": "同辈压力常迫使学生追求他们并不真正看重的目标。",
+      "note": "不可数；常搭配 under / yield to peer pressure。"
+    },
+    {
+      "en": "anxious",
+      "zh": "焦虑的，担忧的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Many graduates feel anxious about an uncertain future and fierce workplace rivalry.",
+      "exampleZh": "许多毕业生对不确定的未来和激烈的职场竞争感到焦虑。",
+      "note": "搭配 be anxious about sth.，不用 on。"
+    },
+    {
+      "en": "follow the herd",
+      "zh": "随大流，从众",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Rather than follow the herd, students should weigh their own interests carefully.",
+      "exampleZh": "学生不应随大流，而应仔细权衡自己的兴趣。",
+      "note": "herd 前加 the 且不加 -s；近义 follow the crowd。"
+    },
+    {
+      "en": "equal opportunity",
+      "zh": "平等机会",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Every applicant deserves an equal opportunity regardless of gender or family background.",
+      "exampleZh": "无论性别或家庭背景，每位求职者都应得到平等机会。",
+      "note": "不可数，前用 an；谈就业公平议题时必用。"
+    },
+    {
+      "en": "gender discrimination",
+      "zh": "性别歧视",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Gender discrimination in recruitment deprives qualified women of fair competition.",
+      "exampleZh": "招聘中的性别歧视使合格女性失去公平竞争的机会。",
+      "note": "不可数，后接 against sb.；常与 combat 连用。"
+    },
+    {
+      "en": "business integrity",
+      "zh": "商业诚信",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Business integrity is the cornerstone of a company's long-term reputation.",
+      "exampleZh": "商业诚信是企业长期声誉的基石。",
+      "note": "不可数；可替换 honesty in business，论证企业责任。"
+    },
+    {
+      "en": "credibility",
+      "zh": "信誉，可信度",
+      "pos": "n.",
+      "type": "word",
+      "example": "Once a firm loses its credibility, regaining customers' trust becomes extremely difficult.",
+      "exampleZh": "企业一旦失去信誉，重获顾客信任就变得极其困难。",
+      "note": "不可数；搭配 lose / enhance one's credibility。"
+    },
+    {
+      "en": "seize the opportunity",
+      "zh": "抓住机会",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Young people should seize every opportunity to broaden their horizons abroad.",
+      "exampleZh": "年轻人应抓住每一个机会到国外开阔眼界。",
+      "note": "seize 比 take 更有力；后接 to do sth.。"
+    },
+    {
+      "en": "achieve upward mobility",
+      "zh": "实现向上流动，实现阶层跃升",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Higher education remains a vital channel for rural students to achieve upward mobility.",
+      "exampleZh": "高等教育仍是农村学生实现向上流动的重要渠道。",
+      "note": "upward mobility 为社会学固定表述；前用 achieve。"
+    },
+    {
+      "en": "It is advisable that college graduates should ___ before making a final decision.",
+      "zh": "建议大学毕业生在做出最终决定前___。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "It is advisable that college graduates should weigh their strengths before making a final decision.",
+      "exampleZh": "建议大学毕业生在做出最终决定前先衡量自身优势。",
+      "note": "尾段提建议用；that 从句中用 should + 动词原形。"
+    },
+    {
+      "en": "Instead of ___ing aimlessly, young people ought to ___.",
+      "zh": "年轻人不应漫无目的地___，而应当___。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Instead of drifting aimlessly, young people ought to set a clear goal for themselves.",
+      "exampleZh": "年轻人不应漫无目的地漂浮，而应为自己设定明确目标。",
+      "note": "对比句式，用于第二段批判现象后提出正确做法；ought to 后接动词原形。"
+    },
+    {
+      "en": "Faced with the choice between ___ and ___, a growing number of graduates ___.",
+      "zh": "面对___与___之间的抉择，越来越多的毕业生___。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Faced with the choice between further study and employment, a growing number of graduates hesitate.",
+      "exampleZh": "面对深造与就业之间的抉择，越来越多的毕业生犹豫不决。",
+      "note": "毕业选择类首选句式；a growing number of 后接复数。"
+    },
+    {
+      "en": "Only by ___ can fresh graduates stand out in a fiercely competitive job market.",
+      "zh": "只有通过___，应届毕业生才能在激烈的就业市场中脱颖而出。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Only by sharpening practical skills can fresh graduates stand out in a fiercely competitive job market.",
+      "exampleZh": "只有磨炼实用技能，应届毕业生才能在激烈的就业市场中脱颖而出。",
+      "note": "Only by 置于句首引起部分倒装，助动词 can 必须提到主语之前。"
+    },
+    {
+      "en": "What matters most in career planning is not ___, but ___.",
+      "zh": "职业规划中最重要的不是___，而是___。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "What matters most in career planning is not a high salary, but lasting personal growth.",
+      "exampleZh": "职业规划中最重要的不是高薪，而是长久的个人成长。",
+      "note": "主语从句作主语，谓语用单数 is；构成 not...but... 对比。"
+    },
+    {
+      "en": "It is ___ that enables young people to ___.",
+      "zh": "正是___使年轻人能够___。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "It is unremitting effort that enables young people to turn dreams into reality.",
+      "exampleZh": "正是坚持不懈的努力使年轻人能够把梦想变为现实。",
+      "note": "强调句式，去掉 It is...that 后句子仍完整；强调人时也可用 who。"
+    },
+    {
+      "en": "There is no denying that ___ plays an indispensable role in ___.",
+      "zh": "不可否认，___在___中起着不可或缺的作用。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "There is no denying that entrepreneurial spirit plays an indispensable role in economic vitality.",
+      "exampleZh": "不可否认，创业精神在经济活力中起着不可或缺的作用。",
+      "note": "第二段点明主题；role 前用 an，不可省略。"
+    },
+    {
+      "en": "The more ___, the more likely young people are to ___.",
+      "zh": "越___，年轻人就越可能___。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "The more practical experience they accumulate, the more likely young people are to seize rare opportunities.",
+      "exampleZh": "他们积累的实践经验越多，年轻人就越可能抓住难得的机会。",
+      "note": "比较级平行结构，前后须对称；注意后句系动词 are 的位置不能提前。"
+    },
+    {
+      "en": "It is high time that we ___ instead of ___.",
+      "zh": "我们早该___，而不是___。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "It is high time that we reflected on what true success means instead of following the crowd.",
+      "exampleZh": "我们早该思考真正的成功意味着什么，而不是随大流。",
+      "note": "从句用过去式或 should + 动词原形，尾段呼吁。"
+    },
+    {
+      "en": "Where there is a will, there is a way.",
+      "zh": "有志者事竟成。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Where there is a will, there is a way, and perseverance finally pays off in the job hunt.",
+      "exampleZh": "有志者事竟成，坚持不懈终会在求职中获得回报。",
+      "note": "谚语，可独立成句或作尾段首句；后接 and 分句时句首字母大写。"
+    },
+    {
+      "en": "Fortune favors the prepared mind.",
+      "zh": "机遇眷顾有准备的头脑。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Fortune favors the prepared mind, so graduates should hone their skills well in advance.",
+      "exampleZh": "机遇眷顾有准备的头脑，因此毕业生应提前磨炼技能。",
+      "note": "巴斯德名言；论证“准备与机遇”时用，英式拼写也可写作 favours。"
+    },
+    {
+      "en": "Strike while the iron is hot.",
+      "zh": "趁热打铁。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Strike while the iron is hot, and never let a golden opportunity slip away.",
+      "exampleZh": "要趁热打铁，绝不要让良机悄然溜走。",
+      "note": "祈使句；尾段号召抓住机遇时可用。"
+    }
+  ]
+}

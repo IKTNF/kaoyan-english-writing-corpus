@@ -1,0 +1,639 @@
+{
+  "id": "quality",
+  "title": "个人品质与成功素养",
+  "emoji": "🏆",
+  "group": "大作文·主题语料",
+  "desc": "围绕毅力、自律、自信、抗挫、专注、协作、创新与诚信等成功素养的高分表达",
+  "entries": [
+    {
+      "en": "perseverance",
+      "zh": "坚持不懈；坚忍不拔（面对困难仍持续努力的品质）",
+      "pos": "n.",
+      "type": "word",
+      "example": "It was perseverance rather than sheer talent that enabled him to turn repeated failures into lasting success.",
+      "exampleZh": "正是坚持不懈而非纯粹的天赋，使他将一次次失败转化为持久的成功。",
+      "note": "不可数名词，常与 show/demonstrate 搭配；主体段分析成功原因时作主语最合适"
+    },
+    {
+      "en": "persist in",
+      "zh": "坚持不懈地做（某事）；执意于",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Those who persist in pursuing their goals in the face of setbacks are far more likely to succeed.",
+      "exampleZh": "那些面对挫折仍坚持不懈追求目标的人，成功的可能性要大得多。",
+      "note": "in 是介词，后接名词或动名词，切不可写成 persist to do sth"
+    },
+    {
+      "en": "tenacity",
+      "zh": "坚韧不拔；顽强（尤指绝不轻易松手）",
+      "pos": "n.",
+      "type": "word",
+      "example": "The tenacity with which she overcame one obstacle after another won her the respect of her colleagues.",
+      "exampleZh": "她克服一个又一个障碍时所表现出的坚韧，赢得了同事们的尊敬。",
+      "note": "常用 with tenacity、display tenacity；比 persistence 更有力量感，适合描写人物"
+    },
+    {
+      "en": "persevere",
+      "zh": "坚持不懈，锲而不舍",
+      "pos": "v.",
+      "type": "word",
+      "example": "Only those who persevere through difficulty can taste the genuine sweetness of achievement.",
+      "exampleZh": "只有那些在困难中坚持不懈的人，才能品尝到成就带来的真正甘甜。",
+      "note": "不及物动词，常接 with sth 或 in doing sth；结尾段呼吁坚持时非常好用"
+    },
+    {
+      "en": "adhere to",
+      "zh": "恪守，坚持（原则、信念、规则等）",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "A person of integrity adheres to his principles even when doing so brings him no immediate benefit.",
+      "exampleZh": "正直的人即便恪守原则不会带来即时好处，也依然坚持不移。",
+      "note": "to 为介词，后接名词或动名词；只用于原则、信念、承诺等抽象对象"
+    },
+    {
+      "en": "unwavering",
+      "zh": "坚定不移的，始终不渝的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Her unwavering commitment to the underprivileged has inspired a whole generation of young volunteers.",
+      "exampleZh": "她对弱势群体坚定不移的付出激励了整整一代年轻志愿者。",
+      "note": "常搭配 unwavering commitment/determination/support；比 firm 更有分量"
+    },
+    {
+      "en": "relentless",
+      "zh": "不屈不挠的；（努力）持续不断的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Through relentless practice, the young athlete gradually narrowed the gap between herself and the champion.",
+      "exampleZh": "通过不屈不挠的训练，这位年轻运动员逐渐缩小了自己与冠军之间的差距。",
+      "note": "可修饰人或 effort/pursuit；注意其另一义为毫不留情的，描写压力时须看语境"
+    },
+    {
+      "en": "diligence",
+      "zh": "勤奋，勤勉",
+      "pos": "n.",
+      "type": "word",
+      "example": "Diligence may not guarantee success, but it certainly raises the odds of achieving it.",
+      "exampleZh": "勤奋未必保证成功，但它必定会提高成功的概率。",
+      "note": "不可数名词；常与 perseverance 并列，用于主体段归纳成才要素"
+    },
+    {
+      "en": "painstaking",
+      "zh": "刻苦的，精心细致的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Years of painstaking research finally paid off when the team published its groundbreaking findings.",
+      "exampleZh": "当团队发表突破性研究成果时，多年的刻苦钻研终于得到了回报。",
+      "note": "固定搭配 painstaking efforts/research/work；与 painful 拼写相近但词义完全不同"
+    },
+    {
+      "en": "self-discipline",
+      "zh": "自律，自我约束",
+      "pos": "n.",
+      "type": "word",
+      "example": "Without self-discipline, even the most gifted students may squander their potential on idle distraction.",
+      "exampleZh": "没有自律，即使最有天赋的学生也可能把潜力浪费在无所事事的消遣上。",
+      "note": "不可数名词，常与 lack/exercise/develop 连用；分析个人成长原因时极实用"
+    },
+    {
+      "en": "willpower",
+      "zh": "意志力，毅力",
+      "pos": "n.",
+      "type": "word",
+      "example": "Giving up a lifelong habit requires enormous willpower, yet the reward is well worth the struggle.",
+      "exampleZh": "戒掉伴随一生的习惯需要巨大的意志力，但回报完全值得这番挣扎。",
+      "note": "不可数名词；可替换 determination，多用于克服诱惑与坏习惯的语境"
+    },
+    {
+      "en": "grit",
+      "zh": "坚毅，韧劲（已进入正式书面语）",
+      "pos": "n.",
+      "type": "word",
+      "example": "Researchers have found that grit predicts long-term achievement better than intelligence does.",
+      "exampleZh": "研究者发现，坚毅对长期成就的预测力比智力更强。",
+      "note": "不可数名词，常与 show grit 搭配；表勇气时用 true grit，勿与 grid 混淆"
+    },
+    {
+      "en": "confidence",
+      "zh": "自信；信心",
+      "pos": "n.",
+      "type": "word",
+      "example": "Building confidence through small victories is far more effective than waiting for a single breakthrough.",
+      "exampleZh": "通过一次次小胜利来建立自信，远比等待一次重大突破更为有效。",
+      "note": "褒义搭配 build/boost confidence，贬义搭配 dent/undermine confidence"
+    },
+    {
+      "en": "optimism",
+      "zh": "乐观，乐观态度",
+      "pos": "n.",
+      "type": "word",
+      "example": "Optimism does not mean ignoring difficulties; it means believing that difficulties can be tackled.",
+      "exampleZh": "乐观并不意味着忽视困难，而是相信困难可以被克服。",
+      "note": "常用 a sense of optimism、cautious optimism；定义式句式适合段落首句破题"
+    },
+    {
+      "en": "look on the bright side",
+      "zh": "看到事物光明的一面；往好处想",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Even when plans fell through, she taught her students to look on the bright side of things.",
+      "exampleZh": "即使计划落空，她也教学生们凡事往好处想。",
+      "note": "固定用单数 bright side，后接 of sth；口语色彩较强，适合例证句或结尾段"
+    },
+    {
+      "en": "pessimistic",
+      "zh": "悲观的，悲观主义的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "A pessimistic outlook often discourages people from even attempting what they might accomplish.",
+      "exampleZh": "悲观的心态往往使人连尝试本可能完成之事的勇气都没有。",
+      "note": "固定搭配 be pessimistic about sth；与 optimistic 成对用于对比论证"
+    },
+    {
+      "en": "adversity",
+      "zh": "逆境，不幸的处境",
+      "pos": "n.",
+      "type": "word",
+      "example": "It is in adversity that true character is revealed and genuine strength is forged.",
+      "exampleZh": "正是在逆境中，真正的品格得以显现，真正的力量得以锻造。",
+      "note": "不可数名词，搭配 in the face of adversity、overcome adversity；宜放开头或结尾升华"
+    },
+    {
+      "en": "setback",
+      "zh": "挫折，倒退",
+      "pos": "n.",
+      "type": "word",
+      "example": "Rather than being defeated by this setback, he treated it as a valuable lesson.",
+      "exampleZh": "他并未被这次挫折打败，而是把它当作宝贵的一课。",
+      "note": "可数名词，常与 suffer/meet with/overcome 连用；复数 setbacks 泛指一连串挫折"
+    },
+    {
+      "en": "hardship",
+      "zh": "艰难困苦；艰辛",
+      "pos": "n.",
+      "type": "word",
+      "example": "Growing up in hardship gave him a resilience that no classroom could ever teach.",
+      "exampleZh": "在困苦中长大，赋予了他任何课堂都无法教授的抗挫力。",
+      "note": "泛指时不可数，指一件件苦难时用 hardships；搭配 endure/experience hardship"
+    },
+    {
+      "en": "obstacle",
+      "zh": "障碍，阻碍（物）",
+      "pos": "n.",
+      "type": "word",
+      "example": "Financial difficulty is an obstacle, but it is by no means an insurmountable one.",
+      "exampleZh": "经济困难是一种障碍，但绝不是无法逾越的障碍。",
+      "note": "固定搭配 obstacle to sth，to 为介词；动词搭配 overcome/remove an obstacle"
+    },
+    {
+      "en": "surmount",
+      "zh": "克服，战胜（困难、障碍）",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Those who surmount formidable barriers often emerge stronger than those who never faced any.",
+      "exampleZh": "克服巨大障碍的人，往往比从未遇过障碍的人更为坚强。",
+      "note": "及物动词，宾语多为 difficulties/obstacles/barriers；比 overcome 更书面"
+    },
+    {
+      "en": "overcome",
+      "zh": "克服，战胜；压倒",
+      "pos": "vt.",
+      "type": "word",
+      "example": "She overcame her fear of public speaking by rehearsing in front of a mirror every evening.",
+      "exampleZh": "她每晚对着镜子练习，从而克服了当众演讲的恐惧。",
+      "note": "常见搭配 overcome difficulties/fear/prejudice；过去式与过去分词均为 overcame/overcome"
+    },
+    {
+      "en": "tide over",
+      "zh": "帮助渡过（难关、困难时期）",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "A small loan from a friend tided him over until he found a stable job.",
+      "exampleZh": "朋友的一笔小额借款帮他渡过了难关，直到他找到一份稳定的工作。",
+      "note": "常用 tide sb over (sth)，宾语置于中间；多指暂时渡过，不用于战胜长期问题"
+    },
+    {
+      "en": "concentration",
+      "zh": "专注，注意力集中",
+      "pos": "n.",
+      "type": "word",
+      "example": "Constant notifications on smartphones steadily erode our powers of concentration.",
+      "exampleZh": "智能手机上不断的通知正在持续侵蚀我们的专注力。",
+      "note": "常用 powers of concentration、lose one's concentration；与 undivided 搭配更地道"
+    },
+    {
+      "en": "devote oneself to",
+      "zh": "致力于，献身于",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "He devoted himself to scientific research for decades, asking nothing in return but the joy of discovery.",
+      "exampleZh": "他数十年致力于科学研究，除发现的乐趣外别无所求。",
+      "note": "to 为介词，后接名词或动名词；被动式 be devoted to 同样高频"
+    },
+    {
+      "en": "be immersed in",
+      "zh": "沉浸于，专心投入于",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "When students are fully immersed in a task, learning ceases to feel like a burden.",
+      "exampleZh": "当学生完全沉浸于一项任务时，学习便不再像一种负担。",
+      "note": "亦可用 immerse oneself in；后接 work/study/a book，描写专注状态比 be busy with 生动"
+    },
+    {
+      "en": "distraction",
+      "zh": "使人分心的事物；注意力分散",
+      "pos": "n.",
+      "type": "word",
+      "example": "Studying in a quiet library removes the distractions that plague work at home.",
+      "exampleZh": "在安静的图书馆学习，可以排除那些在家里困扰人的干扰。",
+      "note": "指具体诱惑时可数，指分心状态时不可数；常搭配 resist/eliminate distractions"
+    },
+    {
+      "en": "procrastination",
+      "zh": "拖延，拖拉",
+      "pos": "n.",
+      "type": "word",
+      "example": "Procrastination is not laziness but a habit of trading long-term goals for immediate comfort.",
+      "exampleZh": "拖延并非懒惰，而是一种用长远目标换取眼前安逸的习惯。",
+      "note": "不可数名词，常作主语；分析效率低下的原因时比 putting things off 更书面"
+    },
+    {
+      "en": "prioritize",
+      "zh": "优先处理，按轻重缓急安排",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Effective learners prioritize the tasks that matter most instead of reacting to whatever comes first.",
+      "exampleZh": "高效的学习者会优先处理最重要的事情，而不是被动应付最先出现的事。",
+      "note": "及物动词，宾语为任务或目标；英式拼写 prioritise 亦可，但全文须统一"
+    },
+    {
+      "en": "collaboration",
+      "zh": "合作，协作（强调共同产出成果）",
+      "pos": "n.",
+      "type": "word",
+      "example": "Close collaboration between universities and enterprises has accelerated the transfer of new technology.",
+      "exampleZh": "高校与企业之间的紧密合作加快了新技术的转化。",
+      "note": "常搭配 in collaboration with sb；比 cooperation 更强调共同完成，适合团队类话题"
+    },
+    {
+      "en": "teamwork",
+      "zh": "团队协作，团队精神",
+      "pos": "n.",
+      "type": "word",
+      "example": "Individual brilliance alone cannot replace the synergy that genuine teamwork creates.",
+      "exampleZh": "个人的卓越无法取代真正的团队协作所产生的合力。",
+      "note": "不可数名词，作主语时谓语用单数；常与 effective/genuine 搭配"
+    },
+    {
+      "en": "synergy",
+      "zh": "协同效应，合力",
+      "pos": "n.",
+      "type": "word",
+      "example": "The two departments achieved a synergy that neither could have produced on its own.",
+      "exampleZh": "两个部门实现了任何一方单独都无法产生的协同效应。",
+      "note": "常搭配 create/achieve synergy；用来表达一加一大于二时格外地道"
+    },
+    {
+      "en": "mutual support",
+      "zh": "相互支持，彼此扶持",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Mutual support within a team often matters more than any single member's talent.",
+      "exampleZh": "团队中的相互支持往往比任何单个成员的才能都更重要。",
+      "note": "mutual 只用于双方或多方之间；同类搭配有 mutual trust/respect，可与 support 并列"
+    },
+    {
+      "en": "coordinate",
+      "zh": "协调，使相互配合",
+      "pos": "v.",
+      "type": "word",
+      "example": "A capable leader knows how to coordinate the efforts of people with very different strengths.",
+      "exampleZh": "一位有能力的领导者懂得如何协调具有不同特长的人的努力。",
+      "note": "及物动词，常搭配 coordinate efforts/activities 或 coordinate with sb；名词为 coordination"
+    },
+    {
+      "en": "creativity",
+      "zh": "创造力，创意",
+      "pos": "n.",
+      "type": "word",
+      "example": "Creativity thrives in an atmosphere where mistakes are tolerated rather than punished.",
+      "exampleZh": "创造力在容许犯错而非惩罚错误的环境中蓬勃发展。",
+      "note": "不可数名词；常与 foster/nurture/stifle 搭配，讨论创新环境时用于主体段"
+    },
+    {
+      "en": "innovation",
+      "zh": "创新；革新",
+      "pos": "n.",
+      "type": "word",
+      "example": "Sustained innovation, rather than blind imitation, is what keeps a nation competitive.",
+      "exampleZh": "使一个国家保持竞争力的，是持续创新而非盲目模仿。",
+      "note": "指一项创新时可数，指创新能力时不可数；常搭配 technological innovation"
+    },
+    {
+      "en": "ingenuity",
+      "zh": "心灵手巧，独创性，巧思",
+      "pos": "n.",
+      "type": "word",
+      "example": "Faced with scarce resources, the villagers solved the water shortage with remarkable ingenuity.",
+      "exampleZh": "面对稀缺的资源，村民们以非凡的巧思解决了缺水问题。",
+      "note": "不可数名词，常搭配 with ingenuity、display ingenuity；侧重巧妙而非高深"
+    },
+    {
+      "en": "initiative",
+      "zh": "主动性，首创精神；（也可指）倡议",
+      "pos": "n.",
+      "type": "word",
+      "example": "Employers value employees who show initiative instead of waiting to be told what to do.",
+      "exampleZh": "雇主看重的，是那些主动做事而非等着被安排工作的员工。",
+      "note": "show/display initiative 表主动；on one's own initiative 意为主动地，勿与 initial 混淆"
+    },
+    {
+      "en": "take the initiative",
+      "zh": "采取主动，率先行动",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Rather than complain about the problem, she took the initiative to organize a volunteer group.",
+      "exampleZh": "她没有抱怨问题，而是主动组织起一个志愿者小组。",
+      "note": "后常接不定式 to do sth；定冠词 the 不可省略，用于记叙式例证句最自然"
+    },
+    {
+      "en": "think outside the box",
+      "zh": "打破常规思考，跳出固有思维",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "To solve such an unusual problem, we must learn to think outside the box.",
+      "exampleZh": "要解决这样一个不寻常的问题，我们必须学会跳出固有思维。",
+      "note": "固定用 outside，勿改成 out of；口语色彩较浓，适合放在建议句或结尾句"
+    },
+    {
+      "en": "integrity",
+      "zh": "正直，诚信",
+      "pos": "n.",
+      "type": "word",
+      "example": "Integrity means doing the right thing even when no one is watching.",
+      "exampleZh": "正直意味着即使无人监督也做正确的事。",
+      "note": "不可数名词，常搭配 personal/professional integrity；定义式短句适合段落开头破题"
+    },
+    {
+      "en": "honesty",
+      "zh": "诚实，正直",
+      "pos": "n.",
+      "type": "word",
+      "example": "Honesty is the foundation on which all lasting relationships, personal or commercial, are built.",
+      "exampleZh": "诚实是所有人际关系——无论私人还是商业——得以持久建立的基础。",
+      "note": "不可数名词；常与 integrity 并列使用，作结尾段的价值升华"
+    },
+    {
+      "en": "accountability",
+      "zh": "问责，责任（须为自己的行为负责）",
+      "pos": "n.",
+      "type": "word",
+      "example": "Greater accountability in public office is essential if citizens are to trust their government.",
+      "exampleZh": "如果公民要信任政府，公职部门加强问责就十分必要。",
+      "note": "不可数名词，搭配 accountability for sth；比 responsibility 更强调可被追究"
+    },
+    {
+      "en": "take responsibility for",
+      "zh": "对……负责，承担……的责任",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Instead of shifting the blame onto others, he took responsibility for the failure.",
+      "exampleZh": "他没有把责任推给别人，而是为这次失败承担了责任。",
+      "note": "for 后接名词或动名词，勿写成 take responsibility of；shift the blame onto 可作反面搭配"
+    },
+    {
+      "en": "conscientious",
+      "zh": "认真尽责的，勤勉谨慎的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "A conscientious worker checks every detail twice before submitting a report.",
+      "exampleZh": "认真尽责的员工在提交报告前会把每个细节核对两遍。",
+      "note": "常修饰 student/worker/attitude；与 conscious 拼写相近，切勿混用"
+    },
+    {
+      "en": "down-to-earth",
+      "zh": "务实的，脚踏实地的",
+      "pos": "adj.",
+      "type": "word",
+      "example": "Despite his fame, the scientist remained refreshingly down-to-earth in his daily life.",
+      "exampleZh": "尽管声名显赫，这位科学家在日常生活中依然务实得令人耳目一新。",
+      "note": "复合形容词，连字符不可省；多修饰人物品质，可与 humble 连用于人物描写"
+    },
+    {
+      "en": "ambition",
+      "zh": "抱负，雄心；野心",
+      "pos": "n.",
+      "type": "word",
+      "example": "Her ambition was not to outshine others but to make a difference in rural education.",
+      "exampleZh": "她的抱负不是要胜过他人，而是要为乡村教育带来改变。",
+      "note": "可数或不可数；实现抱负用 fulfill/realize one's ambition，不可说 reach one's ambition"
+    },
+    {
+      "en": "aspiration",
+      "zh": "志向，渴望（多指向上的追求）",
+      "pos": "n.",
+      "type": "word",
+      "example": "Many graduates cherish the aspiration to work in a field that serves the public good.",
+      "exampleZh": "许多毕业生怀有在公益领域工作的志向。",
+      "note": "常搭配 aspiration to do sth 或 for sth；比 ambition 更偏正面，适合表达理想"
+    },
+    {
+      "en": "strive",
+      "zh": "努力，奋斗（为达到目标而不懈努力）",
+      "pos": "v.",
+      "type": "word",
+      "example": "Every young person should strive to become a better version of himself.",
+      "exampleZh": "每个年轻人都应努力成为更好的自己。",
+      "note": "常接 to do sth 或 for sth；strive for excellence 为高频搭配，结尾段很实用"
+    },
+    {
+      "en": "endeavor",
+      "zh": "努力，尽力（动词；亦作名词意为努力）",
+      "pos": "v.",
+      "type": "word",
+      "example": "We should endeavor to balance academic pursuit with physical and mental well-being.",
+      "exampleZh": "我们应努力在学业追求与身心健康之间取得平衡。",
+      "note": "美式拼写 endeavor、英式 endeavour，全文须统一；作名词时用 in an endeavor to do sth"
+    },
+    {
+      "en": "spare no effort",
+      "zh": "不遗余力，竭尽全力",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "The government should spare no effort to narrow the gap between urban and rural schools.",
+      "exampleZh": "政府应不遗余力地缩小城乡学校之间的差距。",
+      "note": "后接不定式 to do sth；主语常为政府、学校等机构，是结尾段提建议的高分表达"
+    },
+    {
+      "en": "go to great lengths",
+      "zh": "竭尽全力，不辞辛苦地去做",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Some parents go to great lengths to secure the best education for their children.",
+      "exampleZh": "有些父母竭尽全力为孩子争取最好的教育。",
+      "note": "固定搭配 go to great lengths to do sth；great 亦可换 considerable，语气略弱"
+    },
+    {
+      "en": "seize the opportunity",
+      "zh": "抓住机会",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Students should seize the opportunity to broaden their horizons while they are still young.",
+      "exampleZh": "学生应趁年轻抓住机会开阔自己的视野。",
+      "note": "后接不定式 to do sth；也可用 grasp/take the opportunity，seize 语气最强"
+    },
+    {
+      "en": "make the most of",
+      "zh": "充分利用，最大限度地利用",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "To make the most of university life, one must go far beyond the requirements of the syllabus.",
+      "exampleZh": "要充分利用大学生活，就必须远远超越课程大纲的要求。",
+      "note": "后接时间、机会、资源等名词；比 make full use of 更自然，适合建议句"
+    },
+    {
+      "en": "a sense of achievement",
+      "zh": "成就感",
+      "pos": "n.",
+      "type": "phrase",
+      "example": "Nothing gives a learner more of a sense of achievement than mastering a difficult skill.",
+      "exampleZh": "对学习者而言，没有什么比掌握一项困难技能更能带来成就感。",
+      "note": "固定结构 a sense of achievement/fulfillment/responsibility；作主语或宾语皆可"
+    },
+    {
+      "en": "fulfillment",
+      "zh": "满足感，成就感；实现（愿望）",
+      "pos": "n.",
+      "type": "word",
+      "example": "Teaching in a remote village brought her a deep sense of fulfillment that no salary could buy.",
+      "exampleZh": "在偏远山村教书给她带来了一种薪水买不到的深深的满足感。",
+      "note": "英式拼写 fulfilment（单 l），美式 fulfillment；常以 a sense of fulfillment 出现"
+    },
+    {
+      "en": "It is ___ that enables us to ___.",
+      "zh": "正是___使我们能够___。（强调句式，突出某种品质或因素的决定作用）",
+      "pos": "—",
+      "type": "pattern",
+      "example": "It is perseverance that enables us to convert repeated failure into ultimate success.",
+      "exampleZh": "正是坚持不懈使我们能够将反复的失败转化为最终的成功。",
+      "note": "强调句，被强调部分置于 It is 之后；主体段分析原因、结尾段点题均适用"
+    },
+    {
+      "en": "Were it not for ___, we would never ___.",
+      "zh": "若非___，我们就永远不会___。（虚拟条件倒装，强调某因素不可或缺）",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Were it not for self-discipline, we would never accomplish anything worth remembering.",
+      "exampleZh": "若非自律，我们就永远不会取得任何值得铭记的成就。",
+      "note": "省略 if 的虚拟倒装；与现在事实相反用 Were it not for，与过去相反用 Had it not been for"
+    },
+    {
+      "en": "Only by ___ can we ___.",
+      "zh": "只有通过___，我们才能___。（only 加状语置于句首引起部分倒装）",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Only by cooperating with others can we accomplish what no individual could achieve alone.",
+      "exampleZh": "只有与他人合作，我们才能完成任何个人都无法独力达成的事。",
+      "note": "by 后接动名词；主句必须倒装为 can we，结尾段提建议时非常出彩"
+    },
+    {
+      "en": "What sets ___ apart from others is ___.",
+      "zh": "使___区别于他人之处在于___。（主语从句，用于对比与评价）",
+      "pos": "—",
+      "type": "pattern",
+      "example": "What sets outstanding achievers apart from others is their refusal to give up when others quit.",
+      "exampleZh": "杰出成就者与常人不同之处在于，当别人放弃时他们仍然坚持。",
+      "note": "what 引导主语从句，谓语一律用单数 is；适合第二段对比论证的开头"
+    },
+    {
+      "en": "The more ___ we are, the more likely we are to ___.",
+      "zh": "我们越___，就越可能___。（the more…the more 递进比较结构）",
+      "pos": "—",
+      "type": "pattern",
+      "example": "The more resilient we are, the more likely we are to turn setbacks into stepping stones.",
+      "exampleZh": "我们的抗挫力越强，就越有可能把挫折变成垫脚石。",
+      "note": "两个分句均以 the 起首并接比较级；用于论证品质与结果之间的正向关系"
+    },
+    {
+      "en": "No one can ___ without ___.",
+      "zh": "没有人能在没有___的情况下___。（双重否定，强调必要条件）",
+      "pos": "—",
+      "type": "pattern",
+      "example": "No one can attain lasting success without perseverance and a clear sense of purpose.",
+      "exampleZh": "没有坚持不懈和清晰的目标感，没有人能获得持久的成功。",
+      "note": "without 后接名词或动名词；句子简短有力，适合置于段落结论处"
+    },
+    {
+      "en": "It is not ___ but ___ that determines whether ___.",
+      "zh": "决定___与否的不是___，而是___。（not…but 与强调句合用，用于纠正误解）",
+      "pos": "—",
+      "type": "pattern",
+      "example": "It is not innate talent but sustained effort that determines whether one can excel.",
+      "exampleZh": "决定一个人能否出类拔萃的，不是天赋，而是持续的努力。",
+      "note": "not A but B 结构中谓语与 B 保持一致；适合驳斥天赋决定论的论证段"
+    },
+    {
+      "en": "Where there is a will, there is a way.",
+      "zh": "有志者事竟成。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Where there is a will, there is a way; the only real failure is giving up too soon.",
+      "exampleZh": "有志者事竟成；唯一真正的失败是过早放弃。",
+      "note": "谚语，可用于开头引入或结尾升华；注意 there 不可写成 their，will 此处意为意志"
+    },
+    {
+      "en": "Rome was not built in a day.",
+      "zh": "罗马非一日建成（伟业需时）。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Rome was not built in a day, so we should not expect instant results from steady effort.",
+      "exampleZh": "罗马非一日建成，因此我们不应指望持续的努力能立刻见效。",
+      "note": "用于劝人耐心与长期坚持的段落；后可接 so/therefore 引出结论"
+    },
+    {
+      "en": "Constant dripping wears away a stone.",
+      "zh": "滴水穿石。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Constant dripping wears away a stone, which proves that persistence outweighs momentary intensity.",
+      "exampleZh": "滴水穿石，这证明坚持胜过一时的猛烈。",
+      "note": "dripping 为动名词作主语，谓语用 wears；与 perseverance 主题高度呼应"
+    },
+    {
+      "en": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+      "zh": "天才是百分之一的灵感加百分之九十九的汗水。（爱迪生）",
+      "pos": "—",
+      "type": "proverb",
+      "example": "As Edison put it, genius is one percent inspiration and ninety-nine percent perspiration.",
+      "exampleZh": "正如爱迪生所说，天才是百分之一的灵感加百分之九十九的汗水。",
+      "note": "引用时用 As Edison put it；适合论证勤奋重于天赋的段落"
+    },
+    {
+      "en": "Smooth seas do not make skillful sailors.",
+      "zh": "平静的海面练不出熟练的水手。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Smooth seas do not make skillful sailors, so adversity should be welcomed rather than feared.",
+      "exampleZh": "平静的海面练不出熟练的水手，因此逆境应被欢迎而非畏惧。",
+      "note": "非洲谚语，比喻逆境造就本领；放在挫折类话题的论点句效果极佳"
+    },
+    {
+      "en": "Honesty is the best policy.",
+      "zh": "诚实为上策。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Honesty is the best policy, yet it is precisely in difficult moments that it is hardest to keep.",
+      "exampleZh": "诚实为上策，然而恰恰在艰难时刻，它最难坚守。",
+      "note": "用于诚信与职业道德话题；后接 yet/however 转折可避免结论平淡"
+    },
+    {
+      "en": "United we stand, divided we fall.",
+      "zh": "团结则存，分裂则亡。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "United we stand, divided we fall, a truth that applies to teams as much as to nations.",
+      "exampleZh": "团结则存，分裂则亡，这一道理既适用于国家，也适用于团队。",
+      "note": "对仗工整，适合合作与团队精神主题的结尾段，后接同位语补充说明范围"
+    }
+  ]
+}

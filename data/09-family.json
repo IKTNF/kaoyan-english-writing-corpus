@@ -1,0 +1,414 @@
+{
+  "id": "family",
+  "title": "家庭伦理与情感",
+  "emoji": "🏠",
+  "group": "大作文·主题语料",
+  "desc": "孝道陪伴、代际沟通、家风与过度保护的高分表达，适用于亲情类作文论证与呼吁段。",
+  "entries": [
+    {
+      "en": "filial piety",
+      "zh": "孝道，孝顺",
+      "pos": "n.",
+      "type": "word",
+      "example": "Filial piety has been a cornerstone of Chinese ethics for thousands of years.",
+      "exampleZh": "孝道数千年来一直是中国伦理的基石。",
+      "note": "不可数；比 love one's parents 正式得多，常与 uphold, practise 搭配。"
+    },
+    {
+      "en": "show filial respect to",
+      "zh": "对……尽孝，尊敬",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Young people away from home should still show filial respect to their elders.",
+      "exampleZh": "离家的年轻人仍应对长辈尽孝。",
+      "note": "介词 to 不可省略；respect 此处不可数，适合表达态度类句子。"
+    },
+    {
+      "en": "take care of one's aging parents",
+      "zh": "照顾年迈的父母",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Grown children should take care of their aging parents rather than hire caregivers.",
+      "exampleZh": "成年子女应当照顾年迈的父母，而不是雇人代劳。",
+      "note": "aging 亦可写作 ageing；常与 shoulder the duty 连用加重语气。"
+    },
+    {
+      "en": "accompany",
+      "zh": "陪伴，陪同",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Nothing can replace the comfort of accompanying one's parents on ordinary days.",
+      "exampleZh": "没有什么能替代在平常日子里陪伴父母的温暖。",
+      "note": "accompany sb 后不接 with；名词 company 表陪伴，如 keep sb company，适合陪伴类论证。"
+    },
+    {
+      "en": "spend quality time with",
+      "zh": "与……共度高质量时光",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Busy professionals should spend quality time with their families at weekends.",
+      "exampleZh": "忙碌的职场人士应在周末与家人共度高质量的时光。",
+      "note": "quality 前不加冠词；宾语为人，不能写成 spend quality time on sb。"
+    },
+    {
+      "en": "be estranged from",
+      "zh": "与……疏远",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "He has been estranged from his father for nearly a decade.",
+      "exampleZh": "他与父亲疏远已近十年。",
+      "note": "用 be estranged from sb；强调情感疏离，而非物理距离。"
+    },
+    {
+      "en": "neglect one's parents",
+      "zh": "忽视、怠慢父母",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Those who neglect their parents will regret it sooner or later.",
+      "exampleZh": "忽视父母的人迟早会后悔。",
+      "note": "及物动词直接接宾语；名词 negligence 指疏忽，多用于法律语境。"
+    },
+    {
+      "en": "the empty-nest elderly",
+      "zh": "空巢老人",
+      "pos": "n.",
+      "type": "word",
+      "example": "The empty-nest elderly often suffer from loneliness and a sense of uselessness.",
+      "exampleZh": "空巢老人常受孤独和无力感困扰。",
+      "note": "定冠词 the 不可省；作主语时谓语动词用复数形式。"
+    },
+    {
+      "en": "family ties",
+      "zh": "亲情纽带，家庭关系",
+      "pos": "n.",
+      "type": "word",
+      "example": "Family ties remain strong even when members live in different cities.",
+      "exampleZh": "即使家人分居不同城市，亲情纽带依然紧密。",
+      "note": "惯用复数；常与 strengthen, maintain 搭配，多用于亲情纽带论证。"
+    },
+    {
+      "en": "kinship",
+      "zh": "亲属关系，亲情",
+      "pos": "n.",
+      "type": "word",
+      "example": "Kinship is measured not by blood alone but by daily care.",
+      "exampleZh": "亲情不只以血缘衡量，更以日常关爱衡量。",
+      "note": "不可数；比 relationship 更文雅，适合开头点明主题。"
+    },
+    {
+      "en": "unconditional love",
+      "zh": "无条件的爱",
+      "pos": "n.",
+      "type": "word",
+      "example": "Parental love is usually unconditional and asks nothing in return.",
+      "exampleZh": "父母之爱通常是无条件的，不求回报。",
+      "note": "不可数；常与 give, offer 搭配；修饰 parental love 属高分表达。"
+    },
+    {
+      "en": "bond",
+      "zh": "纽带，情感联系",
+      "pos": "n.",
+      "type": "word",
+      "example": "The bond between mother and child is one of the strongest in life.",
+      "exampleZh": "母子之间的纽带是人生中最牢固的纽带之一。",
+      "note": "可数；常与 strengthen, deepen, break 搭配，后接 between，用于情感类论证。"
+    },
+    {
+      "en": "cherish",
+      "zh": "珍惜，珍爱",
+      "pos": "vt.",
+      "type": "word",
+      "example": "We should cherish every moment we are able to spend with our loved ones.",
+      "exampleZh": "我们应珍惜与所爱之人共度的每一刻。",
+      "note": "及物；比 value 更富情感色彩，常用于结尾呼吁句。"
+    },
+    {
+      "en": "hold dear",
+      "zh": "珍视，看重",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "The values my parents taught me are the ones I hold dear.",
+      "exampleZh": "父母教给我的价值观是我最珍视的。",
+      "note": "宾语常为 values, memories, traditions；多用主动语态。"
+    },
+    {
+      "en": "generation gap",
+      "zh": "代沟",
+      "pos": "n.",
+      "type": "word",
+      "example": "The generation gap often gives rise to quarrels over marriage and career.",
+      "exampleZh": "代沟常常在婚姻和职业问题上引发争吵。",
+      "note": "常用 the generation gap；常与 bridge, narrow 搭配，作引言段点题词。"
+    },
+    {
+      "en": "bridge the gap",
+      "zh": "弥合隔阂，消除分歧",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Honest conversation can bridge the gap between parents and their children.",
+      "exampleZh": "坦诚的交流能弥合父母与子女之间的隔阂。",
+      "note": "后接 between A and B；也可用 narrow the gap 保持词汇变化。"
+    },
+    {
+      "en": "mutual understanding",
+      "zh": "相互理解",
+      "pos": "n.",
+      "type": "word",
+      "example": "Mutual understanding begins with patient listening rather than hasty judgment.",
+      "exampleZh": "相互理解始于耐心倾听，而非匆忙评判。",
+      "note": "不可数；常与 promote, foster 搭配，适用于代际沟通主题。"
+    },
+    {
+      "en": "put oneself in others' shoes",
+      "zh": "设身处地为他人着想",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Only by putting ourselves in our parents' shoes can we grasp their worries.",
+      "exampleZh": "只有设身处地为父母着想，我们才能理解他们的担忧。",
+      "note": "变体为 put oneself in sb's position；常与 Only by 倒装连用，用于建议句。"
+    },
+    {
+      "en": "family tradition",
+      "zh": "家庭传统，家风",
+      "pos": "n.",
+      "type": "word",
+      "example": "Reading together before bedtime has become a family tradition in our home.",
+      "exampleZh": "睡前一起读书已成为我们家的家庭传统。",
+      "note": "可数；常与 establish, pass on 搭配，与 family values 并列作论据。"
+    },
+    {
+      "en": "family values",
+      "zh": "家庭价值观，家风",
+      "pos": "n.",
+      "type": "word",
+      "example": "Strong family values are widely regarded as the bedrock of a healthy society.",
+      "exampleZh": "牢固的家庭价值观被普遍视为健康社会的基石。",
+      "note": "惯用复数，谓语用 are；常与 instil, uphold, pass on 搭配。"
+    },
+    {
+      "en": "upbringing",
+      "zh": "教养，抚育",
+      "pos": "n.",
+      "type": "word",
+      "example": "A loving and disciplined upbringing shapes a child's character for life.",
+      "exampleZh": "充满关爱又讲究规矩的教养会塑造孩子一生的性格。",
+      "note": "常用单数；搭配 a strict, a sheltered upbringing，用于谈家教的影响。"
+    },
+    {
+      "en": "set an example",
+      "zh": "树立榜样",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Parents should set an example for their children through their own conduct.",
+      "exampleZh": "父母应以身作则，用自己的行为为孩子树立榜样。",
+      "note": "介词用 for 或 to；也可说 lead by example 替换，避免重复。"
+    },
+    {
+      "en": "be a role model",
+      "zh": "成为榜样",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "A father who reads every day is a role model for his son.",
+      "exampleZh": "每天读书的父亲是儿子的榜样。",
+      "note": "后接 for 或 to；role model 可数，前面必须加 a。"
+    },
+    {
+      "en": "nurture",
+      "zh": "养育，培育",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Parents nurture their children with patience, warmth and quiet encouragement.",
+      "exampleZh": "父母以耐心、温暖和无声的鼓励养育孩子。",
+      "note": "比 raise 正式；也可搭配 nurture talent 或 nurture a habit，用于论证。"
+    },
+    {
+      "en": "overprotection",
+      "zh": "过度保护",
+      "pos": "n.",
+      "type": "word",
+      "example": "Overprotection deprives children of the chance to solve problems themselves.",
+      "exampleZh": "过度保护剥夺了孩子自己解决问题的机会。",
+      "note": "不可数；动词为 overprotect；可替换 excessive care 保持变化。"
+    },
+    {
+      "en": "overindulge",
+      "zh": "过度溺爱，过分纵容",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Parents who overindulge their children may raise adults who cannot cope.",
+      "exampleZh": "过度溺爱孩子的父母可能养出无法应对生活的成年人。",
+      "note": "及物动词；形容词 overindulgent 作定语修饰父母。"
+    },
+    {
+      "en": "spoil",
+      "zh": "溺爱，宠坏",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Grandparents tend to spoil their grandchildren with toys and snacks.",
+      "exampleZh": "祖父母往往用玩具和零食溺爱孙辈。",
+      "note": "过去式与过去分词为 spoiled，英式亦作 spoilt。"
+    },
+    {
+      "en": "doting parents",
+      "zh": "宠爱孩子的父母",
+      "pos": "n.",
+      "type": "word",
+      "example": "Doting parents often do everything for their children out of pure love.",
+      "exampleZh": "宠爱孩子的父母常出于纯粹的爱替孩子包办一切。",
+      "note": "doting 只作定语，略带贬义；同结构可用 doting grandparents。"
+    },
+    {
+      "en": "greenhouse flower",
+      "zh": "温室里的花朵",
+      "pos": "n.",
+      "type": "word",
+      "example": "Children raised as greenhouse flowers may collapse at the first setback.",
+      "exampleZh": "被当作温室花朵养大的孩子可能一遇挫折就崩溃。",
+      "note": "多含批评意味；常与 independence, setbacks 对照使用。"
+    },
+    {
+      "en": "shelter from",
+      "zh": "保护……免受",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Parents cannot shelter their children from every hardship in life.",
+      "exampleZh": "父母无法保护孩子免受生活中的一切艰辛。",
+      "note": "结构为 shelter sb from sth；也可用 protect sb from 替换，含反思意味。"
+    },
+    {
+      "en": "independence",
+      "zh": "独立性",
+      "pos": "n.",
+      "type": "word",
+      "example": "Cultivating independence matters far more than offering endless protection.",
+      "exampleZh": "培养独立性远比给予无休止的保护更重要。",
+      "note": "不可数；动词为 depend on；常与 foster, cultivate 搭配。"
+    },
+    {
+      "en": "self-reliance",
+      "zh": "自立，自我依靠",
+      "pos": "n.",
+      "type": "word",
+      "example": "Self-reliance is a lesson best learned in early childhood.",
+      "exampleZh": "自立是最好在童年早期学会的一课。",
+      "note": "不可数；比 independence 更强调靠自己，形容词为 self-reliant。"
+    },
+    {
+      "en": "juggle work and family",
+      "zh": "兼顾工作与家庭",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Working mothers have to juggle work and family day after day.",
+      "exampleZh": "职场母亲不得不日复一日地兼顾工作与家庭。",
+      "note": "及物动词 juggle 后直接接两个宾语，也可接 a tight schedule。"
+    },
+    {
+      "en": "strike a balance",
+      "zh": "取得平衡",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "It is difficult but essential to strike a balance between career and family.",
+      "exampleZh": "在事业与家庭之间取得平衡很难，却十分必要。",
+      "note": "介词用 between；冠词 a 不可省，也可说 strike the right balance。"
+    },
+    {
+      "en": "sacrifice",
+      "zh": "牺牲，舍弃",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Many parents sacrifice their own comfort for the sake of their children.",
+      "exampleZh": "许多父母为了孩子牺牲自己的舒适生活。",
+      "note": "结构 sacrifice sth for sth；名词搭配为 make sacrifices，用于感恩类段落。"
+    },
+    {
+      "en": "communicate with",
+      "zh": "与……交流沟通",
+      "pos": "phr.",
+      "type": "phrase",
+      "example": "Parents should communicate with their children as friends rather than superiors.",
+      "exampleZh": "父母应像朋友一样与孩子交流，而不是以长辈自居。",
+      "note": "不及物动词加 with；名词搭配为 open, two-way communication。"
+    },
+    {
+      "en": "misunderstand",
+      "zh": "误解",
+      "pos": "vt.",
+      "type": "word",
+      "example": "Teenagers often feel misunderstood by the very people who love them most.",
+      "exampleZh": "青少年常常觉得自己被最爱自己的人误解。",
+      "note": "过去分词 misunderstood 常作表语；名词 misunderstanding 可数。"
+    },
+    {
+      "en": "However busy we are, we should never ___.",
+      "zh": "无论多忙，我们都不该___。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "However busy we are, we should never neglect the people who love us.",
+      "exampleZh": "无论多忙，我们都不该忽视那些爱我们的人。",
+      "note": "However 后紧跟形容词，从句不倒装；可换成 No matter how busy we are。"
+    },
+    {
+      "en": "It is never too late to ___.",
+      "zh": "做___永远都不算晚。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "It is never too late to express our gratitude to our aging parents.",
+      "exampleZh": "向年迈的父母表达感激，永远都不算晚。",
+      "note": "结尾呼吁句常用；to 后接动词原形，泛指时主语可用 we 或 us。"
+    },
+    {
+      "en": "What our parents need is not ___ but ___.",
+      "zh": "父母需要的不是___，而是___。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "What our parents need is not money but our company and patience.",
+      "exampleZh": "父母需要的不是金钱，而是我们的陪伴与耐心。",
+      "note": "主语从句作主语谓语用单数 is；两个空缺处词性须一致。"
+    },
+    {
+      "en": "Only when we ___ can we truly understand our parents.",
+      "zh": "只有当我们___，才能真正理解父母。",
+      "pos": "—",
+      "type": "pattern",
+      "example": "Only when we become parents ourselves can we truly understand our parents.",
+      "exampleZh": "只有当我们自己为人父母时，才能真正理解父母。",
+      "note": "Only when 置于句首时主句须部分倒装，用 can, do, will 等。"
+    },
+    {
+      "en": "Charity begins at home.",
+      "zh": "仁爱始于家庭。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Charity begins at home, so kindness should start with our own family.",
+      "exampleZh": "仁爱始于家庭，所以善意应从自己的家人开始。",
+      "note": "英语谚语，源自约翰·威克里夫；适用于家庭责任与孝道类主题。"
+    },
+    {
+      "en": "Blood is thicker than water.",
+      "zh": "血浓于水。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "Blood is thicker than water, so family ties deserve our first loyalty.",
+      "exampleZh": "血浓于水，所以亲情值得我们首先忠诚以待。",
+      "note": "英语谚语；适用于亲情、家庭纽带类，可作段落中心句。"
+    },
+    {
+      "en": "We never know the love of a parent till we become parents ourselves.",
+      "zh": "直到自己为人父母，我们才懂得父母之爱。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "We never know the love of a parent till we become parents ourselves.",
+      "exampleZh": "直到自己为人父母，我们才懂得父母之爱。",
+      "note": "出处：比彻（Henry Ward Beecher）；适用于代际理解与感恩类结尾。"
+    },
+    {
+      "en": "The family is the first essential cell of human society.",
+      "zh": "家庭是人类社会第一个基本细胞。",
+      "pos": "—",
+      "type": "proverb",
+      "example": "The family is the first essential cell of human society.",
+      "exampleZh": "家庭是人类社会第一个基本细胞。",
+      "note": "出处：教皇约翰二十三世；适用于家庭价值与社会和谐类主题段。"
+    }
+  ]
+}
