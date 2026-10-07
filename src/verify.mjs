@@ -177,11 +177,43 @@ try {
     return {on,rev,off:!document.body.classList.contains('recite')};})()`);
   await step('starFilter', `(()=>{document.querySelector('#onlyStar').click();
     const n=document.querySelectorAll('#list .card').length; document.querySelector('#onlyStar').click(); return n;})()`);
-  await step('examIndex', `(()=>{const t=[...document.querySelectorAll('.nav-i')].find(e=>e.textContent.includes('真题'));t.click();
-    return {rows:document.querySelectorAll('.idx tbody tr').length,
-            links:document.querySelectorAll('.idx .lnk[data-sec]').length,
-            notes:document.querySelectorAll('.idxnotes li').length};})()`);
-  await step('indexJump', `(()=>{const l=document.querySelector('.idx .lnk[data-sec]'); if(!l) return 'NO_LINK'; l.click();
+  await step('idxBig', `(()=>{const t=[...document.querySelectorAll('.nav-i')].find(e=>e.textContent.includes('大作文真题'));t.click();
+    return {crumb:document.querySelector('#crumb').textContent,
+            cards:document.querySelectorAll('#list .yrcard').length,
+            controls:document.querySelectorAll('#list .idxctl button').length,
+            modelBtns:document.querySelectorAll('#list .modelbtn').length,
+            notes:document.querySelectorAll('#list .idxnotes li').length,
+            links:document.querySelectorAll('#list .lnk[data-sec]').length};})()`);
+  await step('idxBigModel', `(()=>{const b=document.querySelector('#list .modelbtn');b.click();
+    const box=document.querySelector('#list .model');
+    const meta=box?box.querySelector('.mo-meta'):null;
+    return {opened:!!box&&box.classList.contains('open'),
+            label:b.textContent.trim(),
+            meta:meta?meta.textContent.replace(/\\s+/g,' ').trim():null,
+            enLen:box?box.querySelector('.mo-en').textContent.length:0,
+            zhLen:box?box.querySelector('.mo-zh').textContent.length:0};})()`);
+  await step('idxBigExpandAll', `(()=>{[...document.querySelectorAll('#list .idxctl button')].find(b=>b.dataset.act==='expand').click();
+    const all=[...document.querySelectorAll('#list .model')];
+    return {total:all.length, opened:all.filter(m=>m.classList.contains('open')).length};})()`);
+  await step('idxBigCollapse', `(()=>{[...document.querySelectorAll('#list .idxctl button')].find(b=>b.dataset.act==='collapse').click();
+    return [...document.querySelectorAll('#list .model')].filter(m=>m.classList.contains('open')).length;})()`);
+  await step('idxSmall', `(()=>{const t=[...document.querySelectorAll('.nav-i')].find(e=>e.textContent.includes('小作文真题'));t.click();
+    const types=[...document.querySelectorAll('#list .yrcard .yrtag')].map(e=>e.textContent.trim());
+    return {crumb:document.querySelector('#crumb').textContent,
+            cards:document.querySelectorAll('#list .yrcard').length,
+            partA:document.querySelectorAll('#list .yrcard.partA').length,
+            distinctTypes:[...new Set(types)].length,
+            models:document.querySelectorAll('#list .modelbtn').length};})()`);
+  await step('idxSearchInIndex', `(()=>{[...document.querySelectorAll('.nav-i')].find(e=>e.textContent.includes('大作文真题')).click();
+    const s=document.querySelector('#search');s.value='龙舟';s.dispatchEvent(new Event('input'));
+    const years=[...document.querySelectorAll('#list .yrcard')].map(c=>+c.dataset.year);
+    const desc=document.querySelector('#list .desc').textContent.replace(/\\s+/g,' ').trim();
+    s.value='';s.dispatchEvent(new Event('input'));
+    s.value='important';s.dispatchEvent(new Event('input'));
+    const noHit=document.querySelectorAll('#list .yrcard').length;
+    s.value='';s.dispatchEvent(new Event('input'));
+    return {years, desc, noHit};})()`);
+  await step('indexJump', `(()=>{const l=document.querySelector('#list .lnk[data-sec]'); if(!l) return 'NO_LINK'; l.click();
     return {crumb:document.querySelector('#crumb').textContent, cards:document.querySelectorAll('#list .card').length};})()`);
   await step('variantBadge', `(()=>{[...document.querySelectorAll('.nav-i')].find(e=>e.textContent.includes('全部语料')).click();
     const s=document.querySelector('#search');s.value='integrity';s.dispatchEvent(new Event('input'));
@@ -212,7 +244,7 @@ try {
   const errs = [];
   if (out.totalEntries !== 870) errs.push('条目总数 ≠ 870');
   if (out.sections !== 17) errs.push('板块数 ≠ 17');
-  if (out.navItems !== 21) errs.push('导航项 ≠ 21');
+  if (out.navItems !== 22) errs.push('导航项 ≠ 22（实为 ' + out.navItems + '）');
   if (!(out.cardsRendered > 0)) errs.push('卡片未渲染');
   if (!(inter.search && inter.search.cards > 0 && inter.search.hit && inter.search.marks > 0)) errs.push('英文搜索失败');
   if (!(inter.chineseSearch > 0)) errs.push('中文搜索失败');
@@ -221,7 +253,13 @@ try {
   if (!(inter.masterStar && inter.masterStar.mastered && inter.masterStar.starred && inter.masterStar.ls)) errs.push('掌握/收藏/持久化失败');
   if (!(inter.recite && inter.recite.on && inter.recite.rev && inter.recite.off)) errs.push('背诵模式失败');
   if (!(inter.starFilter > 0)) errs.push('收藏筛选失败');
-  if (!(inter.examIndex && inter.examIndex.rows === 27 && inter.examIndex.links > 60)) errs.push('真题索引渲染失败');
+  if (!(inter.idxBig && inter.idxBig.cards >= 20 && inter.idxBig.modelBtns >= 20 && inter.idxBig.links > 20)) errs.push('大作文真题索引渲染失败');
+  if (!(inter.idxBigModel && inter.idxBigModel.opened && inter.idxBigModel.enLen > 400 && inter.idxBigModel.zhLen > 50)) errs.push('范文展开失败');
+  if (!(inter.idxBigExpandAll && inter.idxBigExpandAll.opened === inter.idxBigExpandAll.total && inter.idxBigExpandAll.total > 0)) errs.push('展开全部范文失败');
+  if (inter.idxBigCollapse !== 0) errs.push('全部收起失败');
+  if (!(inter.idxSmall && inter.idxSmall.cards >= 15 && inter.idxSmall.partA === inter.idxSmall.cards && inter.idxSmall.distinctTypes >= 5)) errs.push('小作文真题索引渲染失败');
+  if (!(inter.idxSearchInIndex && inter.idxSearchInIndex.years.length === 1 && inter.idxSearchInIndex.years[0] === 2023)) errs.push('索引内搜索失败（龙舟应只命中 2023）');
+  if (!(inter.idxSearchInIndex && inter.idxSearchInIndex.noHit === 0)) errs.push('索引内无结果时应显示空态');
   if (!(inter.indexJump && inter.indexJump.cards > 0)) errs.push('索引跳转失败');
   if (!(inter.theme && inter.theme.dark)) errs.push('暗色主题失败');
   if (!(inter.variantBadge && inter.variantBadge.sameK >= 2 && inter.variantBadge.badges.some(Boolean))) errs.push('跨板块同表达徽章失败');

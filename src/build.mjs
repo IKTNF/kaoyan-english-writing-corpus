@@ -103,9 +103,37 @@ if (fs.existsSync(idxFile)) {
   try {
     examIndex = JSON.parse(fs.readFileSync(idxFile, 'utf8'));
     const ids = new Set(sections.map(s => s.id));
-    examIndex.years.forEach(y => (y.sections || []).forEach(sid => {
-      if (!ids.has(sid)) warns.push(`00-index.json: ${y.year} 年引用了不存在的板块 id "${sid}"`);
-    }));
+    examIndex.stats = { partA: 0, partB: 0, modelA: 0, modelB: 0, wordsA: 0, wordsB: 0 };
+
+    for (const part of ['partA', 'partB']) {
+      const p = examIndex[part];
+      if (!p) { die(`00-index.json: 缺少 "${part}"`); continue; }
+      for (const k of ['title', 'subtitle', 'years'])
+        if (p[k] === undefined) die(`00-index.json: ${part} 缺少 "${k}"`);
+      if (!Array.isArray(p.years)) { die(`00-index.json: ${part}.years 必须是数组`); continue; }
+
+      const seenYear = new Set();
+      p.years.forEach(y => {
+        const tag = `${part} ${y.year}`;
+        if (!y.year) die(`00-index.json: ${tag} 缺少 year`);
+        if (seenYear.has(y.year)) die(`00-index.json: ${tag} 年份重复`);
+        seenYear.add(y.year);
+        (y.sections || []).forEach(sid => {
+          if (!ids.has(sid)) warns.push(`00-index.json: ${tag} 引用了不存在的板块 id "${sid}"`);
+        });
+        if (!y.model) { warns.push(`00-index.json: ${tag} 没有范文`); return; }
+        const m = y.model;
+        if (!String(m.en || '').trim()) { die(`00-index.json: ${tag} 范文缺少 en`); return; }
+        if (!String(m.zh || '').trim()) { die(`00-index.json: ${tag} 范文缺少 zh`); return; }
+        m.words = String(m.en).trim().split(/\s+/).length;
+        m.paras = String(m.en).trim().split(/\n\s*\n/).length;
+      });
+
+      const ys = p.years.map(y => y.year);
+      examIndex.stats[part] = ys.length;
+      examIndex.stats['model' + part.slice(-1)] = p.years.filter(y => y.model).length;
+      examIndex.stats['words' + part.slice(-1)] = p.years.reduce((n, y) => n + (y.model ? y.model.words : 0), 0);
+    }
   } catch (e) { die(`00-index.json: JSON 解析失败 → ${e.message}`); }
 } else {
   warns.push('未找到 data/00-index.json，真题索引将不显示');
@@ -153,6 +181,51 @@ all += '\n---\n';
 sections.forEach(s => { all += `\n<a id="${s.id}"></a>\n\n` + mdOf(s) + '\n---\n'; });
 fs.writeFileSync(path.join(MDDIR, '全部语料.md'), all, 'utf8');
 
+/* ---- 真题索引导出 ---- */
+if (examIndex && examIndex.partA && examIndex.partB) {
+  const partMd = (p, isA) => {
+    let o = `# ${p.title}\n\n> ${p.subtitle}\n>\n> 共 ${p.years.length} 套 · 原创范文 ${p.years.filter(y => y.model).length} 篇\n\n`;
+    o += isA
+      ? '| 年份 | 题型 | 收信人 / 受众 |\n|---|---|---|\n'
+      : '| 年份 | 题型 | 主题 |\n|---|---|---|\n';
+    p.years.slice().sort((a, b) => b.year - a.year).forEach(y => {
+      o += isA
+        ? `| ${y.year} | ${y.type || ''} | ${y.recipient || ''} |\n`
+        : `| ${y.year} | ${y.chartType || ''} | ${y.titleZh || ''} |\n`;
+    });
+    o += '\n---\n';
+    p.years.slice().sort((a, b) => b.year - a.year).forEach(y => {
+      o += `\n## ${y.year} 年 · ${isA ? (y.type || '') : (y.chartType || '')} · ${isA ? (y.recipient || '') : (y.titleZh || '')}\n\n`;
+      if (isA) {
+        o += `- **写作任务**：${y.taskZh || ''}\n`;
+        if (y.points && y.points.length) o += `- **要点**：${y.points.join('；')}\n`;
+        if (y.recipient) o += `- **收信人 / 受众**：${y.recipient}\n`;
+      } else {
+        if (y.topicEn) o += `- **English topic**：${y.topicEn}\n`;
+        if (y.pictureZh) o += `- **图画 / 图表**：${y.pictureZh}\n`;
+        if (y.directionsZh) o += `- **写作要求**：${y.directionsZh}\n`;
+      }
+      if (y.tip) o += `- **可复用角度**：${y.tip}\n`;
+      if (y.sections && y.sections.length)
+        o += `- **对应语料板块**：${y.sections.map(id => (sections.find(s => s.id === id) || {}).title || id).join(' · ')}\n`;
+      if (y.confidence && y.confidence !== 'high') o += `- ⚠️ 题面置信度：${y.confidence}${y.note ? '（' + y.note + '）' : ''}\n`;
+      if (y.model) {
+        o += `\n### 原创范文（${y.model.words} 词）\n\n`;
+        if (y.model.outline && y.model.outline.length)
+          o += y.model.outline.map((x, i) => `**${['一', '二', '三', '四'][i] || i + 1}、${x}**`).join('  \n') + '\n\n';
+        o += y.model.en.split(/\n\s*\n/).map(x => x.trim()).join('\n\n') + '\n\n';
+        o += `> 译文：${y.model.zh}\n`;
+      }
+      o += '\n---\n';
+    });
+    if (examIndex.notes && examIndex.notes.length)
+      o += '\n## 命题规律 · 备考提示\n\n' + examIndex.notes.map(n => '- ' + n).join('\n') + '\n';
+    return o;
+  };
+  fs.writeFileSync(path.join(MDDIR, '真题索引-大作文.md'), partMd(examIndex.partB, false), 'utf8');
+  fs.writeFileSync(path.join(MDDIR, '真题索引-小作文.md'), partMd(examIndex.partA, true), 'utf8');
+}
+
 /* ---------------- summary ---------------- */
 console.log('\n✓ 构建成功');
 console.log('  输出: ' + OUT);
@@ -164,5 +237,10 @@ GROUP_ORDER.filter(g => byGroup[g]).forEach(g => {
   console.log('  ▸ ' + g);
   byGroup[g].forEach(s => console.log(`      ${s.emoji} ${s.title.padEnd(0)}  ${String(s.entries.length).padStart(3)} 条   [${s.id}]`));
 });
-if (examIndex) console.log('\n  🗂 ' + examIndex.title + '  ' + examIndex.years.length + ' 个年份');
+if (examIndex && examIndex.stats) {
+  const s = examIndex.stats;
+  console.log('\n  🗂 真题索引');
+  console.log(`      ${examIndex.partB ? examIndex.partB.title : '大作文'}   ${String(s.partB).padStart(2)} 套 · 范文 ${s.modelB} 篇 · ${s.wordsB} 词`);
+  console.log(`      ${examIndex.partA ? examIndex.partA.title : '小作文'}   ${String(s.partA).padStart(2)} 套 · 范文 ${s.modelA} 篇 · ${s.wordsA} 词`);
+}
 console.log('\n  markdown/ 已同步导出。\n');

@@ -1,227 +1,1711 @@
 {
-  "title": "历年真题主题索引",
-  "desc": "英语一 1999—2025 大作文逐年题面与主题归类。点击最右列的板块名可直接跳到对应语料背诵。标 ※ 的年份题面表述以官方真题为准。",
-  "years": [
-    {
-      "year": 2025,
-      "type": "图表",
-      "topicZh": "居民耐用消费品拥有量变化",
-      "topicEn": "Changes in the Ownership of Durable Consumer Goods",
-      "sections": ["describe", "career", "argue"],
-      "tip": "英语一重新回到图表题：首段必须交代数据走势，主体段解释「为什么涨」，结尾段升华到生活水平提升与理性消费。"
-    },
-    {
-      "year": 2024,
-      "type": "图画",
-      "topicZh": "公园里的体育锻炼",
-      "topicEn": "Physical Exercise in the Park",
-      "sections": ["health", "society", "describe"],
-      "tip": "国民健康 + 全民健身。可从「个人健康意识提高」「公共设施完善」两条腿展开，结尾呼吁坚持运动。"
-    },
-    {
-      "year": 2023,
-      "type": "图画",
-      "topicZh": "龙舟赛",
-      "topicEn": "Dragon Boat Racing",
-      "sections": ["culture", "quality", "describe"],
-      "tip": "传统文化 + 团队协作。两个角度都能写：文化传承与自信；众人划桨体现团结。建议文化为主、协作为辅。"
-    },
-    {
-      "year": 2022,
-      "type": "图画",
-      "topicZh": "广泛学习 / 博学",
-      "topicEn": "Learning Broadly Beyond Textbooks",
-      "sections": ["education", "describe"],
-      "tip": "学习不只限于课本。可写终身学习、跨界知识、实践与理论结合。"
-    },
-    {
-      "year": 2021,
-      "type": "图画",
-      "topicZh": "文化自信（孩子学戏）",
-      "topicEn": "Confidence in Our Own Culture",
-      "sections": ["culture", "describe"],
-      "tip": "传统文化传承 + 家庭鼓励。主体段写「为什么要传承」和「怎么传承」。"
-    },
-    {
-      "year": 2020,
-      "type": "图画",
-      "topicZh": "习惯与养成教育 ※",
-      "topicEn": "The Value of Forming Good Habits",
-      "sections": ["quality", "education", "family"],
-      "tip": "习惯类话题年年可套：习惯如何塑造性格、影响效率；家长与学校如何引导。"
-    },
-    {
-      "year": 2019,
-      "type": "图画",
-      "topicZh": "途中（爬山与坚持）",
-      "topicEn": "On the Way — Perseverance",
-      "sections": ["quality", "describe"],
-      "tip": "最典型的「个人品质」题。坚持、毅力、目标、过程比终点更重要。"
-    },
-    {
-      "year": 2018,
-      "type": "图画",
-      "topicZh": "选课进行时",
-      "topicEn": "Choosing Courses",
-      "sections": ["education", "career", "describe"],
-      "tip": "如何做选择：兴趣 vs 实用、难度 vs 收获。可引申到理性选择与长远眼光。"
-    },
-    {
-      "year": 2017,
-      "type": "图画",
-      "topicZh": "「有书」与「读书」",
-      "topicEn": "Owning Books vs. Reading Books",
-      "sections": ["education", "describe"],
-      "tip": "行动胜于空谈。与 2019、2004 同属「实践/行动」大类，句式可复用。"
-    },
-    {
-      "year": 2016,
-      "type": "图画",
-      "topicZh": "与其只提要求，不如做个榜样",
-      "topicEn": "Setting an Example Rather Than Giving Orders",
-      "sections": ["family", "education", "quality"],
-      "tip": "家庭教育 + 言传身教。结尾可升华到「以身作则」的社会意义。"
-    },
-    {
-      "year": 2015,
-      "type": "图画",
-      "topicZh": "手机时代的聚会",
-      "topicEn": "A Gathering in the Age of Smartphones",
-      "sections": ["technology", "society", "describe"],
-      "tip": "科技双刃剑经典题。既要承认便利，也要写人际疏离，最后给出「合理使用」的建议。"
-    },
-    {
-      "year": 2014,
-      "type": "图画",
-      "topicZh": "相携（陪伴父母）",
-      "topicEn": "Accompanying One's Aging Parents",
-      "sections": ["family", "society"],
-      "tip": "孝道与陪伴。注意区分「物质赡养」与「精神陪伴」，后者是高分点。"
-    },
-    {
-      "year": 2013,
-      "type": "图画",
-      "topicZh": "选择（毕业去向）",
-      "topicEn": "Choices After Graduation",
-      "sections": ["career", "quality"],
-      "tip": "考研 / 就业 / 出国。可写「没有标准答案，适合自己的才是最好的」。"
-    },
-    {
-      "year": 2012,
-      "type": "图画",
-      "topicZh": "乐观与悲观",
-      "topicEn": "Optimism and Pessimism",
-      "sections": ["quality", "describe"],
-      "tip": "同一件事两种心态。首段一定要写出「对比」，句式用 whereas / in stark contrast。"
-    },
-    {
-      "year": 2011,
-      "type": "图画",
-      "topicZh": "旅程之「余」（旅游垃圾）",
-      "topicEn": "The Leftovers of a Journey",
-      "sections": ["environment", "society"],
-      "tip": "文明旅游 + 环保意识 + 公德。可写个人素养，也可写景区管理。"
-    },
-    {
-      "year": 2010,
-      "type": "图画",
-      "topicZh": "文化「火锅」，美味又营养",
-      "topicEn": "Cultural Hotpot: Blending Cultures",
-      "sections": ["culture", "describe"],
-      "tip": "文化融合与多元。经典比喻可复用：melting pot / hotpot of cultures。"
-    },
-    {
-      "year": 2009,
-      "type": "图画",
-      "topicZh": "网络的「近」与「远」",
-      "topicEn": "The Internet: Close Yet Distant",
-      "sections": ["technology", "describe"],
-      "tip": "与 2015 同源。写「物理距离拉近、心理距离拉远」的悖论最有分。"
-    },
-    {
-      "year": 2008,
-      "type": "图画",
-      "topicZh": "合作（两人三条腿）",
-      "topicEn": "Cooperation",
-      "sections": ["quality", "describe"],
-      "tip": "合作共赢。可用 synergy / complement each other / join hands。"
-    },
-    {
-      "year": 2007,
-      "type": "图画",
-      "topicZh": "自信（点球时刻）",
-      "topicEn": "Self-confidence",
-      "sections": ["quality", "describe"],
-      "tip": "自信与心态。写「自信不是自负」，可加一句让步。"
-    },
-    {
-      "year": 2006,
-      "type": "图画",
-      "topicZh": "偶像崇拜",
-      "topicEn": "Idol Worship",
-      "sections": ["society", "quality", "describe"],
-      "tip": "青年现象。建议辩证：适度激励 vs 盲目跟风，落到「理性追星」。"
-    },
-    {
-      "year": 2005,
-      "type": "图画",
-      "topicZh": "养老（四个儿子推诿）",
-      "topicEn": "Supporting the Elderly",
-      "sections": ["family", "society", "describe"],
-      "tip": "老龄化 + 孝道 + 社会责任。老题但主题常青，近年仍可能复现。"
-    },
-    {
-      "year": 2004,
-      "type": "图画",
-      "topicZh": "终点又是新起点",
-      "topicEn": "The End Is a New Beginning",
-      "sections": ["quality", "career", "describe"],
-      "tip": "永不止步。与 2019、2017 共用「行动/进取」句式，可一起背。"
-    },
-    {
-      "year": 2003,
-      "type": "图画",
-      "topicZh": "温室花朵经不起风雨",
-      "topicEn": "Greenhouse Flowers Cannot Withstand Storms",
-      "sections": ["family", "quality", "describe"],
-      "tip": "过度保护与独立。关键词 overprotection / independence / adversity。"
-    },
-    {
-      "year": 2002,
-      "type": "图画",
-      "topicZh": "民族文化与世界文化",
-      "topicEn": "National Culture and World Culture",
-      "sections": ["culture", "describe"],
-      "tip": "与 2010、2021、2023 同属文化大类，是英语一最偏爱的话题族。"
-    },
-    {
-      "year": 2001,
-      "type": "图画",
-      "topicZh": "爱心是一盏灯，越黑暗的地方越明亮",
-      "topicEn": "Love Is a Lamp Brighter in Darkness",
-      "sections": ["society", "quality", "describe"],
-      "tip": "爱心与公益。可延伸到志愿服务、互帮互助、社会温度。"
-    },
-    {
-      "year": 2000,
-      "type": "图表",
-      "topicZh": "世界商业捕鱼简史（1900 vs 1995）",
-      "topicEn": "A Brief History of World Commercial Fishing",
-      "sections": ["environment", "describe", "argue"],
-      "tip": "早期图表题。图表模板句仍然适用，重点在「数据对比 + 原因 + 对策」。"
-    },
-    {
-      "year": 1999,
-      "type": "图表",
-      "topicZh": "美国人口增长与物种灭绝",
-      "topicEn": "The Ups and Downs of Population Growth",
-      "sections": ["environment", "describe", "argue"],
-      "tip": "生态与发展的冲突。可与环保板块一起背。"
-    }
-  ],
-  "notes": [
-    "命题规律：近 25 年英语一大作文高度集中在四大话题族——① 个人品质与成功素养（2004/2007/2008/2012/2017/2018/2019/2020）② 文化传承与交流（2002/2010/2021/2023）③ 科技与媒介（2009/2015）④ 社会公德与家庭伦理（2001/2003/2005/2006/2011/2014/2016）。把这四族的语料背熟，基本可以覆盖任意新题。",
-    "图表题回归：2025 年考「居民耐用消费品拥有量变化」，说明图表描述句（describe 板块后半部分）必须一起准备，不能只练图画。",
-    "首段写法固定：描述画面 → 点出寓意。主体段两到三点理由。结尾段总结 + 建议/呼吁。任何题目都能套这三步。"
-  ]
+  "title": "历年真题索引",
+  "desc": "考研英语一 Section III 写作真题逐年题面与原创范文。原题部分为考据结果，标注来源与置信度；范文为本书原创，非官方答案。",
+  "partB": {
+    "title": "大作文真题索引",
+    "subtitle": "Part B · 图画/图表作文 160—200 词 · 1998—2025",
+    "emoji": "🗂",
+    "years": [
+      {
+        "year": 1998,
+        "chartType": "图画",
+        "titleZh": "如此承诺（母鸡的承诺）",
+        "topicEn": "So-Called Promises",
+        "pictureZh": "一幅讽刺漫画：一只母鸡手持一份“承诺书”，旁边配一首题为《如此承诺》的诗。图上文字为“本母鸡承诺：①本鸡下蛋不见棱不见角 ②保证有蛋皮，蛋黄和蛋清”。讽刺把分内之事当成了不起的承诺来宣扬的现象。",
+        "captions": [],
+        "directionsZh": "写出漫画所传达的信息（母鸡的“承诺”），并给出自己的评论。不少于150词，15分；本年为考研史上第一次图画作文，当年无小作文。",
+        "sections": [
+          "society",
+          "quality",
+          "describe"
+        ],
+        "tip": "诚信与承诺。漫画讽刺\"只承诺最保险的事\"，可写职业操守、社会责任、言行一致。",
+        "confidence": "high",
+        "note": "原文：未知 → 实际：1998年为图画（漫画）作文《如此承诺》：母鸡手拿承诺书，承诺自己下的蛋“不见棱不见角、有蛋皮蛋黄蛋清”，即把本职当恩惠；要求写出漫画寓意并评论。",
+        "sources": [
+          "https://www.offcn.com/kaoyan/2016/1129/70350.html",
+          "https://yzst.chsi.com.cn/kyzx/other/200710/20071016/1397852.html"
+        ],
+        "model": {
+          "en": "In the cartoon, a hen proudly holds up a written \"promise\" for all to see. The sheet reads: \"I promise that my eggs will have neither edges nor corners, and that each will contain a shell, a yolk and a white.\" Absurd as it sounds, the picture ridicules those who advertise their plain duty as a great favour.\n\nTo begin with, such boasting betrays a distorted sense of responsibility. What a hen ought to do is lay sound eggs, and nothing about it deserves applause. What is more, the habit spread far beyond the cartoon. Some officials trumpet routine services, and some merchants describe ordinary quality as a bonus granted to customers. Furthermore, empty promises erode public trust, for people soon discover that no extra effort was ever made.\n\nTherefore, instead of bragging about what is merely expected, we should quietly do our own job well. It is high time that we replaced self-congratulation with solid performance. Only by fulfilling our duties honestly can we win the respect we crave.",
+          "zh": "漫画中，一只母鸡得意地举着一张“承诺书”向众人展示。承诺书上写着：“本母鸡承诺：①本鸡下蛋不见棱不见角；②保证有蛋皮、蛋黄和蛋清。”尽管听上去荒谬，这幅画讽刺的正是那些把分内之事当作天大的恩惠来宣扬的人。\n\n首先，这种自我吹嘘暴露出一种扭曲的责任观。母鸡本该做的就是下好蛋，这毫无值得喝彩之处。其次，这种习气远不止于漫画之中。有些官员大肆宣扬本属日常的服务，有些商家把正常的质量说成是额外赐予顾客的好处。再者，空洞的承诺会侵蚀公众信任，因为人们很快就会发现，对方从未多付出过一分努力。\n\n因此，与其夸耀本就该做的事，不如安安静静地把自己的本职工作做好。我们早该用实实在在的成绩取代自我贴金。唯有诚实地履行自己的职责，我们才能赢得所渴求的尊重。",
+          "outline": [
+            "首段描述母鸡手持承诺书的画面，引用其承诺内容，点出讽刺寓意",
+            "主体段分层论证：责任观扭曲、社会上同类风气、公众信任受损",
+            "结尾段以 It is high time that 与倒装句提出做好本职、诚实尽责"
+          ],
+          "words": 170,
+          "paras": 3
+        }
+      },
+      {
+        "year": 1999,
+        "chartType": "图表",
+        "titleZh": "人口增长的沉浮（美国人口增长与物种灭绝）",
+        "topicEn": "The Ups and Downs of Population Growth",
+        "pictureZh": "两幅线形图：一幅显示1800—1980年美国人口急剧增长（约250倍），另一幅显示1700—1900年美国野生动物灭绝种类快速增加（约70倍）。两条曲线同向上升，暗示人口增长与物种灭绝相关。来源未提及图上有标题文字；“The Ups and Downs of Population Growth”是通行（范文）标题。",
+        "captions": [],
+        "directionsZh": "覆盖图表全部信息，写三点：①人口增长对野生动物的影响 ②造成这种影响可能的原因 ③自己对保护野生动物的建议。不少于150词。",
+        "sections": [
+          "environment",
+          "describe",
+          "argue"
+        ],
+        "tip": "生态与发展的冲突。可与环保板块一起背。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://yzst.chsi.com.cn/kyzx/other/200710/20071016/1397837.html",
+          "https://yz.chsi.com.cn/kyzx/en/200710/20071009/1378334.html"
+        ],
+        "model": {
+          "en": "As is shown in the two charts, the period from 1800 to 1980 witnessed a dramatic rise in the American population, which grew roughly 250 times. In the meantime, the number of wildlife species that became extinct climbed about 70 times between 1700 and 1900. The two curves move upward almost in step, unmistakably suggesting a close link between population growth and the extinction of other creatures.\n\nTo begin with, a growing population demands more land, food and timber, so forests, wetlands and grasslands are converted into farms and cities, leaving wild animals homeless. What is more, industrial expansion accompanying human numbers pollutes rivers and air, while hunting and trade wipe out species at a rate nature can hardly repair. Furthermore, every lost species is a link pulled out of the chain on which our own survival depends.\n\nIn my view, governments should set aside more nature reserves and enforce anti-poaching laws strictly, and ordinary citizens can contribute by consuming less and recycling more. It is high time that we realized we are not masters of the earth but one member of it. Only by protecting wildlife can we protect ourselves.",
+          "zh": "两幅图表显示：1800年至1980年间，美国人口急剧增长，增幅约为250倍；与此同时，1700年至1900年间，美国灭绝的野生动物种类增加了约70倍。两条曲线几乎同步上扬，清楚地暗示出人口增长与其他物种灭绝之间的密切关联。\n\n首先，人口的膨胀需要更多土地、粮食和木材，森林、湿地与草原被改造成农田和城市，野生动物因此失去家园。其次，伴随人口增长而来的工业扩张污染了河流与空气，而捕猎和贸易又使物种以自然几乎无法弥补的速度消失。再者，每一个消失的物种，都是从我们自身赖以生存的链条上抽走的一环。\n\n我认为，政府应划定更多自然保护区并严格执法反盗猎，普通公民也可以通过减少消费、加强回收来出一份力。我们早该意识到，人类不是地球的主宰，而只是其中一员。唯有保护野生动物，我们才能保护自己。",
+          "outline": [
+            "首段用两幅曲线图的数据说明人口增250倍与物种灭绝70倍的同向走势",
+            "主体段分层论证：人口占地、工业污染与猎捕贸易、食物链断裂的危害",
+            "结尾提出政府建保护区、个人少消费的建议，用倒装句收束全文"
+          ],
+          "words": 191,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2000,
+        "chartType": "图画",
+        "titleZh": "世界商业捕鱼简史",
+        "topicEn": "A Brief History of World Commercial Fishing",
+        "pictureZh": "两幅对比图片：1900年辽阔海面上鱼群众多，却只有一艘渔船；1995年海面上渔船成群，却只剩一条鱼。图片配有英文标题“A Brief History of World Commercial Fishing”。",
+        "captions": [],
+        "directionsZh": "描述两幅图片、推断作画者的意图，并提出应对措施（解决办法）。不少于150词。",
+        "sections": [
+          "environment",
+          "describe",
+          "argue"
+        ],
+        "tip": "两图对比（1900 鱼多船少 / 1995 船多鱼少）。首段必须写出对比，主体段解释过度捕捞的成因，结尾落到可持续发展。",
+        "confidence": "high",
+        "note": "原文：图表 → 实际：图画（两幅对比图画）。2000年是“真正意义上的图画作文考查的开始”（继1998年后第二次图画作文），并非图表作文；1900年鱼多船少、1995年船多鱼少这一对应关系与原整理一致。",
+        "sources": [
+          "https://yz.chsi.com.cn/kyzx/other/200710/20071016/1397829.html",
+          "https://m.hujiang.com/en/p479038/"
+        ],
+        "model": {
+          "en": "The two pictures offer a brief history of world commercial fishing. In 1900, the vast sea was crowded with shoals of fish, whereas only a single fishing boat drifted on the water. In stark contrast, by 1995 the same sea was packed with fishing vessels of every size, yet merely one lonely fish was left swimming beneath them. This reversal warns us that uncontrolled exploitation will eventually empty the ocean that feeds us.\n\nTo begin with, the root cause lies in the greed for immediate profit; fishermen use finer nets and larger fleets to catch more than the sea can regenerate. What is more, weak international regulation leaves the high seas open to whoever arrives first, so no country feels obliged to hold back. Furthermore, whole marine food chains collapse, ruining the livelihood of coastal communities.\n\nAccordingly, governments should fix catch quotas and close fishing grounds during breeding seasons, while consumers can help by choosing seafood from sustainable sources. It is high time that we treated the ocean as a treasure to be shared rather than a mine to be emptied. Only by fishing with restraint can we leave our children a living sea.",
+          "zh": "两幅图画勾勒出世界商业捕鱼的简史。1900年，辽阔的海面上鱼群密集，而水上只有一艘渔船漂荡。形成鲜明对比的是，到了1995年，同一片海面挤满了大大小小的渔船，水下却只剩下一条孤独的鱼。这一反转警示我们：毫无节制的索取终将掏空养育我们的海洋。\n\n首先，根源在于贪图眼前利益的贪婪：渔民使用更细密的渔网和更大的船队，捕捞量超过了海洋的再生能力。其次，国际监管乏力，使公海对“先到者”敞开，没有哪个国家觉得自己有义务收手。再者，整条海洋食物链随之崩塌，使沿海社区的生计遭到破坏。\n\n因此，政府应设定捕捞配额并在繁殖季节休渔，消费者则可以通过选择可持续来源的海产品来帮忙。我们早该把海洋当作需要共同分享的宝藏，而不是可以挖空的矿藏。唯有有所克制地捕捞，我们才能给子孙后代留下一片有生命的海洋。",
+          "outline": [
+            "首段用对比句式写出1900年鱼多船少与1995年船多鱼少的强烈反差",
+            "主体段分层论证：逐利滥捕、国际监管薄弱、渔业崩溃的连锁后果",
+            "结尾建议设定捕捞配额与休渔期，呼吁克制捕捞，用倒装句收束"
+          ],
+          "words": 194,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2001,
+        "chartType": "图画",
+        "titleZh": "爱心是一盏灯",
+        "topicEn": "Love Is a Lamp",
+        "pictureZh": "黑暗背景中一盏油灯发出明亮的火焰，火焰的形状像一个孩子纯真、灿烂的笑脸；灯旁有一句提示语：“爱心是一盏灯，在越黑暗的地方越明亮。”",
+        "captions": [],
+        "directionsZh": "①描述图画并解释其象征意义 ②举出一个具体事例 ③就表达爱心的最好方式提出建议。约200词，20分（本年字数由150增至200，分值由15分增至20分）。",
+        "sections": [
+          "society",
+          "quality",
+          "describe"
+        ],
+        "tip": "爱心与公益。可延伸到志愿服务、互帮互助、社会温度。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://yz.chsi.com.cn/kyzx/other/200710/20071016/1397800.html"
+        ],
+        "model": {
+          "en": "In the darkness of the picture, an oil lamp burns with a bright, steady flame, whose shape resembles the innocent, radiant smile of a child. Beside it runs a line of Chinese: \"Love is a lamp, which shines brightest where it is darkest.\" The message is plain: kindness is most precious precisely where suffering is deepest.\n\nA case in point is the volunteers who rushed to disaster-stricken areas. To begin with, they carried food and medicine into villages cut off by floods, so that despairing families saw hope again. What is more, their warmth proved contagious, for neighbours who had lost everything began to share what little remained. Furthermore, such giving costs hardly anything yet changes everything, since a small act of care can restore a person's faith in the world.\n\nAs for the best way to express love, I suggest we start with those around us: a phone call to ageing parents, a helping hand to a classmate in trouble, a donation to a worthy cause. It is high time that we stopped waiting for grand occasions. Only by lighting one small lamp can we drive away the darkness around us.",
+          "zh": "在画面的黑暗中，一盏油灯燃着明亮而平稳的火焰，其形状宛如孩童纯真灿烂的笑脸。灯旁写着一行中文：“爱心是一盏灯，在越黑暗的地方越明亮。”寓意十分清楚：善意恰恰在苦难最深的地方最为珍贵。\n\n一个恰当的例证是那些奔赴灾区的志愿者。首先，他们把食物和药品送进被洪水围困的村庄，让绝望的家庭重新看到希望。其次，他们的温暖具有感染力：失去了一切的邻里也开始分享手头仅存的东西。再者，这种给予几乎不花什么代价，却能改变一切，因为一次小小的关怀就足以让人重拾对世界的信心。\n\n至于表达爱心的最好方式，我认为应从身边人做起：给年迈的父母打个电话，帮有困难的同学一把，为值得的公益项目捐一点款。我们早该不再等待什么重大时机。唯有点亮一盏小灯，我们才能驱散身边的黑暗。",
+          "outline": [
+            "首段描述黑暗中油灯与孩童笑脸状的火焰，点出越黑暗越明亮的寓意",
+            "主体段举抗灾志愿者为例，进而说明爱心可以感染他人、重树信心",
+            "结尾就表达爱心的方式提出建议，以 Only by 倒装句作结"
+          ],
+          "words": 192,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2002,
+        "chartType": "图画",
+        "titleZh": "民族文化与世界文化（美国女孩穿中国民族服装）",
+        "topicEn": "Cultures — National and International",
+        "pictureZh": "一张照片：一位笑容灿烂的美国姑娘身穿中国传统民族服饰（配有发带、耳环、项链等），照片注释为“An American girl in traditional Chinese costume”，题面给出标题“Cultures — National and International”。",
+        "captions": [],
+        "directionsZh": "①描述照片并解释其含义 ②对这一现象（民族文化可成为世界的）给出自己的评论。约200词，20分。",
+        "sections": [
+          "culture",
+          "describe"
+        ],
+        "tip": "照片题。文化多元与融合，可写\"民族的即世界的\"。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://yz.chsi.com.cn/kyzx/other/200710/20071016/1397791.html"
+        ],
+        "model": {
+          "en": "The photograph presents a young American woman smiling broadly, dressed in a traditional Chinese costume: an embroidered silk jacket, a matching headband, earrings and a necklace. The caption below reads \"An American girl in traditional Chinese costume\", and the title given is \"Cultures: National and International\". The picture is striking precisely because the girl is obviously not Chinese, which shows that culture crosses borders more easily than we assume.\n\nTo begin with, this photograph proves that national culture can become international property. What is more, such borrowing enriches both sides, for a foreign admirer brings fresh eyes to Chinese craft while her own culture gains a new colour. Furthermore, the exchange works against narrow prejudice, reminding us that beauty belongs to humanity rather than to a single nation.\n\nIn my view, we should welcome this trend with confidence. National traditions need not fear being shared; the more widely they travel, the more vital they become. It is high time that we presented our heritage to the world instead of keeping it locked away. Only by opening our culture to others can we make it truly international.",
+          "zh": "照片中，一位年轻的美国女性笑容灿烂，身穿中国传统民族服装：绣花丝绸上衣、相配的发带、耳环和项链。照片下方的说明写着“一位身穿中国传统服装的美国姑娘”，题面给出的标题是“Cultures: National and International”。这幅照片之所以引人注目，恰恰因为这位姑娘显然不是中国人，它说明文化的跨界远比我们想象的容易。\n\n首先，这张照片证明民族文化可以成为世界的财富。其次，这种借鉴使双方都受益：外国欣赏者以新鲜的眼光看待中国工艺，而她本国的文化也获得新的色彩。再者，这种交流有助于破除狭隘的偏见，提醒我们美属于全人类，而不只属于某一个民族。\n\n在我看来，我们应当自信地欢迎这一趋势。民族文化不必害怕被分享；传播得越广，它就越是充满活力。我们早该把我们的文化呈现给世界，而不是把它锁起来。唯有向他人开放我们的文化，才能使它真正成为世界的文化。",
+          "outline": [
+            "首段描述照片中美国姑娘的中国传统服饰与灿烂笑容，点明文化跨界",
+            "主体段分层论证：民族文化可成世界财富、交流双向获益、破除偏见",
+            "结尾表明应自信开放地展示本民族文化，用倒装句收束全文"
+          ],
+          "words": 186,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2003,
+        "chartType": "图画",
+        "titleZh": "温室花朵经不起风雨",
+        "topicEn": "Greenhouse Flowers Cannot Withstand Storms",
+        "pictureZh": "一组两幅对比图画：第一幅中，尽管外面狂风暴雨、电闪雷鸣，温室（花房）里的花依然怒放；第二幅中，同一朵花被搬出温室、暴露在风雨之中，立即凋谢枯萎，花瓣散落一地。题面指其含义为“温室中的花朵经不起风雨”。",
+        "captions": [],
+        "directionsZh": "①描述这组图画并解释其含义 ②指出其中暗含的、在我们生活中的寓意（implications）。约200词，20分。",
+        "sections": [
+          "family",
+          "quality",
+          "describe"
+        ],
+        "tip": "过度保护与独立。关键词 overprotection / independence / adversity。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://yzst.chsi.com.cn/kyzx/other/200710/20071016/1397786.html",
+          "https://m.hujiang.com/en_music/p479446/"
+        ],
+        "model": {
+          "en": "The first picture shows a flower blooming splendidly inside a greenhouse, whereas outside the glass a violent storm rages with lightning and pouring rain. In stark contrast, the second picture reveals the same flower carried out into the wind and rain, where it withers at once, its petals scattered on the ground. The lesson is unmistakable: a sheltered life produces a bloom that cannot survive reality.\n\nTo begin with, the metaphor applies directly to young people who are overprotected by their families. Denied hardship at home, many of them break down at the first difficulty of college or work. What is more, the same logic governs education: pupils who are drilled only for tests seldom learn to think independently. Furthermore, a society that removes every risk from childhood eventually raises a generation of fragile adults.\n\nTherefore, parents should let children face manageable difficulties and learn from failure, and schools should cultivate resilience as earnestly as they pursue high marks. It is high time that we stopped mistaking comfort for love. Only by braving the storm can a young plant grow into a sturdy tree.",
+          "zh": "第一幅图画中，温室里的花朵开得灿烂，而玻璃房外却是电闪雷鸣、狂风暴雨。形成鲜明对比的是，第二幅图里，同一朵花被搬到风雨之中，立刻枯萎凋谢，花瓣散落一地。寓意再清楚不过：被庇护的生活养出的花朵经不起现实的考验。\n\n首先，这一比喻直接适用于那些被家庭过度保护的年轻人。在家里未曾经历困难，许多人一遇到大学或工作中的第一个挫折就崩溃。其次，同样的道理也适用于教育：只为考试而被反复训练的学生，很少学会独立思考。再者，一个替童年扫清一切风险的社会，最终培养出的是一代脆弱的成年人。\n\n因此，父母应让孩子面对力所能及的困难并从失败中学习，学校也应像追求高分一样认真地培养抗挫力。我们早该不再把舒适误当成爱。唯有经历风雨，幼苗才能长成挺拔的大树。",
+          "outline": [
+            "首段用 whereas 写出温室内盛开与出温室即凋谢的强烈对比",
+            "主体段由花及人，谈家庭过度保护、应试教育与脆弱一代的后果",
+            "结尾建议家庭放手、学校培养抗挫力，用虚拟语气和倒装句收尾"
+          ],
+          "words": 184,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2004,
+        "chartType": "图画",
+        "titleZh": "终点又是新起点",
+        "topicEn": "The Finishing Line Is Also a Starting Point",
+        "pictureZh": "一名满头大汗、嘴角带笑的男孩（赛跑者）正冲向终点线；地上有一个箭头标着“终点”，紧接着另一个箭头标着“起点”，图下一行字写着“终点又是新起点”。",
+        "captions": [],
+        "directionsZh": "①描述图画 ②解释其含义 ③用若干例子支持自己的观点。约200词，20分。",
+        "sections": [
+          "quality",
+          "career",
+          "describe"
+        ],
+        "tip": "永不止步。与 2019、2017 共用「行动/进取」句式，可一起背。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://yz.chsi.com.cn/kyzx/en/200710/20071016/1397781.html"
+        ],
+        "model": {
+          "en": "The cartoon depicts a young runner, sweat streaming down his face, smiling as he dashes towards the finishing line. On the ground before him an arrow is marked \"finish\", and immediately beyond it another arrow is marked \"start\". Below the drawing runs the sentence \"The finishing line is also a starting point.\" The picture tells us that every achievement opens, rather than closes, a new journey.\n\nTo begin with, success is dangerous when it breeds complacency. Numerous athletes, having won one championship, train less and soon disappear from the arena. What is more, progress in any field is endless: a scientist who solves one puzzle merely uncovers a dozen new ones. Furthermore, examples surround us. After landing on the moon, humanity did not stop but aimed at Mars; after each medical breakthrough, researchers set out against the next disease.\n\nIn my opinion, we should treat each triumph as a checkpoint rather than a destination, drawing lessons from it and setting a fresh goal at once. It is high time that we replaced the question \"Have I arrived?\" with \"Where do I go next?\" Only by starting anew after every finish can we keep moving forward.",
+          "zh": "漫画描绘了一位年轻的赛跑者，脸上汗水直流，带着笑容向终点线冲刺。他前面的地上标着一个箭头“终点”，紧挨着它后面另一个箭头标着“起点”。图下方写着：“终点又是新起点。”这幅画告诉我们，每一次成就开启的是一段新的旅程，而不是把旅程关闭。\n\n首先，成功一旦滋长自满便十分危险。许多运动员夺得一次冠军后训练松懈，很快便从赛场上消失。其次，任何领域的进步都是无止境的：解决了一个难题的科学家，往往只是揭开了一打新的难题。再者，这样的例子比比皆是。登上月球之后，人类并未止步，而是把目标指向火星；每一次医学突破之后，研究者又投入到下一种疾病的攻坚中。\n\n我认为，我们应把每一次胜利当作一个检查点，而非终点站，从中吸取经验并立刻设定新的目标。我们早该把“我到了吗？”换成“我下一步去哪儿？”唯有在每一次抵达之后重新出发，我们才能不断前行。",
+          "outline": [
+            "首段描述冲向终点的男孩、地面上终点与起点两个箭头及图下文字",
+            "主体段论证成功易生自满、学问无止境，并举登月与医学突破为例",
+            "结尾提出把每次成功当作新起点，用 It is high time that 与倒装句"
+          ],
+          "words": 195,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2005,
+        "chartType": "图画",
+        "titleZh": "养老“足球赛”",
+        "topicEn": "Supporting the Elderly",
+        "pictureZh": "一个足球场的四个角各有一个球门，守门的是同一位老人的四个子女——大儿子、二儿子、小儿子和小女儿；球场中间是一个蜷缩成一团、呈球形的老人，被子女们当成足球踢来踢去，无人愿意接住、赡养。来源未提及图上有文字说明。",
+        "captions": [],
+        "directionsZh": "先描述图画，再解释其含义，并对其作出评论。160-200词，20分（2005年起增加应用文小作文，大作文降为160-200词）。",
+        "sections": [
+          "family",
+          "society",
+          "describe"
+        ],
+        "tip": "老龄化 + 孝道 + 社会责任。老题但主题常青，近年仍可能复现。",
+        "confidence": "high",
+        "note": "原文：四个儿子把老人当球踢 → 实际：是三子一女共四个子女，分别守住球场四角的四个球门，把蜷缩成球形的老人踢来踢去；“儿女”而非“四个儿子”，且是四个球门分守四角。",
+        "sources": [
+          "http://www.kaoyan365.cn/yingyu/ziliao/12660.html",
+          "https://m.hujiang.com/en_ppt/p479451/",
+          "http://www.yuloo.com/news/2005-02-01/44539.html"
+        ],
+        "model": {
+          "en": "The picture shows a football field with four goals, one at each corner, guarded respectively by an elderly man's three sons and one daughter. In the middle of the pitch lies the old man himself, curled up into a ball, being kicked from one goal to another. Nobody wants to catch him; each child simply passes the burden on. The cartoon satirizes those who shirk the duty of supporting their aged parents.\n\nTo begin with, such behaviour betrays a shameful ingratitude, since these children were once fed, clothed and educated by the very man they now reject. What is more, the phenomenon is worsening as society ages and the pressure of work grows, yet poverty of time can never justify poverty of conscience. Furthermore, abandoning parents harms more than the old: children who watch such scenes will treat their own parents the same way.\n\nTherefore, the family should remain the first provider of care, while the state must improve pensions and community services. It is high time that we honoured the old instead of passing them like a ball. Only by respecting our elders can we expect respect when we grow old.",
+          "zh": "图画显示一个足球场，四角各有一个球门，分别由一位老人的三个儿子和一个女儿把守。球场正中躺着的正是这位老人，他蜷缩成一团，被从一个球门踢向另一个球门。没有人愿意接住他；每个子女只是把负担传出去。这幅漫画讽刺的正是那些逃避赡养父母责任的人。\n\n首先，这种行为暴露出令人羞愧的忘恩负义，因为这些子女当年正是被他们如今拒之门外的这个人喂养、穿衣、供读。其次，随着社会老龄化和工作压力加大，这一现象还在加剧，然而时间的匮乏绝不能成为良心匮乏的借口。再者，抛弃父母伤害的不只是老人：目睹这种场面的孩子将来也会以同样的方式对待自己的父母。\n\n因此，家庭仍应是照料老人的第一责任人，而国家必须完善养老金与社区服务。我们早该敬重老人，而不是把他们像球一样踢来踢去。唯有尊重长辈，我们年老时才能指望得到尊重。",
+          "outline": [
+            "首段描述四个球门分守四角、老人蜷缩成球被子女踢来踢去的画面",
+            "主体段批评忘恩负义，指出老龄社会压力与身教对下一代的影响",
+            "结尾呼吁家庭尽责与政府完善养老保障，用倒装句作结"
+          ],
+          "words": 192,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2006,
+        "chartType": "图画",
+        "titleZh": "偶像崇拜",
+        "topicEn": "Idol Worship",
+        "pictureZh": "两幅照片：图1中一名年轻男子把足球明星的名字“Beckham”写在脸上，配文“把崇拜写在脸上”；图2中另一名男子在理发店花300元做“小贝头”，模仿贝克汉姆的发型。图注说明Beckham是英国足球明星。",
+        "captions": [],
+        "directionsZh": "①简述两幅照片 ②解释其所反映的社会现象 ③给出自己的观点。160-200词，20分。",
+        "sections": [
+          "society",
+          "quality",
+          "describe"
+        ],
+        "tip": "照片题。辩证看待追星：适度激励 vs 盲目模仿，落点\"理性追星、崇尚内在\"。",
+        "confidence": "high",
+        "note": "原文：图画——偶像崇拜（贝克汉姆发型） → 实际：为两幅照片（照片类图画，与2002年同为照片），图1“把崇拜写在脸上”（脸上写Beckham），图2“花300元做小贝头”；要求简述照片、解释社会现象并给出观点。原整理要点不错，但漏了“两幅照片、2006年为照片而非漫画”这一信息。",
+        "sources": [
+          "http://www.offcn.com/kaoyan/2016/1130/70411.html",
+          "https://yz.chsi.com.cn/kyzx/other/200811/20081126/10545552-1.html"
+        ],
+        "model": {
+          "en": "The two photographs show how far idol worship can go. In the first, a young man has the name \"Beckham\" written across his face, and the caption reads \"Writing the admiration on his face\". In the second, another young man is having his hair cut in the style of the British football star, which, as the caption notes, cost him 300 yuan. Devotion of this kind says less about Beckham than about the emptiness of the fans' own lives.\n\nTo begin with, moderate admiration is harmless; it is blind imitation that worries us. What is more, thousands of young people spend money and energy copying a stranger's appearance, whereas they seldom imitate his discipline or perseverance. Furthermore, such enthusiasm is often exploited by advertisers, who turn teenage passion into profit. In stark contrast to genuine self-improvement, this worship leaves fans with nothing but a fashionable surface.\n\nIn my view, hot pursuit of idols should give way to calm appreciation of what they represent. It is high time that we learned to admire virtues rather than haircuts. Only by building our own strengths can we become someone worth worshipping.",
+          "zh": "这两幅照片显示出偶像崇拜可以走得多远。第一幅中，一名年轻男子把“Beckham”这个名字写在脸上，图注写着“把崇拜写在脸上”。第二幅中，另一名年轻男子正在剪那位英国足球明星的发型，图注说明这花了他300元。这样的狂热与其说说明了贝克汉姆的魅力，不如说暴露了追星者自身生活的空虚。\n\n首先，适度的崇拜无害，令人担忧的是盲目模仿。其次，成千上万的年轻人为模仿一个陌生人的外表花费金钱和精力，却很少模仿他的自律与坚持。再者，这种热情常常被商家利用，他们青少年的激情变成了利润。与真正意义上的自我提升相比，这种崇拜只给追星者留下一层时髦的外壳。\n\n在我看来，对偶像的热烈追逐应让位于对其所代表品质的冷静欣赏。我们早该学会欣赏品格而不是发型。唯有打造自己的长处，我们才能成为值得他人崇拜的人。",
+          "outline": [
+            "首段描述脸上写 Beckham 与花300元做小贝头的两幅照片及图注文字",
+            "主体段分层论证：适度崇拜无妨、盲目模仿成风、热情被商家利用",
+            "结尾主张欣赏偶像的品质而非外表，用倒装句收束全文"
+          ],
+          "words": 188,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2007,
+        "chartType": "图画",
+        "titleZh": "自信",
+        "topicEn": "Self-Confidence",
+        "pictureZh": "足球场上的点球决战：一名射手正准备射门，一名守门员把守球门。两人想法恰好相反——守门员觉得球门如此之大，自己如此渺小；射手却觉得球门如此之小，门将如此神武。双方都因低估自己而缺乏自信。来源未提及图画上的文字说明。",
+        "captions": [],
+        "directionsZh": "①简述图画 ②解释其引申含义 ③用一个或几个例子支持自己的观点。160-200词，20分。",
+        "sections": [
+          "quality",
+          "describe"
+        ],
+        "tip": "自信与心态。写「自信不是自负」，可加一句让步。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://yzst.chsi.com.cn/kyzx/jyxd/200701/20070124/748807.html",
+          "https://m.hujiang.com/en/p551998/"
+        ],
+        "model": {
+          "en": "In the cartoon, two footballers are frozen in a penalty shoot-out. Facing the same goal, the goalkeeper feels hopelessly small beside an enormous net, while the shooter finds the goal tiny and its keeper invincible. Before the ball is kicked, both have already been beaten by one enemy: self-doubt.\n\nTo begin with, self-doubt distorts our perception of reality. The goal never changes size; only the lens through which each man sees himself does, and that lens can turn ordinary challenges into insurmountable walls. What is more, confidence largely decides performance: a player who expects to fail hesitates at the crucial moment, whereas one who trusts his ability strikes with composure. Furthermore, countless achievers rose on self-belief rather than superior talent. Deng Yaping, once dismissed as too short for table tennis, trained relentlessly and became a world champion.\n\nIn short, our fiercest opponent is often our own insecurity. It is high time that we judged ourselves fairly, magnifying neither difficulties nor defeats. Only by believing in ourselves can we take the shot that decides the game.",
+          "zh": "画中，两名球员定格在点球大战的瞬间。面对同一个球门，守门员觉得自己在偌大的球门旁渺小得可怜，而射手却觉得球门小得可怜、把守它的门将神勇无比。球还没踢出，两人就已经被同一个敌人打败——那就是不自信。\n\n首先，自我怀疑会扭曲我们对现实的认知。球门的大小从未改变，改变的只是每个人看待自己的那副镜片，而这副镜片能把普通的挑战放大成无法逾越的高墙。其次，信心在很大程度上决定发挥：预感失败的球员会在关键时刻犹豫不决，而相信自己实力的球员则沉着起脚。再者，无数成功者靠的是自信而非过人的天赋：邓亚萍曾因个子太矮被人断言不适合打乒乓球，她苦练不辍，最终成为世界冠军。\n\n总而言之，我们最凶悍的对手往往就是自己的不安全感。是时候公正地评价自己了，既不要放大困难，也不要贬低自己的力量。唯有相信自己，我们才能踢出那决定胜负的一球。",
+          "outline": [
+            "首段写点球场景：守门员自感渺小、射手视门将神勇，点出寓意。",
+            "主体分三层：自我怀疑扭曲认知、信心决定发挥、邓亚萍佐证。",
+            "结尾呼吁公正评价自己，用 Only by 倒装句收束。"
+          ],
+          "words": 175,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2008,
+        "chartType": "图画",
+        "titleZh": "合作",
+        "topicEn": "Cooperation",
+        "pictureZh": "两名残疾人把拐杖扔在身后，互相用有力的手搀扶着、一起大步向前走去。图画文字说明为：“你一条腿，我一条腿；你我一起，走南闯北。”",
+        "captions": [],
+        "directionsZh": "①简述图画 ②解释其寓意 ③给出自己的评论。160-200词，20分。",
+        "sections": [
+          "quality",
+          "describe"
+        ],
+        "tip": "合作共赢。可用 synergy / complement each other / join hands。",
+        "confidence": "high",
+        "note": "原文：两个残疾人各缺一条腿，合起来奔跑 → 实际：两人丢掉（扔掉）拐杖、互相搀扶并排大步前行，并非“奔跑”；且图上有文字说明“你一条腿，我一条腿；你我一起，走南闯北”。",
+        "sources": [
+          "https://yz.chsi.com.cn/kyzx/en/200812/20081203/11329940.html"
+        ],
+        "model": {
+          "en": "In the picture, two disabled men have thrown their crutches away and are striding forward side by side, each supporting the other with a firm arm. A caption beneath them reads, “You have one leg, I have one leg; together we can travel north and south.” The message is unmistakable: cooperation enables the weak to achieve what neither could alone.\n\nTo begin with, cooperation pools individual strengths and compensates for individual weaknesses. Each man lacks a leg, yet together they walk steadily, while either alone could only limp. What is more, cooperation breeds trust and mutual respect, which no amount of solitary brilliance can create. Furthermore, in an age of fierce competition, few significant goals can be reached single-handedly. China's space programme, whose spacecraft were produced by thousands of scientists and engineers working in concert, shows how powerfully joint effort can turn limitations into achievements.\n\nTherefore, the crutches lying on the ground teach us a simple truth: no one is strong enough to walk every road alone. It is high time that we abandoned the illusion of self-sufficiency and learned to give and receive support. Only by joining hands can we go further than either of us ever could.",
+          "zh": "画中，两名残疾人把拐杖扔在身后，并肩大步向前，各自用有力的手臂扶着对方。他们身下的一行文字写道：“你一条腿，我一条腿；你我一起，走南闯北。”这幅画传递的信息再清楚不过：合作能让弱者做到任何一方单独都无法做到的事。\n\n首先，合作能汇聚个体之长、弥补个体之短。两人各缺一条腿，可携手便能稳步前行，而任何一方单独走只能一瘸一拐。其次，合作孕育信任与相互尊重，这是任何孤军奋战的天才都无法造就的。再者，在竞争激烈的年代，极少有重大目标可以靠一己之力达成。中国航天工程中，飞船由成千上万名科学家与工程师协同制造，它有力地说明：合力能把局限转化为成就。\n\n因此，扔在地上的拐杖教会我们一个简单的道理：没有人强大到可以独自走完每一条路。是时候抛弃自给自足的幻想，学会既给予支持、也接受支持。唯有携手，我们才能走得比任何一方独自前行都远。",
+          "outline": [
+            "首段写两人扔掉拐杖、互相搀扶前行并引图上文字，点出合作。",
+            "主体分三层：合作互补短长、孕育信任、中国航天协作事例。",
+            "结尾以拐杖作结，呼吁既给也受支持，用 Only by 收束。"
+          ],
+          "words": 199,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2009,
+        "chartType": "图画",
+        "titleZh": "网络的“近”与“远”",
+        "topicEn": "The Internet: Near and Far",
+        "pictureZh": "一幅漫画：一张巨大的蜘蛛网（象征互联网）把各方节点连接起来，而人们各自坐在狭小的“格子间”里面对电脑、通过上网与人交流——网络让远的人变近，却让身边的人缺少面对面的真实交流。来源未提及图上文字说明。",
+        "captions": [],
+        "directionsZh": "①简述图画 ②解释其含义 ③给出自己的观点/评论。160-200词，20分。",
+        "sections": [
+          "technology",
+          "describe"
+        ],
+        "tip": "与 2015 同源。写「物理距离拉近、心理距离拉远」的悖论最有分。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://yz.chsi.com.cn/kyzx/other/200901/20090119/16727092.html",
+          "http://www.offcn.com/kaoyan/2016/1123/69982.html",
+          "https://m.hujiang.com/en/p552054/"
+        ],
+        "model": {
+          "en": "In the cartoon, a huge spider's web stretches across the picture, linking every corner of the world, while people sit isolated in tiny cubicles, each staring at a computer screen. The web draws distant strangers close, yet pushes neighbours apart. Here lies a paradox: the Internet connects us online only to disconnect us in person.\n\nTo begin with, the convenience the Internet offers is undeniable. Messages once taking weeks now arrive in seconds, and a student in a remote village can attend lectures delivered by famous professors. What is more, this convenience carries a hidden cost. Sitting side by side, colleagues email each other instead of turning their heads; families at dinner immerse themselves in screens rather than in conversation. Furthermore, the more time we spend in virtual space, the less we invest in real relationships, for warmth, eye contact and shared silence cannot be downloaded.\n\nTo sum up, the Internet is a tool, not a substitute for human contact. It is high time that we used it as a bridge rather than a shelter. Only by stepping out of our cubicles and looking up can we enjoy the nearness it was meant to serve.",
+          "zh": "画中，一张巨大的蛛网横贯画面，把世界的各个角落连接起来；而人们却各自困在狭小的格子间里，盯着电脑屏幕。蛛网把远方的陌生人拉近，却把近在身边的人推开。这里面隐藏着数字时代的一个悖论：互联网在线上把我们连在一起，恰恰又在现实中把我们分开。\n\n首先，网络带来的便利无可否认。曾经要花数周才能送达的消息，如今几秒即至；偏远山村的学生也能听到名师的授课。其次，这份便利也暗含代价：并肩而坐的同事互相发邮件而不愿扭头说话，共进晚餐的家人沉溺于屏幕而不是交谈。再者，我们在虚拟空间里花的时间越多，投入到真实关系中的就越少，因为温度、眼神和共处的沉默都无法下载。\n\n总之，互联网是工具，而不是人际交往的替代品。是时候把它当作桥梁而不是避难所。唯有走出格子间、抬起头来，我们才能真正享受它本应带来的那份亲近。",
+          "outline": [
+            "首段写蛛网与格子间，点出网络把远人拉近、近人推远。",
+            "主体分层：网络便利、隐藏代价、虚拟时间挤占真实关系。",
+            "结尾以桥与避难所作比，呼吁做网络的主人。"
+          ],
+          "words": 195,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2010,
+        "chartType": "图画",
+        "titleZh": "文化“火锅”",
+        "topicEn": "Cultural Hot Pot (Cultural Blending)",
+        "pictureZh": "一幅热气腾腾的“火锅”图，锅内写满各种中外文化元素：毕昇、老舍、莎士比亚、爱因斯坦等中外名人，佛、道、儒、仁、礼、人本、启蒙、后现代、解构等哲学概念，以及京剧、功夫、《天鹅湖》等表演艺术。图下文字说明：“文化‘火锅’，既美味又营养。”",
+        "captions": [],
+        "directionsZh": "①简述图画 ②解释其内在含义（文化融合） ③给出自己的评论。160-200词，20分。",
+        "sections": [
+          "culture",
+          "describe"
+        ],
+        "tip": "文化融合与多元。经典比喻可复用：melting pot / hotpot of cultures。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/201512/10382595.html",
+          "https://yz.chsi.com.cn/kyzx/en/201001/20100115/61845653.html",
+          "https://m.hujiang.com/en_kaoyanzuowen/p479742/"
+        ],
+        "model": {
+          "en": "In the picture, a steaming hot pot is boiling on the table, but what simmers inside is far from ordinary: names such as Bi Sheng, Lao She, Shakespeare and Einstein, concepts like Confucianism and the Enlightenment, and arts from Peking Opera to Swan Lake. The caption reads, “Cultural hot pot: both delicious and nutritious.” The metaphor is clear: a culture grows richer when it welcomes ingredients from every tradition.\n\nTo begin with, cultural blending enriches a nation's creativity. Just as one dish absorbs the flavours of many spices, a civilisation that borrows freely from others renews its vitality. What is more, exchange dissolves prejudice. Only when we read foreign literature, watch foreign films or taste foreign food do we discover that people everywhere share the same hopes and fears. Furthermore, history confirms the value of openness: the Tang Dynasty, with its cosmopolitan capital, produced poetry and art we still admire, whereas closed societies have repeatedly withered.\n\nIn conclusion, the hot pot teaches us to welcome what is different instead of fearing it. It is high time that we treated other cultures as ingredients, not threats. Only by keeping the pot boiling can we serve a feast that nourishes everyone.",
+          "zh": "画中，一只热腾腾的火锅正在桌上沸腾，锅里煮的却远非寻常之物：毕昇、老舍、莎士比亚、爱因斯坦等中外名人，儒家与启蒙等思想概念，以及从京剧到《天鹅湖》的各种表演艺术。图下文字写着：“文化‘火锅’，既美味又营养。”其寓意十分清楚：一种文化越是欢迎来自各传统的“食材”，就越加丰盛。\n\n首先，文化交融能激发一个民族的创造力。正如一道菜吸纳各种香料的滋味，一个乐于借鉴他人的文明才能焕发自身的活力。其次，交流能消解偏见。只有读外国文学、看外国电影、尝外国食物，我们才会发现各地的人有着同样的希望与恐惧。再者，历史反复印证开放的价值：唐代长安荟萃四方，孕育出至今令人赞叹的诗歌与艺术，而封闭的社会则一再凋敝。\n\n总之，这口火锅教我们欢迎差异而不是畏惧差异。是时候把其他文化视为食材而非威胁。唯有让锅一直沸腾，我们才能端出一桌滋养所有人的盛宴。",
+          "outline": [
+            "首段写锅里煮着中外名人、思想与艺术，并译图下文字。",
+            "主体三层：交融激发创造力、交流消解偏见、唐朝对比。",
+            "结尾把其他文化比作食材，呼吁保持开放与包容。"
+          ],
+          "words": 199,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2011,
+        "chartType": "图画",
+        "titleZh": "旅程之“余”",
+        "topicEn": "The “Leftovers” of a Journey",
+        "pictureZh": "一艘小船行驶在湖面上，船上两名年轻人把各种垃圾随手扔进湖里，湖面漂满瓶子等各类垃圾。图画标题（文字说明）为“旅程之‘余’”。",
+        "captions": [],
+        "directionsZh": "①简述图画 ②解释其内在含义 ③给出自己的评论。160-200词，20分。",
+        "sections": [
+          "environment",
+          "society"
+        ],
+        "tip": "文明旅游 + 环保意识 + 公德。可写个人素养，也可写景区管理。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://m.hujiang.com/en/p136975/"
+        ],
+        "model": {
+          "en": "In the cartoon, two young people are relaxing on a boat drifting across a lake, carelessly tossing bottles, cans and plastic bags into the water. Beneath them, the lake is already covered with floating rubbish. The title “The Leftovers of a Journey” says everything: what these tourists leave behind is not only waste, but also a damaged environment and a tarnished conscience.\n\nTo begin with, such behaviour betrays a selfish indifference to the public good. Those who litter assume that one bottle makes no difference, forgetting that thousands of similar gestures turn a scenic lake into a rubbish dump. What is more, environmental damage is rarely reversible: the plastic they throw away today may outlive them by centuries. Furthermore, tourists are guests of nature, and guests ought to leave a place no worse than they found it. How would they feel if, next summer, they found the shore of their picnic buried under their own litter?\n\nIn short, the leftovers of a journey reveal the character of the traveller. It is high time that we carried our rubbish away along with our memories. Only by protecting the scenery we enjoy can we ensure that others may enjoy it too.",
+          "zh": "画中，两名年轻人悠然坐在湖面漂荡的小船上，随手把瓶子、易拉罐和塑料袋扔进水里。在他们身下，湖面早已漂满垃圾。标题“旅程之‘余’”道出了一切：这些游客留下的不只是垃圾，还有一个受污染的环境和一颗蒙尘的良心。\n\n首先，这种行为暴露了对公共利益的冷漠自私。乱丢垃圾的人总以为多一个瓶子无关紧要，却忘了千百个同样的举动会把一片秀美的湖泊变成垃圾场。其次，环境破坏往往不可逆转：他们今天扔掉的塑料，可能比他们多活上几百年。再者，游客是大自然的客人，客人理应让一个地方保持原样、不使之更糟。试想，若他们明年夏天重游旧地，发现当年野餐的湖岸被自己的垃圾覆盖，又会作何感受？\n\n总之，旅程之“余”映照出旅行者的品行。是时候让我们把垃圾连同回忆一起带走了。唯有保护我们所欣赏的风景，才能保证别人也能欣赏它。",
+          "outline": [
+            "首段写游客向湖中扔垃圾、湖面漂满垃圾，并译出标题。",
+            "主体分层：冷漠自私、破坏不可逆、客人应保持原样。",
+            "结尾以旅程之余映照品行收束，呼吁保护风景。"
+          ],
+          "words": 199,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2012,
+        "chartType": "图画",
+        "titleZh": "乐观与悲观",
+        "topicEn": "Optimism and Pessimism",
+        "pictureZh": "一个瓶子倒在地上，瓶中的液体洒出大半；面对同样情形，两人反应截然相反——左边的人抱头掩面、表情痛苦，认为“完了”；右边的人面带笑容、弯腰去捡瓶子，庆幸“幸好还剩一点儿”。",
+        "captions": [],
+        "directionsZh": "①简述图画 ②解释其内在含义 ③给出自己的评论。160-200词，20分。",
+        "sections": [
+          "quality",
+          "describe"
+        ],
+        "tip": "同一件事两种心态。首段一定要写出「对比」，句式用 whereas / in stark contrast。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://m.koolearn.com/kaoyan/20141112/844540.html",
+          "http://m.offcn.com/kaoyan/2016/1122/69898.html",
+          "https://mtoutiao.xdf.cn/kaoyan/201611/10570913.html"
+        ],
+        "model": {
+          "en": "In the picture, a bottle lies overturned on the ground, half of its contents already spilled. Faced with the very same scene, the two men react in stark contrast: one clasps his head and wails, “It's all over!”, whereas the other smiles, bends down to pick up the bottle and says, “Luckily, there's still a little left.” Same bottle, opposite attitudes: that is the point.\n\nTo begin with, optimism is not blind wishful thinking but a practical way of managing misfortune. The spilled liquid cannot be recovered; what remains can still be used. What is more, attitude shapes outcome. A student who fails an exam may either drown in self-pity or analyse his mistakes and try again; it is the second response that produces success. Furthermore, a positive outlook is contagious. Optimists reassure the people around them, turning a shared setback into a shared task, while pessimists spread despair that helps nobody.\n\nIn conclusion, the half-empty bottle mirrors our habits of mind. It is high time that we trained ourselves to notice what is left instead of lamenting what is lost. Only by facing setbacks with a smile can we turn a small remainder into a fresh start.",
+          "zh": "画中，一只瓶子倒在地上，里面的液体已洒出大半。面对完全相同的情形，两个人的反应形成鲜明对比：一个人抱头哀叹“完了”，另一个人却微笑着弯腰捡起瓶子，说“幸好还剩一点儿”。同样的瓶子，相反的态度，这正是这幅画的要害。\n\n首先，乐观并非盲目的空想，而是应对不幸的务实方式。洒出去的液体无法收回，剩下的却还可以用。其次，态度会影响结果。考砸了的学生要么沉溺于自怨自艾，要么分析错因、重新再战，而最终带来成功的正是后一种反应。再者，积极心态具有感染力：乐观者能安定身边的人，把共同的挫折变成共同的任务，而悲观者散播的绝望对任何人都没有帮助。\n\n总之，那只剩半瓶的瓶子是一面镜子，照出我们各自的思维习惯。是时候训练自己去注意“还剩什么”，而不是一味哀叹“失去了什么”。唯有微笑着面对挫折，我们才能把所剩不多的一点，变成新的开始。",
+          "outline": [
+            "首段用 whereas 对比两人一悲一喜的反应。",
+            "主体三层：乐观是务实应对、态度决定结果、心态会传染。",
+            "结尾以瓶子喻镜子，呼吁微笑着面对挫折与失去。"
+          ],
+          "words": 198,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2013,
+        "chartType": "图画",
+        "titleZh": "选择",
+        "topicEn": "Choices after Graduation",
+        "pictureZh": "一群大学毕业生驻足在人生的岔路口前，面前延伸出多条通路，通向不同的未来（普遍解读为求职、考研、出国、创业），众人犹豫彷徨、不知该选哪一条。来源未确认图中岔路是否配有文字标注。",
+        "captions": [],
+        "directionsZh": "①简述图画 ②解释其内在含义 ③给出自己的评论。160-200词，20分。",
+        "sections": [
+          "career",
+          "quality"
+        ],
+        "tip": "考研 / 就业 / 出国。可写「没有标准答案，适合自己的才是最好的」。",
+        "confidence": "medium",
+        "note": "",
+        "sources": [
+          "https://yz.chsi.com.cn/kyzx/en/201301/20130106/381844463.html",
+          "https://www.offcn.com/kaoyan/2016/1116/69420.html",
+          "http://www.offcn.com/kaoyan/2018/1127/133212.html",
+          "https://jixun.iqihang.com/info/yyzd/2026793504.html"
+        ],
+        "model": {
+          "en": "In the picture, a group of graduates stand hesitating at a crossroads in their lives. Several paths stretch out before them in different directions, and the young people gaze at the diverging roads, uncertain which one to take. The drawing vividly captures the bewilderment nearly every graduate feels as campus life ends and an unpredictable future begins.\n\nTo begin with, choice is a privilege that demands responsibility, for nobody can walk several roads at once; a graduate must weigh his interests, abilities and circumstances before setting off. What is more, indecision itself is a choice, and usually the worst one, since those who postpone every decision often watch their best opportunities slip away. Furthermore, a chosen path is seldom final. Many successful people changed direction more than once, treating early missteps as tuition rather than failure. What matters is not finding the perfect road but walking the chosen one with commitment.\n\nIn short, a crossroads is not a misfortune but proof that we are free to shape our own lives. It is high time that we stopped dreading the burden of choice and began to choose deliberately. Only by taking one road seriously can we discover where it leads.",
+          "zh": "画中，一群毕业生在人生的岔路口驻足犹豫。他们面前延伸出好几条通往不同方向的道路，这些年轻人望着分岔的路，不知道该如何选择。这幅画生动地刻画出几乎每位毕业生都会有的茫然：熟悉的校园生活结束了，一个不可预知的未来就此开始。\n\n首先，选择是一种权利，也意味着责任，因为没有人能同时走几条路；毕业生在上路之前必须权衡自己的兴趣、能力与处境。其次，犹豫本身就是一种选择，而且往往是最糟的一种：那些把每个决定都往后拖的人，常常眼睁睁看着最好的机会溜走。再者，选定的路很少是终点。许多成功者不止一次改变方向，他们把早年的失手当作学费而非失败。重要的不是找到那条完美的路，而是选定一条后坚定地走下去。\n\n总之，站在岔路口并非不幸，它恰恰证明我们有塑造自己人生的自由。是时候不再畏惧选择的重负，开始有主见地作出选择。唯有认真走好一条路，我们才能知道它通向何方。",
+          "outline": [
+            "首段写毕业生在岔路口迟疑，只写多种选择，不杜撰文字。",
+            "主体三层：选择即责任、犹豫最糟、所选之路并非终点。",
+            "结尾指出岔路口意味着自由，呼吁认真走好一条路。"
+          ],
+          "words": 199,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2014,
+        "chartType": "图画",
+        "titleZh": "相携",
+        "topicEn": "Walking Hand in Hand (Mutual Support between Parent and Child)",
+        "pictureZh": "一幅图分左右两半：左边是三十年前，年轻的母亲紧紧牵着幼女的手一同走路（女孩戴着红领巾）；右边是如今，长大的女儿搀扶着年迈的母亲缓步同行。图画下方写着“相携”二字。",
+        "captions": [],
+        "directionsZh": "①简述图画 ②解释其内在含义 ③给出自己的评论与建议。160-200词，20分。",
+        "sections": [
+          "family",
+          "society"
+        ],
+        "tip": "孝道与陪伴。注意区分「物质赡养」与「精神陪伴」，后者是高分点。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "http://edu.people.com.cn/kaoyan/n/2014/0105/c112975-24026440.html",
+          "https://m.offcn.com/kaoyan/2016/1118/69708.html",
+          "https://m.koolearn.com/kaoyan/20161118/967160.html"
+        ],
+        "model": {
+          "en": "As is vividly shown, the picture is divided into two halves. On the left, thirty years ago, a young mother held her little daughter tightly by the hand, the girl wearing a red scarf. In stark contrast, the grown-up daughter now supports her aged mother by the arm as they walk slowly forward. Below the drawing are two characters meaning 'walking hand in hand', implying that parental care deserves filial love in return.\n\nTo begin with, looking after their parents is a noble duty for grown-up children, since parents have sacrificed so much for them. What is more, a family bound by mutual support is warm and harmonious, and such an atmosphere quietly shapes a child's sense of duty. Furthermore, the way we treat our elders today will be imitated by our children tomorrow, as example teaches more than words.\n\nIn conclusion, mutual care, not one-sided giving, is what holds a family together. It is high time that we called our parents more often, visited them whenever we can, and shared their burdens patiently. Only by cherishing the old can we pass warmth on to the next generation.",
+          "zh": "正如图画所生动展示的，这幅图被分为左右两半。左半边是三十年前，一位年轻的母亲紧紧牵着幼女的手，女孩戴着红领巾。与之形成鲜明对比的是，右半边中已经长大的女儿正搀扶着年迈的母亲，一步一步缓缓前行。图下方是两个字——“相携”，其寓意是：父母给予我们的关爱，理应得到子女孝心的回报。\n\n首先，对成年子女而言，照顾父母是一份高尚的责任，因为父母为他们牺牲了太多。其次，一个由相互扶持维系起来的家庭是温暖而和睦的，这种氛围会悄然塑造孩子的责任感。再者，我们今天对待长辈的方式，明天就会被我们的孩子模仿，因为榜样的力量胜过千言万语。\n\n总之，维系一个家庭的是相互关爱，而不是单向的付出。我们早该更经常地给父母打电话，一有机会就去看望他们，并耐心地分担他们的负担。只有珍惜老人，我们才能把温暖一代代传递下去。",
+          "outline": [
+            "首段先总说图画分为左右两半，左半写三十年前母亲紧牵幼女的手、女孩戴红领巾。",
+            "首段用 In stark contrast 引出右半：长大成人的女儿搀扶年迈母亲缓行，末句点出图下“相携”二字的寓意。",
+            "主体段以 To begin with / What is more / Furthermore 分层，从责任、家庭氛围、身教三个角度展开论证。",
+            "结尾段用 It is high time that 提建议，并以 Only by...can we 倒装句收束全文。"
+          ],
+          "words": 188,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2015,
+        "chartType": "图画",
+        "titleZh": "手机时代的“聚会”",
+        "topicEn": "Gathering in the Era of Mobile Phones",
+        "pictureZh": "饭桌旁坐着四个年轻人，面对满桌丰盛的菜肴却无人动筷，每人都低头盯着手中的手机屏幕，彼此不说一句话。图画文字说明为“手机时代的‘聚会’”。",
+        "captions": [],
+        "directionsZh": "①简述图画 ②解释其内在含义 ③给出自己的评论。160-200词，20分。",
+        "sections": [
+          "technology",
+          "society",
+          "describe"
+        ],
+        "tip": "科技双刃剑经典题。既要承认便利，也要写人际疏离，最后给出「合理使用」的建议。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://www.sohu.com/a/643318_100428",
+          "https://cq.xdf.cn/dxks/kaoyan/201812/118485523.html"
+        ],
+        "model": {
+          "en": "In the cartoon, four young people sit around a table covered with a lavish dinner, yet nobody picks up the chopsticks. Each of them lowers his head, fixing his eyes on a glowing smartphone screen, completely lost in the online world. The caption 'Gathering in the era of mobile phones' makes the irony unmistakable: the device that is supposed to connect us is now separating those who sit closest to us.\n\nTo begin with, the smartphone has become so entertaining that it easily occupies every spare minute, leaving little room for genuine conversation. What is more, when everyone at a table stares at a screen, the warmth of a shared meal evaporates, and relationships gradually turn shallow. Furthermore, such behaviour may set a poor example for the young, who learn from what adults do far more than from what adults say.\n\nIn short, technology should serve communication instead of replacing it. It is high time that we put down our phones at the dinner table, raised our heads, and listened to the people we love. Only by doing so can we restore the true meaning of a gathering.",
+          "zh": "图画中，四个年轻人围坐在一张摆满丰盛菜肴的桌旁，却没有一个人拿起筷子。他们每人都低着头，眼睛紧盯着发亮的手机屏幕，完全沉溺于网络世界之中。图片文字“手机时代的‘聚会’”让其中的讽刺意味一目了然：本该把我们连接起来的设备，如今却正在疏远那些坐得离我们最近的人。\n\n首先，智能手机已经变得如此好玩，以致它轻易占据了每一分钟闲暇，使真正的交谈几乎没有立足之地。其次，当饭桌上的每个人都盯着屏幕时，共餐的温情便消散无形，人际关系也渐渐变得浅薄。再者，这种行为还可能给年轻人树立坏榜样，因为年轻人从大人做什么中学到的，远多于从大人说什么中学到的。\n\n简而言之，技术应当服务于交流，而不是取代交流。我们早该在饭桌上放下手机，抬起头来，倾听我们所爱的人说话。只有这样，我们才能找回聚会真正的意义。",
+          "outline": [
+            "首段描写四个年轻人围坐饭桌、菜肴满桌却无人动筷，人人低头看手机。",
+            "首段引用图下文字“手机时代的‘聚会’”，用冒号引出讽刺寓意：手机正在疏远身边最近的人。",
+            "主体段用 To begin with / What is more / Furthermore 从占用时间、冲淡情感、影响晚辈三方面展开。",
+            "结尾段总结技术应服务于交流，用 It is high time that 提建议，并以 Only by doing so can we 倒装收尾。"
+          ],
+          "words": 188,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2016,
+        "chartType": "图画",
+        "titleZh": "与其只提要求，不如做个榜样（言传身教）",
+        "topicEn": "Setting an Example (Practice What You Preach)",
+        "pictureZh": "两幅对比图画。左图：一位父亲叼着香烟、舒服地坐在沙发上看电视里的足球比赛，却回头要求站在一旁、表情沮丧的儿子好好学习（说“儿子，快给我好好学习！”）；右图：晚上九点，这位父亲和儿子各占一张书桌，两人都在伏案认真学习、伏案疾书。图下方有一行文字：“与其只提要求，不如做个榜样”。寓意：父母教育子女要以身作则、言传身教。",
+        "captions": [
+          "与其只提要求，不如做个榜样",
+          "儿子，快给我好好学习！"
+        ],
+        "directionsZh": "基于所给图画写一篇 160–200 词的短文：1) 简要描述图画；2) 阐释其含义；3) 给出你的评论。答案写在 ANSWER SHEET 上（20 分）。",
+        "sections": [
+          "family",
+          "education",
+          "quality"
+        ],
+        "tip": "家庭教育 + 言传身教。结尾可升华到「以身作则」的社会意义。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://www.chsi.com.cn/kyzx/en/201512/20151227/1515310261.html",
+          "https://m.koolearn.com/kaoyan/20151229/884248.html"
+        ],
+        "model": {
+          "en": "Two scenes are set side by side. In the first one, a father lounges on the sofa with a cigarette in his mouth, enjoying a football match on television, yet he turns his head and orders his dejected son to study hard. In the second, at nine o'clock in the evening, the same father and son sit at separate desks, both bending over their books. The caption reads: 'Setting a good example matters more than merely giving orders.'\n\nTo begin with, children are far more sensitive to what their parents do than to what they demand, so a command that contradicts daily behaviour soon loses its power. What is more, studying alongside a child creates an atmosphere of companionship, which makes hard work enjoyable rather than oppressive. Furthermore, parents who keep improving themselves cultivate in their children the habit of lifelong learning.\n\nIn brief, education begins at home and example speaks louder than instruction. Parents should therefore be what they wish their children to become, and it is high time that they turned off the television and picked up a book. Only by setting an example themselves can they truly lead the young forward.",
+          "zh": "两幅画面被并排放在一起。第一幅中，父亲嘴里叼着香烟，懒散地靠在沙发上看电视里的足球比赛，却回过头去命令神情沮丧的儿子好好学习。第二幅中，晚上九点，这对父子各占一张书桌，两人都伏案读书。图下文字写道：“与其只提要求，不如做个榜样。”\n\n首先，孩子对父母做什么远比父母要求什么更敏感，因此与日常行为相矛盾的命令很快就会失去效力。其次，与孩子一起学习会营造出一种陪伴的氛围，使辛苦的学习变得愉快而非压抑。再者，不断提升自己的父母，会在孩子身上培养出终身学习的习惯。\n\n简言之，教育始于家庭，榜样比说教更有力。因此，父母应当先成为自己希望孩子成为的那种人；他们早该关掉电视、拿起书本。只有自己做出榜样，他们才能真正引领年轻人前行。",
+          "outline": [
+            "首段用 In the first one / In the second 分写两幅对比图：左图父亲叼烟看电视却要求儿子用功，右图晚九点父子同桌伏案学习。",
+            "首段末引用图下文字“与其只提要求，不如做个榜样”，以该句作为寓意句收束。",
+            "主体段以 To begin with / What is more / Furthermore 从孩子重行为、陪伴氛围、父母自我提升三角度论证言传身教。",
+            "结尾段总结教育始于家庭，用 It is high time that 与 Only by setting an example 倒装句收尾。"
+          ],
+          "words": 194,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2017,
+        "chartType": "图画",
+        "titleZh": "“有书”与“读书”",
+        "topicEn": "Possessing Books vs. Reading Books",
+        "pictureZh": "两幅对比图画。左图：一名男子慵懒地靠在扶手椅（椅背）上，指着面前塞满书的书架，自得地说“我搜集的书真多！”，满足于藏书的数量却一本也不读；右图：另一名男子坐在书桌前，面前摊开一本书、旁边还放着几本书，给自己定下“今年读完20本书”的目标。图下（副标题）文字：“有书”与“读书”。寓意：藏书不等于读书，行动胜过空谈。",
+        "captions": [
+          "有书",
+          "读书",
+          "我搜集的书真多！"
+        ],
+        "directionsZh": "基于所给图画写一篇 160–200 词的短文：1) 简要描述图画；2) 阐释其含义；3) 给出你的评论。写在 ANSWER SHEET 上（20 分）。",
+        "sections": [
+          "education",
+          "describe"
+        ],
+        "tip": "行动胜于空谈。与 2019、2004 同属「实践/行动」大类，句式可复用。",
+        "confidence": "high",
+        "note": "我认为：只有一幅图、人翘着腿说“我有这么多书” → 实际：是两幅对比图——左图藏书者靠在椅背上自得地说“我搜集的书真多！”却不读书，右图为另一人坐在书桌前读书、计划今年读完20本书；图题/副标题为“有书”与“读书”（I have books / I read books）。",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/201612/10592307.html",
+          "http://www.offcn.com/kaoyan/2017/0909/94805.html",
+          "https://mtoutiao.xdf.cn/kaoyan/201612/10592351.html"
+        ],
+        "model": {
+          "en": "The two pictures offer a sharp contrast between possessing books and reading them. On the left, a man lounges in an armchair, pointing at a bookshelf crammed with volumes and declaring, 'How many books I have collected!' Yet he never opens one. In stark contrast, on the right, another man sits at his desk reading an open book, aiming to finish twenty books this year. The caption 'Having books and reading books' drives the message home.\n\nTo begin with, collecting books is easy, whereas digesting them requires patience and curiosity; a shelf of unread volumes is little more than decoration. What is more, the value of reading lies not in pages turned but in the thoughts it provokes and the horizons it broadens. Furthermore, amid endless digital distractions, the ability to concentrate on a book has become a rare competence.\n\nIn conclusion, books are meant to be read rather than merely displayed. It is high time that we set realistic reading plans, set aside time for reading every day, and reflected on what we absorb. Only by turning possession into practice can knowledge truly change us.",
+          "zh": "这两幅图画在“藏书”与“读书”之间构成了鲜明对比。左图中，一名男子懒洋洋地靠在扶手椅上，指着塞满书的书架得意地说：“我搜集的书真多！”可他却一本也不读。与之形成鲜明对比的是，右图中另一位男子坐在书桌前读着一本摊开的书，目标是今年读完二十本书。图题“有书”与“读书”把这一寓意说得一语中的。\n\n首先，藏书容易，而消化书中内容却需要耐心与好奇心；一架子从未被翻开的书，不过是一种装饰罢了。其次，读书的价值不在于翻过多少页，而在于它引发的思考与拓展的视野。再者，在数字干扰无处不在的今天，能够静下心来专注读一本书，已经成为一种稀缺的能力。\n\n总之，书是用来读的，而不是用来陈列的。我们早该制定切实可行的读书计划，每天留出阅读时间，并反思自己吸收了什么。只有把“拥有”变成“实践”，知识才能真正改变我们。",
+          "outline": [
+            "首段用 On the left / In stark contrast, on the right 搭建对比结构：左图藏书者自夸藏书多却一本不读，右图读书者开卷并计划一年读二十本。",
+            "首段末引用图题“有书”与“读书”，点明藏书不等于读书、行动胜于空谈的寓意。",
+            "主体段以 To begin with / What is more / Furthermore 从藏书易读书难、读书的真正价值、专注力稀缺三个角度论证。",
+            "结尾段总结书应被阅读，用 It is high time that 提建议，并以 Only by turning possession into practice 倒装收束。"
+          ],
+          "words": 186,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2018,
+        "chartType": "图画",
+        "titleZh": "选课进行时",
+        "topicEn": "Selecting Courses (Deliberate Course Choice)",
+        "pictureZh": "一幅图画。一名学生（面部画成“囧”字表情）坐在电脑前浏览选课系统，屏幕上/头侧引出两类课程信息：一类标注“知识新，重创新，有难度”，另一类标注“给分高，易通过，作业少”。图下方文字：“选课进行时”。寓意：选课（做事）不应只图轻松高分，而应重视知识创新、勇于迎难而上、全面权衡。",
+        "captions": [
+          "选课进行时",
+          "知识新，重创新，有难度",
+          "给分高，易通过，作业少"
+        ],
+        "directionsZh": "基于所给图画写一篇 160–200 词的短文：1) 简要描述图画；2) 阐释其含义；3) 给出你的评论。写在 ANSWER SHEET 上（20 分）。",
+        "sections": [
+          "education",
+          "career",
+          "describe"
+        ],
+        "tip": "如何做选择：兴趣 vs 实用、难度 vs 收获。可引申到理性选择与长远眼光。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://yz.chsi.com.cn/kyzx/en/201712/20171225/1645244738.html",
+          "http://ky.newdu.com/forum.php?mod=viewthread&action=printable&tid=391584",
+          "https://cq.xdf.cn/dxks/kaoyan/201812/118485512.html"
+        ],
+        "model": {
+          "en": "In the cartoon, a student sits before a computer, choosing his courses. His face is drawn with a bewildered expression, for two kinds of courses are competing for his attention. One is labelled 'new knowledge, innovative and demanding'; the other promises 'generous grades, easy passes and little homework'. The caption below reads 'Choosing courses in progress'. His hesitation mirrors a choice we all face: comfort now or growth in the long run.\n\nTo begin with, courses that promise high marks with little effort often waste our time, for knowledge obtained without challenge is soon forgotten. What is more, choosing whatever is easiest weakens our ability to face difficulties, so that we lose the courage to explore unfamiliar fields. Furthermore, employers value candidates trained by demanding tasks rather than those who have merely collected easy credits.\n\nTo sum up, when convenience and challenge stand before us, we should weigh them with our long-term interest in mind. It is high time that we chose courses for what they teach us rather than for how easily they reward us. Only by welcoming difficulty can we turn four years of study into genuine growth.",
+          "zh": "图画中，一名学生坐在电脑前选课。他的脸被画成一副茫然纠结的表情，因为两类课程正在争夺他的注意力：一类标着“知识新，重创新，有难度”，另一类则承诺“给分高，易通过，作业少”。图下方写着“选课进行时”。他的犹豫正映照出我们所有人都会面临的抉择：是现在图轻松，还是着眼长远求成长。\n\n首先，那些承诺轻松拿高分的课程往往只是浪费时间，因为未经挑战而获得的知识很快就会忘掉。其次，总挑最容易的课会削弱我们面对困难的能力，使我们失去探索陌生领域的勇气。再者，用人单位看重的是经受过高要求任务训练的人，而不是只攒了一堆容易拿学分的人。\n\n总之，当轻松与挑战同时摆在面前时，我们应当着眼于长远利益来权衡取舍。我们早该根据课程能教给我们什么来选课，而不是根据它给分多容易。只有乐于迎接困难，我们才能把四年大学时光变成真正的成长。",
+          "outline": [
+            "首段描述学生坐在电脑前选课、面部表情发懵，并列出两组课程标签“知识新，重创新，有难度”与“给分高，易通过，作业少”。",
+            "首段末引用图下文字“选课进行时”，用冒号句点出“图轻松还是求成长”的寓意。",
+            "主体段以 To begin with / What is more / Furthermore 从易课无益、削弱抗压能力、外界更看重真本事三方面论证。",
+            "结尾段总结应着眼长远，用 It is high time that 提建议，并以 Only by welcoming difficulty 倒装句收尾。"
+          ],
+          "words": 190,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2019,
+        "chartType": "图画",
+        "titleZh": "途中",
+        "topicEn": "Persistence on the Way (Never Give Up)",
+        "pictureZh": "一幅图画。两名背着背包的人在登山：右边一人垂头丧气地坐在台阶上，抱怨“累了，不想爬”，打算放弃；左边那位同伴手里拿着一瓶水递给他，鼓励说“别，休息一下接着爬”。图下方有两个字：“途中”。寓意：做事贵在坚持，累时可以歇一歇但要继续前行。",
+        "captions": [
+          "途中",
+          "累了，不想爬",
+          "别，休息一下接着爬"
+        ],
+        "directionsZh": "基于所给图画写一篇 160–200 词的短文：1) 简要描述图画；2) 阐释其含义；3) 给出你的评论。写在 ANSWER SHEET 上（20 分）。",
+        "sections": [
+          "quality",
+          "describe"
+        ],
+        "tip": "最典型的「个人品质」题。坚持、毅力、目标、过程比终点更重要。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://kaoyan.koolearn.com/20181222/1032094.html",
+          "http://h.chinakaoyan.com:8080/info/article/id/263417.shtml",
+          "https://mtoutiao.xdf.cn/kaoyan/201812/10837501.html",
+          "https://m-jixun.iqihang.com/info/yyzd/2026767887.html"
+        ],
+        "model": {
+          "en": "The cartoon shows two backpackers climbing a mountain. One of them slumps on the stone steps, complaining that he is too tired to continue and wants to give up. His companion, however, hands him a bottle of water and urges, 'Take a short break and then keep climbing.' The scene, set on the way up the mountain, tells us that persistence, refreshed by reasonable rest, finally carries us to the summit.\n\nTo begin with, any worthwhile goal demands sustained effort, and those who reach the top usually refuse to quit at the hardest moment. What is more, exhaustion is a signal to slow down rather than a reason to abandon everything, so wise rest and steady progress are compatible. Furthermore, a companion's encouragement often tips the balance, for a timely word of support can revive a flagging spirit.\n\nIn conclusion, the road to any summit is dotted with fatigue and doubt, and the real test lies in our response. It is high time that we learned to rest wisely instead of retreating at the first sign of hardship. Only by pressing on, step by step, can we see the view reserved for those who persevere.",
+          "zh": "图画中，两名背着背包的人正在登山。其中一人垂头丧气地瘫坐在石阶上，抱怨自己太累、不想再爬，打算放弃。而他的同伴却递给他一瓶水，催促他：“休息一下接着爬。”这幅取景于登山途中的画面告诉我们：坚持，加上合理的休息，最终才能把我们送上山顶。\n\n首先，任何有价值的目标都需要持续的努力，而能够登顶的人，往往正是在最艰难的时刻拒绝放弃的人。其次，疲惫是放慢脚步的信号，而不是抛弃一切的理由，因此明智的休息与稳步前行并不矛盾。再者，同伴的鼓励常常能扭转局面，因为一句及时的声援足以让疲惫的心重新振作。\n\n总之，通往任何高峰的道路上都布满疲惫与怀疑，真正的考验在于我们如何应对。我们早该学会明智地休息，而不是一遇到困难就退缩。只有一步一步坚持往前，我们才能看到那属于坚韧者的风景。",
+          "outline": [
+            "首段描述两名背包客登山：一人瘫坐石阶抱怨太累想放弃，同伴递水鼓励“休息一下接着爬”，只写“登山途中”而不对图下文字下断言。",
+            "首段末用 tells us that 引出寓意句：坚持加上合理休息才能登顶。",
+            "主体段以 To begin with / What is more / Furthermore 从坚持的必要性、休息与前进不矛盾、同伴鼓励的作用三角度论证。",
+            "结尾段总结路上必有疲惫与怀疑，用 It is high time that 提建议，并以 Only by pressing on 倒装句收尾。"
+          ],
+          "words": 195,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2020,
+        "chartType": "图画",
+        "titleZh": "习惯（尽早完成才安心 / 不到最后不动手）",
+        "topicEn": "Good Habits vs. Procrastination",
+        "pictureZh": "两幅对比图画。左图：一个女孩坐在书桌前认真学习、写作业，桌上/旁边堆着书；图内文字是她的想法——“尽早完成才安心”。右图：一个男孩瘫坐在沙发上，旁边摊着作业（书桌上只有一本摊开的书和一支笔）却不动手；图内文字是他的想法——“不到最后不动手”。两图内容相反，反映习惯（时间管理、勤奋规划）与拖延症的对比。",
+        "captions": [
+          "尽早完成才安心",
+          "不到最后不动手"
+        ],
+        "directionsZh": "基于上面两幅图画写一篇 160–200 词的短文：1) 简要描述图画；2) 阐释其含义；3) 给出你的评论。写在 ANSWER SHEET 上（20 分）。",
+        "sections": [
+          "quality",
+          "education",
+          "family"
+        ],
+        "tip": "习惯类话题年年可套：习惯如何塑造性格、影响效率；家长与学校如何引导。",
+        "confidence": "high",
+        "note": "我认为：不确定（怀疑是“习惯”） → 实际：2020 年英语一大作文确为两幅对比图画，主题即“习惯/时间管理（克服拖延）”。左图女生认真写作业，图内文字“尽早完成才安心”；右图男生瘫坐沙发不动手，图内文字“不到最后不动手”。",
+        "sources": [
+          "http://www.offcn.com/kaoyan/2019/1221/162269.html",
+          "http://m.offcn.com/kaoyan/2019/1225/162659.html",
+          "https://m.koolearn.com/kaoyan/20191222/1062956.html",
+          "https://d.lingnan.edu.cn/txt/info/1098/83433.htm"
+        ],
+        "model": {
+          "en": "Depicted in the two drawings is a striking contrast in how students handle assignments. On the left, a girl sits at her desk absorbed in her homework, telling herself that 'only when it is finished early can I feel at ease'. In stark contrast, a boy lolls on the sofa, his exercise book lying open but untouched, convinced that 'there is no need to start until the deadline looms'. Evidently, sound time management brings order and calm, whereas procrastination breeds anxiety.\n\nTo begin with, good habits serve as the invisible engine of academic success, turning limited hours into steady and cumulative progress. What is more, postponing a task never removes it; it merely heaps duties up until the final days turn into an ordeal of sleepless nights. Furthermore, the habit of promptness cultivates self-discipline that reaches far beyond the classroom, shaping how one manages work, health and money in later life.\n\nIn short, it is not talent but the wise use of time that sets achievers apart. It is high time that we replaced 'I will do it tomorrow' with a written schedule. Only by acting today can we spare ourselves tomorrow's regrets.",
+          "zh": "两幅画描绘出学生对待作业时截然相反的两种态度。左边，一个女孩坐在书桌前全神贯注地写作业，心里想着“尽早完成才安心”；与之形成鲜明对比的是，一个男孩瘫坐在沙发上，作业本摊开却一动不动，认为“不到最后不动手”。显然，良好的时间管理带来秩序与从容，而拖延只会滋生焦虑。\n\n首先，好习惯是学业成功的无形引擎，它把有限的时间转化为稳步累积的进步。其次，拖延从来不能使任务消失，只会把责任堆积起来，直到最后几天变成一个个不眠之夜。此外，做事及时的习惯所培养出的自律远远超出课堂，影响着一个人日后如何管理工作、健康与金钱。\n\n总之，把成功者与拖拉者区分开的不是天赋，而是对时间的明智利用。我们早该把“明天再做”换成一份写好的时间表。唯有今天就行动，我们才能免去明天的悔恨。",
+          "outline": [
+            "首段以对比结构写左右两图人物动作与图内文字，末句点出寓意",
+            "主体段用 To begin with 等分层，论好习惯、拖延代价与自律",
+            "结尾段以强调句总结，再用 It is high time that 提出建议"
+          ],
+          "words": 193,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2021,
+        "chartType": "图画",
+        "titleZh": "穿戏服的孩子与父亲（兴趣与自信）",
+        "topicEn": "Interest and Self-confidence (Sticking to One's Own Interest)",
+        "pictureZh": "一幅图画。一个穿着戏曲服装的小男孩（扮《西游记》里的孙悟空）与父亲对话：男孩神情有些沮丧，说“爸爸，好多同学说唱戏不好玩”；父亲面带微笑，鼓励他说“你不是喜欢吗？那就够了”。寓意：坚持自己的兴趣、自信独立，不必因他人评价而动摇；也涉及传统戏曲文化的传承。",
+        "captions": [
+          "爸爸，好多同学说唱戏不好玩",
+          "你不是喜欢吗？那就够了"
+        ],
+        "directionsZh": "基于所给图画写一篇 160–200 词的短文：1) 简要描述图画；2) 阐释其含义；3) 给出你的评论。写在 ANSWER SHEET 上（20 分）。",
+        "sections": [
+          "culture",
+          "describe"
+        ],
+        "tip": "传统文化传承 + 家庭鼓励。主体段写「为什么要传承」和「怎么传承」。",
+        "confidence": "high",
+        "note": "我认为：孩子穿戏服学戏、父亲说“你唱得真好” → 实际：孩子穿戏服扮孙悟空并对父亲说“爸爸，好多同学说唱戏不好玩”，父亲回答“你不是喜欢吗？那就够了”，并非夸他“唱得真好”。",
+        "sources": [
+          "http://nm.offcn.com/html/2021/01/229879_2.html",
+          "https://m.koolearn.com/kaoyan/20210625/1455878.html",
+          "https://d.lingnan.edu.cn/txt/info/1098/83433.htm",
+          "https://mtoutiao.xdf.cn/kaoyan/202012/11139738.html"
+        ],
+        "model": {
+          "en": "The drawing presents a touching conversation between a father and his son. Wearing an opera costume and made up as Sun Wukong, the boy looks discouraged as he tells his father, 'Dad, many of my classmates say singing opera is no fun.' Smiling gently, the father replies, 'But you like it, don't you? That is enough.' Simple as the words are, they point to a truth: one should hold fast to what one loves rather than surrender to others' casual judgements.\n\nTo begin with, sincere interest is the most reliable fuel of lasting effort; what we enjoy, we rehearse willingly until we excel. What is more, popularity is a poor compass, for tastes differ and the crowd's praise is as fleeting as its criticism. Furthermore, the boy's devotion to traditional opera carries cultural weight: every child who learns an old art keeps a fragile heritage alive.\n\nIn conclusion, genuine love, rather than applause, deserves to be the standard by which we choose our pursuits. It is high time that parents and teachers encouraged the young to follow their hearts. Only by doing so can we raise confident individuals and keep our cultural heritage vibrant.",
+          "zh": "这幅画呈现了一对父子之间一段动人的对话。男孩穿着戏服、扮成孙悟空，神情有些沮丧地对父亲说：“爸爸，好多同学说唱戏不好玩。”父亲温和地笑着回答：“你不是喜欢吗？那就够了。”话语虽简单，却道出了一个道理：人应当坚持自己所爱，而不应屈从于他人的随口评判。\n\n首先，真诚的兴趣是持久努力最可靠的燃料：凡是我们喜爱的事，我们都愿意一遍遍练习直到精通。其次，人气并不是可靠的指南针，因为各人口味不同，众人的赞誉与其批评一样转瞬即逝。此外，男孩对传统戏曲的热爱还承载着文化分量：每一个学会一门老技艺的孩子，都在为脆弱的传统续命。\n\n总之，真正值得作为选择标准的，是发自内心的热爱，而非掌声。父母和老师早该鼓励年轻人追随自己的心意。唯有如此，我们才能培养出自信的个体，并让我们的文化遗产焕发生机。",
+          "outline": [
+            "首段描述男孩戏服形象与父子对话，末句点出坚持热爱的寓意",
+            "主体段分论兴趣是持久动力、他人评价不可靠、文化传承",
+            "结尾段总结热爱胜过掌声，呼吁家庭与学校尊重孩子兴趣"
+          ],
+          "words": 194,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2022,
+        "chartType": "图画",
+        "titleZh": "校园讲座前的两名学生（广泛学习）",
+        "topicEn": "Extensive Learning (Broadening One's Knowledge)",
+        "pictureZh": "一幅图画。两名女生（学生）站在一张校园讲座的海报前：其中一个不以为然地说“不是我们专业的，听了也没多大用”，另一个则回答“听听总会有好处”。寓意：不应以“与专业无关”为由拒绝学习，要广泛学习、多方获取知识、拓宽知识面。",
+        "captions": [
+          "不是我们专业的，听了也没多大用",
+          "听听总会有好处"
+        ],
+        "directionsZh": "基于所给图画写一篇 160–200 词的短文：1) 简要描述图画；2) 阐释其含义；3) 给出你的评论。写在 ANSWER SHEET 上（20 分）。",
+        "sections": [
+          "education",
+          "describe"
+        ],
+        "tip": "学习不只限于课本。可写终身学习、跨界知识、实践与理论结合。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "http://www.offcn.com/zzss/2021/1229/35841.html",
+          "http://m.offcn.com/zzss/2021/1227/35830.html",
+          "https://mtoutiao.xdf.cn/kaoyan/202112/11363756.html",
+          "https://d.lingnan.edu.cn/txt/info/1098/83433.htm"
+        ],
+        "model": {
+          "en": "The drawing captures a brief exchange between two college students in front of a poster for a campus lecture. One of them waves it aside, saying dismissively, 'It is not our major, so listening will not help much.' Her companion, however, answers calmly, 'There is always something to gain by listening.' The contrast is telling: a narrow definition of usefulness may close the door on knowledge that lies beyond our own field.\n\nTo begin with, knowledge has never respected departmental borders; a lecture on economics may sharpen a literature student's thinking, and an insight from psychology may one day illuminate an engineer's design. What is more, the habit of listening widely keeps curiosity alive, which is precisely what sustains lifelong learning. Furthermore, those who step outside their specialty are the ones most likely to discover unexpected connections and, ultimately, to innovate.\n\nIn short, usefulness is too narrow a yardstick for learning. It is high time that we treated every lecture as an open window and every unfamiliar subject as a potential gift. Only by embracing knowledge beyond our own field can we become rounded, adaptable and genuinely creative.",
+          "zh": "这幅画捕捉了两名大学生在一张校园讲座海报前的一段简短交谈。其中一人不以为然地一挥手说：“不是我们专业的，听了也没多大用。”而她的同伴却平静地回答：“听听总会有好处。”这一对比意味深长：对“有用”的狭隘界定，可能会把门外的知识拒之门外。\n\n首先，知识从不理会学科之间的边界：一场经济学讲座或许能让文学专业的学生思路更敏锐，而心理学的一个洞见也许有一天会点亮工程师的设计。其次，广泛倾听的习惯能让好奇心保持活力，而好奇心恰恰是终身学习的支撑。此外，敢于走出本专业的人，最有可能发现意想不到的关联，并最终有所创新。\n\n总之，用“有用”来衡量学习，尺度实在太窄。我们早该把每一场讲座都当作一扇敞开的窗，把每一门陌生的学科都当作可能的馈赠。唯有拥抱本专业之外的知识，我们才能变得全面、有适应力，并真正富有创造力。",
+          "outline": [
+            "首段描述两名女生在讲座海报前的对话，末句点出知识无边界",
+            "主体段分论学科互通、广泛倾听养好奇心、跨领域易出创新",
+            "结尾段指出有用性标准过窄，呼吁把讲座当作打开的窗"
+          ],
+          "words": 188,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2023,
+        "chartType": "图画",
+        "titleZh": "乡村龙舟赛（传统文化传承）",
+        "topicEn": "Inheritance of Traditional Culture (Dragon Boat Racing)",
+        "pictureZh": "一幅图画。画面是在乡村举行的一场龙舟比赛：河面上数名年轻人在奋力划龙舟，岸边聚集了大量观看比赛的乡亲；两位老人边看比赛边感叹龙舟赛让村子变得越来越热闹。寓意：以端午龙舟赛为代表的传统文化得到传承、乡村文化生活越来越有活力。",
+        "captions": [
+          "龙舟赛越来越热闹了"
+        ],
+        "directionsZh": "基于所给图画写一篇 160–200 词的短文：1) 简要描述图画；2) 阐释其含义；3) 给出你的评论。写在 ANSWER SHEET 上（20 分）。",
+        "sections": [
+          "culture",
+          "quality",
+          "describe"
+        ],
+        "tip": "传统文化 + 团队协作。两个角度都能写：文化传承与自信；众人划桨体现团结。建议文化为主、协作为辅。",
+        "confidence": "medium",
+        "note": "我认为：龙舟赛 →“传统文化 / 团结协作” → 实际：主题确为传统文化的传承（端午龙舟赛、乡村文化活动越来越热闹），官方及主流解析均未把“团结协作”作为立意点。",
+        "sources": [
+          "https://m.takefoto.cn/news/2022/12/24/10275621.shtml",
+          "https://www.nju.edu.cn/info/3191/242601.htm",
+          "https://m.koolearn.com/kaoyan/20221224/1578638.html"
+        ],
+        "model": {
+          "en": "Vividly depicted in the drawing is a dragon boat race held in a rural area. On the river, several young men bend over their oars and row forward with all their might, while crowds of villagers throng the banks, cheering them on. Watching from among them, two elderly men marvel at how much livelier the race has made their village. The message is unmistakable: traditional culture is being revived, filling rural life with vigour.\n\nTo begin with, a festival race is far more than a game; it embodies a community's collective memory and gives the young a living link to their roots. What is more, culture survives only when it is practised, and young people straining at the oars prove that this heritage has living heirs rather than museum exhibits. Furthermore, such occasions bring scattered villagers back to a shared stage and strengthen the bonds among them.\n\nIn short, the race shows that tradition, far from fading, can still unite and delight a community. It is high time that we supported such heritage with concrete measures and drew the young into it. Only by passing the flame on can we keep our culture alive.",
+          "zh": "图画生动地描绘了乡村里举行的一场龙舟赛。河面上，几名年轻人俯身握桨、奋力划行，岸边则聚满了观看比赛的乡亲，为他们呐喊助威。人群之中，两位老人感叹龙舟赛让村子变得越来越热闹。画面传递的信息十分明确：传统文化正在复兴，为乡村生活注入了活力。\n\n首先，节庆赛事远不只是一场比赛，它承载着一个社区的集体记忆，也让年轻人与自己的根脉建立起活的联结。其次，文化只有在实践中才能延续，年轻人奋力划桨的身影恰恰证明，这份遗产拥有活着的传承者，而非博物馆里的展品。此外，这样的活动把散居各处的村民重新聚到同一个舞台上，增进了彼此之间的情感纽带。\n\n总之，龙舟赛表明：传统远未消退，依然能够凝聚人心、给人欢乐。我们早该以切实的举措保护这样的文化遗产，并把年轻人吸引进来。唯有把火种传递下去，我们的文化才能生生不息。",
+          "outline": [
+            "首段描写龙舟竞赛场面与岸边观众，末句点出传统文化复兴",
+            "主体段论传统节日的集体记忆、活态传承与乡村文化活力",
+            "结尾段总结传统并未消退，呼吁支持非遗并吸引年轻人"
+          ],
+          "words": 194,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2024,
+        "chartType": "图画+图表",
+        "titleZh": "家门口新建的公园与某城市公园数量（公园建设与全民健身）",
+        "topicEn": "Public Parks and Citizen Fitness (Cultural Infrastructure)",
+        "pictureZh": "本题为“漫画 + 柱状图表”组合。左幅图画：在城市公园的市民健身区里，有人在跑步、有人在散步，一个年轻男子说“家门口新建的公园真不错”。右幅柱状图表：标题为某城市公园数量，横坐标为年份 2020、2021、2022 年，纵坐标数值分别为 406、532、670，呈明显上升趋势。寓意：公共文化设施（公园）建设不断完善，市民健康意识与全民健身氛围增强。",
+        "captions": [
+          "家门口新建的公园真不错",
+          "某个城市公园数量"
+        ],
+        "directionsZh": "基于下面图画写一篇 160–200 词的短文：1) 简要描述图画；2) 阐释其含义；3) 给出你的评论。写在 ANSWER SHEET 上（20 分）。",
+        "sections": [
+          "health",
+          "society",
+          "describe"
+        ],
+        "tip": "国民健康 + 全民健身。可从「个人健康意识提高」「公共设施完善」两条腿展开，结尾呼吁坚持运动。",
+        "confidence": "high",
+        "note": "我认为：单纯图画（公园里人们锻炼），题型为图画 → 实际：2024 年英语一大作文是“漫画 + 柱状图表”的组合题（新东方官方难度分析明确称“大作文是漫画与柱状图表的结合体，是两种类型的结合”）；左图年轻人说“家门口新建的公园真不错”，右图为某城市公园数量柱状图（2020→2022：406、532、670）。",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/202312/13554851.html",
+          "https://www.hqwx.com/kaoyan-kaoshi/news/17034086958837.html",
+          "https://jixun.iqihang.com/info/yyzd/2026797273.html"
+        ],
+        "model": {
+          "en": "The cartoon and the bar chart both point to greener, healthier city life. In the picture, two young people are jogging along a path while another pair stroll nearby, and one of them remarks, 'The new park at our doorstep is really nice.' The chart beside it records the number of parks in a certain city, which rose from 406 in 2020 to 532 in 2021 and 670 in 2022, up by more than sixty percent in three years.\n\nTo begin with, parks within walking distance lower the threshold of exercise, turning fitness from a costly gym membership into a daily pleasure. What is more, the steady growth in park numbers reflects both heavier government investment in public welfare and a philosophy that puts people's wellbeing first. Furthermore, green spaces ease urban stress and bring neighbours together, so they enrich community life while improving health.\n\nIn short, more parks and more joggers point to one trend: a city that cares for its residents' health. It is high time that more such facilities were planned and protected. Only by investing in public space can we build cities that keep their people fit and happy.",
+          "zh": "这幅漫画与旁边的柱状图共同指向了更绿、更健康的城市生活。画中，两名年轻人正沿着小路跑步，另有两名市民在附近散步，其中一人感慨道：“家门口新建的公园真不错。”旁边的柱状图记录了某城市公园的数量，从 2020 年的 406 个增至 2021 年的 532 个，2022 年进一步达到 670 个，三年间增长超过六成。\n\n首先，步行可达的公园降低了健身的门槛，把健身从昂贵的健身房年卡变成了日常的乐趣。其次，公园数量的稳步增长，既反映出政府在公共福利上更大的投入，也体现出一种把人民福祉放在首位的理念。此外，绿地能够缓解都市压力、拉近邻里距离，在改善健康的同时也丰富了社区生活。\n\n总之，更多的公园与更多的跑步者指向同一个趋势：一座关心市民健康的城市。我们早该规划和保护更多这样的公共设施。唯有加大对公共空间的投入，我们才能建成让市民健康快乐的城市。",
+          "outline": [
+            "首段先写公园里跑步散步的漫画场景，再列 406 至 670 走势",
+            "主体段分论公园降低健身门槛、政府投入与市民福祉",
+            "结尾段总结公园与锻炼同一趋势，呼吁加大公共空间投入"
+          ],
+          "words": 193,
+          "paras": 3
+        }
+      },
+      {
+        "year": 2025,
+        "chartType": "图表",
+        "titleZh": "居民耐用消费品拥有量变化",
+        "topicEn": "Rising Ownership of Durable Consumer Goods",
+        "pictureZh": "图表（表格）作文。表格标题为“近年来全国居民平均每百户年末主要耐用消费品拥有量”，列为年份 2014、2017、2020、2023，行为三类家电：空调（台）75.2→96.1→117.7→145.9、洗衣机（台）83.7→91.7→96.7→98.2、电冰箱（台）85.5→93.3→101.8→103.4。三类耐用消费品拥有量十年间均持续上升，其中空调增幅最大；反映居民生活水平与购买力提高。",
+        "captions": [
+          "近年来全国居民平均每百户年末主要耐用消费品拥有量",
+          "空调（台）",
+          "洗衣机（台）",
+          "电冰箱（台）"
+        ],
+        "directionsZh": "基于下面的表格写一篇 160–200 词的短文：1) 简要描述表格；2) 阐释表格（含义/原因）；3) 给出你的评论。写在 ANSWER SHEET 上。",
+        "sections": [
+          "describe",
+          "career",
+          "argue"
+        ],
+        "tip": "英语一重新回到图表题：首段必须交代数据走势，主体段解释「为什么涨」，结尾段升华到生活水平提升与理性消费。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "http://m.tianrenedu.com.cn/bkzl/23604.html",
+          "https://noobdream.com/post/408781/",
+          "https://jixun.iqihang.com/info/yyzd/2026767902.html"
+        ],
+        "model": {
+          "en": "The table presents the average ownership of major durable consumer goods per hundred households nationwide. Between 2014 and 2023, the number of air conditioners climbed sharply from 75.2 to 145.9, nearly doubling; washing machines rose modestly from 83.7 to 98.2, and refrigerators from 85.5 to 103.4. What the figures reveal is unmistakable: all three categories have kept rising, with air conditioners growing fastest, which signals a steady improvement in Chinese families' living standards.\n\nTo begin with, rising household income is the direct driving force behind this trend, for families naturally spend part of their growing earnings on comfort and convenience. What is more, industrial upgrading and fierce market competition have driven prices down while quality has improved, placing once luxurious appliances within ordinary families' reach. Furthermore, such appliances free people, especially women, from heavy housework, thereby improving the quality of daily life.\n\nIn short, the table mirrors a decade of economic progress written into ordinary homes. It is high time that we carried this prosperity further, ensuring that rural families and low-income groups enjoy the same comforts. Only by pursuing shared development can we turn statistics into genuine wellbeing.",
+          "zh": "表格呈现的是近年来全国居民平均每百户年末主要耐用消费品的拥有量。2014 年至 2023 年间，空调拥有量从 75.2 台大幅攀升至 145.9 台，几乎翻了一番；洗衣机从 83.7 台温和上升至 98.2 台；电冰箱从 85.5 台增至 103.4 台。数据揭示的趋势十分清楚：三类耐用消费品拥有量持续上升，其中空调增幅最大，表明中国家庭的生活水平稳步提高。\n\n首先，居民收入的增长是这一趋势的直接推动力，人们自然会从不断增加的收入中拿出一部分用于追求舒适与便利。其次，产业升级与激烈的市场竞争使价格下降而质量提升，让曾经昂贵的家电走进了普通家庭。此外，这些家电把人们尤其是女性从繁重的家务中解放出来，从而提升了日常生活质量。\n\n总之，这张表格映射出十年来经济发展写进普通家庭的成果。我们早该把这份富足继续推进，让农村家庭和低收入群体也能享有同样的便利。唯有坚持共享发展，我们才能把统计数字变成实实在在的幸福感。",
+          "outline": [
+            "首段描述表格三类家电十年间的数据变化，点出空调增幅最大",
+            "主体段分论收入提高、产业升级降价、家电解放家务劳动",
+            "结尾段总结生活水平提升，呼吁农村与低收入群体共享成果"
+          ],
+          "words": 189,
+          "paras": 3
+        }
+      }
+    ],
+    "notes": [
+      "命题规律：近 28 年英语一大作文高度集中在五大话题族——① 个人品质与成功素养（2004/2007/2008/2012/2017/2019/2020）② 文化传承与交流（2002/2010/2021/2023）③ 科技与媒介（2009/2015）④ 社会公德与家庭伦理（1998/2001/2003/2005/2006/2011/2014/2016）⑤ 学习与青年选择（2013/2018/2022）。把这五族的语料背熟，基本可以覆盖任意新题。",
+      "题型分布：1998—2025 共 28 年，仅 1999 年是真正的图表题，其余全为图画/照片；2002 与 2006 是照片类（picture/photograph），写法与漫画一致。2025 年重回图表题（居民耐用消费品拥有量变化），因此图表描述句必须一起准备。",
+      "分值演变：1998—2000 年不少于 150 词、15 分；2001—2004 年约 200 词、20 分；2005 年起增加 Part A 小作文，大作文降为 160—200 词、20 分。现在一律按 160—200 词练。",
+      "首段写法固定：描述画面（含图上文字）→ 点出寓意。主体段两到三点理由。结尾段总结 + 建议/呼吁。任何题目都能套这三步。"
+    ]
+  },
+  "partA": {
+    "title": "小作文真题索引",
+    "subtitle": "Part A · 应用文 约 100 词 · 2005—2025",
+    "emoji": "✉️",
+    "years": [
+      {
+        "year": 2005,
+        "type": "其他",
+        "recipient": "上司王先生（Mr. Wang，你任职杂志社的老板）",
+        "taskZh": "两个月前你得到《Designs & Fashions》杂志编辑一职，如今发现工作与预期不符，决定辞职。写信给老板王先生，告知辞职决定、说明理由并致歉。",
+        "points": [
+          "告知辞职的决定",
+          "说明辞职的理由",
+          "为自己辞职表示歉意"
+        ],
+        "directionsEn": "51. Directions: Two months ago you got a job as an editor for the magazine Designs & Fashions. But now you find that the work is not what you expected. You decide to quit. Write a letter to your boss, Mr. Wang, telling him your decision, stating your reason(s), and making an apology. Write your letter with no less than 100 words. Write it neatly on ANSWER SHEET 2. Do not sign your own name at the end of the letter. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-apply"
+        ],
+        "tip": "辞职信。三段：说明去意 → 给出理由 → 致歉并祝愿。语气要体面，切勿抱怨。",
+        "confidence": "high",
+        "note": "题型为辞职信（Letter of resignation），不在给定词表中，故归入「其他」；Directions 同时要求道歉，故部分资料也把它描述为「辞职信＋道歉信」。三个来源的英文原文基本一致，仅个别来源把 work 误写成 word。",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/201512/10382574.html",
+          "http://m.offcn.com/kaoyan/2016/0930/66848.html",
+          "https://yz.chsi.com.cn/kyzx/en/201312/20131218/689327552.html"
+        ],
+        "model": {
+          "en": "Dear Mr. Wang,\n\nI am writing to inform you of my decision to resign from my position as an editor of Designs & Fashions, which I took up two months ago.\n\nMuch as I appreciate the opportunity you offered me, the job has turned out to be quite different from what I had anticipated. My daily routine consists largely of routine proofreading, whereas I had hoped to be involved in feature writing and creative planning. As a result, I find it hard to bring my strengths into full play.\n\nI am truly sorry for any inconvenience my departure may cause, and I will gladly stay on until a replacement is found.\n\nYours sincerely,\nLi Ming",
+          "zh": "尊敬的王先生：\n\n我写信是为了告知您，我决定辞去两个月前接任的《Designs & Fashions》杂志编辑一职。\n\n尽管我非常感激您给予我的机会，但这份工作与我原先设想的大不相同。我的日常工作主要是例行校对，而我本希望参与专题写作与创意策划。因此，我发现自己难以充分发挥所长。\n\n对于我的离职可能给您带来的任何不便，我深表歉意；在找到接替者之前，我很乐意继续留任。\n\n您诚挚的，\n李明",
+          "outline": [
+            "首段：开门见山告知辞职决定，点明入职仅两月",
+            "主体：说明工作与预期不符，用 whereas 形成对比",
+            "补充：用分词短语展开日常工作内容与个人期待",
+            "结尾：为不便致歉并主动提出留任至接手者到岗"
+          ],
+          "words": 115,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2006,
+        "type": "其他",
+        "recipient": "希望工程相关部门（the department concerned，不知具体收信人，通用称呼 To Whom It May Concern）",
+        "taskZh": "你想通过希望工程资助一名偏远地区的儿童，写信给相关部门请其帮助寻找合适人选，并说明你想资助什么样的孩子以及打算如何实施资助计划。",
+        "points": [
+          "说明写信目的：请对方帮助寻找一名可资助的孩子",
+          "说明希望资助的孩子类型（如贫困地区、成绩优异者）",
+          "说明将如何实施资助计划"
+        ],
+        "directionsEn": "51. Directions: You want to contribute to Project Hope by offering financial aid to a child in a remote area. Write a letter to the department concerned, asking them to help find a candidate. You should specify what kind of child you want to help and how you will carry out your plan. Write your letter with no less than 100 words. Write it on ANSWER SHEET 2. Do not sign your name at the end of the letter. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-apply"
+        ],
+        "tip": "申请/求助信。说清\"请求什么\"+\"资助哪类孩子\"+\"如何落实\"，条理是拿分点。",
+        "confidence": "high",
+        "note": "题型为申请信／请求信（Letter of application），不在给定词表中（词表只有「求职信」「咨询信」，均不等同），故归入「其他」。",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/201512/10382573.html",
+          "https://www.offcn.com/kaoyan/2016/1116/69421.html",
+          "https://yz.chsi.com.cn/kyzx/en/201312/20131218/689327552.html"
+        ],
+        "model": {
+          "en": "Dear Sir or Madam,\n\nI am writing to ask for your assistance in finding a child whom I can support through Project Hope.\n\nIdeally, the candidate should come from a remote mountainous area where schooling is beyond many families' reach. A primary school pupil who is diligent and eager to learn would suit me best, since a modest sum can make a lasting difference at that age. Once you have selected such a child, I intend to send 3,000 yuan annually to cover tuition and textbooks until he or she finishes secondary school. I would also welcome photographs and progress reports, so that we may keep in touch by letter.\n\nI should be grateful for an early reply.\n\nYours faithfully,\nLi Ming",
+          "zh": "尊敬的先生/女士：\n\n我写信是想请您帮助我寻找一名可以通过希望工程资助的孩子。\n\n理想的人选最好来自偏远山区，那里的许多家庭难以负担学费。一位勤奋好学的小学生最适合我，因为在这个年纪，一笔不大的资助就能带来长久的改变。一旦您确定了人选，我打算每年寄出三千元，用于支付学费和书本费，直到他（她）读完中学。我也希望能收到照片和学习情况汇报，以便我们保持通信。\n\n若您能早日回复，我将十分感激。\n\n您诚挚的，\n李明",
+          "outline": [
+            "首段：表明写信目的是请对方帮忙寻找资助对象",
+            "主体一：说明希望资助的孩子类型——偏远山区、小学、好学",
+            "主体二：说明资助方式，每年汇款并保持书信联系",
+            "结尾：用 I should be grateful for... 礼貌请求早日回复"
+          ],
+          "words": 122,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2007,
+        "type": "建议信",
+        "recipient": "所在大学的图书馆（your university library，收信人姓名不详，用 Dear Sir or Madam / To Whom It May Concern）",
+        "taskZh": "给你所在大学的图书馆写信，就如何改进图书馆的服务提出建议，具体建议内容可自由发挥。",
+        "points": [
+          "开门见山说明写信目的是改进图书馆服务",
+          "提出 2-3 条具体的改进建议（如设咨询台、提供最新外文期刊、维持阅览室秩序）",
+          "语气委婉，表达希望建议被采纳并期待回复"
+        ],
+        "directionsEn": "51. Directions: Write a letter to your university library, making suggestions for improving its service. You should write about 100 words on ANSWER SHEET 2. Do not sign your own name at the end of the letter. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "建议信。开篇表明身份与目的，主体 2 条建议要具体可操作，结尾表达感谢与期待。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://yz.chsi.com.cn/kyzx/jyxd/200701/20070124/748814.html",
+          "https://m.hujiang.com/kr/p16359/",
+          "https://yz.chsi.com.cn/kyzx/en/201312/20131218/689327552.html"
+        ],
+        "model": {
+          "en": "Dear Sir or Madam,\n\nI am a junior student and a frequent visitor to our university library. I am writing to suggest a few ways in which its service might be further improved.\n\nTo begin with, it would be advisable to set up an information desk near the entrance, where students could obtain guidance on locating materials. Another suggestion is that the library subscribe to more up-to-date foreign journals, for many of us rely on them when preparing papers. It would also help if reading-room order could be better maintained during examination weeks.\n\nI hope these proposals will be taken into consideration.\n\nYours faithfully,\nLi Ming",
+          "zh": "尊敬的先生/女士：\n\n我是本校一名大三学生，也是图书馆的常客。我写信是想就如何进一步改进图书馆的服务提出几点建议。\n\n首先，建议在入口附近设立咨询台，让学生能够就查找资料得到指导。其次，图书馆宜增订更多最新的外文期刊，我们许多人在写论文时十分依赖它们。此外，若能在考试周更好地维持阅览室秩序，也会很有帮助。\n\n希望这些建议能得到认真考虑。\n\n您诚挚的，\n李明",
+          "outline": [
+            "首段：自我介绍并点明来信目的是改进图书馆服务",
+            "主体：用 it would be advisable 引出设立咨询台的建议",
+            "主体：用 Another suggestion is that 引出增订外文期刊",
+            "结尾：以委婉语气表达希望建议被采纳"
+          ],
+          "words": 106,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2008,
+        "type": "道歉信",
+        "recipient": "加拿大的房东 Bob（your landlord there，私人信件）",
+        "taskZh": "你刚从加拿大回国，发现行李里有一张忘记归还给加拿大房东 Bob 的音乐 CD。写信给他表示道歉，并提出解决办法。",
+        "points": [
+          "为忘记归还 CD 表示真诚道歉",
+          "提出解决办法（如用快递把 CD 寄回）"
+        ],
+        "directionsEn": "Part A 51. Directions: You have just come back from Canada and found a music CD in your luggage that you forgot to return to Bob, your landlord there. Write him a letter to 1) make an apology, and 2) suggest a solution. You should write about 100 words on ANSWER SHEET 2. Do not sign your own name at the end of the letter. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-apply"
+        ],
+        "tip": "道歉信。先致歉 → 解释原因（不找借口）→ 主动提出补救方案，这是关键得分点。",
+        "confidence": "high",
+        "note": "题目两条要点为「道歉」＋「提出解决办法」，因此部分资料把它描述为道歉信与建议信的结合；主流归类为道歉信。各来源仅在 forgot/forget 等个别词上有转录差异。",
+        "sources": [
+          "https://yz.chsi.com.cn/kyzx/en/200812/20081203/11330003.html",
+          "https://m.hujiang.com/en/p30983/",
+          "https://yz.chsi.com.cn/kyzx/en/201312/20131218/689327552.html"
+        ],
+        "model": {
+          "en": "Dear Bob,\n\nI hope this letter finds you well. I am writing to offer my sincere apologies for something I discovered only after returning home.\n\nWhile unpacking my luggage, I came across the music CD you lent me last winter. In the rush of packing and saying goodbye, I completely forgot to return it, and I feel terribly embarrassed about my carelessness.\n\nMay I post it back to you by express delivery this week? If that is inconvenient, I could instead buy you a new copy of the same album, or keep it until my next visit. Please let me know which you would prefer.\n\nYours sincerely,\nLi Ming",
+          "zh": "亲爱的鲍勃：\n\n希望你一切都好。我写信是想为一件回国后才发现的疏忽致以诚挚的歉意。\n\n在整理行李时，我翻出了去年冬天你借给我的那张音乐 CD。当时忙着收拾行李、匆匆道别，我完全忘了归还，对自己的粗心深感惭愧。\n\n我能否本周用快递把它寄还给你？如果不方便，也可以买一张同一专辑的新碟给你，或者留到我下次来访时归还。请告诉我你更愿意采用哪种方式。\n\n您诚挚的，\n李明",
+          "outline": [
+            "首段：为忘记归还 CD 致以诚挚歉意，说明发现时间",
+            "主体：用 While unpacking 分词状语交代发现 CD 的经过",
+            "结尾：提出快递寄回等两种补救办法并请对方选择"
+          ],
+          "words": 109,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2009,
+        "type": "建议信",
+        "recipient": "当地报纸的编辑（the editor(s) of your local newspaper）",
+        "taskZh": "限塑令在部分地区实施效果不佳，「白色污染」仍在继续。给当地报纸编辑写信，简要阐明你对这一问题的看法，并提出两到三条建议。",
+        "points": [
+          "简要阐明自己对「白色污染」问题的看法／观点",
+          "提出 2-3 条具体建议（如政府加强监管、推广布袋、对塑料袋收费）"
+        ],
+        "directionsEn": "51. Directions: Restrictions on the use of plastic bags have not been so successful in some regions. \"White pollution\" is still going on. Write a letter to the editor(s) of your local newspaper to 1) give your opinions briefly and 2) make two or three suggestions. You should write about 100 words. Do not sign your own name at the end of the letter. Use \"Li Ming\" instead. You do not need to write the address.",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "建议信（给编辑）。先简要表态限塑效果不佳，再给 2-3 条建议，注意面向公众的措辞。",
+        "confidence": "high",
+        "note": "该题参考 2008 年 12 月四级作文「Limiting the Use of Disposable Plastic Bags」（多份辅导资料指出此关联）。",
+        "sources": [
+          "https://m.koolearn.com/kaoyan/20140709/822968.html",
+          "https://yz.chsi.com.cn/kyzx/other/200901/20090119/16727092.html",
+          "https://yz.chsi.com.cn/kyzx/en/201312/20131218/689327552.html"
+        ],
+        "model": {
+          "en": "Dear Editor,\n\nI am writing to express my concern about the disappointing results of the restrictions on plastic bags in our region, where \"white pollution\" continues unabated.\n\nIn my view, the problem lies less in the policy itself than in its enforcement, and ordinary consumers will not change their habits unless convenient alternatives are available. Therefore I would suggest that the authorities tighten supervision over retailers and impose a modest charge on every plastic bag. At the same time, reusable cloth bags could be distributed free of charge in supermarkets and residential communities.\n\nI hope these suggestions may be of some use.\n\nYours faithfully,\nLi Ming",
+          "zh": "尊敬的编辑：\n\n我写信是想表达我对本地区限塑令实施效果不佳的担忧——这里的“白色污染”仍在继续。\n\n在我看来，问题与其说出在政策本身，不如说出在执法环节；如果消费者得不到便利的替代品，他们是不会改变习惯的。因此我建议有关方面加强对商家的监管，并对每个塑料袋收取少量费用。与此同时，可以在超市和居民社区免费发放可重复使用的布袋。\n\n希望这些建议能有所裨益。\n\n您诚挚的，\n李明",
+          "outline": [
+            "首段：表明对限塑令收效不佳的担忧，点出问题",
+            "主体：指出症结在于执法不力，用 unless 句推进论点",
+            "主体：提出加强监管收费与免费发放布袋等两条建议",
+            "结尾：用一句简洁祝愿式收尾，语气礼貌克制"
+          ],
+          "words": 106,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2010,
+        "type": "通知",
+        "recipient": "全体研究生（以研究生会 the postgraduate association 名义发布的公开告示，无具体收信人）",
+        "taskZh": "以研究生会的名义写一则通知，为即将举办的全球化国际会议招募志愿者，内容须包括申请者的基本资格条件以及你认为相关的其他信息。",
+        "points": [
+          "说明招募缘由：为全球化国际会议招募志愿者",
+          "列明申请者的基本资格／条件（国籍、年龄、语言能力、个人品质等）",
+          "补充其他相关信息（报名方式、截止时间、联系人等）"
+        ],
+        "directionsEn": "Part A 51. Directions: You are supposed to write for the postgraduate association a notice to recruit volunteers for an international conference on globalization. The notice should include the basic qualification for applicants and the other information which you think is relevant. You should write about 100 words on ANSWER SHEET 2. Do not sign your own name at the end of the notice. Use \"postgraduate association\" instead. (10 points)",
+        "sections": [
+          "letter-general",
+          "notice"
+        ],
+        "tip": "通知（研究生会署名）。标题居中大写，正文写清岗位、条件与报名方式，落款是组织不是个人。",
+        "confidence": "high",
+        "note": "属告示类应用文（notice），中文资料或译作「通知」，或译作「告示」，两者指同一题型，本表统一记为「通知」。注意署名规定为 postgraduate association，而非 Li Ming；该题参考 2006 年 6 月四级写作真题（招募志愿者海报）。",
+        "sources": [
+          "https://yz.chsi.com.cn/kyzx/en/201001/20100111/61433290.html",
+          "https://yz.chsi.com.cn/kyzx/en/201001/20100111/61414662-7.html",
+          "https://yz.chsi.com.cn/kyzx/en/201312/20131218/689327552.html"
+        ],
+        "model": {
+          "en": "NOTICE\n\nVolunteers are wanted for the International Conference on Globalization, to be held in our university from 15 to 18 May. The Postgraduate Association is now recruiting twenty student volunteers to assist with reception, registration and interpretation.\n\nApplicants should be Chinese citizens aged between eighteen and twenty-five, with a good command of English. Fluency in a second foreign language and previous experience at similar events would be an advantage. Above all, we expect patience, responsibility and a genuine willingness to help.\n\nThose interested are invited to download the application form from our website and send it to volunteer@university.edu.cn before 30 April. Shortlisted candidates will be interviewed on 5 May. Further inquiries are welcome at the same address.\n\nThe Postgraduate Association",
+          "zh": "通知\n\n我校将于 5 月 15 日至 18 日举办全球化国际会议，现招募志愿者。研究生会拟招募二十名学生志愿者，协助接待、注册与口译工作。\n\n申请者应为中国公民，年龄在十八至二十五岁之间，英语水平良好。若能流利使用第二外语或有类似活动经验者优先。最重要的是，我们希望申请者耐心、负责，并且真心乐于助人。\n\n有意者请从我们的网站下载报名表，并于 4 月 30 日前发送至 volunteer@university.edu.cn。入围者将于 5 月 5 日参加面试。如需进一步咨询，欢迎通过同一邮箱联系。\n\n研究生会",
+          "outline": [
+            "标题：居中大写 NOTICE，正文首句说明招募缘由",
+            "主体：分条列出资质要求，含国籍、年龄与英语能力",
+            "主体：补充个人品质要求，用 Above all 强调重点",
+            "结尾：给出报名方式、邮箱、截止日期，落款研究生会"
+          ],
+          "words": 120,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2011,
+        "type": "推荐信",
+        "recipient": "你的一位朋友（a friend of yours，私人信件）",
+        "taskZh": "给你的一位朋友写信，推荐一部你最喜欢的电影，并说明推荐理由。属私人信件，语气可稍随意。",
+        "points": [
+          "推荐一部自己最喜欢的电影",
+          "说明推荐这部电影的理由（剧情、特效、导演、演员等）"
+        ],
+        "directionsEn": "51. Directions: Write a letter to a friend of yours to 1) recommend one of your favorite movies and 2) give reasons for your recommendation. You should write about 100 words on ANSWER SHEET 2. Do not sign your own name at the end of the letter. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "推荐信。推荐电影 + 给理由；理由分两层（剧情/主题/观感），避免只说\"很好看\"。",
+        "confidence": "high",
+        "note": "学信网（跨考教育）那份「八年真题汇总」把 2011 年的 Directions 原文复制到了 2012 年条目下，属该来源的编辑错误；2011 年本身的内容由新东方、沪江（跨考版）两个独立来源确认。",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/201512/10382581.html",
+          "https://m.hujiang.com/en_xiazai/p136958/",
+          "https://yz.chsi.com.cn/kyzx/en/201312/20131218/689327552.html"
+        ],
+        "model": {
+          "en": "Dear Jack,\n\nI hear you have been looking for something to watch at the weekend, so I would like to recommend my all-time favourite film, The Pursuit of Happyness.\n\nIt tells the story of a struggling salesman who raises his young son alone while chasing an unpaid internship. What moves me most is its quiet optimism: there are no spectacular effects, yet every setback feels real and every small victory earns its tears. Will Smith gives the performance of his career, and the director keeps the whole film warm and restrained rather than sentimental.\n\nI am sure you will finish it with a lighter heart. Do let me know what you think.\n\nYours sincerely,\nLi Ming",
+          "zh": "亲爱的杰克：\n\n听说你一直在找周末可看的片子，所以我想推荐我最喜欢的一部电影——《当幸福来敲门》。\n\n影片讲述一位生活拮据的推销员独自抚养幼子，同时争取一份没有报酬的实习机会。最打动我的是它平静的乐观：没有炫目的特效，可每一次挫折都真实可感，每一个小小的胜利都令人落泪。威尔·史密斯贡献了他职业生涯中最好的表演，导演让整部影片温暖而克制，而不流于煽情。\n\n我相信你看完后心情会轻松起来。请一定告诉我你的感受。\n\n您诚挚的，\n李明",
+          "outline": [
+            "首段：先说听说对方在找片，自然引出所推荐的电影",
+            "主体：用 What moves me most is... 强调句说明推荐理由",
+            "主体：补充演员表演与导演手法，说明克制而不煽情",
+            "结尾：以私人语气邀请对方反馈，关系亲近自然"
+          ],
+          "words": 116,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2012,
+        "type": "建议信",
+        "recipient": "即将来校的留学生（some international students），以学生会（Students' Union）名义发出",
+        "taskZh": "一些留学生即将来你校学习，以学生会名义给他们写一封电子邮件表示欢迎，并就他们在校的校园生活提出一些建议。",
+        "points": [
+          "向来校的留学生表示热烈欢迎",
+          "就他们在校的校园生活提出建议（如学好中文、参加课外活动等）"
+        ],
+        "directionsEn": "51. Directions: Some international students are coming to your university. Write them an email in the name of the Students' Union to 1) extend your welcome and 2) provide some suggestions for their campus life here. You should write about 100 words on ANSWER SHEET 2. Do not sign your name at the end of the letter. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "欢迎 + 建议信（学生会署名）。先表示欢迎，再给校园生活建议；注意署名是 Students' Union。",
+        "confidence": "high",
+        "note": "该题兼有「欢迎信」性质（要点一为表示欢迎），但国内主流辅导资料（跨考教育、中公考研、新东方在线等）统一归类为建议信，故按建议信记录。",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/201512/10382794.html",
+          "http://m.offcn.com/kaoyan/2016/1201/70556.html",
+          "http://news.cntv.cn/20120109/119851.shtml"
+        ],
+        "model": {
+          "en": "Dear friends,\n\nOn behalf of the Students' Union, I am writing to extend a warm welcome to all of you who are about to study at our university. We are delighted to have you with us.\n\nTo help you settle in, may I offer a few suggestions? First, do try to learn some Chinese, as it will make daily shopping and chatting far easier. Second, join at least one club or sports team; that is the quickest way to make friends and practise the language. Finally, do not hesitate to turn to us whenever you meet difficulties, whether with accommodation or with study.\n\nWe look forward to meeting you soon.\n\nYours sincerely,\nLi Ming",
+          "zh": "亲爱的朋友们：\n\n我谨代表学生会，向即将来我校学习的各位致以热烈的欢迎。你们的到来让我们非常高兴。\n\n为帮助大家尽快适应，请允许我提几点建议。第一，一定要学一些中文，这会让日常购物和聊天方便得多。第二，至少加入一个社团或运动队，这是结交朋友、练习语言最快的方式。最后，遇到困难时，无论是住宿还是学习方面，都请不要犹豫来找我们。\n\n期待与大家早日相见。\n\n您诚挚的，\n李明",
+          "outline": [
+            "首段：用 On behalf of... 代表学生会向留学生致欢迎",
+            "主体：以 may I offer a few suggestions 引出建议",
+            "主体：用 First / Second / Finally 逐条给出生活建议",
+            "结尾：表达期待见面之意，落款 Li Ming"
+          ],
+          "words": 114,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2013,
+        "type": "邀请信",
+        "recipient": "你所在学院的一位外教（a foreign teacher in your college）",
+        "taskZh": "给你学院的一位外教写一封约 100 词的电子邮件，邀请他/她担任即将举行的英语演讲比赛的评委，并补充你认为必要的细节。",
+        "points": [
+          "说明写信目的：邀请外教担任英语演讲比赛评委",
+          "补充必要细节（比赛时间、地点、参赛者情况、其他评委等）",
+          "表达感谢与期待，并提供联系方式"
+        ],
+        "directionsEn": "51. Directions: Write an e-mail of about 100 words to a foreign teacher in your college, inviting him/her to be a judge for the upcoming English speech contest. You should include the details you think necessary. You should write neatly on the ANSWER SHEET. Do not sign your own name at the end of the e-mail. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "邀请信。写明活动名称、时间、地点、身份，并礼貌请对方确认出席。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/201512/10382805.html",
+          "http://www.offcn.com/kaoyan/2016/1201/70557.html",
+          "http://m.offcn.com/kaoyan/2016/0131/47747.html"
+        ],
+        "model": {
+          "en": "Dear Professor Smith,\n\nOn behalf of the English Department, I am writing to invite you to serve as a judge for the forthcoming English Speech Contest, which will take place in the Lecture Hall on Saturday, 20 April, from two to five in the afternoon.\n\nTwelve contestants, all second-year students, will speak for five minutes each on the theme \"Youth and Responsibility\". Two other teachers have already agreed to join the panel, so the task should prove neither heavy nor time-consuming. We would be most grateful if you could also offer a brief comment at the closing ceremony.\n\nPlease let me know your decision at 138-0000-0000 by 10 April.\n\nYours sincerely,\nLi Ming",
+          "zh": "尊敬的史密斯教授：\n\n我谨代表英语系，邀请您担任即将举行的英语演讲比赛的评委。比赛将于 4 月 20 日（星期六）下午两点至五点在报告厅举行。\n\n十二名选手均为二年级学生，每人将围绕“青年与责任”这一主题演讲五分钟。已有另外两位老师同意担任评委，因此这项工作既不会太繁重，也不会太耗时。若您还能在闭幕环节作简短的点评，我们将不胜感激。\n\n请在 4 月 10 日前拨打 138-0000-0000 告知您的决定。\n\n您诚挚的，\n李明",
+          "outline": [
+            "首段：说明来意，邀请外教担任英语演讲比赛评委",
+            "主体：交代时间、地点、选手人数与主题等必要细节",
+            "主体：说明已有两位评委，并用虚拟语气恳请其致辞",
+            "结尾：请对方尽早答复并留下联系电话"
+          ],
+          "words": 113,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2014,
+        "type": "建议信",
+        "recipient": "你所在大学的校长（the president of your university）",
+        "taskZh": "给你所在大学的校长写一封约 100 词的信，就如何改善学生们的身体状况提出建议，并包含你认为必要的细节。",
+        "points": [
+          "就如何改善学生们的身体状况提出建议（如加强体育锻炼、均衡饮食、规律作息）",
+          "补充必要的细节／说明理由，语气正式客气"
+        ],
+        "directionsEn": "Part A 51. Directions: Write a letter of about 100 words to the president of your university, suggesting how to improve students' physical condition. You should include the details you think necessary. You should write neatly on the ANSWER SHEET. Do not sign your own name at the end of the letter. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "建议信（给校长）。语气正式得体，建议要宏观（体育设施、锻炼氛围），不要写成抱怨信。",
+        "confidence": "high",
+        "note": "国内辅导资料统计：建议信在英语（一）小作文中共考过四次，分别是 2007、2009、2012、2014 年。",
+        "sources": [
+          "https://kaoyan.koolearn.com/20140211/806817.html",
+          "http://www.offcn.com/kaoyan/2016/1201/70558.html",
+          "http://www.offcn.com/kaoyan/2016/1121/69819.html"
+        ],
+        "model": {
+          "en": "Dear Mr. President,\n\nI am writing on behalf of many fellow students to suggest how students' physical condition might be improved on our campus.\n\nRecent years have seen a worrying decline in fitness: long hours in the library and irregular meals have left quite a few classmates short of breath after a single flight of stairs. It would therefore be advisable to extend the opening hours of the gymnasium and organise weekly jogging or ball games in the East Stadium. Another suggestion is that the canteens offer more low-fat dishes at reasonable prices, since diet matters as much as exercise.\n\nThank you for your time and consideration.\n\nYours sincerely,\nLi Ming",
+          "zh": "尊敬的校长：\n\n我谨代表许多同学写信，就如何改善我校学生的身体状况提出建议。\n\n近年来同学们的体质令人担忧地下降：长时间待在图书馆、饮食不规律，使不少同学爬一层楼梯就气喘吁吁。因此，建议延长体育馆的开放时间，并在东操场组织每周的慢跑或球类活动。另一条建议是，食堂应以合理的价格提供更多低脂菜品，因为饮食与锻炼同样重要。\n\n感谢您拨冗考虑。\n\n您诚挚的，\n李明",
+          "outline": [
+            "首段：代表同学致意，点明改善学生体质这一目的",
+            "主体：先摆出体质下降的现象，再提锻炼类建议",
+            "主体：用 Another suggestion is that 提食堂与饮食建议",
+            "结尾：以感谢语收束，语气正式谦逊"
+          ],
+          "words": 111,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2015,
+        "type": "推荐信",
+        "recipient": "读书俱乐部的成员（the club members，一对多，称呼用 Dear friends）",
+        "taskZh": "你将在读书俱乐部举办一次读书会，给俱乐部成员写一封约 100 词的电子邮件，推荐一本书，并说明推荐理由。",
+        "points": [
+          "推荐一本书（须给出书名）",
+          "说明推荐这本书的理由"
+        ],
+        "directionsEn": "Part A 51. Directions: You are going to hold a club reading session. Write an email of about 100 words recommending a book to the club members. You should state reasons for your recommendation. You should write neatly on the ANSWER SHEET. Do not sign your own name at the end of the letter. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "推荐信（读书会）。推荐一本书 + 理由；与 2011 推荐电影是同一套句式，可一起背。",
+        "confidence": "high",
+        "note": "与 2011 年「向朋友推荐一部电影」高度相似，只是把电影换成书（文都教育明确称二者「异曲同工」）。文都、中公两个独立来源均确认为推荐信；上述英文为各来源转录文本，个别版本存在大小写／拼写差异（如把 ANSWER SHEET 误写作 ANWSER SHEET），实质内容一致。",
+        "sources": [
+          "http://www.offcn.com/kaoyan/2016/1201/70562.html",
+          "https://yz.chsi.com.cn/kyzx/en/201412/20141229/1419335105.html",
+          "https://m.hujiang.com/kr/p713129/",
+          "http://yingyu.xdf.cn/201509/10345657.html"
+        ],
+        "model": {
+          "en": "Dear friends,\n\nAs the reading session is drawing near, I would like to recommend a book for our discussion: The Old Man and the Sea by Ernest Hemingway.\n\nIt is short enough to be read in two evenings, yet it leaves a deep impression. Hemingway writes about an old fisherman who battles a giant marlin far out at sea, and about the dignity with which he endures defeat. The language is remarkably plain, almost like the speech of a fisherman, but every sentence carries weight. Few novels say so much about courage and perseverance in so few pages, which makes this one ideal for a club discussion.\n\nI hope you will enjoy it as much as I did.\n\nYours sincerely,\nLi Ming",
+          "zh": "亲爱的朋友们：\n\n读书会临近，我想为我们的讨论推荐一本书：海明威的《老人与海》。\n\n它篇幅很短，两个晚上就能读完，却给人留下深刻印象。海明威写一位在远海与大马林鱼搏斗的老渔夫，也写他在失败面前所保持的尊严。语言极为朴素，几乎像渔夫说话，但每一句都很有分量。很少有小说能在如此短的篇幅里讲述如此多关于勇气与坚韧的内容，因此它非常适合我们在俱乐部里讨论。\n\n希望你们和我一样喜欢它。\n\n您诚挚的，\n李明",
+          "outline": [
+            "首段：交代读书会临近，点出推荐书目《老人与海》",
+            "主体：用 yet 转折说明篇幅虽短而印象颇深",
+            "主体：概括情节并称赞海明威朴素有力的语言风格",
+            "结尾：用 as much as I did 表达希望对方同样喜欢"
+          ],
+          "words": 122,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2016,
+        "type": "通知",
+        "recipient": "新入学的留学生（全体国际新生）",
+        "taskZh": "以本校图书馆员身份写一则约100词的通知，面向新入学的留学生，表示欢迎并告知图书馆的相关信息（如开放时间、借阅方式等），须符合通知格式。",
+        "points": [
+          "以图书馆员名义向新入学的留学生发布通知",
+          "对留学生表示欢迎",
+          "提供图书馆的相关信息（开放时间、借阅规则等）"
+        ],
+        "directionsEn": "Suppose you are a librarian in your university. Write a notice of about 100 words, providing the newly-enrolled international students with relevant information about the library. You should write neatly on the ANSWER SHEET. Do not sign your own name at the end of the letter. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "notice"
+        ],
+        "tip": "通知（图书馆员署名）。欢迎新生 + 告知开放时间、借阅规则；注意通知不用书信称呼语。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/201512/10395986.html",
+          "https://www.kyzs.com/article/14062.html"
+        ],
+        "model": {
+          "en": "NOTICE\n\nTo all newly-enrolled international students, welcome to our university! As a librarian here, I would like to introduce you to the University Library, which will serve as your second classroom in the coming years.\n\nThe main library opens from 8:00 a.m. to 10:00 p.m. on weekdays and from 9:00 a.m. to 5:00 p.m. at weekends. With your student card, you may borrow up to ten books at a time for one month. Kindly note that reference works and current journals are for reading on the spot only. Should you need any assistance in locating materials, feel free to turn to the information desk on the first floor.\n\nWe look forward to seeing you here.\n\nThe University Library\nLi Ming",
+          "zh": "通知\n\n各位新入学的留学生，欢迎来到我校！作为本校图书馆员，我想向你们介绍大学图书馆，它将在未来几年成为你们的第二课堂。\n\n主馆开放时间为周一至周五上午8:00至晚上10:00，周末为上午9:00至下午5:00。凭学生卡一次可借阅十本书，借期一个月。请注意，工具书与现刊仅供馆内阅览。若查找资料需要帮助，请随时到一楼咨询台求助。\n\n期待在此与你相见。\n\n校图书馆\nLi Ming",
+          "outline": [
+            "居中大写标题 NOTICE，正文首句直接向全体新入学留学生致欢迎",
+            "以 As a librarian 表明身份，说明写信目的是介绍图书馆",
+            "用具体时间与借阅数量说明开放时间、借阅规则及阅览限制",
+            "以 Should you need 倒装句提供求助途径，落款署图书馆与 Li Ming"
+          ],
+          "words": 120,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2017,
+        "type": "推荐信",
+        "recipient": "新到本校的外籍教授 James Cook",
+        "taskZh": "给新来的外籍教授 James Cook 写一封约100词的电子邮件，向他推荐你所在城市的一处旅游景点，并说明推荐的理由。",
+        "points": [
+          "向 James Cook 推荐本市的一处旅游景点",
+          "说明推荐该景点的理由"
+        ],
+        "directionsEn": "Write an email to James Cook 1) recommend one of the tourist attractions in your city 2) give reasons for your recommendation. You should write about 100 words on ANSWER SHEET. Do not sign your own name at the end of the letter. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "推荐信（给外籍教授）。推荐本地景点 + 理由；注意用 email 形式但仍要正式礼貌。",
+        "confidence": "high",
+        "note": "题目内容（向新来的外籍教授 James Cook 推荐本地旅游景点并说明理由）由两个独立来源一致确认；directionsEn 取自新东方网标注为「考生回忆」的版本，个别措辞（如是否含 Suppose you are... 开头的设定句）与官方原文可能有细微出入。",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/201612/10592153.html",
+          "https://mtoutiao.xdf.cn/kaoyan/201612/10592145.html",
+          "https://www.kyzs.com/article/14062.html"
+        ],
+        "model": {
+          "en": "Dear Professor Cook,\n\nWelcome to our university! I am writing to recommend a tourist attraction in our city, the West Lake, as a pleasant destination for your weekend relaxation.\n\nTwo reasons account for my recommendation. First, the scenery there is truly breathtaking: shaded by willow trees and dotted with ancient pagodas, the lake offers a tranquil escape from the noise of the campus. Second, the site is steeped in history, and countless poems and legends have been composed about it, which will enable you to gain a deeper insight into Chinese culture. Buses No. 5 and 20 run there directly from our campus, and admission is free.\n\nI would be delighted to accompany you there if convenient.\n\nYours sincerely,\nLi Ming",
+          "zh": "库克教授：\n\n欢迎来到我校！我写信是想向您推荐我市的一处景点——西湖，作为您周末放松的好去处。\n\n推荐它有两点理由。首先，那里景色确实令人叹为观止：垂柳掩映、古塔点缀，湖水为人们提供了远离校园喧嚣的宁静之所。其次，该地历史底蕴深厚，无数诗篇与传说都因它而生，能助您更深入地了解中国文化。5路和20路公交车从我校直达，且免门票。\n\n若您方便，我很乐意陪您同往。\n\n您诚挚的，\nLi Ming",
+          "outline": [
+            "Dear Professor Cook 称呼后加逗号，首句欢迎并点明推荐来意",
+            "用 Two reasons account for 引出主题句，First/Second 分列两条理由",
+            "以分词状语 shaded by… 描写景色，再用定语从句说明文化价值",
+            "补充交通与免票信息增强可操作性，虚拟语气表态陪同"
+          ],
+          "words": 121,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2018,
+        "type": "邀请信",
+        "recipient": "校内全体外国专家（国际专家、外教）",
+        "taskZh": "给校内全体外国专家写一封约100词的电子邮件，邀请他们出席毕业典礼，并在邮件中写明典礼的时间、地点及其他相关信息。",
+        "points": [
+          "邀请校内全体外国专家参加毕业典礼",
+          "写明典礼的时间",
+          "写明典礼的地点",
+          "补充其他相关信息"
+        ],
+        "directionsEn": "Write an email to all international experts on campus, inviting them to attend the graduation ceremony. In your email you should include the time, the place and other relevant information about the ceremony. You should write about 100 words neatly on the ANSWER SHEET. Do not use your own name at the end of the email. Use \"Li Ming\" instead. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "邀请信（全体外国专家）。毕业典礼的时间、地点、其他信息三要素齐全，结尾请对方确认出席。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/201712/10746428.html",
+          "https://news.koolearn.com/20171223/1142485.html",
+          "https://yz.chsi.com.cn/kyzx/en/201712/20171225/1645244768-1.html"
+        ],
+        "model": {
+          "en": "Dear Sir or Madam,\n\nOn behalf of the Graduation Committee of our university, I am writing to invite you to attend this year's graduation ceremony, which we believe would be all the more memorable with your presence.\n\nThe ceremony is scheduled for Saturday, June 22nd, at 9:00 a.m. in the Grand Auditorium on the main campus. It will last approximately two hours, during which the president will confer degrees and outstanding graduates will share their reflections. A reception will follow in the foyer, where you may meet colleagues and students over refreshments. Kindly reply to graduation@university.edu.cn before June 15th so that seats can be reserved for you.\n\nYour presence would be an honour we greatly value.\n\nYours faithfully,\nLi Ming",
+          "zh": "尊敬的先生/女士：\n\n我代表我校毕业典礼委员会写信邀请您出席今年的毕业典礼，我们相信有您的到场，典礼将更加令人难忘。\n\n典礼定于6月22日（星期六）上午9:00在主校区大礼堂举行，历时约两小时，届时校长将授予学位，优秀毕业生将分享感想。典礼后将在门厅举行招待会，您可以边用茶点边与同事和学生交流。请于6月15日前回复 graduation@university.edu.cn，以便我们为您预留座位。\n\n您的出席是我们十分珍视的荣幸。\n\n您忠实的，\nLi Ming",
+          "outline": [
+            "称呼用 Dear Sir or Madam，末句配 Yours faithfully，首段说明邀请缘由",
+            "第二段用 be scheduled for 明确典礼时间与地点",
+            "用 during which 与 where 从句补充典礼流程及招待会安排",
+            "以 so that 引出回复邮箱与截止日期，末段礼节性收尾署名 Li Ming"
+          ],
+          "words": 120,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2019,
+        "type": "咨询信",
+        "recipient": "来邮件咨询该项目的国际学生志愿者",
+        "taskZh": "假设你参与本校「援助农村小学」项目，需给一名来信咨询该项目的国际学生志愿者回邮件，详细说明项目的具体细节（如项目主题、活动安排、对志愿者的要求等）。",
+        "points": [
+          "回复国际学生志愿者的咨询邮件",
+          "具体说明项目的细节",
+          "属于回信/答复咨询的性质"
+        ],
+        "directionsEn": "Suppose you are working for the \"Aiding Rural Primary Schools\" project of your university. Write an email to answer the inquiring from an international student volunteer. Specify the details of the project. You should write about 100 words on the ANSWER SHEET. Do not use your own name in the e-mail. Use \"Li Ming\" instead. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-apply"
+        ],
+        "tip": "回信（答复咨询）。逐条回答对方的问题，细节要充分；回信要呼应来信的问法。",
+        "confidence": "high",
+        "note": "本题为「答复咨询的回信」，按题型清单归入咨询信。",
+        "sources": [
+          "https://www.chsi.com.cn/kyzx/en/201901/20190104/1752710219.html",
+          "https://www.kyzs.com/article/14062.html"
+        ],
+        "model": {
+          "en": "Dear Sir or Madam,\n\nThank you for your interest in our \"Aiding Rural Primary Schools\" project. I am glad to answer your inquiry in detail.\n\nThe project centres on improving English teaching in rural primary schools. From July 8th to August 2nd, volunteers will live on the school campus in Qinghe County, teaching four morning classes daily and organizing afternoon activities such as reading clubs, painting and sports. As for qualifications, volunteers are expected to be patient, cooperative and fluent in English; a brief online interview and a two-day training session are required. Accommodation and meals are provided free of charge, and a round-trip travel allowance is offered.\n\nShould you have further questions, please write to me.\n\nYours faithfully,\nLi Ming",
+          "zh": "尊敬的先生/女士：\n\n感谢您对我校“援助农村小学”项目的关注，我很乐意详细答复您的咨询。\n\n该项目以提升农村小学英语教学为核心。7月8日至8月2日期间，志愿者将住在清河县的学校校内，每天上午上四节课，下午组织阅读俱乐部、绘画、体育等活动。关于条件，志愿者需耐心、善于合作且英语流利，还须通过一次简短的线上面试并参加为期两天的培训。食宿免费提供，另发放往返交通补贴。\n\n如您还有其他问题，请给我写信。\n\n您忠实的，\nLi Ming",
+          "outline": [
+            "首句致谢对方来信，表明乐意详细答复咨询，体现回信性质",
+            "先交代项目主题，再按时间顺序说明地点与每日活动安排",
+            "用 As for qualifications 引出对志愿者态度、语言等具体要求",
+            "补充食宿与交通补贴等保障，末尾以倒装句欢迎继续来信"
+          ],
+          "words": 121,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2020,
+        "type": "通知",
+        "recipient": "全体留学生（国际学生）",
+        "taskZh": "校学生会指派你写一则约100词的通知，告知留学生即将举办的歌唱比赛，需交代比赛的相关信息（如时间、地点、参赛要求等），并以学生会名义落款。",
+        "points": [
+          "以校学生会名义发布通知",
+          "告知留学生即将举办的歌唱比赛",
+          "提供比赛的相关细节（时间、地点、参赛方式/要求等）"
+        ],
+        "directionsEn": "The students union of your university has assigned you to inform the international students about an upcoming singing contest. Write a notice in about 100 words. Write your answer on the ANSWER SHEET. Do not use your own name in the notice. (10 points)",
+        "sections": [
+          "letter-general",
+          "notice"
+        ],
+        "tip": "通知（面向全体留学生）。主题是历史景点游览，写清活动安排与报名方式。",
+        "confidence": "high",
+        "note": "来源网页原文把 Write 印作「White a notice」，系排版/录入错误，此处已按 Write 还原。",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/201912/11011226.html",
+          "https://mtoutiao.xdf.cn/kaoyan/202001/11017825.html",
+          "https://www.kyzs.com/article/14062.html"
+        ],
+        "model": {
+          "en": "NOTICE\n\nThe Students' Union is pleased to announce a singing contest to be held for all international students, and your participation would be warmly welcomed.\n\nThe contest will take place in the University Hall from 7:00 to 9:30 p.m. on May 15th. Contestants may sing in any language, either solo or in a group of no more than four; a short piece of no longer than five minutes is preferred. Those who wish to enter should email your name, nationality and the title of your song to union@university.edu.cn before May 8th. Prizes and certificates will be awarded to the top three performers, and everyone present will receive a small gift.\n\nWe look forward to your wonderful performances.\n\nThe Students' Union\nLi Ming",
+          "zh": "通知\n\n校学生会欣然宣布将为全体留学生举办歌唱比赛，热诚欢迎你们参加。\n\n比赛将于5月15日晚7:00至9:30在大学礼堂举行。参赛者可用任何语言演唱，可独唱，也可组成不超过四人的小组；曲目以不超过五分钟的短曲为宜。有意参赛者请于5月8日前将姓名、国籍和歌曲名称发送至 union@university.edu.cn。前三名将获得奖品和证书，到场者均可获赠小礼品。\n\n期待你们的精彩演唱。\n\n校学生会\nLi Ming",
+          "outline": [
+            "居中大写标题 NOTICE，以校学生会为主语宣布即将举办歌唱比赛",
+            "第二段用 take place 交代时间地点，并说明演唱语言与形式限制",
+            "用 Those who wish to enter 引出报名邮箱与截止日期",
+            "补充奖项设置提高吸引力，结尾期待参与，落款署学生会与 Li Ming"
+          ],
+          "words": 122,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2021,
+        "type": "建议信",
+        "recipient": "一位刚大学毕业、打算在中国找工作的外国朋友",
+        "taskZh": "给你的外国朋友写一封约100词的电子邮件：他/她刚大学毕业并打算在中国找工作，请就求职这件事提出一些建议。",
+        "points": [
+          "写信对象为刚大学毕业、打算在中国找工作的外国朋友",
+          "就求职提出具体建议",
+          "以电子邮件形式、署名 Li Ming"
+        ],
+        "directionsEn": "A foreign friend of yours has recently graduated from college and intends to find a job in China. Write him/her an email to make some suggestions. You should write about 100 words on ANSWER SHEET. Do not sign your own name at the end. Use \"Li Ming\" instead. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "建议信（给求职的外国朋友）。建议要落地：语言、简历、行业选择、面试准备。",
+        "confidence": "high",
+        "note": "",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/202101/11140091.html",
+          "https://mtoutiao.xdf.cn/kaoyan/202101/11140128.html",
+          "https://www.kyzs.com/article/14062.html"
+        ],
+        "model": {
+          "en": "Dear friend,\n\nDelighted to learn that you have graduated and intend to seek employment in China, I am writing to offer a few practical suggestions.\n\nTo begin with, update your resume in both Chinese and English, highlighting any internship or volunteer experience relevant to the position. It is also advisable to register with reputable recruitment websites such as 51job and to follow target companies on their official WeChat accounts. Moreover, since many interviews are conducted in Chinese, polishing your spoken Chinese and preparing a concise self-introduction will give you a distinct advantage. Finally, do check whether your visa permits full-time work.\n\nPlease let me know if I can be of further help. I wish you every success.\n\nYours sincerely,\nLi Ming",
+          "zh": "亲爱的朋友：\n\n得知你已毕业并打算在中国求职，我很高兴，特此写信给你一些实用建议。\n\n首先，请更新中英文简历，突出与岗位相关的实习或志愿经历。也建议你在 51job 等正规招聘网站注册，并关注目标企业的微信公众号。此外，由于许多面试用中文进行，提高中文口语并准备一段简短的自我介绍会让你更具优势。最后，务必确认你的签证是否允许全职工作。\n\n如还需帮助请告诉我。祝你一切顺利。\n\n你诚挚的，\nLi Ming",
+          "outline": [
+            "以分词状语 Delighted to learn 开篇，交代背景与建议来意",
+            "用 To begin with/It is also advisable/Moreover/Finally 分层给建议",
+            "建议涵盖双语简历、招聘网站与公众号、中文口语及签证核查",
+            "末段表示愿意继续提供帮助并祝愿求职成功，署名 Li Ming"
+          ],
+          "words": 121,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2022,
+        "type": "邀请信",
+        "recipient": "英国一所大学的教授（英国大学教授）",
+        "taskZh": "给英国某大学的教授写一封约100词的电子邮件，邀请他/她为你校即将举办的国际创新（大赛/活动）组建一支参赛团队。",
+        "points": [
+          "写信对象为英国大学的教授",
+          "邀请对方为你校举办的国际创新活动组建团队"
+        ],
+        "directionsEn": "Write an email to a professor at a British university, inviting him/her to organize a team for the international innovation to be held at your university. You should write about 100 words on ANSWER SHEET. Do not sign your own name at the end of the letter. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "邀请信（给英国大学教授）。邀请其组建团队参加国际创新大赛，写清赛事、时间与期待。",
+        "confidence": "high",
+        "note": "两个独立来源（新东方网「网友回忆版」、新东方在线）的英文题面完全一致（international innovation）。另有汇总类网页（kyzs.com）把 2022 年小作文写成「邀请外教担任英语演讲比赛的评委」，但该来源自身的 2013 年条目与之文字重复，判断为汇总页串行/错位，未采信。",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/202112/11363756.html",
+          "https://m.koolearn.com/kaoyan/20211225/1483470.html"
+        ],
+        "model": {
+          "en": "Dear Professor,\n\nOn behalf of the Organizing Committee of our university, I am writing to invite you to organize a team for the International Innovation Competition to be held on our campus this autumn.\n\nThe competition aims to encourage students to turn creative ideas into practical solutions, and teams from over thirty universities are expected to take part. As a scholar with wide experience in mentoring young innovators, you would be ideally placed to select and guide a team of five from your own university. We would cover all travel and accommodation expenses, and the deadline for confirmation is June 30th. Detailed rules are attached for your reference.\n\nWe sincerely hope you will accept our invitation.\n\nYours sincerely,\nLi Ming",
+          "zh": "尊敬的教授：\n\n我代表我校组委会写信，邀请您为今年秋季在我校举办的国际创新大赛组建一支参赛团队。\n\n该赛事旨在鼓励学生把创意转化为可行方案，预计有三十多所高校的队伍参加。作为在指导青年创新者方面经验丰富的学者，您非常适合从贵校挑选并带领一支五人团队。我们将承担全部交通与住宿费用，确认参赛的截止日期为6月30日。详细规则见附件，供您参考。\n\n我们诚挚希望您能接受邀请。\n\n您诚挚的，\nLi Ming",
+          "outline": [
+            "以 On behalf of 开篇表明代表组委会，说明邀请对方组建团队",
+            "第二段先介绍赛事宗旨与规模，为邀请提供背景",
+            "用 As a scholar with… 评价对方资历，说明费用承担与截止日期",
+            "末尾表达期待并附规则文件，Yours sincerely 落款"
+          ],
+          "words": 120,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2023,
+        "type": "通知",
+        "recipient": "全校学生（应征者）；落款可为学生会",
+        "taskZh": "写一则约100词的通知，为 Smith 教授关于校园体育活动的研究项目招募一名学生，需说明该岗位的职责和任职要求。",
+        "points": [
+          "为 Prof. Smith 的校园体育活动研究项目招募一名学生",
+          "说明该岗位的职责（duties）",
+          "说明任职要求（requirements）"
+        ],
+        "directionsEn": "Write a notice to recruit a student for Prof. Smith's research project on campus sports activities. Specify the duties and requirements of the job. You should write about 100 words on ANSWER SHEET. Do not sign your own name at the end of the notice. Use \"Li Ming\" instead. Do not write the address. (10 points)",
+        "sections": [
+          "letter-general",
+          "notice"
+        ],
+        "tip": "通知（招 1 名学生参与 Smith 教授项目）。资格要求 + 报名方式 + 截止时间三件套。",
+        "confidence": "high",
+        "note": "注意常见审题陷阱：招募对象是「为研究项目工作的学生」，而非校园体育活动本身。其中一个来源的英文 Directions 中写作「Do not sign your own name at the end of the letter」（中公版为 notice），属来源差异，题面主体一致。",
+        "sources": [
+          "https://mtoutiao.xdf.cn/kaoyan/202312/13553027.html",
+          "https://m.koolearn.com/kaoyan/20221224/1578639.html",
+          "https://www.kaoyan365.cn/yingyu/zhenti/343341.html"
+        ],
+        "model": {
+          "en": "NOTICE\n\nProf. Smith's research project on campus sports activities requires one student assistant, and applications are now invited from all students.\n\nThe assistant will collect and organize data on students' weekly exercise habits, distribute and retrieve questionnaires, and help prepare short reports for the project group. Applicants should be second- or third-year students who can devote about six hours a week, and familiarity with Excel or SPSS is preferred. A good command of written English would be an advantage.\n\nThose interested should send a brief resume to sportsproject@university.edu.cn before October 20th, and shortlisted candidates will be interviewed the following week.\n\nOffice of the Research Project\nLi Ming",
+          "zh": "通知\n\n史密斯教授关于校园体育活动的研究项目现需一名学生助理，面向全体学生招募。\n\n该助理将收集并整理学生每周锻炼习惯的数据，发放和回收问卷，并协助撰写项目组的简要报告。申请者应为二、三年级学生，每周能投入约六小时，熟悉 Excel 或 SPSS 者优先，有较好的英语书面表达能力者更佳。\n\n有意者请于10月20日前将简短简历发送至 sportsproject@university.edu.cn，入选者将于下周接受面试。\n\n项目办公室\nLi Ming",
+          "outline": [
+            "NOTICE 大写居中，首句点明为史密斯教授项目招募一名学生助理",
+            "用三个并列谓语说明数据收集、问卷发放与报告撰写等职责",
+            "用 should be 与 is preferred 分层说明年级、时间投入与技能要求",
+            "给出投递邮箱与截止日期及面试安排，落款署项目办公室"
+          ],
+          "words": 107,
+          "paras": 5
+        }
+      },
+      {
+        "year": 2024,
+        "type": "建议信",
+        "recipient": "留学生同学 Paul（发来求助邮件的国际学生）",
+        "taskZh": "阅读留学生 Paul 的来信并写回信：Paul 有一项课堂作业，要做关于一位中国古代科学家的口头报告，不知如何准备，向你求助；你需在约100词的回信中给出建议。",
+        "points": [
+          "阅读来信并回信给留学生 Paul",
+          "就如何准备「关于中国古代科学家的口头报告」提出建议"
+        ],
+        "directionsEn": "Read the following email from an international student and write a reply. — Dear Li Ming, I've got a class assignment to make an oral report on an ancient Chinese scientist, but I'm not sure how to prepare for it. Can you give me some advice? Thank you for your help. Yours, Paul — Write your answer in about 100 words on the ANSWER SHEET. Do not use your own name in your email; use \"Li Ming\" instead. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-advice"
+        ],
+        "tip": "读信 + 回信建议。先回应对方的处境，再给具体建议，语气要体贴。",
+        "confidence": "high",
+        "note": "本题形式为「读信＋回信并提建议」，按题型清单归入建议信。",
+        "sources": [
+          "https://jixun.iqihang.com/info/yyzd/2023334774.html",
+          "http://m.tianrenedu.com.cn/bkzl/18741.html"
+        ],
+        "model": {
+          "en": "Dear Paul,\n\nIt is a pleasure to hear from you. Preparing an oral report on an ancient Chinese scientist is easier if you approach it step by step.\n\nFirst, choose a figure with a clear legacy, such as Zhang Heng, who invented the seismograph. Then read two or three reliable sources and note down his life, major achievements and their influence. Rather than reciting facts, build your report around one question: why did his inventions matter to ordinary people? A simple timeline or a picture of his device will make your slides more engaging. Finally, rehearse aloud twice, and be ready to answer one or two questions. I would be glad to listen to your draft and offer feedback.\n\nYours sincerely,\nLi Ming",
+          "zh": "亲爱的 Paul：\n\n很高兴收到你的来信。只要按步骤推进，准备关于中国古代科学家的口头报告并不难。\n\n首先，选一位成就明确的科学家，比如发明地动仪的张衡。然后阅读两三份可靠资料，记下他的生平、主要成就及其影响。不要只是罗列事实，而应围绕一个问题展开报告，例如他的发明为何对普通人重要。一张简单的时间轴或他发明的器物图片会让幻灯片更吸引人。最后，朗读练习两遍，并准备好回答一两个问题。我很乐意听你的初稿并给出反馈。\n\n你诚挚的，\nLi Ming",
+          "outline": [
+            "Dear Paul 称呼加逗号，首句回应来信并表明愿意提供建议",
+            "用 First/Then 分步骤建议：选定人物、查阅可靠资料并做笔记",
+            "用 Rather than reciting 引出以问题为主线，并提示配图表",
+            "最后建议限时演练，末句表示乐于看稿反馈，Yours sincerely 落款"
+          ],
+          "words": 123,
+          "paras": 4
+        }
+      },
+      {
+        "year": 2025,
+        "type": "其他",
+        "recipient": "同学 Paul（发来邮件的同学）",
+        "taskZh": "阅读同学 Paul 的来信并回信：他得知你将邀请年轻手工艺人在校园展示创新工艺制作，想知道他们展示什么，也表示愿帮忙做准备；你在约100词回信中回答这两点。",
+        "points": [
+          "回答手工艺人将展示什么（what they'll show）",
+          "说明 Paul 可以做哪些准备工作（what I can do）"
+        ],
+        "directionsEn": "Read the following email from your classmate Paul and write him a reply. — Dear Li Ming, I was really excited to hear that you'd invite some young craftsmen to demonstrate their innovative craft-making on campus. May I know more about what they'll show? Also, I'd like to help with your preparation work. Please let me know what I can do. Yours, Paul — Write your answer in about 100 words on the ANSWER SHEET. Do not use your own name in the email; use \"Li Ming\" instead. (10 points)",
+        "sections": [
+          "letter-general",
+          "letter-apply"
+        ],
+        "tip": "回信（答复同学来信的两点）。逐点回应，结构清晰是首要评分点。",
+        "confidence": "high",
+        "note": "题型为「回信」（答复同学来信并回答其所问两点），不属于题型清单中的固定书信类型，故归入「其他」。",
+        "sources": [
+          "http://www.offcn.com/kaoyan/2024/1227/280562.html",
+          "https://english-exam.lazynote.cn/kaoyan/sections/2025-english-one/section3-part-a/",
+          "http://m.tianrenedu.com.cn/bkzl/23604.html"
+        ],
+        "model": {
+          "en": "Dear Paul,\n\nThank you for your enthusiasm. I am glad to tell you what the young craftsmen will present.\n\nThey will demonstrate how traditional skills can be renewed. Among them are a bamboo weaver who combines old weaving patterns with modern lighting design, a potter using recycled clay, and a paper-cut artist creating animated short films. Visitors may try these crafts themselves at hands-on tables.\n\nAs for your help, you could design a poster and circulate it through the campus WeChat groups, and reserve the exhibition hall and six long tables for the afternoon of June 10th. Your presence during the setting-up would also be a great support. Let me know what suits you.\n\nYours sincerely,\nLi Ming",
+          "zh": "亲爱的 Paul：\n\n谢谢你的热情。我很高兴告诉你这些年轻手工艺人将展示什么。\n\n他们将展示传统技艺如何焕发新意。其中有把古老编织纹样与现代灯具设计结合的竹编艺人，有使用再生陶土的陶艺师，还有创作动画短片的剪纸艺术家。参观者可以在体验台上亲手尝试这些手艺。\n\n至于你的帮忙，你可以设计一张海报并在校园微信群里转发，同时预订6月10日下午的展厅和六张长桌。布置场地时你能到场也是很大的支持。告诉我你方便的安排。\n\n你诚挚的，\nLi Ming",
+          "outline": [
+            "首句回应 Paul 的热情，说明将回答他提出的两个问题",
+            "用 Among them are 倒装句举例说明手工艺人的具体展示内容",
+            "用 As for your help 分派海报宣传与场地预订两项准备任务",
+            "补充到场支持并请对方回复，Yours sincerely 落款署 Li Ming"
+          ],
+          "words": 118,
+          "paras": 5
+        }
+      }
+    ],
+    "notes": [
+      "题型频率：建议信最多（2007/2009/2012/2014/2021/2024），其次通知（2010/2016/2020/2023）与邀请信（2013/2018/2022）；推荐信（2011/2015/2017）近十年明显升温。把「建议信 + 通知 + 邀请信 + 推荐信」四类吃透，覆盖面已超七成。",
+      "格式分不能丢：英语一统一署名 Li Ming（通知类用组织名，如 the Postgraduate Association / the Students' Union）。署名后不要加点；书信称呼后用逗号；通知要居中大写标题 NOTICE，落款写组织与日期。",
+      "近年趋势是「读信 + 回信」：2019、2024、2025 都要求先读懂来信内容再逐条回应。答题时把对方的问题逐点对应回答，比堆砌套话更容易得分。",
+      "字数控制：约 100 词，正文 7—9 句足够。宁可少而准，不要为了凑字数写与要点无关的句子。"
+    ]
+  }
 }

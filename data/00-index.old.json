@@ -1,0 +1,322 @@
+{
+  "title": "历年真题主题索引",
+  "desc": "英语一 1999—2025 大作文逐年题面与主题归类。点击最右列的板块名可直接跳到对应语料背诵。标 ※ 的年份题面表述以官方真题为准。",
+  "years": [
+    {
+      "year": 2025,
+      "type": "图表",
+      "topicZh": "居民耐用消费品拥有量变化",
+      "topicEn": "Changes in the Ownership of Durable Consumer Goods",
+      "sections": [
+        "describe",
+        "career",
+        "argue"
+      ],
+      "tip": "英语一重新回到图表题：首段必须交代数据走势，主体段解释「为什么涨」，结尾段升华到生活水平提升与理性消费。"
+    },
+    {
+      "year": 2024,
+      "type": "图画",
+      "topicZh": "公园里的体育锻炼",
+      "topicEn": "Physical Exercise in the Park",
+      "sections": [
+        "health",
+        "society",
+        "describe"
+      ],
+      "tip": "国民健康 + 全民健身。可从「个人健康意识提高」「公共设施完善」两条腿展开，结尾呼吁坚持运动。"
+    },
+    {
+      "year": 2023,
+      "type": "图画",
+      "topicZh": "龙舟赛",
+      "topicEn": "Dragon Boat Racing",
+      "sections": [
+        "culture",
+        "quality",
+        "describe"
+      ],
+      "tip": "传统文化 + 团队协作。两个角度都能写：文化传承与自信；众人划桨体现团结。建议文化为主、协作为辅。"
+    },
+    {
+      "year": 2022,
+      "type": "图画",
+      "topicZh": "广泛学习 / 博学",
+      "topicEn": "Learning Broadly Beyond Textbooks",
+      "sections": [
+        "education",
+        "describe"
+      ],
+      "tip": "学习不只限于课本。可写终身学习、跨界知识、实践与理论结合。"
+    },
+    {
+      "year": 2021,
+      "type": "图画",
+      "topicZh": "文化自信（孩子学戏）",
+      "topicEn": "Confidence in Our Own Culture",
+      "sections": [
+        "culture",
+        "describe"
+      ],
+      "tip": "传统文化传承 + 家庭鼓励。主体段写「为什么要传承」和「怎么传承」。"
+    },
+    {
+      "year": 2020,
+      "type": "图画",
+      "topicZh": "习惯与养成教育 ※",
+      "topicEn": "The Value of Forming Good Habits",
+      "sections": [
+        "quality",
+        "education",
+        "family"
+      ],
+      "tip": "习惯类话题年年可套：习惯如何塑造性格、影响效率；家长与学校如何引导。"
+    },
+    {
+      "year": 2019,
+      "type": "图画",
+      "topicZh": "途中（爬山与坚持）",
+      "topicEn": "On the Way — Perseverance",
+      "sections": [
+        "quality",
+        "describe"
+      ],
+      "tip": "最典型的「个人品质」题。坚持、毅力、目标、过程比终点更重要。"
+    },
+    {
+      "year": 2018,
+      "type": "图画",
+      "topicZh": "选课进行时",
+      "topicEn": "Choosing Courses",
+      "sections": [
+        "education",
+        "career",
+        "describe"
+      ],
+      "tip": "如何做选择：兴趣 vs 实用、难度 vs 收获。可引申到理性选择与长远眼光。"
+    },
+    {
+      "year": 2017,
+      "type": "图画",
+      "topicZh": "「有书」与「读书」",
+      "topicEn": "Owning Books vs. Reading Books",
+      "sections": [
+        "education",
+        "describe"
+      ],
+      "tip": "行动胜于空谈。与 2019、2004 同属「实践/行动」大类，句式可复用。"
+    },
+    {
+      "year": 2016,
+      "type": "图画",
+      "topicZh": "与其只提要求，不如做个榜样",
+      "topicEn": "Setting an Example Rather Than Giving Orders",
+      "sections": [
+        "family",
+        "education",
+        "quality"
+      ],
+      "tip": "家庭教育 + 言传身教。结尾可升华到「以身作则」的社会意义。"
+    },
+    {
+      "year": 2015,
+      "type": "图画",
+      "topicZh": "手机时代的聚会",
+      "topicEn": "A Gathering in the Age of Smartphones",
+      "sections": [
+        "technology",
+        "society",
+        "describe"
+      ],
+      "tip": "科技双刃剑经典题。既要承认便利，也要写人际疏离，最后给出「合理使用」的建议。"
+    },
+    {
+      "year": 2014,
+      "type": "图画",
+      "topicZh": "相携（陪伴父母）",
+      "topicEn": "Accompanying One's Aging Parents",
+      "sections": [
+        "family",
+        "society"
+      ],
+      "tip": "孝道与陪伴。注意区分「物质赡养」与「精神陪伴」，后者是高分点。"
+    },
+    {
+      "year": 2013,
+      "type": "图画",
+      "topicZh": "选择（毕业去向）",
+      "topicEn": "Choices After Graduation",
+      "sections": [
+        "career",
+        "quality"
+      ],
+      "tip": "考研 / 就业 / 出国。可写「没有标准答案，适合自己的才是最好的」。"
+    },
+    {
+      "year": 2012,
+      "type": "图画",
+      "topicZh": "乐观与悲观",
+      "topicEn": "Optimism and Pessimism",
+      "sections": [
+        "quality",
+        "describe"
+      ],
+      "tip": "同一件事两种心态。首段一定要写出「对比」，句式用 whereas / in stark contrast。"
+    },
+    {
+      "year": 2011,
+      "type": "图画",
+      "topicZh": "旅程之「余」（旅游垃圾）",
+      "topicEn": "The Leftovers of a Journey",
+      "sections": [
+        "environment",
+        "society"
+      ],
+      "tip": "文明旅游 + 环保意识 + 公德。可写个人素养，也可写景区管理。"
+    },
+    {
+      "year": 2010,
+      "type": "图画",
+      "topicZh": "文化「火锅」，美味又营养",
+      "topicEn": "Cultural Hotpot: Blending Cultures",
+      "sections": [
+        "culture",
+        "describe"
+      ],
+      "tip": "文化融合与多元。经典比喻可复用：melting pot / hotpot of cultures。"
+    },
+    {
+      "year": 2009,
+      "type": "图画",
+      "topicZh": "网络的「近」与「远」",
+      "topicEn": "The Internet: Close Yet Distant",
+      "sections": [
+        "technology",
+        "describe"
+      ],
+      "tip": "与 2015 同源。写「物理距离拉近、心理距离拉远」的悖论最有分。"
+    },
+    {
+      "year": 2008,
+      "type": "图画",
+      "topicZh": "合作（两人三条腿）",
+      "topicEn": "Cooperation",
+      "sections": [
+        "quality",
+        "describe"
+      ],
+      "tip": "合作共赢。可用 synergy / complement each other / join hands。"
+    },
+    {
+      "year": 2007,
+      "type": "图画",
+      "topicZh": "自信（点球时刻）",
+      "topicEn": "Self-confidence",
+      "sections": [
+        "quality",
+        "describe"
+      ],
+      "tip": "自信与心态。写「自信不是自负」，可加一句让步。"
+    },
+    {
+      "year": 2006,
+      "type": "图画",
+      "topicZh": "偶像崇拜",
+      "topicEn": "Idol Worship",
+      "sections": [
+        "society",
+        "quality",
+        "describe"
+      ],
+      "tip": "青年现象。建议辩证：适度激励 vs 盲目跟风，落到「理性追星」。"
+    },
+    {
+      "year": 2005,
+      "type": "图画",
+      "topicZh": "养老（四个儿子推诿）",
+      "topicEn": "Supporting the Elderly",
+      "sections": [
+        "family",
+        "society",
+        "describe"
+      ],
+      "tip": "老龄化 + 孝道 + 社会责任。老题但主题常青，近年仍可能复现。"
+    },
+    {
+      "year": 2004,
+      "type": "图画",
+      "topicZh": "终点又是新起点",
+      "topicEn": "The End Is a New Beginning",
+      "sections": [
+        "quality",
+        "career",
+        "describe"
+      ],
+      "tip": "永不止步。与 2019、2017 共用「行动/进取」句式，可一起背。"
+    },
+    {
+      "year": 2003,
+      "type": "图画",
+      "topicZh": "温室花朵经不起风雨",
+      "topicEn": "Greenhouse Flowers Cannot Withstand Storms",
+      "sections": [
+        "family",
+        "quality",
+        "describe"
+      ],
+      "tip": "过度保护与独立。关键词 overprotection / independence / adversity。"
+    },
+    {
+      "year": 2002,
+      "type": "图画",
+      "topicZh": "民族文化与世界文化",
+      "topicEn": "National Culture and World Culture",
+      "sections": [
+        "culture",
+        "describe"
+      ],
+      "tip": "与 2010、2021、2023 同属文化大类，是英语一最偏爱的话题族。"
+    },
+    {
+      "year": 2001,
+      "type": "图画",
+      "topicZh": "爱心是一盏灯，越黑暗的地方越明亮",
+      "topicEn": "Love Is a Lamp Brighter in Darkness",
+      "sections": [
+        "society",
+        "quality",
+        "describe"
+      ],
+      "tip": "爱心与公益。可延伸到志愿服务、互帮互助、社会温度。"
+    },
+    {
+      "year": 2000,
+      "type": "图表",
+      "topicZh": "世界商业捕鱼简史（1900 vs 1995）",
+      "topicEn": "A Brief History of World Commercial Fishing",
+      "sections": [
+        "environment",
+        "describe",
+        "argue"
+      ],
+      "tip": "早期图表题。图表模板句仍然适用，重点在「数据对比 + 原因 + 对策」。"
+    },
+    {
+      "year": 1999,
+      "type": "图表",
+      "topicZh": "美国人口增长与物种灭绝",
+      "topicEn": "The Ups and Downs of Population Growth",
+      "sections": [
+        "environment",
+        "describe",
+        "argue"
+      ],
+      "tip": "生态与发展的冲突。可与环保板块一起背。"
+    }
+  ],
+  "notes": [
+    "命题规律：近 25 年英语一大作文高度集中在四大话题族——① 个人品质与成功素养（2004/2007/2008/2012/2017/2018/2019/2020）② 文化传承与交流（2002/2010/2021/2023）③ 科技与媒介（2009/2015）④ 社会公德与家庭伦理（2001/2003/2005/2006/2011/2014/2016）。把这四族的语料背熟，基本可以覆盖任意新题。",
+    "图表题回归：2025 年考「居民耐用消费品拥有量变化」，说明图表描述句（describe 板块后半部分）必须一起准备，不能只练图画。",
+    "首段写法固定：描述画面 → 点出寓意。主体段两到三点理由。结尾段总结 + 建议/呼吁。任何题目都能套这三步。"
+  ]
+}

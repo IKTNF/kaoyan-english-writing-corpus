@@ -154,6 +154,59 @@ body.dark .idx .ttype.tp-chart{background:#1e2536;color:#8fa9e8}
 .idxnotes ul{margin:0;padding-left:20px}
 .idxnotes li{font-size:13px;color:var(--ink2);margin-bottom:8px;line-height:1.7}
 .idxnotes li:last-child{margin-bottom:0}
+
+/* ---------- 真题索引：逐年卡片 ---------- */
+.idxctl{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 12px}
+.idxctl button{font-size:12.5px;padding:4px 10px}
+.yrcard{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+  margin-bottom:12px;overflow:hidden;box-shadow:var(--shadow);border-left:3px solid var(--acc);
+}
+.yrcard.partA{border-left-color:#3556a8}
+body.dark .yrcard.partA{border-left-color:#8fa9e8}
+.yrhead{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:11px 16px;background:var(--panel2)}
+.yrnum{font-size:17px;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:.3px}
+.yrtitle{font-weight:600;font-size:14.5px}
+.yrsub{font-size:12.5px;color:var(--ink3)}
+.yrtag{font-size:11.5px;padding:1px 8px;border-radius:20px;background:var(--acc-soft);color:var(--acc);white-space:nowrap}
+.yrcard.partA .yrtag{background:#e9eef9;color:#3556a8}
+body.dark .yrcard.partA .yrtag{background:#1e2536;color:#8fa9e8}
+.yrbody{padding:12px 16px 14px}
+.yrsec{margin-bottom:8px;font-size:13.5px;line-height:1.7}
+.yrsec:last-child{margin-bottom:0}
+.yrsec b{display:inline-block;min-width:66px;color:var(--ink3);font-weight:600;font-size:12px;letter-spacing:.4px}
+.yrsec p{display:inline;margin:0}
+.yrsec p.qen{
+  display:block;margin:4px 0 0;padding:8px 11px;background:var(--panel2);border-radius:8px;
+  font-family:Georgia,"Times New Roman",serif;font-size:13px;line-height:1.7;color:var(--ink);
+}
+.yrtip{margin-top:9px;padding:8px 11px;background:var(--panel2);border-radius:8px;font-size:12.8px;color:var(--ink2);line-height:1.65}
+.yrtip b{color:var(--acc)}
+.yrlinks{margin-top:9px;display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:12.5px}
+.yrlinks .lb{color:var(--ink3)}
+.yrwarn{margin-top:8px;font-size:12px;color:#a3690f;background:#fdf3e0;border-radius:7px;padding:6px 10px}
+body.dark .yrwarn{background:#33280f;color:#e0b352}
+.modelbtn{
+  margin-top:11px;width:100%;padding:8px;border:1px dashed var(--line);
+  border-radius:9px;background:transparent;color:var(--ink2);font-size:13px;
+}
+.modelbtn:hover{border-color:var(--acc);color:var(--acc);border-style:solid}
+.model{margin-top:11px;border-top:1px solid var(--line);padding-top:12px;display:none}
+.model.open{display:block}
+.mo-meta{font-size:11.5px;color:var(--ink3);margin-bottom:9px;display:flex;gap:12px;flex-wrap:wrap}
+.mo-outline{font-size:12.5px;color:var(--ink2);background:var(--panel2);border-radius:8px;padding:9px 12px;margin-bottom:11px;line-height:1.6}
+.mo-outline div{margin-bottom:3px}
+.mo-outline div:last-child{margin-bottom:0}
+.mo-en{
+  font-family:Georgia,"Times New Roman",serif;font-size:calc(15.5px * var(--fs));
+  line-height:1.85;color:var(--ink);white-space:pre-wrap;
+}
+.mo-en p{margin:0 0 10px;text-indent:1.6em}
+.mo-en p:last-child{margin-bottom:0}
+.mo-zh{margin-top:11px;padding-top:10px;border-top:1px dashed var(--line);font-size:13px;color:var(--ink2);line-height:1.8}
+body.recite .mo-zh,body.recite .mo-outline{filter:blur(5px);opacity:.45;transition:.18s;user-select:none}
+body.recite .model.revealed .mo-zh,body.recite .model.revealed .mo-outline{filter:none;opacity:1}
+.yrfilter-note{padding:40px 20px;text-align:center;color:var(--ink3);font-size:13.5px}
 #empty{display:none;padding:60px 20px;text-align:center;color:var(--ink3)}
 .loadmore{display:block;width:100%;margin:6px 0 0;padding:10px;border-style:dashed;color:var(--ink3)}
 
@@ -286,12 +339,17 @@ function renderNav(){
   });
 
   if (INDEX){
-    const gh = document.createElement('div'); gh.className='grp'; gh.textContent='真题'; nav.appendChild(gh);
-    const el = document.createElement('div');
-    el.className = 'nav-i' + (view.kind==='index' ? ' active':'');
-    el.innerHTML = '<span class="n-emo">🗂</span><span class="n-t">'+esc(INDEX.title)+'</span><span class="n-count">'+INDEX.years.length+'</span>';
-    el.onclick = () => { view={kind:'index'}; render(); closeNav(); };
-    nav.appendChild(el);
+    const gh = document.createElement('div'); gh.className='grp'; gh.textContent='真题（原题 + 范文）'; nav.appendChild(gh);
+    [['B','🗂'],['A','✉️']].forEach(([part,emo])=>{
+      const P = INDEX['part'+part];
+      if (!P) return;
+      const el = document.createElement('div');
+      el.className = 'nav-i' + (view.kind==='index' && view.part===part ? ' active':'');
+      el.innerHTML = '<span class="n-emo">'+emo+'</span><span class="n-t">'+esc(P.title)+
+        '</span><span class="n-count">'+P.years.length+'</span>';
+      el.onclick = () => { view={kind:'index', part}; render(); closeNav(); };
+      nav.appendChild(el);
+    });
   }
 }
 
@@ -328,15 +386,18 @@ function render(){
   const isIndex = view.kind==='index';
 
   if (isIndex){
-    $('#crumb').textContent = INDEX.title;
-    $('#meta').innerHTML = '<span>点击主题标签可直接跳到对应语料板块</span>';
+    const P = INDEX['part'+view.part];
+    $('#crumb').textContent = (view.part==='A'?'✉️ ':'🗂 ') + (P ? P.title : '真题索引');
     $('#bar').firstElementChild.style.width = '0%';
-    list.innerHTML = renderIndex();
+    list.innerHTML = renderIndex(view.part);
     list.scrollTop = 0;
     $('#empty').style.display='none';
-    document.querySelectorAll('.idx .lnk[data-sec]').forEach(a=>{
-      a.onclick = () => { view={kind:'sec', id:a.dataset.sec}; limit=150; render(); };
-    });
+    $('#meta').innerHTML = P ? '<span>共 <b>'+P.years.length+'</b> 套</span>'+
+      '<span>原创范文 <b style="color:var(--ok)">'+P.years.filter(y=>y.model).length+'</b> 篇</span>'+
+      '<span class="mhint">'+(view.part==='A'
+        ? '点「展开原创范文」看整篇示范；点题型标签可跳到对应书信板块'
+        : '点「展开原创范文」看整篇示范；点右侧板块名可跳到对应语料')+'</span>' : '';
+    bindIndex();
     return;
   }
 
@@ -391,24 +452,125 @@ function card(e){
   '</article>';
 }
 
-function renderIndex(){
-  const rows = INDEX.years.slice().sort((a,b)=>b.year-a.year).map(y=>{
-    const links = (y.sections||[]).filter(id=>SEC_BY_ID[id]).map(id=>{
-      const s = SEC_BY_ID[id];
-      return '<span class="lnk" data-sec="'+id+'">'+s.emoji+' '+esc(s.title)+'</span>';
-    }).join(' · ');
-    const t = y.type==='图表' ? ' tp-chart' : '';
-    return '<tr><td class="yr">'+y.year+'</td>'+
-      '<td><div class="tzh">'+esc(y.topicZh)+'</div><div class="tp">'+esc(y.topicEn)+'</div>'+
-        (y.tip ? '<div class="tip">'+esc(y.tip)+'</div>' : '')+'</td>'+
-      '<td><span class="ttype'+t+'">'+esc(y.type||'图画')+'</span></td>'+
-      '<td>'+links+'</td></tr>';
-  }).join('');
-  const notes = (INDEX.notes||[]).length
-    ? '<div class="idxnotes"><h4>命题规律 · 备考提示</h4><ul>'+INDEX.notes.map(n=>'<li>'+esc(n)+'</li>').join('')+'</ul></div>'
+/* ---------- 真题索引 ---------- */
+function yearCard(y, part){
+  const isA = part === 'A';
+  const tag = isA ? (y.type || '应用文') : (y.chartType || '图画');
+  const title = isA ? (y.recipient || '') : (y.titleZh || '');
+  const links = (y.sections||[]).filter(id=>SEC_BY_ID[id])
+    .map(id=>'<span class="lnk" data-sec="'+id+'">'+SEC_BY_ID[id].emoji+' '+esc(SEC_BY_ID[id].title)+'</span>').join('');
+
+  let body = '';
+  if (isA){
+    if (y.directionsEn) body += '<div class="yrsec"><b>原题 Directions</b><p class="qen">'+hi(y.directionsEn)+'</p></div>';
+    body += '<div class="yrsec"><b>写作任务</b><p>'+hi(y.taskZh||'')+'</p></div>';
+    if (y.points && y.points.length)
+      body += '<div class="yrsec"><b>要点</b><p>'+y.points.map(p=>hi(p)).join('；')+'</p></div>';
+  } else {
+    if (y.directionsEn) body += '<div class="yrsec"><b>原题 Directions</b><p class="qen">'+hi(y.directionsEn)+'</p></div>';
+    if (y.topicEn) body += '<div class="yrsec"><b>English</b><p>'+hi(y.topicEn)+'</p></div>';
+    if (y.pictureZh) body += '<div class="yrsec"><b>图画/图表</b><p>'+hi(y.pictureZh)+'</p></div>';
+    if (y.directionsZh) body += '<div class="yrsec"><b>写作要求</b><p>'+hi(y.directionsZh)+'</p></div>';
+    if (y.captions && y.captions.length)
+      body += '<div class="yrsec"><b>图上文字</b><p>'+y.captions.map(c=>'「'+hi(c)+'」').join('　')+'</p></div>';
+  }
+  if (y.tip) body += '<div class="yrtip"><b>可复用角度：</b>'+hi(y.tip)+'</div>';
+  if (links) body += '<div class="yrlinks"><span class="lb">对应语料板块</span>'+links+'</div>';
+  if (y.confidence && y.confidence !== 'high')
+    body += '<div class="yrwarn">⚠️ 该年题面置信度：'+esc(y.confidence)+(y.note?'（'+esc(y.note)+'）':'')+'，请以官方真题原文核对</div>';
+
+  const m = y.model;
+  let model = '';
+  if (m){
+    const ol = (m.outline && m.outline.length)
+      ? '<div class="mo-outline">'+m.outline.map((x,i)=>'<div><b>'+(['一','二','三','四','五'][i]||(i+1))+'、</b>'+hi(x)+'</div>').join('')+'</div>' : '';
+    const paras = String(m.en).trim().split(/\n\s*\n/).map(p=>'<p>'+hi(p.trim())+'</p>').join('');
+    model = '<button class="modelbtn" data-myear="'+y.year+'">📄 展开原创范文（'+m.words+' 词 · '+m.paras+' 段）</button>'+
+      '<div class="model" data-my="'+y.year+'">'+
+        '<div class="mo-meta"><span>原创范文</span><span>'+m.words+' 词</span><span>'+m.paras+' 段</span>'+
+          (m.readMin?'<span>约 '+m.readMin+' 分钟</span>':'')+'</div>'+
+        ol + '<div class="mo-en">'+paras+'</div>'+
+        '<div class="mo-zh">'+hi(m.zh)+'</div>'+
+      '</div>';
+  }
+
+  return '<article class="yrcard'+(isA?' partA':'')+'" data-year="'+y.year+'">'+
+    '<div class="yrhead"><span class="yrnum">'+y.year+'</span>'+
+      '<span class="yrtag">'+esc(tag)+'</span>'+
+      '<span class="yrtitle">'+hi(title)+'</span>'+
+      (isA ? '' : '<span class="yrsub">'+hi(y.topicEn||'')+'</span>')+
+    '</div><div class="yrbody">'+body+model+'</div></article>';
+}
+
+/* 真题索引的搜索字段：刻意不含 sources / note，避免用 URL 和考据说明匹配出无关年份 */
+function idxHay(y){
+  return [y.year, y.titleZh, y.topicEn, y.type, y.recipient, y.chartType,
+    y.pictureZh, y.directionsZh, y.directionsEn, y.taskZh,
+    (y.points||[]).join(' '), (y.captions||[]).join(' '), y.tip,
+    y.model ? (y.model.en + ' ' + y.model.zh) : ''].filter(Boolean).join(' ').toLowerCase();
+}
+
+function renderIndex(part){
+  const P = INDEX['part'+part];
+  if (!P) return '<div class="yrfilter-note">该部分暂无索引数据。</div>';
+  const q = query.trim().toLowerCase();
+  let years = P.years.slice().sort((a,b)=>b.year-a.year);
+  const total = years.length;
+  if (q) years = years.filter(y => idxHay(y).includes(q));
+
+  const notes = (P.notes || INDEX.notes || []);
+  const notesHtml = notes.length
+    ? '<div class="idxnotes"><h4>命题规律 · 备考提示</h4><ul>'+notes.map(n=>'<li>'+hi(n)+'</li>').join('')+'</ul></div>'
     : '';
-  return '<div class="desc"><b>'+esc(INDEX.title)+'</b> · '+esc(INDEX.desc||'')+'</div>'+
-    '<div class="idx"><table><thead><tr><th>年份</th><th>题目 / 主题 · 可复用角度</th><th>题型</th><th>对应语料板块</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+notes;
+
+  const withModel = P.years.filter(y=>y.model).length;
+  const ctl = '<div class="idxctl">'+
+      '<button data-act="expand">展开全部范文</button>'+
+      '<button data-act="collapse">全部收起</button>'+
+      '<button data-act="recite">只看原题（隐藏范文）</button>'+
+    '</div>';
+
+  const cards = years.length
+    ? years.map(y=>yearCard(y, part)).join('')
+    : '<div class="yrfilter-note">没有匹配的年份，试试别的关键词（年份、题型、主题词）。</div>';
+
+  return '<div class="desc"><b>'+esc(P.title)+'</b> · '+esc(P.subtitle)+
+    '<br>共 '+total+' 套 · 原创范文 '+withModel+' 篇'+
+    (q ? ' · 已按「'+esc(query.trim())+'」筛出 '+years.length+' 套' : '')+'</div>'+
+    ctl + cards + notesHtml;
+}
+
+function bindIndex(){
+  const list = $('#list');
+  list.querySelectorAll('.lnk[data-sec]').forEach(a=>{
+    a.onclick = () => { view={kind:'sec', id:a.dataset.sec}; limit=150; render(); };
+  });
+  const openModel = (card, on) => {
+    const box = card.querySelector('.model');
+    const btn = card.querySelector('.modelbtn');
+    if (!box || !btn) return;
+    box.classList.toggle('open', on);
+    btn.textContent = on ? '📄 收起范文' : btn.dataset.label;
+  };
+  list.querySelectorAll('.yrcard').forEach(card=>{
+    const btn = card.querySelector('.modelbtn');
+    if (btn) btn.dataset.label = btn.textContent;
+    if (btn) btn.onclick = e => { e.stopPropagation(); openModel(card, !card.querySelector('.model').classList.contains('open')); };
+    const box = card.querySelector('.model');
+    if (box) box.onclick = () => { if (st.recite) box.classList.toggle('revealed'); };
+  });
+  list.querySelectorAll('.idxctl button').forEach(b=>{
+    b.onclick = () => {
+      const act = b.dataset.act;
+      list.querySelectorAll('.yrcard').forEach(card=>{
+        const box = card.querySelector('.model');
+        if (!box) return;
+        if (act==='expand') { box.classList.add('open'); const t=card.querySelector('.modelbtn'); if(t) t.textContent='📄 收起范文'; }
+        if (act==='collapse') { box.classList.remove('open'); const t=card.querySelector('.modelbtn'); if(t) t.textContent=t.dataset.label; }
+        if (act==='recite') { box.classList.remove('open'); const t=card.querySelector('.modelbtn'); if(t) t.textContent=t.dataset.label; }
+      });
+    };
+  });
 }
 
 function bindCards(root){
@@ -491,6 +653,40 @@ document.addEventListener('click', e => {
       && !e.target.closest('aside') && !e.target.closest('#menuBtn')) closeNav();
 });
 $('#expBtn').onclick = () => {
+  const dl = (text, name) => {
+    const b = new Blob([text], {type:'text/markdown;charset=utf-8'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(b); a.download = name; a.click(); URL.revokeObjectURL(a.href);
+  };
+
+  if (view.kind === 'index'){
+    const P = INDEX['part'+view.part];
+    if (!P) return;
+    const isA = view.part === 'A';
+    let out = '# '+P.title+'\n\n> '+P.subtitle+'\n\n共 '+P.years.length+' 套\n\n---\n';
+    P.years.slice().sort((a,b)=>b.year-a.year).forEach(y=>{
+      out += '\n## '+y.year+' 年 · '+(isA ? (y.type||'')+' · '+(y.recipient||'') : (y.chartType||'')+' · '+(y.titleZh||''))+'\n\n';
+      if (isA){
+        out += '- **写作任务**：'+(y.taskZh||'')+'\n';
+        if (y.points && y.points.length) out += '- **要点**：'+y.points.join('；')+'\n';
+      } else {
+        if (y.topicEn) out += '- **English topic**：'+y.topicEn+'\n';
+        if (y.pictureZh) out += '- **图画/图表**：'+y.pictureZh+'\n';
+        if (y.directionsZh) out += '- **写作要求**：'+y.directionsZh+'\n';
+      }
+      if (y.tip) out += '- **可复用角度**：'+y.tip+'\n';
+      if (y.model){
+        out += '\n### 原创范文（'+y.model.words+' 词）\n\n';
+        if (y.model.outline && y.model.outline.length)
+          out += y.model.outline.map((x,i)=>'**'+(['一','二','三','四'][i]||(i+1))+'、'+x+'**').join('  \n')+'\n\n';
+        out += y.model.en.trim()+'\n\n> 译文：'+y.model.zh+'\n';
+      }
+      out += '\n---\n';
+    });
+    dl(out, '考研英语一真题索引_'+(isA?'小作文':'大作文')+'.md');
+    return;
+  }
+
   const arr = filtered();
   const t = view.kind==='sec' ? SEC_BY_ID[view.id].title : '语料';
   let out = '# 考研英语一作文语料库 · ' + t + '\n\n共 ' + arr.length + ' 条\n\n';
@@ -501,11 +697,7 @@ $('#expBtn').onclick = () => {
     out += '- **译文**：' + e.exampleZh + '\n';
     out += '- **用法**：' + e.note + '\n\n';
   });
-  const b = new Blob([out], {type:'text/markdown;charset=utf-8'});
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(b);
-  a.download = '考研英语一作文语料_' + t + '.md';
-  a.click(); URL.revokeObjectURL(a.href);
+  dl(out, '考研英语一作文语料_' + t + '.md');
 };
 
 $('#themeBtn').textContent = st.dark ? '☀' : '🌙';

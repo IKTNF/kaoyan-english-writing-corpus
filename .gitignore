@@ -15,3 +15,6 @@ desktop.ini
 src/_*.png
 src/_*.html
 data/*.part*.json
+
+# 真题考据的中间产物（抓取的网页原文 + 范文分片，已合并进 data/00-index.json）
+data/_research/
