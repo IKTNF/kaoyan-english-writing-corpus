@@ -14,7 +14,9 @@ import { fileURLToPath } from 'node:url';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, '..');
-const TARGET = 'file:///' + path.join(ROOT, 'index.html').replace(/\\/g, '/');
+const TARGET_FILE = process.env.VERIFY_TARGET || 'index.html';
+const TARGET = 'file:///' + path.join(ROOT, TARGET_FILE).replace(/\\/g, '/');
+console.log('验证目标: ' + TARGET_FILE);
 const PORT = 9333;
 
 const CANDIDATES = [

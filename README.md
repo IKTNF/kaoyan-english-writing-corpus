@@ -33,9 +33,19 @@ cd kaoyan-english-writing-corpus
 # 双击 index.html
 ```
 
-> 🌐 **国内网络提示**：`github.com` 与 Release 下载通常可用；若 `raw.githubusercontent.com` 慢或不通，
-> 在链接前加 `https://gh-proxy.com/` 即可（如 `https://gh-proxy.com/https://raw.githubusercontent.com/IKTNF/...`）。
-> 最稳妥的办法是直接用「方式一」——下载一个 HTML 文件几乎不会失败。
+> 🌐 **国内网络实测**（2026-10，同一台机器测同一个文件）：
+>
+> | 方式 | 结果 | 耗时 |
+> |---|---|---|
+> | Release 直连（github.com） | ✅ 623,506 字节，与源文件 SHA256 一致 | 41.9 秒 |
+> | 加 `gh-proxy.com` 镜像 | ✅ 同样一致 | **2.4 秒（快约 18 倍）** |
+> | `raw.githubusercontent.com` | ⚠️ 时通时不通 | — |
+> | `api.github.com` / ZIP 下载 | ✅ 稳定 | 54 秒 / 801 KB |
+>
+> **建议**：国内直接在下载链接前加 `https://gh-proxy.com/`，例如
+> `https://gh-proxy.com/https://github.com/IKTNF/kaoyan-english-writing-corpus/releases/download/v1.1.0/kaoyan-english-writing-corpus-single-file.html`
+>
+> 注意直连下载**别用太短的超时**（我第一次用 180 秒超时，609 KB 只下到 589 KB 就被截断了）。
 
 ---
 
