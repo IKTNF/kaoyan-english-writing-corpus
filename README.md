@@ -1,9 +1,41 @@
 # 考研英语一 · 作文语料库
 
 面向**考研英语（一）作文**（大作文 160–200 词图画/图表作文 + 小作文 100 词应用文）的分类语料库。
-**870 条**语料（**821 个不重复表达**），按 **17 个板块**分类，可搜索、可隐藏中文背诵、可标记掌握进度。
+
+- **870 条**主题语料（**821 个不重复表达**），按 **17 个板块**分类
+- **16 类**小作文整篇填空模板（117 块骨架 · 1541 词）
+- **真题索引**：大作文 1998–2025 共 28 套 / 小作文 2005–2025 共 21 套，含考据过的**原题**与 **49 篇原创范文**、116 个参考文献出处
+- 可搜索、可隐藏中文背诵、可标记掌握进度
 
 > 定位：只收**中高级、有区分度、阅卷老师会给分**的表达。good / bad / many / important / think / people 这类初级词一律不收，只在「高级替换词表」里作为被替换对象出现。
+
+---
+
+## 直接下载使用（不需要懂 git）
+
+**方式一：单文件，最省事** ⭐
+
+打开 **[最新 Release](https://github.com/IKTNF/kaoyan-english-writing-corpus/releases/latest)**，
+下载 `kaoyan-english-writing-corpus-single-file.html`（约 600 KB），**双击就打开**。
+
+这一个文件就是全部产物：17 个语料板块 870 条、16 类小作文整篇模板、1998–2025 真题原题与 49 篇原创范文，全部内联在里面。
+不需要解压、不需要联网、不需要装任何东西、不依赖其他文件。
+
+**方式二：完整包**
+
+同一下载页下载 `-full.zip` 解压，得到 `index.html` + `README.md` + `markdown/`（可打印/导 Anki）+ `data/`（源数据）+ `src/`（构建脚本）。
+
+**方式三：clone（想改内容或跟进更新）**
+
+```bash
+git clone https://github.com/IKTNF/kaoyan-english-writing-corpus.git
+cd kaoyan-english-writing-corpus
+# 双击 index.html
+```
+
+> 🌐 **国内网络提示**：`github.com` 与 Release 下载通常可用；若 `raw.githubusercontent.com` 慢或不通，
+> 在链接前加 `https://gh-proxy.com/` 即可（如 `https://gh-proxy.com/https://raw.githubusercontent.com/IKTNF/...`）。
+> 最稳妥的办法是直接用「方式一」——下载一个 HTML 文件几乎不会失败。
 
 ---
 
