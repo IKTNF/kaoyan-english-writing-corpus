@@ -233,6 +233,27 @@ try {
     return {n:cards.length, sameK:same.length, badges, after};})()`);
   await step('globalKey', `(()=>{const k=Object.keys(VARIANTS).filter(x=>VARIANTS[x].length>1);
     return {uniqueExpr:UNIQUE, totalEntries:SECTIONS.reduce((n,s)=>n+s.entries.length,0), dupExpr:k.length};})()`);
+  await step('tplLib', `(()=>{const t=[...document.querySelectorAll('.nav-i')].find(e=>e.textContent.includes('题型模板'));t.click();
+    return {crumb:document.querySelector('#crumb').textContent,
+            cards:document.querySelectorAll('#list .tplcard').length,
+            blocks:document.querySelectorAll('#list .tplblock').length,
+            copies:document.querySelectorAll('#list .tplcopy').length,
+            alts:document.querySelectorAll('#list .tplalt').length,
+            pits:document.querySelectorAll('#list .tplpit li').length,
+            exams:document.querySelectorAll('#list .tplex li').length,
+            firstType:(document.querySelector('#list .tpltype')||{}).textContent||null,
+            firstBlock:(document.querySelector('#list .tb-en')||{}).textContent||null};})()`);
+  await step('tplRecite', `(()=>{document.querySelector('#modeBtn').click();
+    const on=document.body.classList.contains('recite');
+    const c=document.querySelector('#list .tplcard'); c.click();
+    const rev=c.classList.contains('revealed');
+    document.querySelector('#modeBtn').click();
+    return {on, rev};})()`);
+  await step('tplSearch', `(()=>{const s=document.querySelector('#search');s.value='投诉';s.dispatchEvent(new Event('input'));
+    const n=document.querySelectorAll('#list .tplcard').length;
+    const types=[...document.querySelectorAll('#list .tpltype')].map(e=>e.textContent.trim());
+    s.value='';s.dispatchEvent(new Event('input'));
+    return {n, types};})()`);
   await step('theme', `(()=>{document.querySelector('#themeBtn').click();const d=document.body.classList.contains('dark');
     document.querySelector('#themeBtn').click();return {dark:d};})()`);
   await step('fontScale', `(()=>{document.querySelector('#fsUp').click();
@@ -247,7 +268,7 @@ try {
   const errs = [];
   if (out.totalEntries !== 870) errs.push('条目总数 ≠ 870');
   if (out.sections !== 17) errs.push('板块数 ≠ 17');
-  if (out.navItems !== 22) errs.push('导航项 ≠ 22（实为 ' + out.navItems + '）');
+  if (out.navItems !== 23) errs.push('导航项 ≠ 23（实为 ' + out.navItems + '）');
   if (!(out.cardsRendered > 0)) errs.push('卡片未渲染');
   if (!(inter.search && inter.search.cards > 0 && inter.search.hit && inter.search.marks > 0)) errs.push('英文搜索失败');
   if (!(inter.chineseSearch > 0)) errs.push('中文搜索失败');
@@ -265,6 +286,10 @@ try {
   if (!(inter.idxSearchInIndex && inter.idxSearchInIndex.years.length === 1 && inter.idxSearchInIndex.years[0] === 2023)) errs.push('索引内搜索失败（龙舟应只命中 2023）');
   if (!(inter.idxSearchInIndex && inter.idxSearchInIndex.noHit === 0)) errs.push('索引内无结果时应显示空态');
   if (!(inter.indexJump && inter.indexJump.cards > 0)) errs.push('索引跳转失败');
+  if (!(inter.tplLib && inter.tplLib.cards === 16 && inter.tplLib.blocks >= 100 && inter.tplLib.copies === 16)) errs.push('模板库渲染失败');
+  if (!(inter.tplLib && inter.tplLib.alts >= 40 && inter.tplLib.pits >= 60)) errs.push('模板库备用句/易错点缺失');
+  if (!(inter.tplRecite && inter.tplRecite.on && inter.tplRecite.rev)) errs.push('模板库背诵模式失败');
+  if (!(inter.tplSearch && inter.tplSearch.n === 1 && inter.tplSearch.types[0] === '投诉信')) errs.push('模板库搜索失败（投诉应只命中投诉信）');
   if (!(inter.theme && inter.theme.dark)) errs.push('暗色主题失败');
   if (!(inter.variantBadge && inter.variantBadge.sameK >= 2 && inter.variantBadge.badges.some(Boolean))) errs.push('跨板块同表达徽章失败');
   if (!(inter.variantBadge && inter.variantBadge.after && inter.variantBadge.after.length >= 2 && inter.variantBadge.after.every(Boolean))) errs.push('同表达卡片掌握状态未同步');

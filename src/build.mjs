@@ -38,6 +38,7 @@ const files = fs.readdirSync(DATA)
 if (!files.length) { console.error('✗ data 目录里没有 NN-*.json 数据文件'); process.exit(1); }
 
 const sections = [];
+let templateLib = null;   // 「模板库」：带 templates 数组的非 entries 型板块
 for (const f of files) {
   const full = path.join(DATA, f);
   let raw;
@@ -47,6 +48,36 @@ for (const f of files) {
   let d;
   try { d = JSON.parse(raw); }
   catch (e) { die(`${f}: JSON 解析失败 → ${e.message}`); continue; }
+
+  /* ---- 模板库分支 ---- */
+  if (Array.isArray(d.templates)) {
+    if (templateLib) { die(`${f}: 出现第二个模板库（已有 ${templateLib.file}）`); continue; }
+    for (const k of ['id', 'title', 'emoji', 'group', 'desc'])
+      if (!d[k]) die(`${f}: 缺少字段 "${k}"`);
+    const seenT = new Set();
+    let words = 0;
+    d.templates.forEach((t, i) => {
+      const tag = `${f}#${i + 1}(${t && t.id ? t.id : '?'})`;
+      if (!t || !t.id) { die(`${tag}: 缺少 id`); return; }
+      if (seenT.has(t.id)) die(`${tag}: 模板 id 重复`);
+      seenT.add(t.id);
+      for (const k of ['type', 'typeEn', 'scene', 'freq', 'blocks'])
+        if (!t[k]) die(`${tag}: 缺少 "${k}"`);
+      if (!Array.isArray(t.blocks) || t.blocks.length < 4) { die(`${tag}: blocks 少于 4 块`); return; }
+      t.blocks.forEach((b, j) => {
+        for (const k of ['name', 'text', 'zh', 'note'])
+          if (!b[k] || !String(b[k]).trim()) die(`${tag} blocks[${j}]: 缺少 "${k}"`);
+        words += String(b.text || '').trim().split(/\s+/).length;
+      });
+      t.words = t.blocks.map(b => b.text).join(' ').trim().split(/\s+/).length;
+      t.stars = Math.max(1, Math.min(5, Number(t.stars) || 1));
+      t.alternatives = Array.isArray(t.alternatives) ? t.alternatives : [];
+      t.pitfalls = Array.isArray(t.pitfalls) ? t.pitfalls : [];
+      t.realExams = Array.isArray(t.realExams) ? t.realExams : [];
+    });
+    templateLib = { id: d.id, title: d.title, emoji: d.emoji, group: d.group, desc: d.desc, templates: d.templates, file: f, words };
+    continue;
+  }
 
   for (const k of ['id', 'title', 'emoji', 'group', 'desc', 'entries'])
     if (d[k] === undefined || d[k] === null || d[k] === '') die(`${f}: 缺少字段 "${k}"`);
@@ -151,7 +182,7 @@ if (errors.length) {
 
 /* ---------------- write html ---------------- */
 if (!fs.existsSync(TPL)) { console.error('✗ 找不到模板 src/template.html'); process.exit(1); }
-const corpus = { sections, examIndex, builtAt: new Date().toISOString() };
+const corpus = { sections, examIndex, templateLib, builtAt: new Date().toISOString() };
 /* 防止数据里出现 </script> 提前闭合标签 */
 const payload = JSON.stringify(corpus).replace(/</g, '\\u003c').replace(/\u2028|\u2029/g, m => m === '\u2028' ? '\\u2028' : '\\u2029');
 const html = fs.readFileSync(TPL, 'utf8').replace('__CORPUS_DATA__', () => payload);
@@ -228,6 +259,37 @@ if (examIndex && examIndex.partA && examIndex.partB) {
   fs.writeFileSync(path.join(MDDIR, '真题索引-小作文.md'), partMd(examIndex.partA, true), 'utf8');
 }
 
+/* ---- 模板库导出 ---- */
+if (templateLib) {
+  let o = `# ${templateLib.title}\n\n> ${templateLib.desc}\n>\n> 共 ${templateLib.templates.length} 个题型，骨架合计 ${templateLib.words} 词\n\n`;
+  o += '| 题型 | 真题频率 | 骨架约 | 备用句 | 易错点 |\n|---|---|---|---|---|\n';
+  templateLib.templates.forEach(t => {
+    o += `| ${'★'.repeat(t.stars)} ${t.type} | ${t.freq} | ${t.words} 词 | ${t.alternatives.length} 组 | ${t.pitfalls.length} 条 |\n`;
+  });
+  o += '\n---\n';
+  templateLib.templates.forEach(t => {
+    o += `\n## ${t.type} ${'★'.repeat(t.stars)}\n\n`;
+    o += `> ${t.typeEn}\n\n`;
+    o += `- **真题频率**：${t.freq}\n- **适用场景**：${t.scene}\n- **篇幅**：${t.wordTarget || '约 100 词'}\n\n`;
+    o += `### 整篇填空模板\n\n`;
+    t.blocks.forEach(b => {
+      o += `**${b.name}**\n\n> ${String(b.text).replace(/\n/g, '\n> ')}\n>\n> ${b.zh}\n>\n> 💡 ${b.note}\n\n`;
+    });
+    if (t.alternatives.length) {
+      o += `### 备用句\n\n`;
+      t.alternatives.forEach(g => {
+        o += `**${g.label}**\n\n`;
+        (g.items || []).forEach(i => { o += `- ${i.en} — ${i.zh}\n`; });
+        o += '\n';
+      });
+    }
+    if (t.pitfalls.length) o += `### 易错点\n\n` + t.pitfalls.map(p => '- ' + p).join('\n') + '\n\n';
+    if (t.realExams.length) o += `### 真题套用\n\n` + t.realExams.map(e => `- **${e.year}**：${e.note}`).join('\n') + '\n\n';
+    o += '\n---\n';
+  });
+  fs.writeFileSync(path.join(MDDIR, '小作文题型模板.md'), o, 'utf8');
+}
+
 /* ---------------- summary ---------------- */
 console.log('\n✓ 构建成功');
 console.log('  输出: ' + OUT);
@@ -239,6 +301,9 @@ GROUP_ORDER.filter(g => byGroup[g]).forEach(g => {
   console.log('  ▸ ' + g);
   byGroup[g].forEach(s => console.log(`      ${s.emoji} ${s.title.padEnd(0)}  ${String(s.entries.length).padStart(3)} 条   [${s.id}]`));
 });
+if (templateLib) {
+  console.log('\n  🧩 ' + templateLib.title + '  ' + templateLib.templates.length + ' 个题型 · 骨架合计 ' + templateLib.words + ' 词');
+}
 if (examIndex && examIndex.stats) {
   const s = examIndex.stats;
   console.log('\n  🗂 真题索引');

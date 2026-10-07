@@ -211,6 +211,49 @@ body.dark .yrwarn{background:#33280f;color:#e0b352}
 body.recite .mo-zh,body.recite .mo-outline{filter:blur(5px);opacity:.45;transition:.18s;user-select:none}
 body.recite .model.revealed .mo-zh,body.recite .model.revealed .mo-outline{filter:none;opacity:1}
 .yrfilter-note{padding:40px 20px;text-align:center;color:var(--ink3);font-size:13.5px}
+
+/* ---------- 小作文题型模板库 ---------- */
+.tplcard{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+  margin-bottom:14px;overflow:hidden;box-shadow:var(--shadow);border-left:3px solid #7a5cc4;
+}
+body.dark .tplcard{border-left-color:#a98ce8}
+.tplhead{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:11px 16px;background:var(--panel2)}
+.tpltype{font-size:16px;font-weight:800;letter-spacing:.3px}
+.tplstars{color:var(--star);font-size:12.5px;letter-spacing:1px}
+.tplen{font-size:12px;color:var(--ink3);font-family:Georgia,"Times New Roman",serif}
+.tplmeta{padding:11px 16px 0;font-size:12.8px;color:var(--ink2);line-height:1.75}
+.tplmeta div{margin-bottom:2px}
+.tplmeta b{color:var(--ink3);font-weight:600;font-size:12px}
+.tplblocks{padding:11px 16px 4px}
+.tplblock{position:relative;padding:9px 12px 9px 14px;border-left:3px solid var(--line);margin-bottom:8px;background:var(--panel2);border-radius:0 8px 8px 0}
+.tplblock:hover{border-left-color:#7a5cc4}
+body.dark .tplblock:hover{border-left-color:#a98ce8}
+.tb-name{font-size:11.5px;font-weight:700;color:#7a5cc4;letter-spacing:.5px;margin-bottom:4px}
+body.dark .tb-name{color:#a98ce8}
+.tb-en{font-family:Georgia,"Times New Roman",serif;font-size:calc(14.5px * var(--fs));line-height:1.75;white-space:pre-wrap;color:var(--ink)}
+.tb-zh{font-size:12.5px;color:var(--ink3);margin-top:3px}
+.tb-note{font-size:12px;color:var(--ink3);margin-top:4px;line-height:1.6}
+.tb-note::before{content:"💡 "}
+.tplsec{padding:4px 16px 12px}
+.tplsec h5{margin:8px 0 6px;font-size:12.5px;color:var(--ink3);letter-spacing:.5px;font-weight:700}
+.tplalt{margin-bottom:7px;font-size:13px}
+.tplalt .lb{display:inline-block;font-size:11.5px;padding:1px 7px;border-radius:20px;background:var(--acc-soft);color:var(--acc);margin-right:7px}
+.tplalt ul{margin:5px 0 0;padding-left:20px}
+.tplalt li{margin-bottom:3px;font-size:12.8px;line-height:1.7}
+.tplalt li i{font-family:Georgia,"Times New Roman",serif;font-style:normal;color:var(--ink)}
+.tplalt li span{color:var(--ink3)}
+.tplpit{margin:0;padding-left:20px}
+.tplpit li{font-size:12.8px;color:var(--ink2);margin-bottom:4px;line-height:1.65}
+.tplex{margin:0;padding-left:20px}
+.tplex li{font-size:12.8px;color:var(--ink2);margin-bottom:4px}
+.tplex li b{color:var(--acc);font-variant-numeric:tabular-nums}
+.tplcopy{font-size:12px;padding:3px 9px;border-radius:7px}
+.tplcopy.ok{border-color:var(--ok);color:var(--ok)}
+body.recite .tb-zh,body.recite .tb-note,body.recite .tplalt li span,body.recite .tplmeta{filter:blur(5px);opacity:.45;transition:.18s;user-select:none}
+body.recite .tplcard.revealed .tb-zh,body.recite .tplcard.revealed .tb-note,
+body.recite .tplcard.revealed .tplalt li span,body.recite .tplcard.revealed .tplmeta{filter:none;opacity:1}
+body.recite .tplcard{cursor:pointer}
 #empty{display:none;padding:60px 20px;text-align:center;color:var(--ink3)}
 .loadmore{display:block;width:100%;margin:6px 0 0;padding:10px;border-style:dashed;color:var(--ink3)}
 
@@ -272,6 +315,7 @@ body.recite .model.revealed .mo-zh,body.recite .model.revealed .mo-outline{filte
 const CORPUS = JSON.parse(document.getElementById('corpus-data').textContent);
 const SECTIONS = CORPUS.sections;
 const INDEX = CORPUS.examIndex;
+const TEMPLATES = CORPUS.templateLib;
 const SEC_BY_ID = {}; SECTIONS.forEach(s => SEC_BY_ID[s.id] = s);
 
 const TYPE_LABEL = {word:'单词', phrase:'词伙', pattern:'句式', proverb:'金句'};
@@ -330,6 +374,17 @@ function renderNav(){
 
   Object.keys(groups).forEach(g => {
     const gh = document.createElement('div'); gh.className='grp'; gh.textContent=g; nav.appendChild(gh);
+
+    /* 模板库排在该分组最前，它是这个分组最高价值的入口 */
+    if (TEMPLATES && TEMPLATES.group === g) {
+      const el = document.createElement('div');
+      el.className = 'nav-i' + (view.kind==='templates' ? ' active':'');
+      el.innerHTML = '<span class="n-emo">'+TEMPLATES.emoji+'</span><span class="n-t">'+esc(TEMPLATES.title)+
+        '</span><span class="n-count">'+TEMPLATES.templates.length+'</span>';
+      el.onclick = () => { view={kind:'templates'}; render(); closeNav(); };
+      nav.appendChild(el);
+    }
+
     groups[g].forEach(s => {
       const done = s.entries.filter(e=>st.mastered[key(s.id,e.en)]).length;
       const el = document.createElement('div');
@@ -388,6 +443,20 @@ function render(){
   renderNav();
   const list = $('#list');
   const isIndex = view.kind==='index';
+
+  if (view.kind === 'templates'){
+    if (!TEMPLATES) { list.innerHTML = '<div class="yrfilter-note">未加载模板库。</div>'; return; }
+    $('#crumb').textContent = TEMPLATES.emoji + ' ' + TEMPLATES.title;
+    $('#meta').innerHTML = '<span>共 <b>'+TEMPLATES.templates.length+'</b> 个题型</span>'+
+      '<span>骨架合计 <b>'+TEMPLATES.words+'</b> 词</span>'+
+      '<span class="mhint">点「复制骨架」把整篇英文模板复制走；按 R 隐藏中文</span>';
+    $('#bar').firstElementChild.style.width = '0%';
+    list.innerHTML = renderTemplates();
+    list.scrollTop = 0;
+    $('#empty').style.display = 'none';
+    bindTemplates();
+    return;
+  }
 
   if (isIndex){
     const P = INDEX['part'+view.part];
@@ -534,6 +603,85 @@ function idxHay(y){
     y.pictureZh, y.directionsZh, y.directionsEn, y.taskZh,
     (y.points||[]).join(' '), (y.captions||[]).join(' '), y.tip,
     y.model ? (y.model.en + ' ' + y.model.zh) : ''].filter(Boolean).join(' ').toLowerCase();
+}
+
+/* ---------- 小作文题型模板库 ---------- */
+function tplCard(t){
+  const blocks = t.blocks.map(b =>
+    '<div class="tplblock"><div class="tb-name">'+esc(b.name)+'</div>'+
+    '<div class="tb-en">'+hi(b.text)+'</div>'+
+    '<div class="tb-zh">'+hi(b.zh)+'</div>'+
+    '<div class="tb-note">'+hi(b.note)+'</div></div>').join('');
+
+  const alts = t.alternatives.length
+    ? '<div class="tplsec"><h5>备用句</h5>'+ t.alternatives.map(g =>
+        '<div class="tplalt"><span class="lb">'+esc(g.label)+'</span><ul>'+
+        (g.items||[]).map(i=>'<li><i>'+hi(i.en)+'</i> <span>'+hi(i.zh)+'</span></li>').join('')+
+        '</ul></div>').join('') +'</div>' : '';
+
+  const pit = t.pitfalls.length
+    ? '<div class="tplsec"><h5>易错点</h5><ul class="tplpit">'+t.pitfalls.map(p=>'<li>'+hi(p)+'</li>').join('')+'</ul></div>' : '';
+
+  const ex = t.realExams.length
+    ? '<div class="tplsec"><h5>真题套用</h5><ul class="tplex">'+t.realExams.map(e=>'<li><b>'+e.year+'</b> '+hi(e.note)+'</li>').join('')+'</ul></div>'
+    : '<div class="tplsec"><h5>真题套用</h5><ul class="tplex"><li style="color:var(--ink3)">英语一尚未直接考过，作为备用题型准备</li></ul></div>';
+
+  return '<article class="tplcard" data-tpl="'+esc(t.id)+'">'+
+    '<div class="tplhead"><span class="tpltype">'+esc(t.type)+'</span>'+
+      '<span class="tplstars">'+'★'.repeat(t.stars)+'</span>'+
+      '<span class="tplen">'+esc(t.typeEn)+'</span><span class="sp"></span>'+
+      '<button class="tplcopy" title="把整篇英文骨架复制到剪贴板">复制骨架</button></div>'+
+    '<div class="tplmeta">'+
+      '<div><b>真题频率</b>　'+hi(t.freq)+'</div>'+
+      '<div><b>适用场景</b>　'+hi(t.scene)+'</div>'+
+      '<div><b>篇幅</b>　'+hi(t.wordTarget||'约 100 词')+' · 骨架约 '+t.words+' 词</div></div>'+
+    '<div class="tplblocks">'+blocks+'</div>'+ alts + pit + ex +'</article>';
+}
+
+function renderTemplates(){
+  const q = query.trim().toLowerCase();
+  const all = TEMPLATES.templates;
+  const hay = t => [t.type, t.typeEn, t.freq, t.scene, t.wordTarget,
+    t.blocks.map(b=>b.name+' '+b.text+' '+b.zh+' '+b.note).join(' '),
+    t.alternatives.map(g=>g.label+' '+(g.items||[]).map(i=>i.en+' '+i.zh).join(' ')).join(' '),
+    t.pitfalls.join(' '), t.realExams.map(e=>e.year+' '+e.note).join(' ')
+  ].filter(Boolean).join(' ').toLowerCase();
+
+  const ts = q ? all.filter(t => hay(t).includes(q)) : all;
+  const cards = ts.length ? ts.map(tplCard).join('') : '<div class="yrfilter-note">没有匹配的题型。</div>';
+
+  return '<div class="desc"><b>'+esc(TEMPLATES.title)+'</b> · '+esc(TEMPLATES.desc)+
+    '<br>共 '+all.length+' 个题型 · 骨架合计 '+TEMPLATES.words+' 词'+
+    (q ? ' · 已按「'+esc(query.trim())+'」筛出 '+ts.length+' 个' : '')+'</div>'+
+    '<div class="idxctl"><span style="font-size:12.5px;color:var(--ink3)">'+
+      '每个题型给出「称呼 → 首段 → 主体 → 结尾 → 落款」的完整填空骨架（<code>___</code> 处自行替换）。'+
+      '按 <b>R</b> 进背诵模式可隐藏中文与提示，点卡片逐张揭示。</span></div>'+ cards;
+}
+
+function bindTemplates(){
+  const list = $('#list');
+  list.querySelectorAll('.tplcard').forEach(card=>{
+    const t = TEMPLATES.templates.find(x => x.id === card.dataset.tpl);
+    card.onclick = () => { if (st.recite) card.classList.toggle('revealed'); };
+    const btn = card.querySelector('.tplcopy');
+    if (!btn || !t) return;
+    btn.onclick = async e => {
+      e.stopPropagation();
+      const text = t.blocks.map(b => b.text).join('\n\n');
+      let copied = false;
+      try { await navigator.clipboard.writeText(text); copied = true; }
+      catch (err) {
+        const ta = document.createElement('textarea');
+        ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+        document.body.appendChild(ta); ta.select();
+        try { copied = document.execCommand('copy'); } catch (e2) {}
+        ta.remove();
+      }
+      btn.textContent = copied ? '✓ 已复制' : '复制失败';
+      btn.classList.add('ok');
+      setTimeout(() => { btn.textContent = '复制骨架'; btn.classList.remove('ok'); }, 1600);
+    };
+  });
 }
 
 function renderIndex(part){
@@ -684,6 +832,26 @@ $('#expBtn').onclick = () => {
     const a = document.createElement('a');
     a.href = URL.createObjectURL(b); a.download = name; a.click(); URL.revokeObjectURL(a.href);
   };
+
+  if (view.kind === 'templates'){
+    if (!TEMPLATES) return;
+    let out = '# '+TEMPLATES.title+'\n\n> '+TEMPLATES.desc+'\n\n共 '+TEMPLATES.templates.length+' 个题型\n\n---\n';
+    TEMPLATES.templates.forEach(t=>{
+      out += '\n## '+t.type+' '+'★'.repeat(t.stars)+' — '+t.typeEn+'\n\n';
+      out += '- **真题频率**：'+t.freq+'\n- **适用场景**：'+t.scene+'\n- **篇幅**：'+(t.wordTarget||'约 100 词')+'\n\n';
+      out += '### 整篇填空模板\n\n';
+      t.blocks.forEach(b=>{ out += '**'+b.name+'**\n\n> '+String(b.text).replace(/\n/g,'\n> ')+'\n>\n> '+b.zh+'\n>\n> 💡 '+b.note+'\n\n'; });
+      if (t.alternatives.length){
+        out += '### 备用句\n\n';
+        t.alternatives.forEach(g=>{ out += '**'+g.label+'**\n\n'; (g.items||[]).forEach(i=>{ out += '- '+i.en+' — '+i.zh+'\n'; }); out += '\n'; });
+      }
+      if (t.pitfalls.length) out += '### 易错点\n\n'+t.pitfalls.map(p=>'- '+p).join('\n')+'\n\n';
+      if (t.realExams.length) out += '### 真题套用\n\n'+t.realExams.map(e=>'- **'+e.year+'**：'+e.note).join('\n')+'\n\n';
+      out += '\n---\n';
+    });
+    dl(out, '考研英语一小作文题型模板.md');
+    return;
+  }
 
   if (view.kind === 'index'){
     const P = INDEX['part'+view.part];
