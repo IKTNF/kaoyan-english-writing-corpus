@@ -184,6 +184,10 @@ body.dark .yrcard.partA .yrtag{background:#1e2536;color:#8fa9e8}
 .yrtip b{color:var(--acc)}
 .yrlinks{margin-top:9px;display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:12.5px}
 .yrlinks .lb{color:var(--ink3)}
+.yrrefs{margin-top:9px;font-size:12.5px;line-height:1.9;color:var(--ink3);border-top:1px dashed var(--line);padding-top:8px}
+.yrrefs b{font-weight:600;font-size:12px;letter-spacing:.4px;margin-right:6px}
+.yrrefs a{color:var(--acc);text-decoration:none;border-bottom:1px dotted var(--acc);margin-right:10px;white-space:nowrap}
+.yrrefs a:hover{border-bottom-style:solid}
 .yrwarn{margin-top:8px;font-size:12px;color:#a3690f;background:#fdf3e0;border-radius:7px;padding:6px 10px}
 body.dark .yrwarn{background:#33280f;color:#e0b352}
 .modelbtn{
@@ -453,6 +457,24 @@ function card(e){
 }
 
 /* ---------- 真题索引 ---------- */
+const REF_NAME = {
+  'yz.chsi.com.cn':'学信网·研招网', 'yzst.chsi.com.cn':'学信网·研招网', 'chsi.com.cn':'学信网',
+  'xdf.cn':'新东方', 'mtoutiao.xdf.cn':'新东方网', 'file.xdf.cn':'新东方',
+  'koolearn.com':'新东方在线', 'news.koolearn.com':'新东方在线', 'm.koolearn.com':'新东方在线',
+  'offcn.com':'中公考研', 'm.offcn.com':'中公考研', 'www.offcn.com':'中公考研',
+  'iqihang.com':'启航考研', 'm-jixun.iqihang.com':'启航考研', 'jixun.iqihang.com':'启航考研',
+  'kaoyan365.cn':'考研365', 'www.kaoyan365.cn':'考研365', 'sohu.com':'搜狐',
+  'tianrenedu.com.cn':'天任考研', 'kyzs.com':'考研芝士', 'hujiang.com':'沪江',
+  'wenku.baidu.com':'百度文库', 'kaoyantools.com':'考研工具', 'eduour.cn':'考试吧'
+};
+function refLabel(u){
+  try {
+    const h = new URL(u).hostname.replace(/^www\./, '');
+    for (const k in REF_NAME) if (h === k || h.endsWith('.' + k)) return REF_NAME[k];
+    return h;
+  } catch (e) { return u; }
+}
+
 function yearCard(y, part){
   const isA = part === 'A';
   const tag = isA ? (y.type || '应用文') : (y.chartType || '图画');
@@ -476,6 +498,10 @@ function yearCard(y, part){
   }
   if (y.tip) body += '<div class="yrtip"><b>可复用角度：</b>'+hi(y.tip)+'</div>';
   if (links) body += '<div class="yrlinks"><span class="lb">对应语料板块</span>'+links+'</div>';
+  if (y.sources && y.sources.length){
+    const as = y.sources.map(u=>'<a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer" title="'+esc(u)+'">'+esc(refLabel(u))+'</a>').join('');
+    body += '<div class="yrrefs"><b>真题解析 / 参考范文出处</b>'+as+'</div>';
+  }
   if (y.confidence && y.confidence !== 'high')
     body += '<div class="yrwarn">⚠️ 该年题面置信度：'+esc(y.confidence)+(y.note?'（'+esc(y.note)+'）':'')+'，请以官方真题原文核对</div>';
 
@@ -675,6 +701,8 @@ $('#expBtn').onclick = () => {
         if (y.directionsZh) out += '- **写作要求**：'+y.directionsZh+'\n';
       }
       if (y.tip) out += '- **可复用角度**：'+y.tip+'\n';
+      if (y.sources && y.sources.length)
+        out += '- **真题解析 / 参考范文出处**：'+y.sources.map(u=>'<'+u+'>').join(' ')+'\n';
       if (y.model){
         out += '\n### 原创范文（'+y.model.words+' 词）\n\n';
         if (y.model.outline && y.model.outline.length)

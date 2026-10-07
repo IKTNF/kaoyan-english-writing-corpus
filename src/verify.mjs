@@ -183,6 +183,9 @@ try {
             controls:document.querySelectorAll('#list .idxctl button').length,
             modelBtns:document.querySelectorAll('#list .modelbtn').length,
             notes:document.querySelectorAll('#list .idxnotes li').length,
+            refs:document.querySelectorAll('#list .yrrefs a').length,
+            firstRef:(document.querySelector('#list .yrrefs a')||{}).textContent||null,
+            refHref:(document.querySelector('#list .yrrefs a')||{}).href||null,
             links:document.querySelectorAll('#list .lnk[data-sec]').length};})()`);
   await step('idxBigModel', `(()=>{const b=document.querySelector('#list .modelbtn');b.click();
     const box=document.querySelector('#list .model');
@@ -254,6 +257,7 @@ try {
   if (!(inter.recite && inter.recite.on && inter.recite.rev && inter.recite.off)) errs.push('背诵模式失败');
   if (!(inter.starFilter > 0)) errs.push('收藏筛选失败');
   if (!(inter.idxBig && inter.idxBig.cards >= 20 && inter.idxBig.modelBtns >= 20 && inter.idxBig.links > 20)) errs.push('大作文真题索引渲染失败');
+  if (!(inter.idxBig && inter.idxBig.refs > 50 && /^https?:\/\//.test(inter.idxBig.refHref || ''))) errs.push('参考范文出处链接渲染失败');
   if (!(inter.idxBigModel && inter.idxBigModel.opened && inter.idxBigModel.enLen > 400 && inter.idxBigModel.zhLen > 50)) errs.push('范文展开失败');
   if (!(inter.idxBigExpandAll && inter.idxBigExpandAll.opened === inter.idxBigExpandAll.total && inter.idxBigExpandAll.total > 0)) errs.push('展开全部范文失败');
   if (inter.idxBigCollapse !== 0) errs.push('全部收起失败');

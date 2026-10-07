@@ -209,6 +209,8 @@ if (examIndex && examIndex.partA && examIndex.partB) {
       if (y.sections && y.sections.length)
         o += `- **对应语料板块**：${y.sections.map(id => (sections.find(s => s.id === id) || {}).title || id).join(' · ')}\n`;
       if (y.confidence && y.confidence !== 'high') o += `- ⚠️ 题面置信度：${y.confidence}${y.note ? '（' + y.note + '）' : ''}\n`;
+      if (y.sources && y.sources.length)
+        o += `- 📎 真题解析 / 参考范文出处：${y.sources.map(u => `<${u}>`).join(' ')}\n`;
       if (y.model) {
         o += `\n### 原创范文（${y.model.words} 词）\n\n`;
         if (y.model.outline && y.model.outline.length)
